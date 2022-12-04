@@ -1,0 +1,282 @@
+{
+  "catalog": [
+    {
+     "type": "group",
+     "name": "Geology",
+     "members": [
+    {
+    "type": "wms",
+      "name": "BGS 1:50k Bedock Geology",
+      "url": "https://map.bgs.ac.uk/arcgis/services/BGS_Detailed_Geology/MapServer/WMSServer",
+      "layers": "BGS.50k.Bedrock",
+      "opacity": 0.5,
+      "hideLegendInWorkbench": true,
+      "isOpenInWorkbench": false,
+      "featureInfoTemplate": {
+		  "name": "{{LEX_RCS_D}}",
+		  "template": "{{LEX_RCS_D}}<br>Code: <a href='https://webapps.bgs.ac.uk/lexicon/lexicon.cfm?pub={{LEX}}'>{{LEX}}</a><br><br>{{MAX_TIME_D}} - {{MIN_TIME_D}}<br>{{MAX_PERIOD}} - {{MIN_PERIOD}}<br><br>Description: {{TYPE_D}}, {{BROAD_D}}<br><br>Setting: {{SETTING_D}} {{#terria.partialByName}}{{SETTINGPLUS_D}}{{/terria.partialByName}}<br><br>Environment: {{ENVIRONMENT_D}}",
+          "partials": {
+              "Null": " "
+          }
+       }
+    },
+    {
+    "type": "wms",
+      "name": "BGS 1:50k Surface Geology",
+      "url": "https://map.bgs.ac.uk/arcgis/services/BGS_Detailed_Geology/MapServer/WMSServer",
+      "layers": "BGS.50k.Superficial.deposits",
+      "opacity": 0.5,
+      "hideLegendInWorkbench": true,
+      "isOpenInWorkbench": false,
+      "featureInfoTemplate": {
+		  "name": "{{LEX_RCS_D}}",
+		  "template": "{{LEX_RCS_D}}<br>Code: <a href='https://webapps.bgs.ac.uk/lexicon/lexicon.cfm?pub={{LEX}}'>{{LEX}}</a><br><br>{{MAX_TIME_D}} - {{MIN_TIME_D}}<br>{{MAX_PERIOD}} - {{MIN_PERIOD}}<br><br>Description: {{TYPE_D}}, {{BROAD_D}}<br><br>Setting: {{SETTING_D}} {{#terria.partialByName}}{{SETTINGPLUS_D}}{{/terria.partialByName}}<br><br>Environment: {{ENVIRONMENT_D}}",
+          "partials": {
+              "Null": " "
+          }
+       }
+    },
+    {
+    "type": "wms",
+      "name": "BGS 1:50k Linear Features",
+      "url": "https://map.bgs.ac.uk/arcgis/services/BGS_Detailed_Geology/MapServer/WMSServer",
+      "layers": "BGS.50k.Linear.features",
+      "opacity": 1.0,
+      "hideLegendInWorkbench": true,
+      "isOpenInWorkbench": false,
+      "featureInfoTemplate": {
+		  "name": "{{CATEGORY}}",
+		  "template": "{{CATEGORY}}<br><br>{{FEATURE_D}}"
+       }
+    },
+    {
+    "type": "wms",
+      "name": "BGS 1:50k Mass movement",
+      "url": "https://map.bgs.ac.uk/arcgis/services/BGS_Detailed_Geology/MapServer/WMSServer",
+      "layers": "BGS.50k.Mass.movement",
+      "opacity": 1.0,
+      "hideLegendInWorkbench": true,
+      "isOpenInWorkbench": false,
+      "featureInfoTemplate": {
+		  "name": "{{LEX_RCS_D}}",
+		  "template": "{{LEX_RCS_D}}<br><br>{{MAX_TIME_D}} - {{MIN_TIME_D}}"
+       }
+    },
+    {
+    "type": "wms",
+      "name": "BGS 1:50k Artificial ground",
+      "url": "https://map.bgs.ac.uk/arcgis/services/BGS_Detailed_Geology/MapServer/WMSServer",
+      "layers": "BGS.50k.Artificial.ground",
+      "opacity": 1.0,
+      "hideLegendInWorkbench": false,
+      "isOpenInWorkbench": false,
+      "featureInfoTemplate": {
+		  "name": "{{LEX_RCS_D}}",
+		  "template": "{{LEX_RCS_D}}<br><br>{{MAX_TIME_D}} - {{MIN_TIME_D}}"
+       }
+    },
+    {
+    "type": "wms",
+      "name": "BGS 1:625k Bedrock Lithostratigraphy",
+      "url": "https://dorsetgeologistsassociation.org/bgs/cgi-bin/BGS_Bedrock_and_Superficial_Geology/ows",
+      "layers": "GBR_BGS_625k_BLS",
+      "minScaleDenominator": 100000,
+      "hideLayerAfterMinScaleDenominator": true,
+      "hideLegendInWorkbench": false,
+      "isOpenInWorkbench": true,
+      "opacity": 0.5,
+      "legends": [
+      {
+		  "url": "https://dorsetgeologistsassociation.org/bgs/cgi-bin/BGS_Bedrock_and_Superficial_Geology/wms?language=eng&version=1.3.0&service=WMS&request=GetLegendGraphic&sld_version=1.1.0&layer=GBR_BGS_625k_BLS&format=image/png&STYLE=default",
+		  "imageScaling": 2.0,
+		  "urlMimeType": "image/png"
+	  }
+      ]
+    },
+    {
+    "type": "wms",
+      "name": "BGS 1:625k Surface Lithostratigraphy",
+      "url": "https://dorsetgeologistsassociation.org/bgs/cgi-bin/BGS_Bedrock_and_Superficial_Geology/ows",
+      "layers": "GBR_BGS_625k_SLS",
+      "minScaleDenominator": 100000,
+      "hideLegendInWorkbench": false,
+      "hideLayerAfterMinScaleDenominator": true,
+      "isOpenInWorkbench": true,
+      "opacity": 0.5,
+      "legends": [
+      {
+		  "url": "https://dorsetgeologistsassociation.org/bgs/cgi-bin/BGS_Bedrock_and_Superficial_Geology/wms?language=eng&version=1.3.0&service=WMS&request=GetLegendGraphic&sld_version=1.1.0&layer=GBR_BGS_625k_SLS&format=image/png&STYLE=default",
+		  "imageScaling": 2.0,
+		  "urlMimeType": "image/png"
+	  }
+      ]
+    },
+   {
+      "type": "wms",
+      "name": "BGS 1:625k Bedrock Lithology",
+      "url": "https://dorsetgeologistsassociation.org/bgs/cgi-bin/BGS_Bedrock_and_Superficial_Geology/ows",
+      "layers": "GBR_BGS_625k_BLT",
+      "minScaleDenominator": 100000,
+      "hideLegendInWorkbench": false,
+      "hideLayerAfterMinScaleDenominator": true,
+      "isOpenInWorkbench": false,
+      "opacity": 0.5,
+      "legends": [
+      {
+		  "url": "https://dorsetgeologistsassociation.org/bgs/cgi-bin/BGS_Bedrock_and_Superficial_Geology/wms?language=eng&version=1.3.0&service=WMS&request=GetLegendGraphic&sld_version=1.1.0&layer=GBR_BGS_625k_BLT&format=image/png&STYLE=default",
+		  "imageScaling": 3.0,
+		  "urlMimeType": "image/png"
+	  }
+      ]
+    },
+    {
+    "type": "wms",
+      "name": "BGS 1:625k Surface Lithology",
+      "url": "https://dorsetgeologistsassociation.org/bgs/cgi-bin/BGS_Bedrock_and_Superficial_Geology/ows",
+      "layers": "GBR_BGS_625k_SLT",
+      "minScaleDenominator": 100000,
+      "hideLayerAfterMinScaleDenominator": true,
+      "hideLegendInWorkbench": false,
+      "isOpenInWorkbench": true,
+      "opacity": 0.5,
+      "legends": [
+      {
+		  "url": "https://dorsetgeologistsassociation.org/bgs/cgi-bin/BGS_Bedrock_and_Superficial_Geology/wms?language=eng&version=1.3.0&service=WMS&request=GetLegendGraphic&sld_version=1.1.0&layer=GBR_BGS_625k_SLT&format=image/png&STYLE=default",
+		  "imageScaling": 2.0,
+		  "urlMimeType": "image/png"
+	  }
+      ]
+    },
+    {
+    "type": "wms",
+      "name": "BGS 1:625k Bedrock Age",
+      "url": "https://dorsetgeologistsassociation.org/bgs/cgi-bin/BGS_Bedrock_and_Superficial_Geology/ows",
+      "layers": "GBR_BGS_625k_BA",
+      "minScaleDenominator": 100000,
+      "hideLegendInWorkbench": false,
+      "hideLayerAfterMinScaleDenominator": true,
+      "isOpenInWorkbench": true,
+      "opacity": 0.5,
+      "legends": [
+      {
+		  "url": "https://dorsetgeologistsassociation.org/bgs/cgi-bin/BGS_Bedrock_and_Superficial_Geology/wms?language=eng&version=1.3.0&service=WMS&request=GetLegendGraphic&sld_version=1.1.0&layer=GBR_BGS_625k_BA&format=image/png&STYLE=default",
+		  "imageScaling": 2.0,
+		  "urlMimeType": "image/png"
+	  }
+      ]
+    },
+    {
+     "type": "group",
+     "name": "DORIS",
+     "members": [
+    {
+      "type": "esri-mapServer",
+      "name": "DORIS (DORset Integrated Seabed survey) Seabed Stone Band 10K",
+      "url": "https://map.bgs.ac.uk/arcgis/rest/services/DORIS/Dorset_Bedrock_10k_Web_Viewer/MapServer/",
+      "layers": "0",
+      "isOpenInWorkbench": true,
+      "allowFeaturePicking": false,
+      "hideLegendInWorkbench": false,
+      "attribution": "Reproduced by the Britsh Geological Survey from an original held in its archives © NERC All rights reserved",
+      "opacity": 0.5,
+      "show": true,
+    },
+    {
+      "type": "esri-mapServer",
+      "name": "DORIS (DORset Integrated Seabed survey) Seabed Fold 10K",
+      "url": "https://map.bgs.ac.uk/arcgis/rest/services/DORIS/Dorset_Bedrock_10k_Web_Viewer/MapServer/",
+      "layers": "1",
+      "isOpenInWorkbench": true,
+      "allowFeaturePicking": false,
+      "hideLegendInWorkbench": false,
+      "attribution": "Reproduced by the Britsh Geological Survey from an original held in its archives © NERC All rights reserved",
+      "opacity": 0.5,
+      "show": true,
+    },
+    {
+      "type": "esri-mapServer",
+      "name": "DORIS (DORset Integrated Seabed survey) Seabed Faults 10K",
+      "url": "https://map.bgs.ac.uk/arcgis/rest/services/DORIS/Dorset_Bedrock_10k_Web_Viewer/MapServer/",
+      "layers": "2",
+      "isOpenInWorkbench": true,
+      "allowFeaturePicking": false,
+      "hideLegendInWorkbench": false,
+      "attribution": "Reproduced by the Britsh Geological Survey from an original held in its archives © NERC All rights reserved",
+      "opacity": 0.5,
+      "show": true,
+    },
+    {
+      "type": "esri-mapServer",
+      "name": "DORIS (DORset Integrated Seabed survey) Onshore Linear Features 10K",
+      "url": "https://map.bgs.ac.uk/arcgis/rest/services/DORIS/Dorset_Bedrock_10k_Web_Viewer/MapServer/",
+      "layers": "3",
+      "isOpenInWorkbench": true,
+      "allowFeaturePicking": false,
+      "hideLegendInWorkbench": false,
+      "attribution": "Reproduced by the Britsh Geological Survey from an original held in its archives © NERC All rights reserved",
+      "opacity": 0.5,
+      "show": true,
+    },
+    {
+      "type": "esri-mapServer",
+      "name": "DORIS (DORset Integrated Seabed survey) Seabed Geology 10k",
+      "url": "https://map.bgs.ac.uk/arcgis/rest/services/DORIS/Dorset_Bedrock_10k_Web_Viewer/MapServer/",
+      "layers": "4",
+      "isOpenInWorkbench": true,
+      "allowFeaturePicking": true,
+      "hideLegendInWorkbench": false,
+      "attribution": "Reproduced by the Britsh Geological Survey from an original held in its archives © NERC All rights reserved",
+      "opacity": 0.5,
+      "show": true,
+    },
+    {
+      "type": "esri-mapServer",
+      "name": "DORIS (DORset Integrated Seabed survey) Clipped Geology 10K",
+      "url": "https://map.bgs.ac.uk/arcgis/rest/services/DORIS/Dorset_Bedrock_10k_Web_Viewer/MapServer/",
+      "layers": "5",
+      "isOpenInWorkbench": true,
+      "allowFeaturePicking": true,
+      "hideLegendInWorkbench": false,
+      "attribution": "Reproduced by the Britsh Geological Survey from an original held in its archives © NERC All rights reserved",
+      "opacity": 0.5,
+      "show": true,
+      "attribution": "Contains Maritime and Coastguard Agency (MCA) data © Crown Copyright [2021]. BGS © UKRI",
+      "description": "The geological map was produced as part of a joint MAREMAP project involving the BGS and Justin Dix and David Sanderson of the University of Southampton."
+    },
+    {
+      "type": "esri-mapServer",
+      "name": "DORIS (DORset Integrated Seabed survey) Hillshade 10K",
+      "url": "https://map.bgs.ac.uk/arcgis/rest/services/DORIS/Dorset_Bedrock_10k_Web_Viewer/MapServer/",
+      "layers": "6",
+      "isOpenInWorkbench": true,
+      "allowFeaturePicking": false,
+      "hideLegendInWorkbench": false,
+      "attribution": "Reproduced by the Britsh Geological Survey from an original held in its archives © NERC All rights reserved",
+      "opacity": 0.5,
+      "show": true,
+    }
+    ]
+    },
+    {
+      "type": "esri-mapServer",
+      "name": "William Smith Map 1815",
+      "url": "https://map.bgs.ac.uk/arcgis/rest/services/GeologyOfBritain/WilliamSmithMap/MapServer/",
+      "layers": "0",
+      "isOpenInWorkbench": true,
+      "allowFeaturePicking": false,
+      "hideLegendInWorkbench": false,
+      "attribution": "Reproduced by the Britsh Geological Survey from an original held in its archives © NERC All rights reserved",
+      "opacity": 0.5,
+      "show": true,
+      "legends": [
+      {
+		  "url": "images/WilliamSmith1815Key.png",
+		  "imageScaling": 1.0,
+		  "urlMimeType": "png"
+	  }
+     ]
+    }
+   ]
+  }
+ ]
+}

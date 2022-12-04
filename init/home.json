@@ -1,0 +1,16 @@
+{
+  "homeCamera": {
+	  "west": -11,
+	  "south": 49,
+	  "east": 6,
+	  "north": 61,
+	  "lookAt": {
+         "targetLongitude": -2.735,
+         "targetLatitude": 50.9455,
+         "targetHeight": 0,
+         "heading": 0,
+         "pitch": 45,
+         "range": 2000
+	   }
+   }
+}

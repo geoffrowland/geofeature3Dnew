@@ -1,0 +1,41 @@
+{
+  "catalog": [
+    {
+     "type": "group",
+     "name": "Imagery",
+     "members": [
+    {
+      "url": "https://{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}",
+      "subdomains": ["mt0","mt1","mt2","mt3"],
+      "type": "url-template-imagery",
+      "opacity": 0.5,
+      "isOpenInWorkbench": false,
+      "isOpenInWorkbench": false,
+      "name": "Satellite",
+      "rectangle": {
+	      "west": -10.722656,
+		  "south": 49.84,
+		  "east": 2.2,
+		  "north": 60.930432
+       }
+    },
+    {
+          "name": "Aerial Bing Maps",
+          "type": "bing-maps",
+          "key": "AohFvM_FD-p0478UuVC3ErCaoLzkJH_ftz_gGnSB9iUW_15xRgnZEf4cVkptGa7G",
+          "mapStyle": "Aerial",
+          "description": "Bing Maps Aerial",
+          "opacity": 0.5
+    },
+    {
+          "name": "Aerial with labels Bing Maps",
+          "type": "bing-maps",
+          "key": "AohFvM_FD-p0478UuVC3ErCaoLzkJH_ftz_gGnSB9iUW_15xRgnZEf4cVkptGa7G",
+          "mapStyle": "AerialWithLabelsOnDemand",
+          "description": "Bing Maps Aerial with labels",
+          "opacity": 0.5
+    }    
+   ]
+  }
+ ]
+}

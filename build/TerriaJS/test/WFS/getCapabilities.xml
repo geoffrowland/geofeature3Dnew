@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wfs:WFS_Capabilities version="1.1.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns="http://www.opengis.net/wfs"
+  xmlns:wfs="http://www.opengis.net/wfs"
+  xmlns:ows="http://www.opengis.net/ows"
+  xmlns:gml="http://www.opengis.net/gml"
+  xmlns:ogc="http://www.opengis.net/ogc"
+  xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.opengis.net/wfs http://schemas.opengis.net/wfs/1.1.0/wfs.xsd" updateSequence="50388">
+  <ows:ServiceIdentification>
+    <ows:Title>Fake Web Feature Service</ows:Title>
+    <ows:Abstract>This is a fake WFS abstract.</ows:Abstract>
+    <ows:Keywords>
+      <ows:Keyword>WFS</ows:Keyword>
+      <ows:Keyword>WMS</ows:Keyword>
+      <ows:Keyword>GEOSERVER</ows:Keyword>
+    </ows:Keywords>
+    <ows:ServiceType>WFS</ows:ServiceType>
+    <ows:ServiceTypeVersion>1.1.0</ows:ServiceTypeVersion>
+    <ows:Fees>NONE</ows:Fees>
+    <ows:AccessConstraints>Lots of constraints</ows:AccessConstraints>
+  </ows:ServiceIdentification>
+  <ows:ServiceProvider>
+    <ows:ProviderName>Terria Team</ows:ProviderName>
+    <ows:ServiceContact>
+      <ows:IndividualName>Some Terria Team member</ows:IndividualName>
+      <ows:PositionName>Team Leader</ows:PositionName>
+      <ows:ContactInfo>
+        <ows:Phone>
+          <ows:Voice>+61 1 2345 6789</ows:Voice>
+          <ows:Facsimile>+61 9 8765 4321</ows:Facsimile>
+        </ows:Phone>
+        <ows:Address>
+          <ows:DeliveryPoint/>
+          <ows:City>Hobart</ows:City>
+          <ows:AdministrativeArea>TAS</ows:AdministrativeArea>
+          <ows:PostalCode>7000</ows:PostalCode>
+          <ows:Country>Australia</ows:Country>
+          <ows:ElectronicMailAddress>terria@fake.email</ows:ElectronicMailAddress>
+        </ows:Address>
+      </ows:ContactInfo>
+    </ows:ServiceContact>
+  </ows:ServiceProvider>
+  <ows:OperationsMetadata>
+    <ows:Operation name="GetCapabilities">
+      <ows:DCP>
+        <ows:HTTP>
+          <ows:Get xlink:href="https://www.example.com/geoserver/workspace/wfs"/>
+          <ows:Post xlink:href="https://www.example.com/geoserver/workspace/wfs"/>
+        </ows:HTTP>
+      </ows:DCP>
+      <ows:Parameter name="AcceptVersions">
+        <ows:Value>1.0.0</ows:Value>
+        <ows:Value>1.1.0</ows:Value>
+      </ows:Parameter>
+      <ows:Parameter name="AcceptFormats">
+        <ows:Value>text/xml</ows:Value>
+      </ows:Parameter>
+      <ows:Parameter name="Sections">
+        <ows:Value>ServiceIdentification</ows:Value>
+        <ows:Value>ServiceProvider</ows:Value>
+        <ows:Value>OperationsMetadata</ows:Value>
+        <ows:Value>FeatureTypeList</ows:Value>
+        <ows:Value>Filter_Capabilities</ows:Value>
+      </ows:Parameter>
+    </ows:Operation>
+    <ows:Operation name="DescribeFeatureType">
+      <ows:DCP>
+        <ows:HTTP>
+          <ows:Get xlink:href="https://www.example.com/geoserver/workspace/wfs"/>
+          <ows:Post xlink:href="https://www.example.com/geoserver/workspace/wfs"/>
+        </ows:HTTP>
+      </ows:DCP>
+      <ows:Parameter name="outputFormat">
+        <ows:Value>text/xml; subtype=gml/3.1.1</ows:Value>
+      </ows:Parameter>
+    </ows:Operation>
+    <ows:Operation name="GetFeature">
+      <ows:DCP>
+        <ows:HTTP>
+          <ows:Get xlink:href="https://www.example.com/geoserver/workspace/wfs"/>
+          <ows:Post xlink:href="https://www.example.com/geoserver/workspace/wfs"/>
+        </ows:HTTP>
+      </ows:DCP>
+      <ows:Parameter name="resultType">
+        <ows:Value>results</ows:Value>
+        <ows:Value>hits</ows:Value>
+      </ows:Parameter>
+      <ows:Parameter name="outputFormat">
+        <ows:Value>text/xml; subtype=gml/3.1.1</ows:Value>
+        <ows:Value>GML2</ows:Value>
+        <ows:Value>KML</ows:Value>
+        <ows:Value>SHAPE-ZIP</ows:Value>
+        <ows:Value>application/gml+xml; version=3.2</ows:Value>
+        <ows:Value>application/json</ows:Value>
+        <ows:Value>application/vnd.google-earth.kml xml</ows:Value>
+        <ows:Value>application/vnd.google-earth.kml+xml</ows:Value>
+        <ows:Value>csv</ows:Value>
+        <ows:Value>gml3</ows:Value>
+        <ows:Value>gml32</ows:Value>
+        <ows:Value>json</ows:Value>
+        <ows:Value>text/csv</ows:Value>
+        <ows:Value>text/xml; subtype=gml/2.1.2</ows:Value>
+        <ows:Value>text/xml; subtype=gml/3.2</ows:Value>
+      </ows:Parameter>
+      <ows:Constraint name="LocalTraverseXLinkScope">
+        <ows:Value>2</ows:Value>
+      </ows:Constraint>
+    </ows:Operation>
+    <ows:Operation name="GetGmlObject">
+      <ows:DCP>
+        <ows:HTTP>
+          <ows:Get xlink:href="https://www.example.com/geoserver/workspace/wfs"/>
+          <ows:Post xlink:href="https://www.example.com/geoserver/workspace/wfs"/>
+        </ows:HTTP>
+      </ows:DCP>
+    </ows:Operation>
+    <ows:Operation name="LockFeature">
+      <ows:DCP>
+        <ows:HTTP>
+          <ows:Get xlink:href="https://www.example.com/geoserver/workspace/wfs"/>
+          <ows:Post xlink:href="https://www.example.com/geoserver/workspace/wfs"/>
+        </ows:HTTP>
+      </ows:DCP>
+      <ows:Parameter name="releaseAction">
+        <ows:Value>ALL</ows:Value>
+        <ows:Value>SOME</ows:Value>
+      </ows:Parameter>
+    </ows:Operation>
+    <ows:Operation name="GetFeatureWithLock">
+      <ows:DCP>
+        <ows:HTTP>
+          <ows:Get xlink:href="https://www.example.com/geoserver/workspace/wfs"/>
+          <ows:Post xlink:href="https://www.example.com/geoserver/workspace/wfs"/>
+        </ows:HTTP>
+      </ows:DCP>
+      <ows:Parameter name="resultType">
+        <ows:Value>results</ows:Value>
+        <ows:Value>hits</ows:Value>
+      </ows:Parameter>
+      <ows:Parameter name="outputFormat">
+        <ows:Value>text/xml; subtype=gml/3.1.1</ows:Value>
+        <ows:Value>GML2</ows:Value>
+        <ows:Value>KML</ows:Value>
+        <ows:Value>SHAPE-ZIP</ows:Value>
+        <ows:Value>application/gml+xml; version=3.2</ows:Value>
+        <ows:Value>application/json</ows:Value>
+        <ows:Value>application/vnd.google-earth.kml xml</ows:Value>
+        <ows:Value>application/vnd.google-earth.kml+xml</ows:Value>
+        <ows:Value>csv</ows:Value>
+        <ows:Value>gml3</ows:Value>
+        <ows:Value>gml32</ows:Value>
+        <ows:Value>json</ows:Value>
+        <ows:Value>text/csv</ows:Value>
+        <ows:Value>text/xml; subtype=gml/2.1.2</ows:Value>
+        <ows:Value>text/xml; subtype=gml/3.2</ows:Value>
+      </ows:Parameter>
+    </ows:Operation>
+    <ows:Operation name="Transaction">
+      <ows:DCP>
+        <ows:HTTP>
+          <ows:Get xlink:href="https://www.example.com/geoserver/workspace/wfs"/>
+          <ows:Post xlink:href="https://www.example.com/geoserver/workspace/wfs"/>
+        </ows:HTTP>
+      </ows:DCP>
+      <ows:Parameter name="inputFormat">
+        <ows:Value>text/xml; subtype=gml/3.1.1</ows:Value>
+      </ows:Parameter>
+      <ows:Parameter name="idgen">
+        <ows:Value>GenerateNew</ows:Value>
+        <ows:Value>UseExisting</ows:Value>
+        <ows:Value>ReplaceDuplicate</ows:Value>
+      </ows:Parameter>
+      <ows:Parameter name="releaseAction">
+        <ows:Value>ALL</ows:Value>
+        <ows:Value>SOME</ows:Value>
+      </ows:Parameter>
+    </ows:Operation>
+  </ows:OperationsMetadata>
+  <FeatureTypeList>
+    <Operations>
+      <Operation>Query</Operation>
+      <Operation>Insert</Operation>
+      <Operation>Update</Operation>
+      <Operation>Delete</Operation>
+      <Operation>Lock</Operation>
+    </Operations>
+    <FeatureType>
+      <Name>name_of_feature_type</Name>
+      <Title>Title of feature type</Title>
+      <Abstract>Abstract of feature type</Abstract>
+      <ows:Keywords>
+        <ows:Keyword>features</ows:Keyword>
+        <ows:Keyword>A keyword</ows:Keyword>
+      </ows:Keywords>
+      <DefaultSRS>urn:x-ogc:def:crs:EPSG:4283</DefaultSRS>
+      <OtherSRS>urn:x-ogc:def:crs:EPSG:4326</OtherSRS>
+      <OtherSRS>urn:x-ogc:def:crs:EPSG:900913</OtherSRS>
+      <ows:WGS84BoundingBox>
+        <ows:LowerCorner>142.163757324219 -28.2700939178467</ows:LowerCorner>
+        <ows:UpperCorner>153.598999023438 -10.4980516433716</ows:UpperCorner>
+      </ows:WGS84BoundingBox>
+      <MetadataURL type="TC211" format="text/plain">http://www.example.com/some/metadata/url</MetadataURL>
+    </FeatureType>
+  </FeatureTypeList>
+</wfs:WFS_Capabilities>
