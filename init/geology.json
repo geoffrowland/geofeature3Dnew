@@ -7,7 +7,6 @@
     {
     "type": "wms",
       "name": "BGS 1:50k Bedock Geology",
-      "type": "esri-mapServer",
       "url": "https://map.bgs.ac.uk/arcgis/services/BGS_Detailed_Geology/MapServer/WMSServer",
       "layers": "BGS.50k.Bedrock",
       "styles": "DEFAULT",
@@ -27,7 +26,6 @@
     {
     "type": "wms",
       "name": "BGS 1:50k Surface Geology",
-      "type": "esri-mapServer",
       "url": "https://map.bgs.ac.uk/arcgis/services/BGS_Detailed_Geology/MapServer/WMSServer",
       "layers": "BGS.50k.Superficial.deposits",
       "styles": "DEFAULT",
@@ -47,8 +45,7 @@
     {
     "type": "wms",
       "name": "BGS 1:50k Linear Features",
-      "type": "esri-mapServer",
-      "url": "https://map.bgs.ac.uk/arcgis/services/BGS_Detailed_Geology/MapServer/WMSServer",
+       "url": "https://map.bgs.ac.uk/arcgis/services/BGS_Detailed_Geology/MapServer/WMSServer",
       "layers": "BGS.50k.Linear.features",
       "styles": "DEFAULT",
       "opacity": 1.0,
@@ -64,7 +61,6 @@
     {
     "type": "wms",
       "name": "BGS 1:50k Mass movement",
-      "type": "esri-mapServer",
       "url": "https://map.bgs.ac.uk/arcgis/services/BGS_Detailed_Geology/MapServer/WMSServer",
       "layers": "BGS.50k.Mass.movement",
       "styles": "DEFAULT",
@@ -84,12 +80,10 @@
       "type": "esri-mapServer",
       "url": "https://map.bgs.ac.uk/arcgis/services/BGS_Detailed_Geology/MapServer/WMSServer",
       "layers": "BGS.50k.Artificial.ground",
-      "styles": "DEFAULT",
-      "opacity": 1.0,
+       "opacity": 1.0,
       "hideLegendInWorkbench": false,
       "isOpenInWorkbench": false,
       "allowFeaturePicking": true,
-      "getFeatureInfoUrl": "https://map.bgs.ac.uk/arcgis/services/BGS_Detailed_Geology/MapServer/WMSServer",
       "featureInfoTemplate": {
 		  "name": "{{LEX_RCS_D}}",
 		  "template": "{{LEX_RCS_D}}<br><br>{{MAX_TIME_D}} - {{MIN_TIME_D}}"
@@ -100,8 +94,7 @@
       "name": "BGS 1:625k Bedrock Lithostratigraphy",
       "url": "https://dorsetgeologistsassociation.org/bgs/cgi-bin/BGS_Bedrock_and_Superficial_Geology/ows",
       "layers": "GBR_BGS_625k_BLS",
-      "minScaleDenominator": 100000,
-      "hideLayerAfterMinScaleDenominator": true,
+      "allowFeaturePicking": true,
       "hideLegendInWorkbench": false,
       "isOpenInWorkbench": true,
       "opacity": 0.5,
