@@ -96,7 +96,15 @@
       "url": "https://dorsetgeologistsassociation.org/bgs/cgi-bin/BGS_Bedrock_and_Superficial_Geology/ows",
       "layers": "GBR_BGS_625k_BLS",
       "styles": "DEFAULT",
+      "minScaleDenominator": 100000,    
       "allowFeaturePicking": true,
+      "hideLayerAfterMinScaleDenominator": true,
+      "getFeatureInfoFormat": [
+      {
+      "type": "html",	  
+      "format": "text/html"	      
+      }	      
+      ],	      
       "hideLegendInWorkbench": false,
       "isOpenInWorkbench": true,
       "opacity": 0.5,
