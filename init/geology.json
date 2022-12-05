@@ -99,12 +99,10 @@
       "minScaleDenominator": 100000,    
       "allowFeaturePicking": true,
       "hideLayerAfterMinScaleDenominator": true,
-      "getFeatureInfoFormat": [
-      {
-      "type": "html",	  
-      "format": "text/html"	      
-      }	      
-      ],	      
+      "getFeatureInfoFormat": {
+          "type": "html",	  
+          "format": "text/html"	      
+      },	      
       "hideLegendInWorkbench": false,
       "isOpenInWorkbench": true,
       "opacity": 0.5,
