@@ -14,9 +14,6 @@
       "hideLegendInWorkbench": true,
       "isOpenInWorkbench": false,
       "allowFeaturePicking": true,
-      "maxScaleDenominator": 100000,
-      "hideLayerBeforeMaxScaleDenominator": true,   
-      "getFeatureInfoFormat": "text/plain",
       "getFeatureInfoUrl": "https://map.bgs.ac.uk/arcgis/services/BGS_Detailed_Geology/MapServer/WMSServer",
       "featureInfoTemplate": {
 		  "name": "{{LEX_RCS_D}}",
