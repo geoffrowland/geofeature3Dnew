@@ -77,13 +77,14 @@
     {
     "type": "wms",
       "name": "BGS 1:50k Artificial ground",
-      "type": "esri-mapServer",
       "url": "https://map.bgs.ac.uk/arcgis/services/BGS_Detailed_Geology/MapServer/WMSServer",
       "layers": "BGS.50k.Artificial.ground",
-       "opacity": 1.0,
+      "styles": "DEFAULT",
+      "opacity": 1.0,
       "hideLegendInWorkbench": false,
       "isOpenInWorkbench": false,
       "allowFeaturePicking": true,
+      "getFeatureInfoUrl": "https://map.bgs.ac.uk/arcgis/services/BGS_Detailed_Geology/MapServer/WMSServer",
       "featureInfoTemplate": {
 		  "name": "{{LEX_RCS_D}}",
 		  "template": "{{LEX_RCS_D}}<br><br>{{MAX_TIME_D}} - {{MIN_TIME_D}}"
