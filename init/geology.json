@@ -7,7 +7,7 @@
     {
     "type": "wms",
       "name": "BGS 1:50k Bedock Geology",
-      "url": "https://map.bgs.ac.uk/arcgis/services/BGS_Detailed_Geology/MapServer/WMSServer",
+      "url": "https://dorsetgeologistsassociation.org//mapbgsacuk/arcgis/services/BGS_Detailed_Geology/MapServer/WMSServer",
       "layers": "BGS.50k.Bedrock",
       "opacity": 0.5,
       "hideLegendInWorkbench": true,
@@ -23,7 +23,7 @@
     {
     "type": "wms",
       "name": "BGS 1:50k Surface Geology",
-      "url": "https://map.bgs.ac.uk/arcgis/services/BGS_Detailed_Geology/MapServer/WMSServer",
+      "url": "https://dorsetgeologistsassociation.org/mapbgsacuk/arcgis/services/BGS_Detailed_Geology/MapServer/WMSServer",
       "layers": "BGS.50k.Superficial.deposits",
       "opacity": 0.5,
       "hideLegendInWorkbench": true,
@@ -39,7 +39,7 @@
     {
     "type": "wms",
       "name": "BGS 1:50k Linear Features",
-      "url": "https://map.bgs.ac.uk/arcgis/services/BGS_Detailed_Geology/MapServer/WMSServer",
+      "url": "https://dorsetgeologistsassociation.org/mapbgsacuk/arcgis/services/BGS_Detailed_Geology/MapServer/WMSServer",
       "layers": "BGS.50k.Linear.features",
       "opacity": 1.0,
       "hideLegendInWorkbench": true,
@@ -52,7 +52,7 @@
     {
     "type": "wms",
       "name": "BGS 1:50k Mass movement",
-      "url": "https://map.bgs.ac.uk/arcgis/services/BGS_Detailed_Geology/MapServer/WMSServer",
+      "url": "https://dorsetgeologistsassociation.org/mapbgsacuk/arcgis/services/BGS_Detailed_Geology/MapServer/WMSServer",
       "layers": "BGS.50k.Mass.movement",
       "opacity": 1.0,
       "hideLegendInWorkbench": true,
@@ -65,7 +65,7 @@
     {
     "type": "wms",
       "name": "BGS 1:50k Artificial ground",
-      "url": "https://map.bgs.ac.uk/arcgis/services/BGS_Detailed_Geology/MapServer/WMSServer",
+      "url": "https://dorsetgeologistsassociation.org/mapbgsacuk/arcgis/services/BGS_Detailed_Geology/MapServer/WMSServer",
       "layers": "BGS.50k.Artificial.ground",
       "opacity": 1.0,
       "hideLegendInWorkbench": false,
