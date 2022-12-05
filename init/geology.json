@@ -7,6 +7,7 @@
     {
     "type": "wms",
       "name": "BGS 1:50k Bedock Geology",
+      "type": "esri-mapServer",
       "url": "https://map.bgs.ac.uk/arcgis/services/BGS_Detailed_Geology/MapServer/WMSServer",
       "layers": "BGS.50k.Bedrock",
       "styles": "DEFAULT",
@@ -26,6 +27,7 @@
     {
     "type": "wms",
       "name": "BGS 1:50k Surface Geology",
+      "type": "esri-mapServer",
       "url": "https://map.bgs.ac.uk/arcgis/services/BGS_Detailed_Geology/MapServer/WMSServer",
       "layers": "BGS.50k.Superficial.deposits",
       "styles": "DEFAULT",
@@ -45,6 +47,7 @@
     {
     "type": "wms",
       "name": "BGS 1:50k Linear Features",
+      "type": "esri-mapServer",
       "url": "https://map.bgs.ac.uk/arcgis/services/BGS_Detailed_Geology/MapServer/WMSServer",
       "layers": "BGS.50k.Linear.features",
       "styles": "DEFAULT",
@@ -61,6 +64,7 @@
     {
     "type": "wms",
       "name": "BGS 1:50k Mass movement",
+      "type": "esri-mapServer",
       "url": "https://map.bgs.ac.uk/arcgis/services/BGS_Detailed_Geology/MapServer/WMSServer",
       "layers": "BGS.50k.Mass.movement",
       "styles": "DEFAULT",
@@ -77,6 +81,7 @@
     {
     "type": "wms",
       "name": "BGS 1:50k Artificial ground",
+      "type": "esri-mapServer",
       "url": "https://map.bgs.ac.uk/arcgis/services/BGS_Detailed_Geology/MapServer/WMSServer",
       "layers": "BGS.50k.Artificial.ground",
       "styles": "DEFAULT",
