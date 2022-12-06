@@ -6,6 +6,7 @@
      "members": [
     {
     "type": "wms",
+      "isEsri": true,
       "name": "BGS 1:50k Bedock Geology",
       "url": "https://map.bgs.ac.uk/arcgis/services/BGS_Detailed_Geology/MapServer/WMSServer",
       "layers": "BGS.50k.Bedrock",
@@ -15,7 +16,7 @@
       "isOpenInWorkbench": false,
       "allowFeaturePicking": true,
       "getFeatureInfoUrl": "https://map.bgs.ac.uk/arcgis/services/BGS_Detailed_Geology/MapServer/WMSServer",	
-      "getFeatureInfoFormat": {"format": "text/xml"}
+      "getFeatureInfoFormat": {"format": "text/html"}
     },
     {
     "type": "wms",
