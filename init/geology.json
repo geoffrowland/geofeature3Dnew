@@ -103,7 +103,7 @@
       "hideLegendInWorkbench": false,
       "isOpenInWorkbench": false,
       "allowFeaturePicking": true,
-      "getFeatureInfoFormat": {"type": "json", "format": "application/json"},
+      "getFeatureInfoFormat": {"type": "json", "format": "application/json"}
     },
     {
       "type": "wms",
@@ -132,7 +132,7 @@
       ]
     },
     {
-    "type": "wms",
+      "type": "wms",
       "isThredds": true,
       "name": "BGS 1:625k Surface Lithostratigraphy",
       "url": "https://dorsetgeologistsassociation.org/bgs/cgi-bin/BGS_Bedrock_and_Superficial_Geology/ows",
@@ -176,7 +176,7 @@
       ]
     },
     {
-    "type": "wms",
+      "type": "wms",
       "isThredds": true,
       "name": "BGS 1:625k Surface Lithology",
       "url": "https://dorsetgeologistsassociation.org/bgs/cgi-bin/BGS_Bedrock_and_Superficial_Geology/ows",
@@ -198,7 +198,7 @@
       ]
     },
     {
-    "type": "wms",
+      "type": "wms",
       "isThredds": true,  
       "name": "BGS 1:625k Bedrock Age",
       "url": "https://dorsetgeologistsassociation.org/bgs/cgi-bin/BGS_Bedrock_and_Superficial_Geology/ows",
@@ -233,7 +233,7 @@
       "hideLegendInWorkbench": false,
       "attribution": "Reproduced by the Britsh Geological Survey from an original held in its archives © NERC All rights reserved",
       "opacity": 0.5,
-      "show": true,
+      "show": true
     },
     {
       "type": "esri-mapServer",
@@ -245,7 +245,7 @@
       "hideLegendInWorkbench": false,
       "attribution": "Reproduced by the Britsh Geological Survey from an original held in its archives © NERC All rights reserved",
       "opacity": 0.5,
-      "show": true,
+      "show": true
     },
     {
       "type": "esri-mapServer",
@@ -257,7 +257,7 @@
       "hideLegendInWorkbench": false,
       "attribution": "Reproduced by the Britsh Geological Survey from an original held in its archives © NERC All rights reserved",
       "opacity": 0.5,
-      "show": true,
+      "show": true
     },
     {
       "type": "esri-mapServer",
@@ -269,7 +269,7 @@
       "hideLegendInWorkbench": false,
       "attribution": "Reproduced by the Britsh Geological Survey from an original held in its archives © NERC All rights reserved",
       "opacity": 0.5,
-      "show": true,
+      "show": true
     },
     {
       "type": "esri-mapServer",
@@ -281,7 +281,7 @@
       "hideLegendInWorkbench": false,
       "attribution": "Reproduced by the Britsh Geological Survey from an original held in its archives © NERC All rights reserved",
       "opacity": 0.5,
-      "show": true,
+      "show": true
     },
     {
       "type": "esri-mapServer",
@@ -307,7 +307,7 @@
       "hideLegendInWorkbench": false,
       "attribution": "Reproduced by the Britsh Geological Survey from an original held in its archives © NERC All rights reserved",
       "opacity": 0.5,
-      "show": true,
+      "show": true
     }
     ]
     },
