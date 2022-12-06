@@ -14,7 +14,8 @@
       "hideLegendInWorkbench": true,
       "isOpenInWorkbench": false,
       "allowFeaturePicking": true,
-      "getFeatureInfoFormat": {"format": "text/plain"}
+      "getFeatureInfoUrl": "https://map.bgs.ac.uk/arcgis/services/BGS_Detailed_Geology/MapServer/WMSServer",	
+      "getFeatureInfoFormat": {"format": "application/vnd.ogc.se_xml"}
     },
     {
     "type": "wms",
