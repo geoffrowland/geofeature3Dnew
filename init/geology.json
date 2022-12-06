@@ -24,6 +24,7 @@
     },
     {
     "type": "wms",
+      "isEsri": true,
       "name": "BGS 1:50k Surface Geology",
       "url": "https://map.bgs.ac.uk/arcgis/services/BGS_Detailed_Geology/MapServer/WMSServer",
       "layers": "BGS.50k.Superficial.deposits",
@@ -43,6 +44,7 @@
     },
     {
     "type": "wms",
+      "isEsri": true,
       "name": "BGS 1:50k Linear Features",
        "url": "https://map.bgs.ac.uk/arcgis/services/BGS_Detailed_Geology/MapServer/WMSServer",
       "layers": "BGS.50k.Linear.features",
@@ -59,6 +61,7 @@
     },
     {
     "type": "wms",
+      "isEsri": true,
       "name": "BGS 1:50k Mass movement",
       "url": "https://map.bgs.ac.uk/arcgis/services/BGS_Detailed_Geology/MapServer/WMSServer",
       "layers": "BGS.50k.Mass.movement",
@@ -75,6 +78,7 @@
     },
     {
     "type": "wms",
+      "isEsri": true,
       "name": "BGS 1:50k Artificial ground",
       "url": "https://map.bgs.ac.uk/arcgis/services/BGS_Detailed_Geology/MapServer/WMSServer",
       "layers": "BGS.50k.Artificial.ground",
@@ -88,6 +92,18 @@
 		  "name": "{{LEX_RCS_D}}",
 		  "template": "{{LEX_RCS_D}}<br><br>{{MAX_TIME_D}} - {{MIN_TIME_D}}"
        }
+    },
+    {
+      "type": "wms",
+      "isEsri": true,
+      "name": "Mines and quarrie",
+      "url": "https://map.bgs.ac.uk/arcgis/rest/services/GeoIndex_Onshore/minerals_wms/MapServer",
+      "layers": "Mines.and.quarries",
+      "opacity": 1.0,
+      "hideLegendInWorkbench": false,
+      "isOpenInWorkbench": false,
+      "allowFeaturePicking": true,
+      "getFeatureInfoFormat": {"type": "json", "format": "text/json"}
     },
     {
     "type": "wms",
