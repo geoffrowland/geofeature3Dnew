@@ -102,8 +102,7 @@
       "opacity": 1.0,
       "hideLegendInWorkbench": false,
       "isOpenInWorkbench": false,
-      "allowFeaturePicking": true,
-      "getFeatureInfoFormat": {"type": "json", "format": "application/json"}
+      "allowFeaturePicking": true
     },
     {
       "type": "wms",
