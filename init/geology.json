@@ -34,7 +34,7 @@
       "hideLegendInWorkbench": true,
       "isOpenInWorkbench": false,
       "allowFeaturePicking": true,
-      "getFeatureInfoUrl": "https://map.bgs.ac.uk/arcgis/services/BGS_Detailed_Geology/MapServer/WMSServer",	    
+      "getFeatureInfoFormat": {"type": "xml", "format": "text/xml"},    
       "featureInfoTemplate": {
 		  "name": "{{LEX_RCS_D}}",
 		  "template": "{{LEX_RCS_D}}<br>Code: <a href='https://webapps.bgs.ac.uk/lexicon/lexicon.cfm?pub={{LEX}}'>{{LEX}}</a><br><br>{{MAX_TIME_D}} - {{MIN_TIME_D}}<br>{{MAX_PERIOD}} - {{MIN_PERIOD}}<br><br>Description: {{TYPE_D}}, {{BROAD_D}}<br><br>Setting: {{SETTING_D}} {{#terria.partialByName}}{{SETTINGPLUS_D}}{{/terria.partialByName}}<br><br>Environment: {{ENVIRONMENT_D}}",
@@ -53,7 +53,7 @@
       "hideLegendInWorkbench": true,
       "isOpenInWorkbench": false,
       "allowFeaturePicking": true,
-      "getFeatureInfoUrl": "https://map.bgs.ac.uk/arcgis/services/BGS_Detailed_Geology/MapServer/WMSServer",
+      "getFeatureInfoFormat": {"type": "xml", "format": "text/xml"},
       "featureInfoTemplate": {
 		  "name": "{{CATEGORY}}",
 		  "template": "{{CATEGORY}}<br><br>{{FEATURE_D}}"
@@ -69,7 +69,7 @@
       "hideLegendInWorkbench": true,
       "isOpenInWorkbench": false,
       "allowFeaturePicking": true,
-      "getFeatureInfoUrl": "https://map.bgs.ac.uk/arcgis/services/BGS_Detailed_Geology/MapServer/WMSServer",
+      "getFeatureInfoFormat": {"type": "xml", "format": "text/xml"},
       "featureInfoTemplate": {
 		  "name": "{{LEX_RCS_D}}",
 		  "template": "{{LEX_RCS_D}}<br><br>{{MAX_TIME_D}} - {{MIN_TIME_D}}"
@@ -85,7 +85,7 @@
       "hideLegendInWorkbench": false,
       "isOpenInWorkbench": false,
       "allowFeaturePicking": true,
-      "getFeatureInfoUrl": "https://map.bgs.ac.uk/arcgis/services/BGS_Detailed_Geology/MapServer/WMSServer",
+      "getFeatureInfoFormat": {"type": "xml", "format": "text/xml"},
       "featureInfoTemplate": {
 		  "name": "{{LEX_RCS_D}}",
 		  "template": "{{LEX_RCS_D}}<br><br>{{MAX_TIME_D}} - {{MIN_TIME_D}}"
@@ -99,6 +99,7 @@
       "styles": "default",
       "minScaleDenominator": 100000,    
       "allowFeaturePicking": true,
+      "getFeatureInfoFormat": {"type": "xml", "format": "text/xml"},
       "hideLayerAfterMinScaleDenominator": true,   
       "hideLegendInWorkbench": false,
       "isOpenInWorkbench": true,
