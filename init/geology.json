@@ -14,7 +14,7 @@
       "hideLegendInWorkbench": true,
       "isOpenInWorkbench": false,
       "allowFeaturePicking": true,
-      "getFeatureInfoFormat": {"format": "text/xml"}
+      "getFeatureInfoFormat": {"format": "text/plain"}
     },
     {
     "type": "wms",
