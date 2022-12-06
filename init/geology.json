@@ -5,7 +5,7 @@
      "name": "Geology",
      "members": [
     {
-    "type": "wms",
+      "type": "wms",
       "isEsri": true,
       "name": "BGS 1:50k Bedock Geology",
       "url": "https://map.bgs.ac.uk/arcgis/services/BGS_Detailed_Geology/MapServer/WMSServer",
@@ -23,7 +23,7 @@
        }
     },
     {
-    "type": "wms",
+      "type": "wms",
       "isEsri": true,
       "name": "BGS 1:50k Surface Geology",
       "url": "https://map.bgs.ac.uk/arcgis/services/BGS_Detailed_Geology/MapServer/WMSServer",
@@ -43,7 +43,7 @@
        }
     },
     {
-    "type": "wms",
+      "type": "wms",
       "isEsri": true,
       "name": "BGS 1:50k Linear Features",
        "url": "https://map.bgs.ac.uk/arcgis/services/BGS_Detailed_Geology/MapServer/WMSServer",
@@ -60,7 +60,7 @@
        }
     },
     {
-    "type": "wms",
+      "type": "wms",
       "isEsri": true,
       "name": "BGS 1:50k Mass movement",
       "url": "https://map.bgs.ac.uk/arcgis/services/BGS_Detailed_Geology/MapServer/WMSServer",
@@ -77,7 +77,7 @@
        }
     },
     {
-    "type": "wms",
+      "type": "wms",
       "isEsri": true,
       "name": "BGS 1:50k Artificial ground",
       "url": "https://map.bgs.ac.uk/arcgis/services/BGS_Detailed_Geology/MapServer/WMSServer",
@@ -94,17 +94,19 @@
        }
     },
     {
-      "type": "esri-mapServer",
+      "type": "wms",
+      "isEsri": true,
       "name": "Mines and quarries",
       "url": "https://map.bgs.ac.uk/arcgis/rest/services/GeoIndex_Onshore/minerals_wms/MapServer/",
       "layers": "5",
       "opacity": 1.0,
       "hideLegendInWorkbench": false,
       "isOpenInWorkbench": false,
-      "allowFeaturePicking": true
+      "allowFeaturePicking": true,
+      "getFeatureInfoFormat": {"type": "json", "format": "application/json"},
     },
     {
-    "type": "wms",
+      "type": "wms",
       "isThredds": true,
       "name": "BGS 1:625k Bedrock Lithostratigraphy",
       "url": "https://dorsetgeologistsassociation.org/bgs/cgi-bin/BGS_Bedrock_and_Superficial_Geology/ows",
