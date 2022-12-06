@@ -94,10 +94,10 @@
        }
     },
     {
-      "type": "wms",
-      "name": "Mines and quarrie",
+      "type": "esri-mapServer",
+      "name": "Mines and quarries",
       "url": "https://map.bgs.ac.uk/arcgis/rest/services/GeoIndex_Onshore/minerals_wms/MapServer/",
-      "layers": "Mines.and.quarries",
+      "layers": "5",
       "opacity": 1.0,
       "hideLegendInWorkbench": false,
       "isOpenInWorkbench": false,
