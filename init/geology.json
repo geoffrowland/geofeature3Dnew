@@ -101,7 +101,7 @@
       "allowFeaturePicking": true,
       "getFeatureInfoFormat": {"type": "xml", "format": "application/vnd.ogc.gml"},
       "featureInfoTemplate": {
-          "name": "{{LEX_RCS}}",
+          "name": "{{LEX_D}",
           "template": "{{LEX_D}}<br>{{RCS_D}}<br><br>{{MAX_TIME_D}} - {{MIN_TIME_D}}<br>{{MAX_TIME_Y}} - {{MIN_TIME_Y}}"
        },
       "hideLegendInWorkbench": false,
