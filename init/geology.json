@@ -100,7 +100,7 @@
       "styles": "default",
       "minScaleDenominator": 100000,    
       "allowFeaturePicking": true,
-      "getFeatureInfoFormat": {"format": "application/vnd.ogc.gml"},
+      "getFeatureInfoFormat": {"type": "xml", "format": "application/vnd.ogc.gml"},
       "hideLayerAfterMinScaleDenominator": true,   
       "hideLegendInWorkbench": false,
       "isOpenInWorkbench": true,
