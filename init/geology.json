@@ -98,7 +98,7 @@
       "styles": "default",
       "minScaleDenominator": 100000,    
       "allowFeaturePicking": true,
-      "getFeatureInfoFormat": {"type": "xml"},
+      "getFeatureInfoFormat": {"type": "xml", "text/xml"},
       "hideLayerAfterMinScaleDenominator": true,   
       "hideLegendInWorkbench": false,
       "isOpenInWorkbench": true,
