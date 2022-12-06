@@ -93,6 +93,7 @@
     },
     {
     "type": "wms",
+      "isThredds": true,
       "name": "BGS 1:625k Bedrock Lithostratigraphy",
       "url": "https://dorsetgeologistsassociation.org/bgs/cgi-bin/BGS_Bedrock_and_Superficial_Geology/ows",
       "layers": "GBR_BGS_625k_BLS",
@@ -114,6 +115,7 @@
     },
     {
     "type": "wms",
+      "isThredds": true,
       "name": "BGS 1:625k Surface Lithostratigraphy",
       "url": "https://dorsetgeologistsassociation.org/bgs/cgi-bin/BGS_Bedrock_and_Superficial_Geology/ows",
       "layers": "GBR_BGS_625k_SLS",
@@ -133,6 +135,7 @@
     },
    {
       "type": "wms",
+      "isThredds": true,
       "name": "BGS 1:625k Bedrock Lithology",
       "url": "https://dorsetgeologistsassociation.org/bgs/cgi-bin/BGS_Bedrock_and_Superficial_Geology/ows",
       "layers": "GBR_BGS_625k_BLT",
@@ -152,6 +155,7 @@
     },
     {
     "type": "wms",
+      "isThredds": true,
       "name": "BGS 1:625k Surface Lithology",
       "url": "https://dorsetgeologistsassociation.org/bgs/cgi-bin/BGS_Bedrock_and_Superficial_Geology/ows",
       "layers": "GBR_BGS_625k_SLT",
