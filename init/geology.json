@@ -17,11 +17,14 @@
       "allowFeaturePicking": true,
       "getFeatureInfoFormat": {"type": "xml", "format": "text/xml"},
       "featureInfoTemplate": {
-		  "name": "{{LEX_RCS_D}}",
-		  "template": "{{LEX_RCS_D}}<br>Code: <a href='https://webapps.bgs.ac.uk/lexicon/lexicon.cfm?pub={{LEX}}'>{{LEX}}</a><br><br>{{MAX_TIME_D}} - {{MIN_TIME_D}}<br>{{MAX_PERIOD}} - {{MIN_PERIOD}}<br><br>Description: {{TYPE_D}}, {{BROAD_D}}<br><br>Setting: {{SETTING_D}} {{#terria.partialByName}}{{SETTINGPLUS_D}}{{/terria.partialByName}}<br><br>Environment: {{ENVIRONMENT_D}}",
-          "partials": {
-              "Null": " "
-          }
+          "name": "{{LEX_RCS_D}}",
+	  "template": "{{LEX_RCS_D}}<br>Code: <a href='https://webapps.bgs.ac.uk/lexicon/lexicon.cfm?pub={{LEX}}'>{{LEX}}</a><br><br>
+	               {{MAX_TIME_D}} - {{MIN_TIME_D}}<br>
+	               {{MAX_PERIOD}} - {{MIN_PERIOD}}<br><br>
+                       Description: {{TYPE_D}}, {{BROAD_D}}<br><br>
+                       Setting: {{SETTING_D}} {{#terria.partialByName}}{{SETTINGPLUS_D}}{{/terria.partialByName}}<br><br>
+		       Environment: {{ENVIRONMENT_D}}",
+          "partials": {"Null": " "}
        }
     },
     {
