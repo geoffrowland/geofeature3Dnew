@@ -79,7 +79,6 @@
     {
       "type": "wms",
       "isEsri": true,
-      "keepOnTop": true,
       "name": "BGS 1:50k Artificial ground",
       "url": "https://map.bgs.ac.uk/arcgis/services/BGS_Detailed_Geology/MapServer/WMSServer",
       "layers": "BGS.50k.Artificial.ground",
@@ -97,6 +96,7 @@
     {
       "type": "wms",
       "isEsri": true,
+      "keepOnTop": true,
       "name": "Mines and quarries",
       "url": "https://map.bgs.ac.uk/arcgis/services/GeoIndex_Onshore/minerals_wms/MapServer/WMSServer",
       "layers": "Mines.and.quarries",
