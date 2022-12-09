@@ -152,6 +152,33 @@
               "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
             }
           ]
+        },
+        {
+          "url": "https://geoffrowland.github.io/Hillshade-1m-Devon-Somerset/{z}/{x}/{reverseY}.png",
+          "type": "url-template-imagery",
+          "dataCustodian": "Geoff Rowland",
+          "name": "Hillshade 1m Devon Dorset Somerset",
+          "maximumLevel": 15,
+          "forceProxy": true,
+          "isOpenInWorkbench": false,
+          "opacity": 1.0,
+          "rectangle": {
+			  "west": -3.515625,
+			  "south": 50.345460,
+			  "east": -3.164063,
+			  "north": 51.944265
+                 },
+          "tileErrorHandlingOptions": {
+			  "treat403AsError": false,
+			  "treat404AsError": false,
+			  "ignoreUnknownTileErrors": true
+		  },
+          "info": [
+            {
+              "name": "Licence",
+              "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
+            }
+          ]
         },						 
         {
           "url": "https://geoffrowland.github.io/Hillshade-1m-Devon-Dorset-Somerset/{z}/{x}/{reverseY}.png",
