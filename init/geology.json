@@ -102,7 +102,7 @@
       "layers": "Mines.and.quarries",
       "opacity": 1.0,
       "parameters": {
-	    "format":"image/svg"
+	    "format": "image/png"
       },
       "hideLegendInWorkbench": false,
       "isOpenInWorkbench": true,
