@@ -100,6 +100,7 @@
       "name": "Mines and quarries",
       "url": "https://map.bgs.ac.uk/arcgis/services/GeoIndex_Onshore/minerals_wms/MapServer/WMSServer",
       "layers": "Mines.and.quarries",
+      "crs": "CRS:84",
       "opacity": 1.0,
       "parameters": {
 	    "format": "image/png"
