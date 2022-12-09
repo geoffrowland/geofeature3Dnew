@@ -121,6 +121,18 @@
       }
     },
     {
+      "type": "esri-mapServer",
+      "name": "Mines and quarries MapServer",
+      "url": "https://map.bgs.ac.uk/arcgis/rest/services/GeoIndex_Onshore/minerals_wms/MapServer/",
+      "layers": "5",
+      "isOpenInWorkbench": true,
+      "allowFeaturePicking": true,
+      "hideLegendInWorkbench": false,
+      "attribution": "Reproduced by the Britsh Geological Survey from an original held in its archives © NERC All rights reserved",
+      "opacity": 0.5,
+      "show": true
+    },
+    {
       "type": "wms",
       "isThredds": true,
       "name": "BGS 1:625k Bedrock Lithostratigraphy",
