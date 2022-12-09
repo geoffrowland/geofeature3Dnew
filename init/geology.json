@@ -101,8 +101,8 @@
       "url": "https://map.bgs.ac.uk/arcgis/services/GeoIndex_Onshore/minerals_wms/MapServer/WMSServer",
       "layers": "Mines.and.quarries",
       "opacity": 1.0,
-      "parameters: {
-	    "format":"image/png"
+      "parameters": {
+	    "format":"image/svg"
       },
       "hideLegendInWorkbench": false,
       "isOpenInWorkbench": true,
