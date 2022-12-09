@@ -110,7 +110,7 @@
       "getFeatureInfoFormat": {"type": "xml", "format": "application/vnd.ogc.wms_xml"},
       "featureInfoTemplate": {
 	"name": "{{PIT_NAME}}",
-	"template": "Pit name: {{PIT_NAME}}<br>Status: {{PIT_Status}}",
+	"template": "Pit name: {{PIT_NAME}}<br>Status: {{#terria.partialByName}}{{PIT_STATUS}}{{/terria.partialByName}}",
 	"partials": {
               "A": "Active",
 	      "C": "Ceased",
