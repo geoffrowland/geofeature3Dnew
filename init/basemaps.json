@@ -157,7 +157,7 @@
           "url": "https://geoffrowland.github.io/Hillshade-1m-Devon-Somerset/{z}/{x}/{reverseY}.png",
           "type": "url-template-imagery",
           "dataCustodian": "Geoff Rowland",
-          "name": "Hillshade 1m Devon Dorset Somerset",
+          "name": "Hillshade 1m Devon Somerset",
           "maximumLevel": 15,
           "forceProxy": true,
           "isOpenInWorkbench": false,
