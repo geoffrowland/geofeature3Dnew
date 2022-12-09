@@ -104,7 +104,7 @@
       "hideLegendInWorkbench": false,
       "isOpenInWorkbench": true,
       "allowFeaturePicking": true,
-      "getFeatureInfoFormat": {"type": "xml", "format": "text/xml"}
+      "getFeatureInfoFormat": {"type": "xml", "format": "application/vnd.ogc.wms_xml"}
     },
     {
       "type": "wms",
