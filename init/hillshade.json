@@ -95,9 +95,9 @@
           "isOpenInWorkbench": false,
           "opacity": 1.0,
           "rectangle": {
-			  "west": -4.702148,
+			  "west": -3.867188,
 			  "south": 50.176898,
-			  "east": -3.867188,
+			  "east": -3.515625,
 			  "north": 51.261915
 		  },
           "tileErrorHandlingOptions": {
