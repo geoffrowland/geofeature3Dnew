@@ -51,7 +51,6 @@
           "dataCustodian": "Geoff Rowland",
           "name": "Hillshade 1m Cornwall West",
           "maximumLevel": 15,
-          "forceProxy": true,
           "isOpenInWorkbench": false,
           "opacity": 1.0,
           "rectangle": {
@@ -78,7 +77,6 @@
           "dataCustodian": "Geoff Rowland",
           "name": "Hillshade 1m Cornwall East",
           "maximumLevel": 15,
-          "forceProxy": true,
           "isOpenInWorkbench": false,
           "opacity": 1.0,
           "rectangle": {
@@ -105,7 +103,6 @@
           "dataCustodian": "Geoff Rowland",
           "name": "Hillshade 1m Devon West",
           "maximumLevel": 15,
-          "forceProxy": true,
           "isOpenInWorkbench": false,
           "opacity": 1.0,
           "rectangle": {
@@ -132,7 +129,6 @@
           "dataCustodian": "Geoff Rowland",
           "name": "Hillshade 1m Devon East",
           "maximumLevel": 15,
-          "forceProxy": true,
           "isOpenInWorkbench": false,
           "opacity": 1.0,
           "rectangle": {
@@ -159,7 +155,6 @@
           "dataCustodian": "Geoff Rowland",
           "name": "Hillshade 1m Devon Somerset",
           "maximumLevel": 15,
-          "forceProxy": true,
           "isOpenInWorkbench": false,
           "opacity": 1.0,
           "rectangle": {
@@ -186,7 +181,6 @@
           "dataCustodian": "Geoff Rowland",
           "name": "Hillshade 1m Devon Dorset Somerset",
           "maximumLevel": 15,
-          "forceProxy": true,
           "isOpenInWorkbench": false,
           "opacity": 1.0,
           "rectangle": {
@@ -213,7 +207,6 @@
           "dataCustodian": "Geoff Rowland",
           "name": "Hillshade 1m Dorset Somerset",
           "maximumLevel": 15,
-          "forceProxy": true,
           "isOpenInWorkbench": false,
           "opacity": 1.0,
           "rectangle": {
@@ -240,7 +233,6 @@
           "dataCustodian": "Geoff Rowland",
           "name": "Hillshade 1m Dorset Somerset East",
           "maximumLevel": 15,
-          "forceProxy": true,
           "isOpenInWorkbench": false,
           "opacity": 1.0,
           "rectangle": {
@@ -267,7 +259,6 @@
           "dataCustodian": "Geoff Rowland",
           "name": "Hillshade 1m Dorset Hampshire",
           "maximumLevel": 15,
-          "forceProxy": true,
           "isOpenInWorkbench": false,
           "opacity": 1.0,
           "rectangle": {
@@ -294,7 +285,6 @@
           "dataCustodian": "Geoff Rowland",
           "name": "Hillshade 2m Coastal",
           "maximumLevel": 15,
-          "forceProxy": true,
           "isOpenInWorkbench": false,
           "opacity": 1.0,
           "rectangle": {
@@ -321,7 +311,6 @@
           "dataCustodian": "Geoff Rowland",
           "name": "Hillshade 5m",
           "maximumLevel": 15,
-          "forceProxy": true,
           "isOpenInWorkbench": false,
           "opacity": 1.0,
           "rectangle": {
@@ -350,7 +339,6 @@
           "isOpenInWorkbench": true,
           "name": "Hillshade 25m",
           "maximumLevel": 12,
-          "forceProxy": true,
           "opacity": 1.0,
           "isOpenInWorkbench": false,
           "rectangle": {
