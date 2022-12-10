@@ -12,7 +12,6 @@
           "isOpenInWorkbench": true,
           "name": "Hillshade 25m",
           "maximumLevel": 12,
-          "forceProxy": true,
           "opacity": 1.0,
           "isOpenInWorkbench": false,
           "rectangle": {
@@ -86,14 +85,65 @@
               "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
             }
           ]
-        },					    
+        },
+	{
+          "url": "https://geoffrowland.github.io/Hillshade-1m-Devon-West/{z}/{x}/{reverseY}.png",
+          "type": "url-template-imagery",
+          "dataCustodian": "Geoff Rowland",
+          "name": "Hillshade 1m Devon West",
+          "maximumLevel": 15,
+          "isOpenInWorkbench": false,
+          "opacity": 1.0,
+          "rectangle": {
+			  "west": -4.702148,
+			  "south": 50.176898,
+			  "east": -3.867188,
+			  "north": 51.261915
+		  },
+          "tileErrorHandlingOptions": {
+			  "treat403AsError": false,
+			  "treat404AsError": false,
+			  "ignoreUnknownTileErrors": true
+		  },
+          "info": [
+            {
+              "name": "Licence",
+              "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
+            }
+          ]
+        },
+       {
+          "url": "https://geoffrowland.github.io/Hillshade-1m-Devon-East/{z}/{x}/{reverseY}.png",
+          "type": "url-template-imagery",
+          "dataCustodian": "Geoff Rowland",
+          "name": "Hillshade 1m Devon East",
+          "maximumLevel": 15,
+          "isOpenInWorkbench": false,
+          "opacity": 1.0,
+          "rectangle": {
+			  "west": -3.867188,
+			  "south": 50.176898,
+			  "east": -3.515625,
+			  "north": 51.261915
+		  },
+          "tileErrorHandlingOptions": {
+			  "treat403AsError": false,
+			  "treat404AsError": false,
+			  "ignoreUnknownTileErrors": true
+		  },
+          "info": [
+            {
+              "name": "Licence",
+              "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
+            }
+          ]
+        },
 	{
           "url": "https://geoffrowland.github.io/Hillshade-1m-Devon-Somerset/{z}/{x}/{reverseY}.png",
           "type": "url-template-imagery",
           "dataCustodian": "Geoff Rowland",
           "name": "Hillshade 1m Devon Somerset",
           "maximumLevel": 15,
-          "forceProxy": true,
           "isOpenInWorkbench": false,
           "opacity": 1.0,
           "rectangle": {
@@ -120,7 +170,6 @@
           "dataCustodian": "Geoff Rowland",
           "name": "Hillshade 1m Devon Dorset Somerset",
           "maximumLevel": 15,
-          "forceProxy": true,
           "isOpenInWorkbench": false,
           "opacity": 1.0,
           "rectangle": {
@@ -147,7 +196,6 @@
           "dataCustodian": "Geoff Rowland",
           "name": "Hillshade 1m Dorset Somerset",
           "maximumLevel": 15,
-          "forceProxy": true,
           "isOpenInWorkbench": false,
           "opacity": 1.0,
           "rectangle": {
@@ -174,7 +222,6 @@
           "dataCustodian": "Geoff Rowland",
           "name": "Hillshade 1m Dorset Somerset East",
           "maximumLevel": 15,
-          "forceProxy": true,
           "isOpenInWorkbench": false,
           "opacity": 1.0,
           "rectangle": {
@@ -201,7 +248,6 @@
           "dataCustodian": "Geoff Rowland",
           "name": "Hillshade 1m Dorset Hampshire",
           "maximumLevel": 16,
-          "forceProxy": true,
           "isOpenInWorkbench": false,
           "opacity": 1.0,
           "rectangle": {
@@ -225,10 +271,9 @@
         {
           "url": "https://geoffrowland.github.io/Hillshade-2m-Coast/{z}/{x}/{reverseY}.png",
           "type": "url-template-imagery",
-           "dataCustodian": "Geoff Rowland",
+          "dataCustodian": "Geoff Rowland",
           "name": "Hillshade 2m Coastal",
           "maximumLevel": 15,
-          "forceProxy": true,
           "isOpenInWorkbench": false,
           "opacity": 1.0,
           "rectangle": {
@@ -255,7 +300,6 @@
           "dataCustodian": "Geoff Rowland",
           "name": "Hillshade 5m",
           "maximumLevel": 15,
-          "forceProxy": true,
           "isOpenInWorkbench": false,
           "opacity": 1.0,
           "rectangle": {
