@@ -39,7 +39,6 @@
           "dataCustodian": "Geoff Rowland",
           "name": "Hillshade 1m Cornwall West",
           "maximumLevel": 15,
-          "forceProxy": true,
           "isOpenInWorkbench": false,
           "opacity": 1.0,
           "rectangle": {
