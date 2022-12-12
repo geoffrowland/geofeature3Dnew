@@ -23,6 +23,30 @@
            "styles": "default"
            }
          ]
+       },
+       {
+         "type": "group",
+         "name": "Collections",
+         "members": [
+           {
+           "type": "wms",
+           "isEsri": true,
+           "name": "Fossil localities",
+           "url": "https://map.bgs.ac.uk/arcgis/services/GeoIndex_Onshore/collections/MapServer/WmsServer",
+           "layers": "Fossil.localities",
+           "getFeatureInfoFormat": {"type": "xml", "format": "text/xml"},
+           "styles": "default"
+           },
+           {
+           "type": "wms",
+           "isEsri": true,
+           "name": "Fossil localities",
+           "url": "https://map.bgs.ac.uk/arcgis/services/GeoIndex_Onshore/collections/MapServer/WmsServer",
+           "layers": "Fossil.localities",
+           "getFeatureInfoFormat": {"type": "xml", "format": "text/xml"},
+           "styles": "default"
+           }
+         ]
        }
      ]
    }
