@@ -1,0 +1,9 @@
+{
+  "catalog": [
+     {
+     "type": "wms-group",
+     "name": "GeoIndex Minerals",
+     "url": "https://map.bgs.ac.uk/arcgis/services/GeoIndex_Onshore/minerals_wms/MapServer/WmsServer"
+     }
+   ]
+}
