@@ -12,6 +12,7 @@
          {
          "type": "wms-group",
          "name": "Boreholes",
+         "styles": "default",
          "url": "https://map.bgs.ac.uk/arcgis/services/GeoIndex_Onshore/boreholes/MapServer/WmsServer"
          }
       ]
