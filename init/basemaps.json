@@ -123,7 +123,7 @@
             }
           ]
         },
-       {
+     {
           "url": "https://geoffrowland.github.io/Hillshade-1m-Devon-East/{z}/{x}/{reverseY}.png",
           "type": "url-template-imagery",
           "dataCustodian": "Geoff Rowland",
