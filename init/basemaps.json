@@ -56,7 +56,7 @@
           "rectangle": {
 			  "west": -6.459961,
 			  "south": 49.859235,
-			  "east": -4.460499,
+			  "east": -4.921875,
 			  "north": 50.772076
 		  },
           "tileErrorHandlingOptions": {
@@ -80,7 +80,7 @@
           "isOpenInWorkbench": false,
           "opacity": 1.0,
           "rectangle": {
-			  "west": -6.459961,
+			  "west": -4.921875,
 			  "south": 49.859235,
 			  "east": -4.218750,
 			  "north": 51.206883
