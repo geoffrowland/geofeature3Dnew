@@ -31,9 +31,9 @@
            {
            "type": "wms",
            "isEsri": true,
-           "name": "Fossil localities",
+           "name": "Fossil specimens",
            "url": "https://map.bgs.ac.uk/arcgis/services/GeoIndex_Onshore/collections/MapServer/WmsServer",
-           "layers": "Fossil.localities",
+           "layers": "Fossil.specimens",
            "getFeatureInfoFormat": {"type": "xml", "format": "text/xml"},
            "styles": "default"
            },
