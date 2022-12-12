@@ -15,9 +15,11 @@
          "members": [
            {
            "type": "wms",
+           "isEsri": true,
            "name": "Borehole records",
            "url": "https://map.bgs.ac.uk/arcgis/services/GeoIndex_Onshore/boreholes/MapServer/WmsServer",
            "layers": "Borehole.records",
+           "getFeatureInfoFormat": {"type": "xml", "format": "text/xml"},
            "styles": "default"
            }
            ]
