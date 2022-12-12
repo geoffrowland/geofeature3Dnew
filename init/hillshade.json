@@ -34,6 +34,32 @@
           ]
         },
 	{
+          "url": "https://geoffrowland.github.io/Hillshade-1m-Cornwall-East/{z}/{x}/{reverseY}.png",
+          "type": "url-template-imagery",
+          "dataCustodian": "Geoff Rowland",
+          "name": "Hillshade 1m Cornwall East",
+          "maximumLevel": 15,
+          "isOpenInWorkbench": false,
+          "opacity": 1.0,
+          "rectangle": {
+			  "west": -4.921875,
+			  "south": 50.176899,
+			  "east": -4.218751,
+			  "north": 51.289406
+		  },
+          "tileErrorHandlingOptions": {
+			  "treat403AsError": false,
+			  "treat404AsError": false,
+			  "ignoreUnknownTileErrors": true
+		  },
+          "info": [
+            {
+              "name": "Licence",
+              "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
+            }
+          ]
+        },
+	{
           "url": "https://geoffrowland.github.io/Hillshade-1m-Devon-West/{z}/{x}/{reverseY}.png",
           "type": "url-template-imagery",
           "dataCustodian": "Geoff Rowland",
