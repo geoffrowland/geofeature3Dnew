@@ -47,6 +47,30 @@
            "styles": "default"
            }
          ]
+       },
+       {
+         "type": "group",
+         "name": "Hazards",
+         "members": [
+           {
+           "type": "wms",
+           "isEsri": true,
+           "name": "Landslides",
+           "url": "https://map.bgs.ac.uk/arcgis/services/GeoIndex_Onshore/hazards/MapServer/WmsServer",
+           "layers": "Landslides",
+           "getFeatureInfoFormat": {"type": "xml", "format": "text/xml"},
+           "styles": "default"
+           },
+           {
+           "type": "wms",
+           "isEsri": true,
+           "name": "Historical earthquakes",
+           "url": "https://map.bgs.ac.uk/arcgis/services/GeoIndex_Onshore/hazards/MapServer/WmsServer",
+           "layers": "Historical.earthquakes",
+           "getFeatureInfoFormat": {"type": "xml", "format": "text/xml"},
+           "styles": "default"
+           }
+         ]
        }
      ]
    }
