@@ -6,7 +6,8 @@
       "hillshade",
       "maps",
       "imagery",
-      "basemaps"
+      "basemaps",
+      "geoindex"
   ],
   "parameters": {
     "googleUrlShortenerKey": null,
