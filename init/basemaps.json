@@ -339,6 +339,7 @@
           "isOpenInWorkbench": true,
           "name": "Hillshade 25m",
           "maximumLevel": 12,
+	  "minimumLevel": 4,
           "opacity": 1.0,
           "isOpenInWorkbench": false,
           "rectangle": {
