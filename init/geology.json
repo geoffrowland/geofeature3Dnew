@@ -351,12 +351,14 @@
       "opacity": 0.5,
       "show": true,
       "legends": [
-      {
+           {
 		  "url": "images/WilliamSmith1815Key.png",
 		  "imageScaling": 1.0,
 		  "urlMimeType": "png"
-	  }
-     ]
+	   }
+       ]
+      }    
+    ]
   }
  ]
 }
