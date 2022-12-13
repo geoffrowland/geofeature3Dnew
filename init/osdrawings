@@ -4,13 +4,13 @@
      "type": "group",
      "name": "OS Drawings",
      "members": [
-    (
-    "type": "wmts",
-    "name": "Bridport",
-    "url": "https://maps.georeferencer.com/georeferences/c1ac8664-dee9-527d-a6b4-9824c490acf2/2020-03-31T12:13:19.952011Z/wmts",
-    Parameters: [{"key": "ocVvnTCmpvlUMRSjUJG1"}]
-        }
-        ]
+       (
+         "type": "wmts",
+         "name": "Bridport",
+         "url": "https://maps.georeferencer.com/georeferences/c1ac8664-dee9-527d-a6b4-9824c490acf2/2020-03-31T12:13:19.952011Z/wmts",
+         "parameters": [{"key": "ocVvnTCmpvlUMRSjUJG1"}]
+       }
+     ]
     }
-    ]
-    }
+  ]
+}
