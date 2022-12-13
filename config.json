@@ -8,7 +8,7 @@
       "imagery",
       "basemaps",
       "geoindex",
-      "osdrawinga"
+      "osdrawings"
   ],
   "parameters": {
     "googleUrlShortenerKey": null,
