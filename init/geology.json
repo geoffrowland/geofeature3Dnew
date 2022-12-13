@@ -357,20 +357,6 @@
 		  "urlMimeType": "png"
 	  }
      ]
-    },
-    {
-      "type": "esri-mapServer",
-      "name": "Bedrock 625k GeoIndex",
-      "url": "https://map.bgs.ac.uk/arcgis/rest/services/GeoIndex_Onshore/geology/MapServer/",
-      "layers": "8",
-      "isOpenInWorkbench": true,
-      "allowFeaturePicking": false,
-      "hideLegendInWorkbench": false,
-      "attribution": "Reproduced by the Britsh Geological Survey from an original held in its archives © NERC All rights reserved",
-      "opacity": 0.5,
-      "show": true
-      }
-   ]
   }
  ]
 }
