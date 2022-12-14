@@ -306,32 +306,6 @@
           ]
         },
         {
-          "url": "https://geoffrowland.github.io/Hillshade-5m/{z}/{x}/{reverseY}.png",
-          "type": "url-template-imagery",
-          "dataCustodian": "Geoff Rowland",
-          "name": "Hillshade 5m",
-          "maximumLevel": 15,
-          "isOpenInWorkbench": false,
-          "opacity": 1.0,
-          "rectangle": {
-			  "west": -6.421509,
-			  "south": 49.862776,
-			  "east": -0.549316,
-			  "north": 51.599800
-		  },
-          "tileErrorHandlingOptions": {
-			  "treat403AsError": false,
-			  "treat404AsError": false,
-			  "ignoreUnknownTileErrors": true
-		  },
-          "info": [
-            {
-              "name": "Licence",
-              "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
-            }
-          ]
-        },
-        {
           "url": "https://geoffrowland.github.io/Hillshade-25m/{z}/{x}/{reverseY}.png",
           "type": "url-template-imagery",
           "show": true,
