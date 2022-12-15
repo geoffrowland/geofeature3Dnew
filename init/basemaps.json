@@ -342,12 +342,6 @@
           "name": "Background",
           "isOpenInWorkbench": false,
           "opacity": 1.0,
-          "rectangle": {
-			  "west": -10.722656,
-			  "south": 35.995785,
-			  "east": 6.086426,
-			  "north": 60.930432
-		  },
           "tileErrorHandlingOptions": {
 			  "treat403AsError": false,
 			  "treat404AsError": false,
