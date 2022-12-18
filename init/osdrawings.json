@@ -5,9 +5,9 @@
      "name": "OS Drawings",
      "members": [
        {
-         "type": "wmts",
+         "type": "url-template-imagery",
          "name": "Bridport",
-         "url": "https://maps.georeferencer.com/georeferences/c1ac8664-dee9-527d-a6b4-9824c490acf2/2020-03-31T12:13:19.952011Z/wmts?key=ocVvnTCmpvlUMRSjUJG1&SERVICE=WMTS&REQUEST=GetCapabilities",
+         "url": "https://maps.georeferencer.com/georeferences/c1ac8664-dee9-527d-a6b4-9824c490acf2/2020-03-31T12:13:19.952011Z/map/{z}/{x}/{y}.png?key=ocVvnTCmpvlUMRSjUJG1",
          "tileErrorHandlingOptions": {
 			     "treat403AsError": false,
 			     "treat404AsError": false,
