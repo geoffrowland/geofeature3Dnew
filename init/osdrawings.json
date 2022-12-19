@@ -5,12 +5,14 @@
      "name": "OS Drawings",
      "description": "The original large-scale drawings made for the famous one-inch-to-the-mile maps present a detailed picture of England and Wales between the 1780s and 1840.",
      "dataCustodian":"The British Library",
+     "isOpen": true,
      "members": [
 	     {
 	"type": "group",
          "name": "Dorset",
      "description": "Ilminster, Bridportand Weymouth.",
      "dataCustodian":"<a href='http://www.bl.uk/onlinegallery/onlineex/ordsurvdraw/'>The British Library</a>",
+     "isOpen": true,
      "members": [     
 	{
          "type": "url-template-imagery",
