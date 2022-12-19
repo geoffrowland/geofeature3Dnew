@@ -104,6 +104,18 @@
     
     "relatedMaps": [
         {
+           "imageUrl": "/BGS_Geology_Viewer.jpg",
+           "url": "https://geologyviewer.bgs.ac.uk/",
+           "title": "BGS Geology Viewr",
+           "description": "The BGS Geology Viewer is a free app available on all browsers that lets you access detailed information about the geology all around you. Tapping the map reveals the bedrock and superficial geology as well as explaining how certain features were formed."
+        },
+        {
+           "imageUrl": "GeoIndex.jpg",
+           "url": "https://www.bgs.ac.uk/map-viewers/geoindex-onshore/",
+           "title": "BGS GeoIndex Onshore",
+           "description": "BGS GeoIndex is a web tool for professional users who need to access BGS data as part of their business requirements. The map viewer is free to use and is designed to work on desktop and mobile devices."
+        },
+        {
            "imageUrl": "https://terria-catalogs-public.storage.googleapis.com/misc/related-maps/nationalmap.jpg",
            "url": "http://nationalmap.gov.au/",
            "title": "NationalMap",
