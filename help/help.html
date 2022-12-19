@@ -52,7 +52,7 @@
             <li><a href="../about.html">About the National Map</a></li>
             <li class="active"><a href="help.html">Help & FAQ</a></li>
             <li><a href="privacy.html">Privacy</a></li>
-            <li><a href="http://nationalmap.gov.au" target="blank">Launch the National Map</a></li>
+            <li><a href="https://geoffrowland.github.io/geofeature3Dnew/" target="blank">Launch GeoFeature</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -68,11 +68,11 @@
 
         <h4 class="nav-header">How to...</h4>
         <ul class="how-to">
-          <li><a href="help.html">Get started with the National Map</a></li>
+          <li><a href="help.html">Get started with GeoFeature</a></li>
           <li><a href="help.html#feature-info">Find out about a displayed feature</a></li>
           <li><a href="help.html#add-data">Display my own spatial data</a></li>
-          <li><a href="help.html#share">Share my National Map view</a></li>
-          <li><a href="help.html#contribute">Contribute Data Sets to the National Map</a></li>
+          <li><a href="help.html#share">Share my GeoFeature view</a></li>
+          <li><a href="help.html#contribute">Contribute Data Sets to GeoFeature</a></li>
         </ul>
 
         <h4 class="nav-header">Key Features</h4>
@@ -84,8 +84,8 @@
 
         <h4 class="nav-header">Frequently Asked Questions</h4>
         <ul class="faq">
-          <li><a href="faq.html">National Map Operation</a></li>
-          <li><a href="faq.html#nm-systemdata">National Map system and data</a></li>
+          <li><a href="faq.html">GeoFeature Operation</a></li>
+          <li><a href="faq.html#nm-systemdata">GeoFeature system and data</a></li>
           <li><a href="faq.html#nm-reportingissues">Reporting issues</a></li>
         </ul>
 
@@ -104,7 +104,7 @@
 
     <h2><a class="anchor" name="getting-started">How to get started with the National Map</a></h2>
 
-    <p>To launch the National Map and display some basic data follow these steps.</p>
+    <p>To launch GeoFeature and display some basic data follow these steps.</p>
 
     <ul>
       <li>Display the NationalMap by using the URL <a href="http://nationalmap.gov.au">http://nationalmap.gov.au</a>.</li>
@@ -131,28 +131,27 @@
 
     <h2><a class="anchor" name="add-data">How to display my own spreadsheet or spatial data</a></h2>
 
-    <p>National Map can display two kinds of spreadsheets:<p>
+    <p>GeoFeature can display spreadsheet data:<p>
     <ol><li>Spreadsheets with a <strong>point location (latitude and longitude)</strong> for each row, expressed as two columns: <code>lat</code> and <code>lon</code>. These will be displayed as points (circles).</li>
-    <li>Spreadsheets where each row refers to a <strong>region</strong> such as a local government area (council), state, postcode, or ABS statistical unit such as an SA2 or CED (Commonwealth Electoral Division). Columns must be named according to the <a href="https://github.com/NICTA/nationalmap/wiki/csv-geo-au">CSV-geo-au</a> standard. These will be displayed as regions, highlighting the actual shape of each area.</li>
     </ol>
-    <p>Spreadsheets must be saved as CSV (comma-separated values). </p>
+    <p>Spreadsheets must be saved as CSV (comma-separated values).</p>
 
     <p>Other standard spatial data types such as GeoJSON and KML are also supported.</p>
 
     <p>There are two ways to load your data:</p>
 
     <ul>
-    <li>Drag your data file onto the NationalMap map view. The format of the data file will be auto-detected.</li>
+    <li>Drag your data file onto the GeoFeature map view. The format of the data file will be auto-detected.</li>
     <li>Click on the <strong>Add Data</strong> button in the left hand panel. This will launch the Data Catalogue. Select the <strong>My Data</strong> tab at the top of the modal window and follow the provided instructions.</li>
     </ul>
 
-    <p>As for NationalMap data sets, you can click on the regions or points to see the data available for that location. If the file is a CSV file, the data from all columns will be shown in the feature information dialogue when you click.</p>
+    <p>As for GeoFeature data sets, you can click on the regions or points to see the data available for that location. If the file is a CSV file, the data from all columns will be shown in the feature information dialogue when you click.</p>
 
     <p>You can also use all of the features of the <a href="data-workbench.html">Data Workbench</a> on the data you have loaded as well.</p>
     <p>To share a view of your data with others, you must first publish it to the web somewhere with a URL, and then load it from there.</p>
 
 
-    <h2><a class="anchor" name="share">How to share my National Map view with others</a></h2>
+    <h2><a class="anchor" name="share">How to share my GeoFeature view with others</a></h2>
 
     <p>There are three ways:</p>
 
@@ -165,13 +164,13 @@
     <p><strong>Note that only the third method will show the data you have loaded from a local file</strong>.</p>
 
 
-    <h2><a class="anchor" name="contribute">How to contribute Data Sets to National Map</a></h2>
+    <h2><a class="anchor" name="contribute">How to contribute Data Sets to GeoFeature</a></h2>
 
     <p>The NationalMap encourages data providers to publish their spatial data using this platform. There are two routes you can take to publishing.</p>
 
     <ul>
-      <li><p>Any spatial data which is added to <a href="http://data.gov.au">data.gov.au</a> using a protocol or format supported by the NationalMap (such as WMS) will automatically appear in the <strong>data.gov.au</strong> section of the <strong>Data Catalogue</strong> tab for the NationalMap. See WMS Data Sets for a list of spatial data sets already on <a href="http://data.gov.au">data.gov.au</a>. See the <a href="https://toolkit.data.gov.au/index.php?title=How_to_use_data.gov.au">data.gov.au Toolkit</a> for a detailed reference on using <a href="http://data.gov.au">data.gov.au</a> and using it to publish your own data sets.</p></li>
-      <li><p>If you require your data set to appear under a separate category of the NationalMap Data Catalogue, you will need to contact the support for NationalMap by emailing to <a href="mailto:data@pmc.gov.au">data@pmc.gov.au</a> for more information. You will need to provide an internet accessible service in a standard protocol to access your data set on the internet and appropriate references must be added to the NationalMap configuration.</p></li>
+      <li><p>Any spatial data which is added to <a href="http://data.gov.au">data.gov.au</a> using a protocol or format supported by the GeoFeature (such as WMS) will automatically appear in the <strong>data.gov.au</strong> section of the <strong>Data Catalogue</strong> tab for the NationalMap. See WMS Data Sets for a list of spatial data sets already on <a href="http://data.gov.au">data.gov.au</a>. See the <a href="https://toolkit.data.gov.au/index.php?title=How_to_use_data.gov.au">data.gov.au Toolkit</a> for a detailed reference on using <a href="http://data.gov.au">data.gov.au</a> and using it to publish your own data sets.</p></li>
+      <li><p>If you require your data set to appear under a separate category of the GeoFeature Data Catalogue, you will need to contact the support for GeoFeature by emailing to <a href="mailto:data@pmc.gov.au">data@pmc.gov.au</a> for more information. You will need to provide an internet accessible service in a standard protocol to access your data set on the internet and appropriate references must be added to the GeoFeature configuration.</p></li>
     </ul>
 
 
