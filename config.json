@@ -100,7 +100,7 @@
       },
       "fallbackLanguage": "en"
     },
-    "aboutButtonHrefUrl": null,
+    "aboutButtonHrefUrl": "https://geoffrowland.github.io/geofeature3Dnew/about.html",
     
     "relatedMaps": [
         {
