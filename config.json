@@ -107,19 +107,19 @@
            "imageUrl": "images/BGS_Geology_Viewer.jpg",
            "url": "https://geologyviewer.bgs.ac.uk/",
            "title": "BGS Geology Viewr",
-           "description": "The BGS Geology Viewer is a free app available on all browsers that lets you access detailed information about the geology all around you. Tapping the map reveals the bedrock and superficial geology as well as explaining how certain features were formed."
+           "description": "The British Geological Survey <strong>Geology Viewer</strong> is a free app available on all browsers that lets you access detailed information about the geology all around you. Tapping the map reveals the bedrock and superficial geology as well as explaining how certain features were formed."
         },
         {
            "imageUrl": "images/GeoIndex.jpg",
            "url": "https://mapapps2.bgs.ac.uk/geoindex/home.html",
            "title": "BGS GeoIndex Onshore",
-           "description": "BGS GeoIndex is a web tool for professional users who need to access BGS data as part of their business requirements. The map viewer is free to use and is designed to work on desktop and mobile devices."
+           "description": "The British Geological Survey <strong>GeoIndex</strong> is a web tool for professional users who need to access BGS data as part of their business requirements. The map viewer is free to use and is designed to work on desktop and mobile devices."
         },
         {
            "imageUrl": "https://terria-catalogs-public.storage.googleapis.com/misc/related-maps/nationalmap.jpg",
            "url": "http://nationalmap.gov.au/",
            "title": "NationalMap",
-           "description": "The NationalMap is a website for map-based access to spatial data from Australian government agencies. It is an initiative of the Australian Government's Department of the Prime Minister and Cabinet and the software has been developed by Data61 working closely with the Department of the Prime Minister and Cabinet, Geoscience Australia and other government agencies."
+           "description": "The <strong>NationalMap</strong> is a website for map-based access to spatial data from Australian government agencies. It is an initiative of the Australian Government's Department of the Prime Minister and Cabinet and the software has been developed by Data61 working closely with the Department of the Prime Minister and Cabinet, Geoscience Australia and other government agencies."
         }
     ],
     "helpContent": [
