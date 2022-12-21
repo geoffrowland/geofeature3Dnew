@@ -93,34 +93,7 @@
 		  "template": "{{LEX_RCS_D}}<br><br>{{MAX_TIME_D}} - {{MIN_TIME_D}}"
        }
     },
-    {
-      "type": "wms",
-      "isEsri": true,
-      "keepOnTop": true,
-      "name": "Mines and quarries",
-      "url": "https://map.bgs.ac.uk/arcgis/services/GeoIndex_Onshore/minerals_wms/MapServer/WMSServer",
-      "layers": "Mines.and.quarries",
-      "crs": "EPSG:4326",
-      "opacity": 1.0,
-      "parameters": {
-	    "format": "image/png"
-      },
-      "hideLegendInWorkbench": false,
-      "isOpenInWorkbench": true,
-      "allowFeaturePicking": true,
-      "getFeatureInfoFormat": {"type": "xml", "format": "application/vnd.ogc.wms_xml"},
-      "featureInfoTemplate": {
-	"name": "Pit: {{PIT_NAME}}",
-	"template": "Status: {{#terria.partialByName}}{{PIT_STATUS}}{{/terria.partialByName}}",
-	"partials": {
-              "A": "Active",
-	      "C": "Ceased",
-	      "D": "Dormant",
-              "I": "Inactive",
-	      "S": "Special"
-	}
-      }
-    },
+
     {
       "type": "esri-mapServer",
       "name": "Mines and quarries MapServer",
