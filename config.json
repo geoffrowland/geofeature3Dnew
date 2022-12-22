@@ -67,7 +67,8 @@
     // Shown when things go wrong.
     "supportEmail": "help@example.com",
     // You probably shouldn't change this.
-    "proj4ServiceBaseUrl": "proj4def/",
+    //"proj4ServiceBaseUrl": "proj4def/",
+    "proj4ServiceBaseUrl": null,
     // Or this
     //"feedbackUrl": "feedback",
 
@@ -88,15 +89,14 @@
     // },
 
     // True to display in-app guides.
-    // "showInAppGuides": false,
+    "showInAppGuides": false,
 
     // see `languageOverrides.json` in languages/en
     "languageConfiguration": {
-      "enabled": false,
+      "enabled": true,
       "debug": false,
       "languages": {
-        "en": "English",
-        "fr": "Français"
+        "en": "English"
       },
       "fallbackLanguage": "en"
     },
