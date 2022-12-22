@@ -52,20 +52,20 @@
 
     /*
         developerAttribution: {
-            text: "Your organisation",
-            link: "http://www.example.com"
+            text: "Geoff Rowland",
+            link: "https://github.com/geoffrowland/"
         },*/
     // This is used in various text messages. You should also set <title> in index.html
     "appName": "GeoFeature",
 
     // See comments in lib/Views/global.scss for further information about customising colors, logos, fonts etc.
     "brandBarElements": [
-      "<img src=\"images/geofeature_long_white.png\" height=\"52\" title=\"Version: 1.0\" />",
+      "<img src=\"images/geofeature_long_white.pn tg\" height=\"52\" title=\"Version: 1.0\" />",
       "",
       ""
     ],
     // Shown when things go wrong.
-    "supportEmail": "help@example.com",
+    "supportEmail": "rowland.geoff+geofeature@gmail.com",
     // You probably shouldn't change this.
     //"proj4ServiceBaseUrl": "proj4def/",
     "proj4ServiceBaseUrl": null,
