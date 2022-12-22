@@ -49,7 +49,7 @@
       "content": "## View controls\n\nHere you can change the view of the map. You can change the orientation of your view by using the outer ring, and you can tilt the camera angle using the inner ring. Double click to reset the view."
     },
     "mapNavigationSplitterIcon": {
-      "content": "## Compare\n\nA powerful feature of Terria is the ability to compare datasets using a split screen view. For datasets with a time-series component, such as satellite images, you can compare dates backwards and forwards in time by clicking on the date picker/selector."
+      "content": "## Compare\n\nA powerful feature of GeoFeature is the ability to compare datasets using a split screen view. For datasets with a time-series component, such as satellite images, you can compare dates backwards and forwards in time by clicking on the date picker/selector."
     }
   },
   "measure": {
@@ -1297,10 +1297,10 @@
       "notSupportedErrorMessage": "{{name}} cannot be shown in the 2D view. Switch to 3D and try again"
     },
     "terria": {
-      "loadConfigErrorTitle": "Failed to load Terria Map config",
+      "loadConfigErrorTitle": "Failed to load GeoFeature config",
       "proxyableDomainsDeprecation": "`proxyableDomainsUrl` is no longer supported in v8",
       "initErrorTitle": "Failed to initialize services",
-      "initErrorMessage": "A problem occurred with the Terria server. This may cause some layers or the conversion service to be unavailable.",
+      "initErrorMessage": "A problem occurred with the GeoFeature server. This may cause some layers or the conversion service to be unavailable.",
       "urlLoadErrorTitle": "Problem loading URL",
       "urlLoadErrorMessage": "A problem occurred while initialising Terria with URL parameters.",
       "loadModelErrorMessage": "An error occurred while loading model `{{model}}`.",
