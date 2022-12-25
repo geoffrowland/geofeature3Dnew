@@ -5,6 +5,10 @@
      "name": "Geology",
      "members": [
     {
+     "type": "group",
+     "name": "BGS 1:50,000 Geology",
+     "members": [     
+    {
       "type": "wms",
       "isEsri": true,
       "name": "BGS 1:50k Bedock Geology",
@@ -92,8 +96,9 @@
 		  "name": "{{LEX_RCS_D}}",
 		  "template": "{{LEX_RCS_D}}<br><br>{{MAX_TIME_D}} - {{MIN_TIME_D}}"
        }
+    }
+    ]
     },
-
     {
       "type": "esri-mapServer",
       "name": "Mines and quarries MapServer",
