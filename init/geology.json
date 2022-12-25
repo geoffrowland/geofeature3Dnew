@@ -7,7 +7,6 @@
     {
      "type": "group",
      "name": "BGS 1:50 000 Geology",
-     "isOpenInWorkbench": true,
      "description": "Generalised digital geological map data based on BGS’s New Series 1:50 000 and 1:63 360-scale (one-inch to one-mile) maps with updated nomenclature, including a few 1:100 000-scale maps of Orkney and the Hebrides.",
      "members": [     
     {
@@ -113,6 +112,11 @@
       "opacity": 0.5,
       "show": true
     },
+    {
+     "type": "group",
+     "name": "BGS 1:625 000 Geology",
+     "description": "Generalised digital geological map data based on BGS’s published poster maps of the UK (north and south). Bedrock-related themes were created by generalisation of 1:50 000 data to make the 2007 fifth edition bedrock geology map. Superficial gelogy-related themes were digitised from the 1977 first edition Quaternary map (north and south).",
+     "members": [
     {
       "type": "wms",
       "isThredds": true,
@@ -225,6 +229,8 @@
 		  "imageScaling": 2.0,
 		  "urlMimeType": "image/png"
 	  }
+	 ]
+        }
       ]
     },
     {
