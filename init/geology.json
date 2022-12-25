@@ -235,6 +235,11 @@
 	  "type":"geojson",
 	  "name": "BGS 1:625k Faults",
 	  "url":"init/625k_v5_fault_geology_lines.geojson"
+	},
+	{
+	  "type":"geojson",
+	  "name": "BGS 1:625k Dykes",
+	  "url":"init/625k_v5_dyke_geology_lines.geojson"
 	}     
       ]
     },
