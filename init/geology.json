@@ -239,7 +239,7 @@
 	{
 	  "type":"geojson",
 	  "name": "BGS 1:625k Dykes",
-	  "url":"init/625k_v5_dyke_geology_lines.geojson"
+	  "url":"init/625k_v5_dykes_geology_polygons.geojson"
 	}     
       ]
     },
