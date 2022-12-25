@@ -8,7 +8,7 @@
      "type": "group",
      "name": "BGS 1:50 000 Geology",
      "isOpenInWorkbench": true,
-     "info": "Generalised digital geological map data based on BGS’s New Series 1:50 000 and 1:63 360-scale (one-inch to one-mile) maps with updated nomenclature, including a few 1:100 000-scale maps of Orkney and the Hebrides.",
+     "description": "Generalised digital geological map data based on BGS’s New Series 1:50 000 and 1:63 360-scale (one-inch to one-mile) maps with updated nomenclature, including a few 1:100 000-scale maps of Orkney and the Hebrides.",
      "members": [     
     {
       "type": "wms",
