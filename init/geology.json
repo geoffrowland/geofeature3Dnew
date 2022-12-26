@@ -234,12 +234,21 @@
 	{
 	  "type":"geojson",
 	  "name": "BGS 1:625k Faults",
-	  "url":"init/625k_v5_fault_geology_lines.geojson"
+	  "url":"init/625k_v5_fault_geology_lines.geojson",
+	  "style": {
+            "polyline-stroke-width": 20,
+            "poyline-stroke": "black"
+          }
 	},
 	{
 	  "type":"geojson",
 	  "name": "BGS 1:625k Dykes",
-	  "url":"init/625k_v5_dykes_geology_polygons.geojson"
+	  "url":"init/625k_v5_dykes_geology_polygons.geojson",
+	  "style": {
+            "polygon-stroke-width": 20,
+            "polygon-stroke": "black",
+            "fill": "red"
+          }
 	}     
       ]
     },
