@@ -236,27 +236,29 @@
 	  "name": "BGS 1:625k Faults",
 	  "url":"init/625k_v5_fault_geology_lines.geojson",
 	  "style": {
-            "polyline-stroke-width": 20,
+            "polyline-stroke-width": 10,
             "polyline-stroke": "black"
           },
 	  "featureInfoTemplate": {
              "name": "{{FEATURE_D}}",
 	     "template": "{{FEATURE_D}}<br />{{id}}"
-          }
+          },
+          "description":"Geological faults occur where a body of bedrock has been fractured and displaced by large scale processes affecting the earth's crust (tectonic forces). The digital data are attributed by fault type; two categories of fault are described in the data: fault at rockhead (representing normal dip-slip and strike-slip faults) and thrust fault (representing faults caused by compressive forces). The data has been generalised and shows only the location of major faults."
 	},
 	{
 	  "type":"geojson",
 	  "name": "BGS 1:625k Dykes",
 	  "url":"init/625k_v5_dykes_geology_polygons.geojson",
 	  "style": {
-            "polygon-stroke-width": 20,
+            "polygon-stroke-width": 10,
             "polygon-stroke": "black",
             "fill": "red"
            },
 	   "featureInfoTemplate": {
-               "name": "{LEX_D}}",
-	       "template": "{{LEX_D}}<br />{{MAX_TIME_D}} - {{MIN_TIME_D}}<br />{{MAX_TIME_Y}} - {{MIN_TIME_Y}}"
-           }
+               "name": "{{LEX_D}}",
+	       "template": "{{LEX_D}}<br />{{RCS_D}}<br />{{MAX_TIME_Y}} - {{MIN_TIME_Y}}"
+           },
+	   "description":"The Dykes data defines small, narrow areas (shown as polygons) of a specific type of bedrock geology, igneous rocks which have been intruded into the landscape. The dykes are presented as an optional, separate theme in order to provide additional clarity of the Bedrock theme. The bedrock and dykes datasets are designed to be used together."
 	 }     
       ]
     },
