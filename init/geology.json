@@ -237,11 +237,11 @@
 	  "url":"init/625k_v5_fault_geology_lines.geojson",
 	  "style": {
             "polyline-stroke-width": 20,
-            "polyline-stroke": "black",
-	    "featureInfoTemplate": {
-               "name": "{{FEATURE_D}}",
-	       "template": "{{FEATURE_D}}<br />{{id}}"
-            }
+            "polyline-stroke": "black"
+          },
+	  "featureInfoTemplate": {
+             "name": "{{FEATURE_D}}",
+	     "template": "{{FEATURE_D}}<br />{{id}}"
           }
 	},
 	{
@@ -251,13 +251,13 @@
 	  "style": {
             "polygon-stroke-width": 20,
             "polygon-stroke": "black",
-            "fill": "red",
-	    "featureInfoTemplate": {
+            "fill": "red"
+           },
+	   "featureInfoTemplate": {
                "name": "{LEX_D}}",
 	       "template": "{{LEX_D}}<br />{{MAX_TIME_D}} - {{MIN_TIME_D}}<br />{{MAX_TIME_Y}} - {{MIN_TIME_Y}}"
-            }
-          }
-	}     
+           }
+	 }     
       ]
     },
     {
