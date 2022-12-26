@@ -237,7 +237,7 @@
 	  "url":"init/625k_v5_fault_geology_lines.geojson",
 	  "style": {
             "polyline-stroke-width": 20,
-            "poyline-stroke": "black"
+            "polyline-stroke": "black"
           }
 	},
 	{
