@@ -256,7 +256,7 @@
            },
 	   "featureInfoTemplate": {
                "name": "{{LEX_D}}",
-	       "template": "{{LEX_D}}<br />{{RCS_D}}<br />{{MAX_TIME_Y}} - {{MIN_TIME_Y}}",
+	       "template": "{{LEX_D}}<br />{{RCS_D}}<br />{{MAX_TIME_Y}} - {{MIN_TIME_Y}} years before present",
 	       "formats":{
 	         "MAX_TIME_Y": {
 		   "type": "number",
