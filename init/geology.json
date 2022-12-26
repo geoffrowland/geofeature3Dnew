@@ -252,11 +252,21 @@
 	  "style": {
             "polygon-stroke-width": 10,
             "polygon-stroke": "black",
-            "fill": "red"
+            "fill": "red"   
            },
 	   "featureInfoTemplate": {
                "name": "{{LEX_D}}",
-	       "template": "{{LEX_D}}<br />{{RCS_D}}<br />{{MAX_TIME_Y}} - {{MIN_TIME_Y}}"
+	       "template": "{{LEX_D}}<br />{{RCS_D}}<br />{{MAX_TIME_Y}} - {{MIN_TIME_Y}}",
+	       "formats":{
+	         "MAX_TIME_Y": {
+		   "type": "number",
+		   "useGrouping": true       
+		 },
+	         "MIN_TIME_Y": {
+		   "type": "number",
+		   "useGrouping": true       
+		 }	 		       
+	       }
            },
 	   "description":"The Dykes data defines small, narrow areas (shown as polygons) of a specific type of bedrock geology, igneous rocks which have been intruded into the landscape. The dykes are presented as an optional, separate theme in order to provide additional clarity of the Bedrock theme. The bedrock and dykes datasets are designed to be used together."
 	 }     
