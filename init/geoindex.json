@@ -3,13 +3,6 @@
     {
      "type": "group",
      "name": "GeoIndex",
-     "itemProperties": {
-       "getFeatureInfoFormat": {"type": "xml", "format": "text/xml"},
-       "styles": "default",
-       "opacity": 1.0,
-       "crs": "CRS:84"
-       
-     },
      "members": [
          {
            "type": "wms-group",
@@ -17,7 +10,8 @@
            "url": "https://map.bgs.ac.uk/arcgis/services/GeoIndex_Onshore/minerals_wms/MapServer/WmsServer",
            "itemProperties": {
               "getFeatureInfoFormat": {"type": "xml", "format": "text/xml"},
-              "styles": "default"
+              "styles": "default",
+             "opacity": 1.0
            }
          },
          {
