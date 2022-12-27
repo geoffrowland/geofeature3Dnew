@@ -19,7 +19,7 @@
               "crs":"CRS:84"
            },
            "itemPropertiesByIds": [{
-              "ids": [5],
+              "ids": ["Mines.and.quarries"],
               "itemProperties": {
                 "name": "Mines and quarries"
               }
