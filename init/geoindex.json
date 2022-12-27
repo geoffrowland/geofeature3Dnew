@@ -11,6 +11,7 @@
            "url": "https://map.bgs.ac.uk/arcgis/services/GeoIndex_Onshore/minerals_wms/MapServer/WmsServer",
            "description": "Geological Materials. All rights reserved.",
            "dataCustodian": "Contains British Geological Survey materials © UKRI 2022",
+           "sortMembersBy": "name",
            "itemProperties": {
               "getFeatureInfoFormat": {"type": "xml", "format": "text/xml"},
               "styles": "default",
@@ -18,9 +19,9 @@
               "crs":"CRS:84"
            },
            "itemPropertiesByIds": [{
-              "ids": "5",
+              "ids": "Mines.and.quarries",
               "itemProperties": {
-                "name": "Mines and Quarries"
+                "name": "Mines and quarries"
               }
             }]
          },
