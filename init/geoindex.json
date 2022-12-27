@@ -5,7 +5,10 @@
      "name": "GeoIndex",
      "itemProperties": {
        "getFeatureInfoFormat": {"type": "xml", "format": "text/xml"},
-       "styles": "default"
+       "styles": "default",
+       "opacity": 1.0,
+       "crs": "CRS:84"
+       
      },
      "members": [
          {
