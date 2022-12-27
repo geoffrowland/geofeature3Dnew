@@ -5,12 +5,16 @@
      "name": "GeoIndex",
      "members": [
          {
-         "type": "wms-group",
-         "name": "Minerals All",
-         "url": "https://map.bgs.ac.uk/arcgis/services/GeoIndex_Onshore/minerals_wms/MapServer/WmsServer"
+           "type": "wms-group",
+           "name": "Minerals All",
+           "url": "https://map.bgs.ac.uk/arcgis/services/GeoIndex_Onshore/minerals_wms/MapServer/WmsServer",
+             "itemProperties": {
+                "getFeatureInfoFormat": {"type": "xml", "format": "text/xml"},
+                "styles": "default"
+           }
          },
          {
-         "type": "group",
+         "type": "group", 
          "name": "Boreholes",
          "members": [
            {
