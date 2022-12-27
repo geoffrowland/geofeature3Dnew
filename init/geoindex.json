@@ -6,7 +6,7 @@
      "itemProperties": {
        "getFeatureInfoFormat": {"type": "xml", "format": "text/xml"},
        "styles": "default"
-     }.
+     },
      "members": [
          {
            "type": "wms-group",
