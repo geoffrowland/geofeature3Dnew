@@ -6,7 +6,7 @@
      "members": [
          {
          "type": "wms-group",
-         "name": "Minerals",
+         "name": "Minerals All",
          "url": "https://map.bgs.ac.uk/arcgis/services/GeoIndex_Onshore/minerals_wms/MapServer/WmsServer"
          },
          {
@@ -19,6 +19,21 @@
            "name": "Borehole records",
            "url": "https://map.bgs.ac.uk/arcgis/services/GeoIndex_Onshore/boreholes/MapServer/WmsServer",
            "layers": "Borehole.records",
+           "getFeatureInfoFormat": {"type": "xml", "format": "text/xml"},
+           "styles": "default"
+           }
+         ]
+       },
+       {
+         "type": "group",
+         "name": "Minerals",
+         "members": [
+           {
+           "type": "wms",
+           "isEsri": true,
+           "name": "Mines and quarries",
+           "url": "https://map.bgs.ac.uk/arcgis/services/GeoIndex_Onshore/minerals_wms/MapServer/WMSServer",
+           "layers": "Mines.and.quarries",
            "getFeatureInfoFormat": {"type": "xml", "format": "text/xml"},
            "styles": "default"
            }
