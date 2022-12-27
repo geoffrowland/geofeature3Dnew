@@ -9,7 +9,7 @@
            "type": "wms-group",
            "name": "Minerals",
            "url": "https://map.bgs.ac.uk/arcgis/services/GeoIndex_Onshore/minerals_wms/MapServer/WmsServer",
-           "description":"Geological Materials Copyright NERC. All rights reserved.",
+           "description": "Geological Materials Copyright NERC. All rights reserved.",
            "itemProperties": {
               "getFeatureInfoFormat": {"type": "xml", "format": "text/xml"},
               "styles": "default",
