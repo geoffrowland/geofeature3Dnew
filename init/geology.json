@@ -101,18 +101,6 @@
     ]
     },
     {
-      "type": "esri-mapServer",
-      "name": "Mines and quarries MapServer",
-      "url": "https://map.bgs.ac.uk/arcgis/rest/services/GeoIndex_Onshore/minerals_wms/MapServer/",
-      "layers": "5",
-      "isOpenInWorkbench": true,
-      "allowFeaturePicking": true,
-      "hideLegendInWorkbench": false,
-      "attribution": "Reproduced by the Britsh Geological Survey from an original held in its archives © NERC All rights reserved",
-      "opacity": 0.5,
-      "show": true
-    },
-    {
      "type": "group",
      "name": "BGS 1:625 000 Geology",
      "description": "Generalised digital geological map data based on BGS’s published poster maps of the UK (north and south). Bedrock-related themes were created by generalisation of 1:50 000 data to make the 2007 fifth edition bedrock geology map. Superficial gelogy-related themes were digitised from the 1977 first edition Quaternary map (north and south).",
