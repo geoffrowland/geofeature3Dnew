@@ -3,95 +3,48 @@
     {
      "type": "group",
      "name": "GeoIndex",
+     "itemProperties": {
+       "getFeatureInfoFormat": {"type": "xml", "format": "text/xml"},
+       "styles": "default"
+     }.
      "members": [
          {
            "type": "wms-group",
-           "name": "Minerals All",
+           "name": "Minerals",
            "url": "https://map.bgs.ac.uk/arcgis/services/GeoIndex_Onshore/minerals_wms/MapServer/WmsServer",
-             "itemProperties": {
-                "getFeatureInfoFormat": {"type": "xml", "format": "text/xml"},
-                "styles": "default"
+           "itemProperties": {
+              "getFeatureInfoFormat": {"type": "xml", "format": "text/xml"},
+              "styles": "default"
            }
          },
          {
-         "type": "group", 
-         "name": "Boreholes",
-         "members": [
-           {
-           "type": "wms",
-           "isEsri": true,
-           "name": "Borehole records",
+           "type": "wms-group", 
+           "name": "Boreholes",
            "url": "https://map.bgs.ac.uk/arcgis/services/GeoIndex_Onshore/boreholes/MapServer/WmsServer",
-           "layers": "Borehole.records",
-           "getFeatureInfoFormat": {"type": "xml", "format": "text/xml"},
-           "styles": "default"
+           "itemProperties": {
+              "getFeatureInfoFormat": {"type": "xml", "format": "text/xml"},
+              "styles": "default"
            }
-         ]
-       },
-       {
-         "type": "group",
-         "name": "Minerals",
-         "members": [
-           {
-           "type": "wms",
-           "isEsri": true,
-           "name": "Mines and quarries",
-           "url": "https://map.bgs.ac.uk/arcgis/services/GeoIndex_Onshore/minerals_wms/MapServer/WMSServer",
-           "layers": "Mines.and.quarries",
-           "getFeatureInfoFormat": {"type": "xml", "format": "text/xml"},
-           "styles": "default"
-           }
-         ]
-       },
-       {
-         "type": "group",
-         "name": "Collections",
-         "members": [
-           {
-           "type": "wms",
-           "isEsri": true,
-           "name": "Fossil specimens",
+         },
+         {
+           "type": "wms-group",
+           "name": "Collections",
            "url": "https://map.bgs.ac.uk/arcgis/services/GeoIndex_Onshore/collections/MapServer/WmsServer",
-           "layers": "Fossil.specimens",
-           "getFeatureInfoFormat": {"type": "xml", "format": "text/xml"},
-           "styles": "default"
-           },
-           {
-           "type": "wms",
-           "isEsri": true,
-           "name": "Fossil localities",
-           "url": "https://map.bgs.ac.uk/arcgis/services/GeoIndex_Onshore/collections/MapServer/WmsServer",
-           "layers": "Fossil.localities",
-           "getFeatureInfoFormat": {"type": "xml", "format": "text/xml"},
-           "styles": "default"
+           "itemProperties": {
+              "getFeatureInfoFormat": {"type": "xml", "format": "text/xml"},
+              "styles": "default"
            }
-         ]
-       },
-       {
-         "type": "group",
-         "name": "Hazards",
-         "members": [
-           {
-           "type": "wms",
-           "isEsri": true,
-           "name": "Landslides",
+         },
+         {
+           "type": "wms-group",
+           "name": "Hazards",
            "url": "https://map.bgs.ac.uk/arcgis/services/GeoIndex_Onshore/hazards/MapServer/WmsServer",
-           "layers": "Landslides",
-           "getFeatureInfoFormat": {"type": "xml", "format": "text/xml"},
-           "styles": "default"
-           },
-           {
-           "type": "wms",
-           "isEsri": true,
-           "name": "Historical earthquakes",
-           "url": "https://map.bgs.ac.uk/arcgis/services/GeoIndex_Onshore/hazards/MapServer/WmsServer",
-           "layers": "Historical.earthquakes",
-           "getFeatureInfoFormat": {"type": "xml", "format": "text/xml"},
-           "styles": "default"
-           }
-         ]
-       }
-     ]
-   }
- ]
+           "itemProperties": {
+              "getFeatureInfoFormat": {"type": "xml", "format": "text/xml"},
+              "styles": "default"
+          }
+        }
+      ]
+    }
+  ]
 }
