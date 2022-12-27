@@ -17,12 +17,12 @@
               "opacity": 1.0,
               "crs":"CRS:84"
            },
-           "itemPropertiesByIds": {
+           "itemPropertiesByIds": [{
               "ids": "5",
               "itemPoroperties": {
                 "name": "Mines and Quarries"
               }
-            }
+            }]
          },
          {
            "type": "wms-group", 
