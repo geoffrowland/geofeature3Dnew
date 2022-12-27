@@ -30,6 +30,7 @@
            "name": "Boreholes",
            "url": "https://map.bgs.ac.uk/arcgis/services/GeoIndex_Onshore/boreholes/MapServer/WmsServer",
            "description":"Geological Materials Copyright NERC. All rights reserved.",
+           "sortMembersBy": "name",
            "itemProperties": {
               "getFeatureInfoFormat": {"type": "xml", "format": "text/xml"},
               "styles": "default"
@@ -40,6 +41,7 @@
            "name": "Collections",
            "url": "https://map.bgs.ac.uk/arcgis/services/GeoIndex_Onshore/collections/MapServer/WmsServer",
            "description":"Geological Materials Copyright NERC. All rights reserved.",
+           "sortMembersBy": "name",
            "itemProperties": {
               "getFeatureInfoFormat": {"type": "xml", "format": "text/xml"},
               "styles": "default"
@@ -50,6 +52,7 @@
            "name": "Hazards",
            "url": "https://map.bgs.ac.uk/arcgis/services/GeoIndex_Onshore/hazards/MapServer/WmsServer",
            "description":"Geological Materials Copyright NERC. All rights reserved.",
+           "sortMembersBy": "name",
            "itemProperties": {
               "getFeatureInfoFormat": {"type": "xml", "format": "text/xml"},
               "styles": "default"
