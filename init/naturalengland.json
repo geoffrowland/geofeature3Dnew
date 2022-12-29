@@ -5,50 +5,49 @@
      "name": "Natural England",
      "members": [
        {
-         "type": "wfs",
+         "type": "esri-featureServer",
          "name": "National Parks",
          "url": "https://services.arcgis.com/JJzESW51TqeY9uat/ArcGIS/rest/services/National_Parks_England/FeatureServer/0",
-         "outputFormat": "JSON",
          "opacity": 0.5
        },
        {
-         "type": "wfs",
+         "type": "esri-featureServer",
          "name": "World Heritage Sites",
          "url": "https://services.arcgis.com/JJzESW51TqeY9uat/ArcGIS/rest/services/WHS/FeatureServer/0",
          "opacity": 0.5
        },
        {
-         "type": "wfs",
+         "type": "esri-featureServer",
          "name": "Heritage Coast",
          "url": "https://services.arcgis.com/JJzESW51TqeY9uat/ArcGIS/rest/services/Heritage_Coasts_England/FeatureServer/0",
          "opacity": 0.5
        },
        {
-         "type": "wfs",
+         "type": "esri-featureServer",
          "name": "Coast Path",
          "url": "https://services.arcgis.com/JJzESW51TqeY9uat/ArcGIS/rest/services/England_Coast_Path_Route/FeatureServer/0",
          "opacity": 0.5
        },
        {
-         "type": "wfs",
+         "type": "esri-featureServer",
          "name": "Coast Path Coastal Margins",
          "url": "https://services.arcgis.com/JJzESW51TqeY9uat/ArcGIS/rest/services/England_Coast_Path_Coastal_Margin/FeatureServer/0",
          "opacity": 0.5
        },
        {
-         "type": "wfs",
+         "type": "esri-featureServer",
          "name": "National Nature Reserves",
          "url": "https://services.arcgis.com/JJzESW51TqeY9uat/ArcGIS/rest/services/National_Nature_Reserves_England/FeatureServer/0",
          "opacity": 0.5
        },
        {
-         "type": "wfs",
+         "type": "esri-featureServer",
          "name": "Sites of Special Scientific Interest",
          "url": "https://services.arcgis.com/JJzESW51TqeY9uat/ArcGIS/rest/services/SSSI_England/FeatureServer/0",
          "opacity": 0.5
        },
        {
-         "type": "wfs",
+         "type": "esri-featureServer",
          "name": "Local Nature Reserves",
          "url": "https://services.arcgis.com/JJzESW51TqeY9uat/ArcGIS/rest/services/Local_Nature_Reserves_England/FeatureServer/0",
          "opacity": 0.5
