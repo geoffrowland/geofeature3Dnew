@@ -30,6 +30,13 @@
          "opacity": 0.5
        },
        {
+         "type": "geojson",
+         "name": "South West Coast Path",
+         "description":"Data showing the route of the South West Coast Path through Somerset, Devon, Cornwall and Dorset.",
+         "url": "init/swcproute.geojson",
+         "opacity": 1.0
+       },
+       {
          "type": "esri-featureServer",
          "name": "Coast Path",
          "url": "https://services.arcgis.com/JJzESW51TqeY9uat/ArcGIS/rest/services/England_Coast_Path_Route/FeatureServer/0",
