@@ -13,7 +13,8 @@
        {
          "type": "esri-featureServer",
          "name": "World Heritage Sites",
-         "url": "https://services.arcgis.com/JJzESW51TqeY9uat/ArcGIS/rest/services/WHS/FeatureServer/0",
+         "url": "https://services-eu1.arcgis.com/ZOdPfBS3aqqDYPUQ/arcgis/rest/services/National_Heritage_List_for_England_NHLE/FeatureServer/7",
+         "description": "World Heritage Sites are part of the World Heritage Convention, established in 1972 by UNESCO (United Nations Educational, Scientific and Cultural Organisation). They are landscapes, cities, monuments or buildings of exceptional natural or cultural value. The World Heritage List includes the Great Wall of China, the Pyramids, the Great Barrier Reef and the City of Venice. Sites in England include Stonehenge and Avebury, Canterbury Cathedral, the Tower of London, Hadrian’s Wall and the whole of the City of Bath. Please note: this dataset represents Historic England’s interpretation of the UNESCO World Heritage Site boundaries for sites wholly in or crossing into England.",
          "opacity": 0.5
        },
        {
