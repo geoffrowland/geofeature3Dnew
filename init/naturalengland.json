@@ -33,7 +33,7 @@
          "type": "esri-featureServer",
          "name": "Coast Path",
          "url": "https://services.arcgis.com/JJzESW51TqeY9uat/ArcGIS/rest/services/England_Coast_Path_Route/FeatureServer/0",
-         "opacity": 0.5
+         "opacity": 1.0
        },
        {
          "type": "esri-featureServer",
@@ -58,6 +58,20 @@
          "name": "Country Parks",
          "url": "https://services.arcgis.com/JJzESW51TqeY9uat/arcgis/rest/services/Country_Parks_England/FeatureServer/0",
          "description":"Country Parks are public green spaces often at the edge of urban areas which provide places to enjoy the outdoors and experience nature in an informal semi-rural park setting.",
+         "opacity": 0.5
+       },
+       {
+         "type": "esri-featureServer",
+         "name": "National Trust - Always Open",
+         "url": "https://services-eu1.arcgis.com/NPIbx47lsIiu2pqz/arcgis/rest/services/National_Trust_Open_Data_Land_Always_Open/FeatureServer/0",
+         "description":"Areas of National Trust land, captured at ~ 1:50,000 to which the public has access on foot only – either by right (in the case of designated ‘Access Land’ under the Countryside (Rights of Way) Act 2000 (CRoW)) or by permission from National Trust..",
+         "opacity": 0.5
+       },
+       {
+         "type": "esri-featureServer",
+         "name": "National Trust - Limited Access",
+         "url": "https://services-eu1.arcgis.com/NPIbx47lsIiu2pqz/arcgis/rest/services/National_Trust_Open_Data_Land_Limited_Access/FeatureServer/0",
+         "description":"National Trust Limited Access Land is land owned by National Trust where the public can access at certain times, or after paying an admission charge, or where access is limited to footpaths. Observe local signage for access restrictions.",
          "opacity": 0.5
        },
        {
