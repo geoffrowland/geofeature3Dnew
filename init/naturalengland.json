@@ -18,6 +18,13 @@
        },
        {
          "type": "esri-featureServer",
+         "name": "Areas of Outstanding Natural Beauty - England",
+         "url": "https://services.arcgis.com/JJzESW51TqeY9uat/ArcGIS/rest/services/Areas_of_Outstanding_Natural_Beauty_England/FeatureServer/0",
+         "description":"AONBs are designated areas where protection is afforded to protect and manage the areas for visitors and local residents. Under the Countryside and Rights of Way Act 2000, Natural England has the power to designate areas of outstanding natural beauty (AONBs) in England that are outside national parks and that are considered to have such natural beauty it is desirable they are conserved and enhanced; issue a variation order to change an existing AONB boundary. It also holds a duty to give advice on developments taking place in an AONB; take into account the conservation and enhancement of AONBs in its work",
+         "opacity": 0.5
+       },
+       {
+         "type": "esri-featureServer",
          "name": "Heritage Coast",
          "url": "https://services.arcgis.com/JJzESW51TqeY9uat/ArcGIS/rest/services/Heritage_Coasts_England/FeatureServer/0",
          "opacity": 0.5
@@ -44,6 +51,13 @@
          "type": "esri-featureServer",
          "name": "Sites of Special Scientific Interest",
          "url": "https://services.arcgis.com/JJzESW51TqeY9uat/ArcGIS/rest/services/SSSI_England/FeatureServer/0",
+         "opacity": 0.5
+       },
+       {
+         "type": "esri-featureServer",
+         "name": "Country Parks",
+         "url": "https://services.arcgis.com/JJzESW51TqeY9uat/arcgis/rest/services/Country_Parks_England/FeatureServer/0",
+         "description":"Country Parks are public green spaces often at the edge of urban areas which provide places to enjoy the outdoors and experience nature in an informal semi-rural park setting.",
          "opacity": 0.5
        },
        {
