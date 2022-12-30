@@ -266,7 +266,7 @@
        "members": [
 	  {
 	  "type":"esri-featureServer",
-	  "name":"Bedrock",
+	  "name":"Bedrock New",
 	  "url":"https://services.arcgis.com/WQ9KVmV6xGGMnCiQ/ArcGIS/rest/services/DiGMapGB/FeatureServer/3",
 	  "featuresPerRequest": 1000,
 	  "maxFeatures": 20000,
@@ -275,7 +275,7 @@
           },
 	  {
 	  "type":"esri-featureServer",
-	  "name":"Dykes",
+	  "name":"Dykes New",
 	  "url":"https://services.arcgis.com/WQ9KVmV6xGGMnCiQ/ArcGIS/rest/services/DiGMapGB/FeatureServer/2",
 	  "featuresPerRequest": 1000,
 	  "maxFeatures": 10000,
@@ -283,7 +283,7 @@
           },
 	  {
 	  "type":"esri-featureServer",
-	  "name":"Faults",
+	  "name":"Faults New",
 	  "url":"https://services.arcgis.com/WQ9KVmV6xGGMnCiQ/ArcGIS/rest/services/DiGMapGB/FeatureServer/1",
 	  "featuresPerRequest": 1000,
 	  "maxFeatures": 10000,
