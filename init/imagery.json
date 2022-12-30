@@ -34,7 +34,14 @@
           "mapStyle": "AerialWithLabelsOnDemand",
           "description": "Bing Maps Aerial with labels",
           "opacity": 0.5
-    }    
+    },
+    {
+          "name": "ArcGIS World Imagery",
+          "type": "esri-mapServer",
+          "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/",
+          "layers": "3",
+          "opacity": 0.5
+    },
    ]
   }
  ]
