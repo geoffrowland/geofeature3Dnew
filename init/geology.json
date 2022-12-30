@@ -8,7 +8,16 @@
      "type": "group",
      "name": "BGS 1:50 000 Geology",
      "description": "Generalised digital geological map data based on BGS’s New Series 1:50 000 and 1:63 360-scale (one-inch to one-mile) maps with updated nomenclature, including a few 1:100 000-scale maps of Orkney and the Hebrides.",
-     "members": [     
+     "members": [
+	 {
+	     "type": "wms",
+             "isEsri": true,
+             "name": "LIDAR_Composite_DTM_1m_2020",
+	     "description": "This is the 2020 1m DTM LIDAR Composite Tinted Shaded Relief model produced by the Environment Agency. The Tinted Shaded Relief (TSR) is a color 3D representation of the terrain, created by merging the images from the Elevation-coded and Hillshade methods.",
+             "url": "https://map.bgs.ac.uk/arcgis/services/BGS_Detailed_Geology/MapServer/WMSServer",
+	     "layers":"1",
+	     "styles": "default"    
+	 },
     {
       "type": "wms",
       "isEsri": true,
