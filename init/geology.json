@@ -13,7 +13,7 @@
 	     "type": "esri-mapServer",
              "name": "LIDAR_Composite_DTM_1m_2020",
 	     "description": "This is the 2020 1m DTM LIDAR Composite Tinted Shaded Relief model produced by the Environment Agency. The Tinted Shaded Relief (TSR) is a color 3D representation of the terrain, created by merging the images from the Elevation-coded and Hillshade methods.",
-             "url": "https://environment.data.gov.uk/image/rest/services/SURVEY/LIDARCompositeDTM1m2020/MapServer",
+             "url": "https://environment.data.gov.uk/image/rest/services/SURVEY/LIDARCompositeDTM1m2020/MapServer/",
 	     "layers": "3"
 	 },
     {
