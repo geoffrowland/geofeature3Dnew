@@ -268,8 +268,9 @@
 	  "type":"esri-featureServer",
 	  "name":"Bedrock",
 	  "url":"https://services.arcgis.com/WQ9KVmV6xGGMnCiQ/ArcGIS/rest/services/DiGMapGB/FeatureServer/3",
-	  "featuresPerRequest":1000,
-	  "maxFeatures":10000
+	  "featuresPerRequest": 1000,
+	  "maxFeatures": 20000,
+	  "opacity": 0.5
           }
        ]
     },
