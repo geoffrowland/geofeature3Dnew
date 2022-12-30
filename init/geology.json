@@ -262,11 +262,11 @@
     },
     {
      "type": "group",
-     "name": "DORIS",
+     "name": "DORset Integrated Seabed survey (DORIS)",
      "members": [
     {
       "type": "esri-mapServer",
-      "name": "DORIS (DORset Integrated Seabed survey) Seabed Stone Band 10K",
+      "name": "DORIS Seabed Stone Band 10K",
       "url": "https://map.bgs.ac.uk/arcgis/rest/services/DORIS/Dorset_Bedrock_10k_Web_Viewer/MapServer/",
       "layers": "0",
       "isOpenInWorkbench": true,
@@ -278,7 +278,7 @@
     },
     {
       "type": "esri-mapServer",
-      "name": "DORIS (DORset Integrated Seabed survey) Seabed Fold 10K",
+      "name": "DORIS Seabed Fold 10K",
       "url": "https://map.bgs.ac.uk/arcgis/rest/services/DORIS/Dorset_Bedrock_10k_Web_Viewer/MapServer/",
       "layers": "1",
       "isOpenInWorkbench": true,
@@ -290,7 +290,7 @@
     },
     {
       "type": "esri-mapServer",
-      "name": "DORIS (DORset Integrated Seabed survey) Seabed Faults 10K",
+      "name": "DORIS Seabed Faults 10K",
       "url": "https://map.bgs.ac.uk/arcgis/rest/services/DORIS/Dorset_Bedrock_10k_Web_Viewer/MapServer/",
       "layers": "2",
       "isOpenInWorkbench": true,
@@ -302,7 +302,7 @@
     },
     {
       "type": "esri-mapServer",
-      "name": "DORIS (DORset Integrated Seabed survey) Onshore Linear Features 10K",
+      "name": "DORIS Onshore Linear Features 10K",
       "url": "https://map.bgs.ac.uk/arcgis/rest/services/DORIS/Dorset_Bedrock_10k_Web_Viewer/MapServer/",
       "layers": "3",
       "isOpenInWorkbench": true,
@@ -314,7 +314,7 @@
     },
     {
       "type": "esri-mapServer",
-      "name": "DORIS (DORset Integrated Seabed survey) Seabed Geology 10k",
+      "name": "DORIS Seabed Geology 10k",
       "url": "https://map.bgs.ac.uk/arcgis/rest/services/DORIS/Dorset_Bedrock_10k_Web_Viewer/MapServer/",
       "layers": "4",
       "isOpenInWorkbench": true,
@@ -326,7 +326,7 @@
     },
     {
       "type": "esri-mapServer",
-      "name": "DORIS (DORset Integrated Seabed survey) Clipped Geology 10K",
+      "name": "DORIS Clipped Geology 10K",
       "url": "https://map.bgs.ac.uk/arcgis/rest/services/DORIS/Dorset_Bedrock_10k_Web_Viewer/MapServer/",
       "layers": "5",
       "isOpenInWorkbench": true,
@@ -340,7 +340,7 @@
     },
     {
       "type": "esri-mapServer",
-      "name": "DORIS (DORset Integrated Seabed survey) Hillshade 10K",
+      "name": "DORIS Hillshade 10K",
       "url": "https://map.bgs.ac.uk/arcgis/rest/services/DORIS/Dorset_Bedrock_10k_Web_Viewer/MapServer/",
       "layers": "6",
       "isOpenInWorkbench": true,
