@@ -286,8 +286,9 @@
 	  "name":"Faults New",
 	  "url":"https://services.arcgis.com/WQ9KVmV6xGGMnCiQ/ArcGIS/rest/services/DiGMapGB/FeatureServer/1",
 	  "featuresPerRequest": 1000,
-	  "maxFeatures": 10000,
-	  "opacity": 0.5
+	  "maxFeatures": 5000,
+	  "useStyleInformationFromService": false,	  
+	  "opacity": 0.8
           }      
        ]
     },
