@@ -118,6 +118,12 @@
            "description": "The British Geological Survey <strong>GeoIndex</strong> is a web tool for professional users who need to access BGS data as part of their business requirements. The map viewer is free to use and is designed to work on desktop and mobile devices."
         },
         {
+           "imageUrl": "images/GeoIndex.jpg",
+           "url": "https://magic.defra.gov.uk/MagicMap.aspx",
+           "title": "Natural England MAGIC Map",
+           "description": "The MAGIC website provides geographic information about the natural environment from across government. The information covers rural, urban, coastal and marine environments across Great Britain. It is presented in an interactive map which can be explored using various mapping tools that are included. Users do not require specialist software and can access maps using a standard web browser."
+        },
+        {
            "imageUrl": "https://terria-catalogs-public.storage.googleapis.com/misc/related-maps/nationalmap.jpg",
            "url": "http://nationalmap.gov.au/",
            "title": "NationalMap",
