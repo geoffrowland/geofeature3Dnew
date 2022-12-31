@@ -156,7 +156,7 @@
           "type": "bing-maps",
           "key": "AohFvM_FD-p0478UuVC3ErCaoLzkJH_ftz_gGnSB9iUW_15xRgnZEf4cVkptGa7G",
           "mapStyle": "ORDNANCESURVEY",
-          "description": "The map displays Ordnance Survey imagery. Ordnance Survey imagery is only available in the UK. Bing Maps provides the 1:25,000 OS Explorer Map and 1:50,000 OS Landranger maps. When the map is panned or zoomed out of range, road map imagery will be displayed. Map culture must be set to en-GB.",
+          "description": "The map displays Ordnance Survey imagery. Bing Maps provides the 1:25,000 OS Explorer Map and 1:50,000 OS Landranger maps. When the map is panned or zoomed out of range, road map imagery will be displayed.",
           "opacity": 0.5
     },      
     {
@@ -172,7 +172,7 @@
           "type": "url-template-imagery",
 	  "dataCustodian": "Ordnance Survey",
 	  "description": "Ordnance Survey Outdoors",
-	  "url": "https://api.os.uk/maps/raster/v1/zxy/Outdoor_3857/{z}/{x}/{y}.png?key=AAPGGZnt29YGEZIJk7DAvy4vwHiUXDC7"
+	  "url": "https://api.os.uk/maps/raster/v1/zxy/Outdoor_3857/{z}/{x}/{y}.png?key=AAPGGZnt29YGEZIJk7DAvy4vwHiUXDC7",
           "rectangle": {
 		"west": -10.76418,
 		"south": 49.528423,
@@ -187,7 +187,7 @@
           "type": "url-template-imagery",
 	  "dataCustodian": "Ordnance Survey",
 	  "description": "Ordnance Survey Road",
-	  "url": "https://api.os.uk/maps/raster/v1/zxy/Road_3857/{z}/{x}/{y}.png?key=AAPGGZnt29YGEZIJk7DAvy4vwHiUXDC7"
+	  "url": "https://api.os.uk/maps/raster/v1/zxy/Road_3857/{z}/{x}/{y}.png?key=AAPGGZnt29YGEZIJk7DAvy4vwHiUXDC7",
           "rectangle": {
 		"west": -10.76418,
 		"south": 49.528423,
@@ -202,7 +202,7 @@
           "type": "url-template-imagery",
 	  "dataCustodian": "Ordnance Survey",
 	  "description": "Ordnance Survey Light",
-	  "url": "https://api.os.uk/maps/raster/v1/zxy/Light_3857/{z}/{x}/{y}.png?key=AAPGGZnt29YGEZIJk7DAvy4vwHiUXDC7"
+	  "url": "https://api.os.uk/maps/raster/v1/zxy/Light_3857/{z}/{x}/{y}.png?key=AAPGGZnt29YGEZIJk7DAvy4vwHiUXDC7",
           "rectangle": {
 		"west": -10.76418,
 		"south": 49.528423,
