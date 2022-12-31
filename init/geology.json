@@ -287,11 +287,13 @@
 	  "url":"https://services.arcgis.com/WQ9KVmV6xGGMnCiQ/ArcGIS/rest/services/DiGMapGB/FeatureServer/1",
 	  "featuresPerRequest": 1000,
 	  "maxFeatures": 5000,
-	  "style": {
-            "stroke": "red",
-            "stroke-width": 10
-          },
-	  "opacity": 0.8
+	  "perPropertyStyles":{
+	    "properties": "625k_Thrust_Fault_Barbs_on_hanging_wall_side",
+	    "style": {
+		"stroke": "red",
+		"stroke-width": 20,
+		"stroke-opacity": 0.8
+	    }
           }      
        ]
     },
