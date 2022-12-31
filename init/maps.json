@@ -152,11 +152,11 @@
           ]
         },
      {
-          "name": "Ordnance Survey Bing Maps",
+          "name": "OS Leisure",
           "type": "bing-maps",
           "key": "AohFvM_FD-p0478UuVC3ErCaoLzkJH_ftz_gGnSB9iUW_15xRgnZEf4cVkptGa7G",
           "mapStyle": "ORDNANCESURVEY",
-          "description": "The map displays Ordnance Survey imagery. Bing Maps provides the 1:25,000 OS Explorer Map and 1:50,000 OS Landranger maps. When the map is panned or zoomed out of range, road map imagery will be displayed.",
+          "description": "The map displays Ordnance Survey imagery. Bing Maps provides the 1:25,000 OS Explorer Map and 1:50,000 OS Landranger maps.",
           "opacity": 0.5
     },      
     {
