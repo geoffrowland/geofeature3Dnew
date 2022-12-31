@@ -173,8 +173,45 @@
 	  "dataCustodian": "Ordnance Survey",
 	  "description": "Ordnance Survey Outdoors",
 	  "url": "https://api.os.uk/maps/raster/v1/zxy/Outdoor_3857/{z}/{x}/{y}.png?key=AAPGGZnt29YGEZIJk7DAvy4vwHiUXDC7"
-	    
-    }
+          "rectangle": {
+		"west": -10.76418,
+		"south": 49.528423,
+		"east": 1.9134116,
+		"north": 61.331151
+	  },
+	  "maximumLevel": 20,
+          "allowFeaturePicking": false
+    },
+    {
+          "name": "OS Road",
+          "type": "url-template-imagery",
+	  "dataCustodian": "Ordnance Survey",
+	  "description": "Ordnance Survey Road",
+	  "url": "https://api.os.uk/maps/raster/v1/zxy/Road_3857/{z}/{x}/{y}.png?key=AAPGGZnt29YGEZIJk7DAvy4vwHiUXDC7"
+          "rectangle": {
+		"west": -10.76418,
+		"south": 49.528423,
+		"east": 1.9134116,
+		"north": 61.331151
+	  },
+	  "maximumLevel": 20,
+          "allowFeaturePicking": false
+    },
+    {
+          "name": "OS Light",
+          "type": "url-template-imagery",
+	  "dataCustodian": "Ordnance Survey",
+	  "description": "Ordnance Survey Light",
+	  "url": "https://api.os.uk/maps/raster/v1/zxy/Light_3857/{z}/{x}/{y}.png?key=AAPGGZnt29YGEZIJk7DAvy4vwHiUXDC7"
+          "rectangle": {
+		"west": -10.76418,
+		"south": 49.528423,
+		"east": 1.9134116,
+		"north": 61.331151
+	  },
+	  "maximumLevel": 20,
+          "allowFeaturePicking": false
+    }	
    ]
   }
  ]
