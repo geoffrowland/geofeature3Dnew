@@ -287,7 +287,10 @@
 	  "url":"https://services.arcgis.com/WQ9KVmV6xGGMnCiQ/ArcGIS/rest/services/DiGMapGB/FeatureServer/1",
 	  "featuresPerRequest": 1000,
 	  "maxFeatures": 5000,
-	  "useStyleInformationFromService": false,	  
+	  "style": {
+            "stroke": "red",
+            "stroke-width": 10
+          },
 	  "opacity": 0.8
           }      
        ]
