@@ -156,7 +156,7 @@
           "type": "bing-maps",
           "key": "AohFvM_FD-p0478UuVC3ErCaoLzkJH_ftz_gGnSB9iUW_15xRgnZEf4cVkptGa7G",
           "mapStyle": "ORDNANCESURVEY",
-          "description": "Bing Maps Ordnance Survey, maps for outdoors",
+          "description": "The map displays Ordnance Survey imagery. Ordnance Survey imagery is only available in the UK. Bing Maps provides the 1:25,000 OS Explorer Map and 1:50,000 OS Landranger maps. When the map is panned or zoomed out of range, road map imagery will be displayed. Map culture must be set to en-GB.",
           "opacity": 0.5
     },      
     {
