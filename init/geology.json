@@ -311,7 +311,7 @@
 		"stroke": "black",
 		"stroke-width": 5,
 		"stroke-opacity": 0.8
-	    }.
+	    },
 	    "featureInfoTemplate": {
                 "name": "{{FEATURE_D}}",
 	        "template": "{{FEATURE_D}}<br />{{id}}"
