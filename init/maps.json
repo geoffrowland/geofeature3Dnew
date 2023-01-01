@@ -30,6 +30,7 @@
           "type": "url-template-imagery",
           "dataCustodian": "NLS",
           "name": "Devon OS 1900",
+	  "maximumLevel": 18,
           "opacity": 0.5,
           "rectangle": {
 			  "west": -4.68578274,
@@ -56,6 +57,7 @@
           "dataCustodian": "NLS",
           "name": "Dorset OS 1900",
           "opacity": 0.5,
+	  "maximumLevel": 18,
           "rectangle": {
 			  "west": -2.97270687,
 			  "south": 50.50924959,
@@ -88,6 +90,7 @@
 			  "north": 51.50398795
 		  },
           "isOpenInWorkbench": false,
+	  "maximumLevel": 18,
           "tileErrorHandlingOptions": {
 			  "treat403AsError": false,
 			  "treat404AsError": false,
@@ -105,7 +108,8 @@
           "type": "url-template-imagery",
           "dataCustodian": "NLS",
           "name": "Somerset OS 1886",
-           "opacity": 0.5,
+          "opacity": 0.5,
+	  "maximumLevel": 18,	
           "rectangle": {
 			  "west": -3.83818409,
 			  "south": 50.82119720,
@@ -118,8 +122,8 @@
 			  "treat404AsError": false,
 			  "ignoreUnknownTileErrors": true
 		  },
-		  "info": [
-            {
+	   "info": [
+             {
               "name": "Licence",
               "content": "NLS"
             }
