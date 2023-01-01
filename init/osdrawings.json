@@ -15,7 +15,7 @@
      "isOpen": true,
      "members": [     
 	{
-	 "type": "url-template-imagery",3.118205
+	 "type": "url-template-imagery",
          "name": "Axmouth 1806",
          "url": "https://maps.georeferencer.com/georeferences/208d30c7-844c-526b-ba35-3a19588cdf34/2020-04-03T11:51:56.228120Z/map/{z}/{x}/{y}.png?key=ocVvnTCmpvlUMRSjUJG1",
 	 "description": "Dark brushwork makes much of this drawing difficult to interpret. The map covers a section of the south English coast, clearly distinguishing rocks, sand and marshland clearly. A military battery is noted at Seaton, part of the large defence system in the area. Major lines of communication are coloured yellow, following standard military cartographic convention.",
@@ -84,8 +84,7 @@
        }
      ]
     }
-     
-	          ]
+     ]
     }
   ]
 }
