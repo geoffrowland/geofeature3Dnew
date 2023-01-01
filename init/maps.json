@@ -161,6 +161,7 @@
           "key": "AohFvM_FD-p0478UuVC3ErCaoLzkJH_ftz_gGnSB9iUW_15xRgnZEf4cVkptGa7G",
           "mapStyle": "ORDNANCESURVEY",
           "description": "The map displays Ordnance Survey imagery. Bing Maps provides the 1:25,000 OS Explorer Map and 1:50,000 OS Landranger maps.",
+	  "maximumLevel": 19,
           "opacity": 0.5
     },      
     {
@@ -169,6 +170,7 @@
           "key": "AohFvM_FD-p0478UuVC3ErCaoLzkJH_ftz_gGnSB9iUW_15xRgnZEf4cVkptGa7G",
           "mapStyle": "RoadOnDemand",
           "description": "Bing Maps Ordnance Survey, maps for outdoors",
+	  "maximumLevel": 19,
           "opacity": 0.5
     },
     {
