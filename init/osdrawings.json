@@ -83,6 +83,40 @@
        },
        {
          "type": "url-template-imagery",
+         "name": "Poole 1805",
+         "url": "https://maps.georeferencer.com/georeferences/2a003122-d8e0-5c9a-9135-ba3a0c4de08b/2020-03-24T13:44:13.120898Z/map/{z}/{x}/{y}.png?key=ocVvnTCmpvlUMRSjUJG1",
+         "rectangle": {
+		"west": -2.205352,
+		"south": 50.559483,
+		"east": -1.67568,
+		"north": 50.856253
+	 },
+	 "clipToRectangle": true,    
+	 "tileErrorHandlingOptions": {
+			     "treat403AsError": false,
+			     "treat404AsError": false,
+			     "ignoreUnknownTileErrors": true
+         }
+       },
+       {
+         "type": "url-template-imagery",
+         "name": "Christchurch 1797",
+         "url": "https://maps.georeferencer.com/georeferences/2f0850a6-4a7f-5c76-bfcc-dd5a6d9a830e/2020-03-24T11:46:53.859586Z/map/{z}/{x}/{y}.png?key=ocVvnTCmpvlUMRSjUJG1",
+         "rectangle": {
+		"west": -1.830087,
+		"south": 50.699154,
+		"east": -1.510446,
+		"north": 50.875532
+	 },
+	 "clipToRectangle": true,    
+	 "tileErrorHandlingOptions": {
+			     "treat403AsError": false,
+			     "treat404AsError": false,
+			     "ignoreUnknownTileErrors": true
+         }
+       },
+       {
+         "type": "url-template-imagery",
          "name": "Beaminster 1806",
          "url": "https://maps.georeferencer.com/georeferences/5ea792e9-f4b4-5a06-aaf0-527f90e4cb52/2020-04-02T09:58:58.720750Z/map/{z}/{x}/{y}.png?key=ocVvnTCmpvlUMRSjUJG1",
          "rectangle": {
