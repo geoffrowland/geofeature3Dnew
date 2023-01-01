@@ -25,11 +25,11 @@
 		"north": 50.723829
 	 },
          "clipToRectangle": true,
-		"tileErrorHandlingOptions": {
-			     "treat403AsError": false,
-			     "treat404AsError": false,
-			     "ignoreUnknownTileErrors": true
-         }
+	 "tileErrorHandlingOptions": {
+	        "treat403AsError": false,
+	        "treat404AsError": false,
+	        "ignoreUnknownTileErrors": true
+          }
        },
        {
          "type": "url-template-imagery",
