@@ -134,6 +134,23 @@
        },
        {
          "type": "url-template-imagery",
+         "name": "Dorchester 1805",
+         "url": "https://maps.georeferencer.com/georeferences/cb3c28e4-31bc-51d7-8f57-fda0517a0ec7/2020-03-27T13:17:28.779313Z/map/{z}/{x}/{y}.png?key=ocVvnTCmpvlUMRSjUJG1",
+         "rectangle": {
+		"west": -2.557628,
+		"south": 50.653256,
+		"east": -2.097199,
+		"north": 50.851813
+	 },
+	 "clipToRectangle": true,    
+	 "tileErrorHandlingOptions": {
+			     "treat403AsError": false,
+			     "treat404AsError": false,
+			     "ignoreUnknownTileErrors": true
+         }
+       },
+       {
+         "type": "url-template-imagery",
          "name": "South Petherton 1807",
          "url": "https://maps.georeferencer.com/georeferences/3397eff3-62a4-5e58-be1e-9344e35b721f/2020-04-03T11:34:17.981564Z/map/{z}/{x}/{y}.png?key=ocVvnTCmpvlUMRSjUJG1",
          "rectangle": {
@@ -148,7 +165,24 @@
 			     "treat404AsError": false,
 			     "ignoreUnknownTileErrors": true
          }
-       }
+       },
+   {
+         "type": "url-template-imagery",
+         "name": "Sherborne 1808",
+         "url": "https://maps.georeferencer.com/georeferences/52a2647d-e1fc-509e-8e38-fcb799c7e47d/2020-02-05T11:24:10.249311Z/map/{z}/{x}/{y}.png?key=ocVvnTCmpvlUMRSjUJG1",
+         "rectangle": {
+		"west": -2.71665,
+		"south": 50.797492,
+		"east": -2.71665,
+		"north": 51.015391
+	 },
+	 "clipToRectangle": true,    
+	 "tileErrorHandlingOptions": {
+			     "treat403AsError": false,
+			     "treat404AsError": false,
+			     "ignoreUnknownTileErrors": true
+         }
+       }     
      ]
     }
      ]
