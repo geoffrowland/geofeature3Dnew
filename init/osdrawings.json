@@ -166,7 +166,7 @@
 			     "ignoreUnknownTileErrors": true
          }
        },
-   {
+       {
          "type": "url-template-imagery",
          "name": "Sherborne 1808",
          "url": "https://maps.georeferencer.com/georeferences/52a2647d-e1fc-509e-8e38-fcb799c7e47d/2020-02-05T11:24:10.249311Z/map/{z}/{x}/{y}.png?key=ocVvnTCmpvlUMRSjUJG1",
@@ -175,6 +175,23 @@
 		"south": 50.797492,
 		"east": -2.2548,
 		"north": 51.015391
+	 },
+	 "clipToRectangle": true,    
+	 "tileErrorHandlingOptions": {
+			     "treat403AsError": false,
+			     "treat404AsError": false,
+			     "ignoreUnknownTileErrors": true
+         }
+       },
+       {
+         "type": "url-template-imagery",
+         "name": "Shaftesbury 1808",
+         "url": "https://maps.georeferencer.com/georeferences/52a2647d-e1fc-509e-8e38-fcb799c7e47d/2020-02-05T11:24:10.249311Z/map/{z}/{x}/{y}.png?key=ocVvnTCmpvlUMRSjUJG1",
+         "rectangle": {
+		"west": -2.452439,
+		"south": 50.782771,
+		"east": -2.026341,
+		"north": 51.153003
 	 },
 	 "clipToRectangle": true,    
 	 "tileErrorHandlingOptions": {
