@@ -80,6 +80,23 @@
 			     "treat404AsError": false,
 			     "ignoreUnknownTileErrors": true
          }
+       },
+       {
+         "type": "url-template-imagery",
+         "name": "Beaminster 1806",
+         "url": "https://maps.georeferencer.com/georeferences/5ea792e9-f4b4-5a06-aaf0-527f90e4cb52/2020-04-02T09:58:58.720750Z/map/{z}/{x}/{y}.png?key=ocVvnTCmpvlUMRSjUJG1",
+         "rectangle": {
+		"west": -2.94734,
+		"south": 50.701163,
+		"east": -2.45261,
+		"north": 50.9245611
+	 },
+	 "clipToRectangle": true,    
+	 "tileErrorHandlingOptions": {
+			     "treat403AsError": false,
+			     "treat404AsError": false,
+			     "ignoreUnknownTileErrors": true
+         }
        }
      ]
     }
