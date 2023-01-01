@@ -97,6 +97,23 @@
 			     "treat404AsError": false,
 			     "ignoreUnknownTileErrors": true
          }
+       },
+       {
+         "type": "url-template-imagery",
+         "name": "South Petherton 1807",
+         "url": "https://maps.georeferencer.com/georeferences/3397eff3-62a4-5e58-be1e-9344e35b721f/2020-04-03T11:34:17.981564Z/map/{z}/{x}/{y}.png?key=ocVvnTCmpvlUMRSjUJG1",
+         "rectangle": {
+		"west": -2.95408,
+		"south": 50.829421,
+		"east": -2.585679,
+		"north": 51.066021
+	 },
+	 "clipToRectangle": true,    
+	 "tileErrorHandlingOptions": {
+			     "treat403AsError": false,
+			     "treat404AsError": false,
+			     "ignoreUnknownTileErrors": true
+         }
        }
      ]
     }
