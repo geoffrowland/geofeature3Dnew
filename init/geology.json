@@ -271,7 +271,11 @@
 	  "featuresPerRequest": 1000,
 	  "maxFeatures": 20000,
 	  "opacity": 0.5,
-	  "hideLegendInWorkbench": true
+	  "hideLegendInWorkbench": true,
+          "featureInfoTemplate": {
+             "name": "{{LEX_D}}",
+             "template": "{{LEX_D}}<br>{{RCS_D}}<br><br>{{MAX_TIME_D}} - {{MIN_TIME_D}}<br>{{MAX_TIME_Y}} - {{MIN_TIME_Y}}"
+           }
           },
 	  {
 	    "type":"esri-featureServer",
