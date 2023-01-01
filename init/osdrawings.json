@@ -31,6 +31,7 @@
 			     "ignoreUnknownTileErrors": true
          }
        },
+       {
          "type": "url-template-imagery",
          "name": "Ilminster",
          "url": "https://maps.georeferencer.com/georeferences/208d30c7-844c-526b-ba35-3a19588cdf34/2020-04-03T11:51:56.228120Z/map/{z}/{x}/{y}.png?key=ocVvnTCmpvlUMRSjUJG1",
