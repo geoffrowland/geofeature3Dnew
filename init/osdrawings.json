@@ -32,7 +32,7 @@
        },
        {
          "type": "url-template-imagery",
-         "name": "Ilminster",
+         "name": "Ilminster 1806",
          "url": "https://maps.georeferencer.com/georeferences/22eb66b1-f051-50fe-b12e-06f872c25b81/2020-04-03T11:10:41.394594Z/map/{z}/{x}/{y}.png?key=ocVvnTCmpvlUMRSjUJG1",
          "rectangle": {
 		"west": -2.977248,
@@ -49,7 +49,7 @@
        },
        {
          "type": "url-template-imagery",
-         "name": "Bridport",
+         "name": "Bridport 1806",
          "url": "https://maps.georeferencer.com/georeferences/c1ac8664-dee9-527d-a6b4-9824c490acf2/2020-03-31T12:13:19.952011Z/map/{z}/{x}/{y}.png?key=ocVvnTCmpvlUMRSjUJG1",
          "rectangle": {
 		"west": -2.946217,
@@ -66,7 +66,7 @@
        },
        {
          "type": "url-template-imagery",
-         "name": "Weymouth",
+         "name": "Weymouth 1805",
          "url": "https://maps.georeferencer.com/georeferences/7b59077f-bd21-500a-a8bb-6d594573d7a5/2020-07-07T09:43:25.211338Z/map/{z}/{x}/{y}.png?key=gMEmp7wGJTRoTdtU7Ljj",
          "rectangle": {
 		"west": -2.545495,
