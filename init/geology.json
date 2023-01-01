@@ -274,8 +274,18 @@
 	  "hideLegendInWorkbench": true,
           "featureInfoTemplate": {
              "name": "{{LEX_D}}",
-             "template": "{{LEX_D}}<br>{{RCS_D}}<br><br>{{MAX_TIME_D}} - {{MIN_TIME_D}}<br>{{MAX_TIME_Y}} - {{MIN_TIME_Y}}"
-           }
+             "template": "{{LEX_D}}<br>{{RCS_D}}<br><br>{{MAX_TIME_D}} - {{MIN_TIME_D}}<br>{{MAX_TIME_Y}} - {{MIN_TIME_Y}} years before present",
+	     "formats":{
+	         "MAX_TIME_Y": {
+		   "type": "number",
+		   "useGrouping": true       
+		 },
+	         "MIN_TIME_Y": {
+		   "type": "number",
+		   "useGrouping": true       
+		}	 		       
+	      }
+            }
           },
 	  {
 	    "type":"esri-featureServer",
