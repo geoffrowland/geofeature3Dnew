@@ -186,7 +186,7 @@
        {
          "type": "url-template-imagery",
          "name": "Wincanton 1808",
-         "url": "https://maps.georeferencer.com/georeferences/fd5ff00a-5bb6-5b0c-901b-cfff152c85f0/2020-03-29T10:28:24.332771Z/map/{z}/{x}/{y}.png?key=ocVvnTCmpvlUMRSjUJG1",
+         "url": "https://maps.georeferencer.com/georeferences/c5fcd4a7-d490-59ff-be66-6d1837b0b58c/2020-04-02T10:34:21.655900Z/map/{z}/{x}/{y}.png?key=ocVvnTCmpvlUMRSjUJG1",
          "rectangle": {
 		"west": -2.737046,
 		"south": 50.904125,
