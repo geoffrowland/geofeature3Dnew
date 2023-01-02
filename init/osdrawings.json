@@ -298,7 +298,44 @@
 			     "ignoreUnknownTileErrors": true
          }
        },
+	            {
+	 "type": "url-template-imagery",
+         "name": "Bridgwater 1802",
+         "url": "https://maps.georeferencer.com/georeferences/74be67d4-cd3f-51b7-ac3f-acad7fa1638b/2020-04-05T12:28:18.878579Z/map/{z}/{x}/{y}.png?key=ocVvnTCmpvlUMRSjUJG1",
+         "rectangle": {
+		"west": -3.12225,
+		"south": 51.038398,
+		"east": -2.869981,
+		"north": 51.298465
+	 },
+	 "zoomOnAddToWorkbench": true,
+	 "isOpenInWorkbench": false,
+	 "clipToRectangle": true,    
+	 "tileErrorHandlingOptions": {
+			     "treat403AsError": false,
+			     "treat404AsError": false,
+			     "ignoreUnknownTileErrors": true
+         }
+       },
        {
+	 "type": "url-template-imagery",
+         "name": "Lydeard St. Laurence,
+         "url": "https://maps.georeferencer.com/georeferences/6ac74d28-6a7b-5687-ac68-a6fca314f393/2020-04-07T10:39:39.676325Z/map/{z}/{x}/{y}.png?key=ocVvnTCmpvlUMRSjUJG1",
+         "rectangle": {
+		"west": -3.295618,
+		"south": 51.012425,
+		"east": -3.061205,
+		"north": 51.232023
+	 },
+	 "zoomOnAddToWorkbench": true,
+	 "isOpenInWorkbench": false,
+	 "clipToRectangle": true,    
+	 "tileErrorHandlingOptions": {
+			     "treat403AsError": false,
+			     "treat404AsError": false,
+			     "ignoreUnknownTileErrors": true
+         }
+       },
 	 "type": "url-template-imagery",
          "name": "Bridgwater 1802",
          "url": "https://maps.georeferencer.com/georeferences/74be67d4-cd3f-51b7-ac3f-acad7fa1638b/2020-04-05T12:28:18.878579Z/map/{z}/{x}/{y}.png?key=ocVvnTCmpvlUMRSjUJG1",
