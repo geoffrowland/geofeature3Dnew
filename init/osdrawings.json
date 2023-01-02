@@ -32,13 +32,30 @@
        },
        {
          "type": "url-template-imagery",
-         "name": "Ilminster 1806",
+         "name": "Ilminster South 1806",
          "url": "https://maps.georeferencer.com/georeferences/22eb66b1-f051-50fe-b12e-06f872c25b81/2020-04-03T11:10:41.394594Z/map/{z}/{x}/{y}.png?key=ocVvnTCmpvlUMRSjUJG1",
          "rectangle": {
 		"west": -2.977248,
 		"south": 50.718525,
 		"east": -2.862401,
 		"north": 50.951585
+	 },
+         "clipToRectangle": true,
+	 "tileErrorHandlingOptions": {
+			     "treat403AsError": false,
+			     "treat404AsError": false,
+			     "ignoreUnknownTileErrors": true
+         }
+       },
+       {
+         "type": "url-template-imagery",
+         "name": "Ilminster North 1806",
+         "url": "https://maps.georeferencer.com/georeferences/962ebfe6-e0f7-5b2c-bbbe-e4c61019a357/2020-04-05T11:51:06.467401Z/map/{z}/{x}/{y}.png?key=ocVvnTCmpvlUMRSjUJG1",
+         "rectangle": {
+		"west": -2.978767,
+		"south": 50.951668,
+		"east": -2.849879,
+		"north": 50.199442
 	 },
          "clipToRectangle": true,
 	 "tileErrorHandlingOptions": {
