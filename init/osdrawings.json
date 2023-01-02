@@ -218,6 +218,23 @@
          }
        },
        {
+         "type": "url-template-imagery",
+         "name": "Berwick St.John 1807",
+         "url": "https://maps.georeferencer.com/georeferences/546ea236-a1cd-5daf-bb96-006cf9bd061d/2020-03-24T16:21:39.769297Z/map/{z}/{x}/{y}.png?key=ocVvnTCmpvlUMRSjUJG1",
+         "rectangle": {
+		"west": -2.233905,
+		"south": 50.910725,
+		"east": -1.729264,
+		"north": 51.162706
+	 },
+	 "clipToRectangle": true,    
+	 "tileErrorHandlingOptions": {
+			     "treat403AsError": false,
+			     "treat404AsError": false,
+			     "ignoreUnknownTileErrors": true
+         }
+       },
+       {
 	 "type": "url-template-imagery",
          "name": "Cranborne 1807",
          "url": "https://maps.georeferencer.com/georeferences/2ec423b4-ee2e-5f7a-a169-b89ca85d95ed/2020-03-24T14:45:52.412832Z/map/{z}/{x}/{y}.png?key=ocVvnTCmpvlUMRSjUJG1",
