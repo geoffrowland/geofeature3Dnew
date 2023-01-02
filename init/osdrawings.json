@@ -23,6 +23,8 @@
 		"east": -2.905233,
 		"north": 50.783829
 	 },
+	 "zoomOnAddToWorkbench": true,
+	 "isOpenInWorkbench": false,
          "clipToRectangle": true,
 	 "tileErrorHandlingOptions": {
 	        "treat403AsError": false,
