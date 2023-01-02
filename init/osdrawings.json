@@ -216,6 +216,23 @@
 			     "treat404AsError": false,
 			     "ignoreUnknownTileErrors": true
          }
+       },
+       {
+	 "type": "url-template-imagery",
+         "name": "Cranborne 1807",
+         "url": "https://maps.georeferencer.com/georeferences/2ec423b4-ee2e-5f7a-a169-b89ca85d95ed/2020-03-24T14:45:52.412832Z/map/{z}/{x}/{y}.png?key=ocVvnTCmpvlUMRSjUJG1",
+         "rectangle": {
+		"west": -2.240297,
+		"south": 50.722435,
+		"east": -1.635109,
+		"north": 51.072102
+	 },
+	 "clipToRectangle": true,    
+	 "tileErrorHandlingOptions": {
+			     "treat403AsError": false,
+			     "treat404AsError": false,
+			     "ignoreUnknownTileErrors": true
+         }
        }     
      ]
     }
