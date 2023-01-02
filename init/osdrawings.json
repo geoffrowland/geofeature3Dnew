@@ -253,6 +253,23 @@
        },
        {
 	 "type": "url-template-imagery",
+         "name": "Bridgwater 1802",
+         "url": "https://maps.georeferencer.com/georeferences/74be67d4-cd3f-51b7-ac3f-acad7fa1638b/2020-04-05T12:28:18.878579Z/map/{z}/{x}/{y}.png?key=ocVvnTCmpvlUMRSjUJG1",
+         "rectangle": {
+		"west": -3.12225,
+		"south": 51.038398,
+		"east": -2.869981,
+		"north": 51.298465
+	 },
+	 "clipToRectangle": true,    
+	 "tileErrorHandlingOptions": {
+			     "treat403AsError": false,
+			     "treat404AsError": false,
+			     "ignoreUnknownTileErrors": true
+         }
+       },
+       {
+	 "type": "url-template-imagery",
          "name": "Glastonbury 1811",
          "url": "https://maps.georeferencer.com/georeferences/b6030d7b-4c18-5c6f-a701-ff15b42d7c16/2020-04-02T11:15:31.924527Z/map/{z}/{x}/{y}.png?key=ocVvnTCmpvlUMRSjUJG1",
          "rectangle": {
