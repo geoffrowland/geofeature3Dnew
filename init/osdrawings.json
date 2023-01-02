@@ -148,6 +148,25 @@
        },
        {
          "type": "url-template-imagery",
+         "name": "Axminster 1806",
+         "url": "https://maps.georeferencer.com/georeferences/2e0efb6a-c265-5b68-9760-79c73682d293/2020-04-03T12:25:41.500877Z/map/{z}/{x}/{y}.png?key=ocVvnTCmpvlUMRSjUJG1",
+         "rectangle": {
+		"west": -3.120531,
+		"south": 50.777302,
+		"east": -2.919498,
+		"north": 50.881457
+	 },
+	 "zoomOnAddToWorkbench": true,
+	 "isOpenInWorkbench": false,
+	 "clipToRectangle": true,    
+	 "tileErrorHandlingOptions": {
+			     "treat403AsError": false,
+			     "treat404AsError": false,
+			     "ignoreUnknownTileErrors": true
+         }
+       },
+       {
+         "type": "url-template-imagery",
          "name": "Beaminster 1806",
          "url": "https://maps.georeferencer.com/georeferences/5ea792e9-f4b4-5a06-aaf0-527f90e4cb52/2020-04-02T09:58:58.720750Z/map/{z}/{x}/{y}.png?key=ocVvnTCmpvlUMRSjUJG1",
          "rectangle": {
