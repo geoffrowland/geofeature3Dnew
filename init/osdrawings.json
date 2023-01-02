@@ -287,6 +287,23 @@
        },
        {
 	 "type": "url-template-imagery",
+         "name": "Wick St. Lawrence 1809",
+         "url": "https://maps.georeferencer.com/georeferences/ca8cf2fa-2186-5301-980a-f64262fd71be/2020-04-06T11:00:26.881311Z/map/{z}/{x}/{y}.png?key=ocVvnTCmpvlUMRSjUJG1",
+         "rectangle": {
+		"west": -3.129445,
+		"south": 51.185978,
+		"east": -2.844518,
+		"north": 51.432243
+	 },
+	 "clipToRectangle": true,    
+	 "tileErrorHandlingOptions": {
+			     "treat403AsError": false,
+			     "treat404AsError": false,
+			     "ignoreUnknownTileErrors": true
+         }
+       },
+       {
+	 "type": "url-template-imagery",
          "name": "Axbridge 1811",
          "url": "https://maps.georeferencer.com/georeferences/dac449ac-6b5e-5e61-a7a3-ebd248d5cae3/2020-04-02T11:48:42.667183Z/map/{z}/{x}/{y}.png?key=ocVvnTCmpvlUMRSjUJG1",
          "rectangle": {
