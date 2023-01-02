@@ -267,7 +267,24 @@
 			     "treat404AsError": false,
 			     "ignoreUnknownTileErrors": true
          }
-       }     
+       },
+       {
+	 "type": "url-template-imagery",
+         "name": "Frome 1808",
+         "url": "https://maps.georeferencer.com/georeferences/be862842-4fac-5791-84e4-b1a2b910d184/2022-02-08T13:24:30.104665Z/map/{z}/{x}/{y}.png?key=ocVvnTCmpvlUMRSjUJG1",
+         "rectangle": {
+		"west": -2.627954,
+		"south": 51.08861,
+		"east": -2.220117,
+		"north": 51.480224
+	 },
+	 "clipToRectangle": true,    
+	 "tileErrorHandlingOptions": {
+			     "treat403AsError": false,
+			     "treat404AsError": false,
+			     "ignoreUnknownTileErrors": true
+         }
+       }          
      ]
     }
      ]
