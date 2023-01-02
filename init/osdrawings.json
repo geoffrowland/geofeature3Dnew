@@ -284,6 +284,23 @@
 			     "treat404AsError": false,
 			     "ignoreUnknownTileErrors": true
          }
+       },
+       {
+	 "type": "url-template-imagery",
+         "name": "Axbridge 1811",
+         "url": "https://maps.georeferencer.com/georeferences/dac449ac-6b5e-5e61-a7a3-ebd248d5cae3/2020-04-02T11:48:42.667183Z/map/{z}/{x}/{y}.png?key=ocVvnTCmpvlUMRSjUJG1",
+         "rectangle": {
+		"west": -2.904017,
+		"south": 51.20159,
+		"east": -2.51854,
+		"north": 51.381762
+	 },
+	 "clipToRectangle": true,    
+	 "tileErrorHandlingOptions": {
+			     "treat403AsError": false,
+			     "treat404AsError": false,
+			     "ignoreUnknownTileErrors": true
+         }
        }          
      ]
     }
