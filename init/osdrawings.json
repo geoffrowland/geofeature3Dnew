@@ -319,7 +319,7 @@
        },
        {
 	 "type": "url-template-imagery",
-         "name": "Lydeard St. Laurence,
+         "name": "Lydeard St. Laurence",
          "url": "https://maps.georeferencer.com/georeferences/6ac74d28-6a7b-5687-ac68-a6fca314f393/2020-04-07T10:39:39.676325Z/map/{z}/{x}/{y}.png?key=ocVvnTCmpvlUMRSjUJG1",
          "rectangle": {
 		"west": -3.295618,
