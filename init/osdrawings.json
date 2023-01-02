@@ -42,6 +42,8 @@
 		"east": -2.862401,
 		"north": 50.951585
 	 },
+	 "zoomOnAddToWorkbench": true,
+	 "isOpenInWorkbench": false,
          "clipToRectangle": true,
 	 "tileErrorHandlingOptions": {
 			     "treat403AsError": false,
@@ -59,6 +61,8 @@
 		"east": -2.849879,
 		"north": 51.199442
 	 },
+	 "zoomOnAddToWorkbench": true,
+	 "isOpenInWorkbench": false,      
          "clipToRectangle": true,
 	 "tileErrorHandlingOptions": {
 			     "treat403AsError": false,
@@ -76,6 +80,8 @@
 		"east": -2.391831,
 		"north": 50.839515
 	 },
+	 "zoomOnAddToWorkbench": true,
+	 "isOpenInWorkbench": false,
          "clipToRectangle": true,
 	 "tileErrorHandlingOptions": {
 			     "treat403AsError": false,
@@ -93,6 +99,8 @@
 		"east": -2.033689,
 		"north": 50.737951
 	 },
+	 "zoomOnAddToWorkbench": true,
+	 "isOpenInWorkbench": false,
 	 "clipToRectangle": true,    
 	 "tileErrorHandlingOptions": {
 			     "treat403AsError": false,
@@ -110,6 +118,8 @@
 		"east": -1.67568,
 		"north": 50.856253
 	 },
+	 "zoomOnAddToWorkbench": true,
+	 "isOpenInWorkbench": false,
 	 "clipToRectangle": true,    
 	 "tileErrorHandlingOptions": {
 			     "treat403AsError": false,
@@ -127,6 +137,8 @@
 		"east": -1.510446,
 		"north": 50.875532
 	 },
+	 "zoomOnAddToWorkbench": true,
+	 "isOpenInWorkbench": false,
 	 "clipToRectangle": true,    
 	 "tileErrorHandlingOptions": {
 			     "treat403AsError": false,
@@ -144,6 +156,8 @@
 		"east": -2.45261,
 		"north": 50.9245611
 	 },
+	 "zoomOnAddToWorkbench": true,
+	 "isOpenInWorkbench": false,
 	 "clipToRectangle": true,    
 	 "tileErrorHandlingOptions": {
 			     "treat403AsError": false,
@@ -161,6 +175,8 @@
 		"east": -2.097199,
 		"north": 50.851813
 	 },
+	 "zoomOnAddToWorkbench": true,
+	 "isOpenInWorkbench": false,
 	 "clipToRectangle": true,    
 	 "tileErrorHandlingOptions": {
 			     "treat403AsError": false,
@@ -178,6 +194,8 @@
 		"east": -2.585679,
 		"north": 51.066021
 	 },
+	 "zoomOnAddToWorkbench": true,
+	 "isOpenInWorkbench": false,
 	 "clipToRectangle": true,    
 	 "tileErrorHandlingOptions": {
 			     "treat403AsError": false,
@@ -195,6 +213,8 @@
 		"east": -2.2548,
 		"north": 51.015391
 	 },
+	 "zoomOnAddToWorkbench": true,
+	 "isOpenInWorkbench": false,
 	 "clipToRectangle": true,    
 	 "tileErrorHandlingOptions": {
 			     "treat403AsError": false,
@@ -212,6 +232,8 @@
 		"east": -2.285263,
 		"north": 51.140575
 	 },
+	 "zoomOnAddToWorkbench": true,
+	 "isOpenInWorkbench": false,
 	 "clipToRectangle": true,    
 	 "tileErrorHandlingOptions": {
 			     "treat403AsError": false,
@@ -229,6 +251,8 @@
 		"east": -2.026341,
 		"north": 51.153003
 	 },
+	 "zoomOnAddToWorkbench": true,
+	 "isOpenInWorkbench": false,
 	 "clipToRectangle": true,    
 	 "tileErrorHandlingOptions": {
 			     "treat403AsError": false,
@@ -246,6 +270,8 @@
 		"east": -1.729264,
 		"north": 51.162706
 	 },
+	 "zoomOnAddToWorkbench": true,
+	 "isOpenInWorkbench": false,
 	 "clipToRectangle": true,    
 	 "tileErrorHandlingOptions": {
 			     "treat403AsError": false,
@@ -263,6 +289,8 @@
 		"east": -1.635109,
 		"north": 51.072102
 	 },
+	 "zoomOnAddToWorkbench": true,
+	 "isOpenInWorkbench": false,
 	 "clipToRectangle": true,    
 	 "tileErrorHandlingOptions": {
 			     "treat403AsError": false,
@@ -280,6 +308,8 @@
 		"east": -2.869981,
 		"north": 51.298465
 	 },
+	 "zoomOnAddToWorkbench": true,
+	 "isOpenInWorkbench": false,
 	 "clipToRectangle": true,    
 	 "tileErrorHandlingOptions": {
 			     "treat403AsError": false,
@@ -297,6 +327,8 @@
 		"east": -2.440228,
 		"north": 51.247733
 	 },
+	 "zoomOnAddToWorkbench": true,
+	 "isOpenInWorkbench": false,
 	 "clipToRectangle": true,    
 	 "tileErrorHandlingOptions": {
 			     "treat403AsError": false,
@@ -314,6 +346,8 @@
 		"east": -2.220117,
 		"north": 51.480224
 	 },
+	 "zoomOnAddToWorkbench": true,
+	 "isOpenInWorkbench": false,
 	 "clipToRectangle": true,    
 	 "tileErrorHandlingOptions": {
 			     "treat403AsError": false,
@@ -331,6 +365,8 @@
 		"east": -2.844518,
 		"north": 51.432243
 	 },
+	 "zoomOnAddToWorkbench": true,
+	 "isOpenInWorkbench": false,
 	 "clipToRectangle": true,    
 	 "tileErrorHandlingOptions": {
 			     "treat403AsError": false,
@@ -348,6 +384,8 @@
 		"east": -2.51854,
 		"north": 51.381762
 	 },
+	 "zoomOnAddToWorkbench": true,
+	 "isOpenInWorkbench": false,
 	 "clipToRectangle": true,    
 	 "tileErrorHandlingOptions": {
 			     "treat403AsError": false,
