@@ -205,6 +205,25 @@
        },
        {
          "type": "url-template-imagery",
+         "name": "Taunton 1802",
+         "url": "https://maps.georeferencer.com/georeferences/0ce6cb48-70ef-5eda-ac6a-31284e4c2ac9/2020-04-05T10:56:12.611225Z/map/{z}/{x}/{y}.png?key=ocVvnTCmpvlUMRSjUJG1",
+         "rectangle": {
+		"west": -3.092331,
+		"south": 50.86014,
+		"east": -2.896376,
+		"north": 51.060751
+	 },
+	 "zoomOnAddToWorkbench": true,
+	 "isOpenInWorkbench": false,
+	 "clipToRectangle": true,    
+	 "tileErrorHandlingOptions": {
+			     "treat403AsError": false,
+			     "treat404AsError": false,
+			     "ignoreUnknownTileErrors": true
+         }
+       },
+       {
+         "type": "url-template-imagery",
          "name": "South Petherton 1807",
          "url": "https://maps.georeferencer.com/georeferences/3397eff3-62a4-5e58-be1e-9344e35b721f/2020-04-03T11:34:17.981564Z/map/{z}/{x}/{y}.png?key=ocVvnTCmpvlUMRSjUJG1",
          "rectangle": {
