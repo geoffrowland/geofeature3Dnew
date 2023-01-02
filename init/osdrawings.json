@@ -336,6 +336,7 @@
 			     "ignoreUnknownTileErrors": true
          }
        },
+       {
 	 "type": "url-template-imagery",
          "name": "Bridgwater 1802",
          "url": "https://maps.georeferencer.com/georeferences/74be67d4-cd3f-51b7-ac3f-acad7fa1638b/2020-04-05T12:28:18.878579Z/map/{z}/{x}/{y}.png?key=ocVvnTCmpvlUMRSjUJG1",
