@@ -392,7 +392,47 @@
 			     "treat404AsError": false,
 			     "ignoreUnknownTileErrors": true
          }
-       }          
+       },
+       {
+	 "type": "url-template-imagery",
+         "name": "Bedminster 1810",
+         "url": "https://maps.georeferencer.com/georeferences/4c9d573a-895e-5994-b8a9-9139ac06fc01/2020-04-02T12:18:42.586984Z/map/{z}/{x}/{y}.png?key=ocVvnTCmpvlUMRSjUJG1",
+         "rectangle": {
+		"west": -2.941267,
+		"south": 51.313845,
+		"east": -2.513283,
+		"north": 51.526925
+	 },
+	 "zoomOnAddToWorkbench": true,
+	 "isOpenInWorkbench": false,
+	 "clipToRectangle": true,    
+	 "tileErrorHandlingOptions": {
+			     "treat403AsError": false,
+			     "treat404AsError": false,
+			     "ignoreUnknownTileErrors": true
+         }
+       },
+       {
+	 "type": "url-template-imagery",
+         "name": "Bath 1 1815",
+         "url": "https://maps.georeferencer.com/georeferences/db98179d-e3f6-50a2-985c-218d9ad26dec/2020-03-31T11:08:32.111933Z/map/{z}/{x}/{y}.png?key=ocVvnTCmpvlUMRSjUJG1",
+         "rectangle": {
+		"west": -2.623459,
+		"south": 51.338645,
+		"east": -2.262878,
+		"north": 51.508577
+	 },
+	 "zoomOnAddToWorkbench": true,
+	 "isOpenInWorkbench": false,
+	 "clipToRectangle": true,    
+	 "tileErrorHandlingOptions": {
+			     "treat403AsError": false,
+			     "treat404AsError": false,
+			     "ignoreUnknownTileErrors": true
+         }
+       }    
+         }
+       }    
      ]
     }
      ]
