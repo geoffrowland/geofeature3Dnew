@@ -8,14 +8,13 @@
          "type": "geojson",
          "name": "Cornwall",
          "url": "init/cornwall.geojson"
-         "style":[
+         "style":
          {
          "stroke": "black",
          "stroke-width": 2,
          "fill": "red",
          "opacity": 0.2
          }
-         ]
        }
       ]
     }
