@@ -16,6 +16,57 @@
          }
        }
       ]
+    },
+    {
+     "type": "group",
+     "name": "Counties",
+     "members": [
+       {
+         "type": "geojson",
+         "name": "Devon",
+         "url": "init/devon.geojson",
+         "style": {
+           "stroke": "black",
+           "stroke-width": 2,
+           "fill": "green",
+           "fill-opacity": 0.2
+         }
+       }
+      ]
+    },
+    {
+     "type": "group",
+     "name": "Counties",
+     "members": [
+       {
+         "type": "geojson",
+         "name": "Dorset",
+         "url": "init/dorset.geojson",
+         "style": {
+           "stroke": "black",
+           "stroke-width": 2,
+           "fill": "yellow",
+           "fill-opacity": 0.2
+         }
+       }
+      ]
+    },
+        {
+     "type": "group",
+     "name": "Counties",
+     "members": [
+       {
+         "type": "geojson",
+         "name": "Somerset",
+         "url": "init/somerset.geojson",
+         "style": {
+           "stroke": "black",
+           "stroke-width": 2,
+           "fill": "blue",
+           "fill-opacity": 0.2
+         }
+       }
+      ]
     }
   ]
 }
