@@ -12,7 +12,7 @@
            "stroke": "black",
            "stroke-width": 2,
            "fill": "red",
-           "opacity": 0.2
+           "fill-opacity": 0.2
          }
        }
       ]
