@@ -9,7 +9,8 @@
       "basemaps",
       "geoindex",
       "osdrawings",
-      "naturalengland"
+      "naturalengland",
+      "boundary"
   ],
   "parameters": {
     "googleUrlShortenerKey": null,
