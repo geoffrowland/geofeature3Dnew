@@ -1,3 +1,15 @@
-(
-  
+{
+  "catalog": [
+    {
+     "type": "group",
+     "name": "Counties",
+     "members": [
+       {
+         "type": "geojson",
+         "name": "Cornwall",
+         "geoJsonData": "cornwall"
+       }
+      ]
+    }
+  ]
 }
