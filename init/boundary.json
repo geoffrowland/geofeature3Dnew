@@ -8,6 +8,16 @@
          "type": "esri-featureServer",
          "name": "Regions",
          "url":"https://services1.arcgis.com/ESMARspQHYMw9BZ9/ArcGIS/rest/services/Regions_December_2021_EN_BFC_2022/FeatureServer/0"
+       },
+       {
+         "type": "esri-featureServer",
+         "name": "Counties and Unitary Authorities",
+         "url":"https://services1.arcgis.com/ESMARspQHYMw9BZ9/ArcGIS/rest/services/Counties_and_Unitary_Authorities_December_2021_UK_BFC_2022/FeatureServer"
+       },
+       {
+         "type": "esri-featureServer",
+         "name": "Parishes",
+         "url": "https://services1.arcgis.com/ESMARspQHYMw9BZ9/ArcGIS/rest/services/Parishes_December_2021_EW_BFC_2022/FeatureServer/0"
        }, 
        {
          "type": "geojson",
