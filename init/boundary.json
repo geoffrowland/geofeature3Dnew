@@ -12,8 +12,8 @@
          "isOpenInWorkbench": false,
           "style": {
             "stroke": "black",
-            "stroke-width": 2,
-            "stroke-opacity":1
+            "stroke-width": 1,
+            "stroke-opacity": 1,
             "fill": "green",
             "fill-opacity": 0.1
          }
@@ -24,7 +24,13 @@
          "url":"https://services1.arcgis.com/ESMARspQHYMw9BZ9/ArcGIS/rest/services/Counties_and_Unitary_Authorities_December_2021_UK_BFC_2022/FeatureServer/0",
          "useStyleInformationFromService": false,
          "isOpenInWorkbench": false,
-         "opacity": 0.5
+         "style": {
+            "stroke": "black",
+            "stroke-width": 1,
+            "stroke-opacity": 1,
+            "fill": "green",
+            "fill-opacity": 0.1
+         }
        },
        {
          "type": "esri-featureServer",
@@ -33,7 +39,13 @@
          "maxFeatures": 20000,
          "useStyleInformationFromService": false,
          "isOpenInWorkbench": false,
-         "opacity": 0.5
+         "style": {
+            "stroke": "black",
+            "stroke-width": 1,
+            "stroke-opacity": 1,
+            "fill": "green",
+            "fill-opacity": 0.1
+         }
        }, 
        {
          "type": "geojson",
