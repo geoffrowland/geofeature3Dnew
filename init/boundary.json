@@ -10,7 +10,13 @@
          "url":"https://services1.arcgis.com/ESMARspQHYMw9BZ9/ArcGIS/rest/services/Regions_December_2021_EN_BFC_2022/FeatureServer/0",
          "useStyleInformationFromService": false,
          "isOpenInWorkbench": false,
-         "opacity": 0.5
+          "style": {
+            "stroke": "black",
+            "stroke-width": 2,
+            "stroke-opacity":1
+            "fill": "green",
+            "fill-opacity": 0.1
+         }
        },
        {
          "type": "esri-featureServer",
