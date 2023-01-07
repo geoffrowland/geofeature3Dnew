@@ -41,12 +41,51 @@
          "name": "Devon Parishes",
          "url": "init/parishDevon1mMini.geojson",
          "isOpenInWorkbench": false,
+	 "zoomOnAddToWorkbench": true,
          "style": {
             "stroke": "black",
             "stroke-width": 1,
             "stroke-opacity": 1,
-            "fill": "red",
-            "fill-opacity": 0.1
+            "fill-opacity": 0
+         }
+       },
+       {  
+         "type": "geojson",
+         "name": "Cornwall Parishes",
+         "url": "init/parishCornwall1m.geojson",
+         "isOpenInWorkbench": false,
+	 "zoomOnAddToWorkbench": true,
+         "style": {
+            "stroke": "black",
+            "stroke-width": 1,
+            "stroke-opacity": 1,
+            "fill-opacity": 0
+         }
+       },
+       {  
+         "type": "geojson",
+         "name": "Dorset Parishes",
+         "url": "init/parishDorset1m.geojson",
+         "isOpenInWorkbench": false,
+	 "zoomOnAddToWorkbench": true,
+         "style": {
+            "stroke": "black",
+            "stroke-width": 1,
+            "stroke-opacity": 1,
+            "fill-opacity": 0
+         }
+       },
+       {  
+         "type": "geojson",
+         "name": "Somerset Parishes",
+         "url": "init/parishSomerset1m.geojson",
+         "isOpenInWorkbench": false,
+	 "zoomOnAddToWorkbench": true,
+         "style": {
+            "stroke": "black",
+            "stroke-width": 1,
+            "stroke-opacity": 1,
+            "fill-opacity": 0
          }
        }, 
        {
