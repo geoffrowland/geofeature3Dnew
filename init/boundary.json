@@ -28,7 +28,7 @@
             "stroke": "black",
             "stroke-width": 1,
             "stroke-opacity": 1,
-            "fill": "red",
+            "fill": "green",
             "fill-opacity": 0.1
          },
          "featureInfoTemplate": {
