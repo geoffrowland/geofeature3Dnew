@@ -37,17 +37,15 @@
          }
        },
        {  
-         "type": "esri-featureServer",
-         "name": "Parishes",
-         "url": "https://services1.arcgis.com/ESMARspQHYMw9BZ9/ArcGIS/rest/services/Parishes_December_2021_EW_BGC_2022/FeatureServer/0",
-         "maxFeatures": 20000,
-         "useStyleInformationFromService": false,
+         "type": "geojson",
+         "name": "Devon Parishes",
+         "url": "init/parishDevon1mMini.geojson",
          "isOpenInWorkbench": false,
          "style": {
             "stroke": "black",
             "stroke-width": 1,
             "stroke-opacity": 1,
-            "fill": "green",
+            "fill": "red",
             "fill-opacity": 0.1
          }
        }, 
