@@ -10,7 +10,7 @@
 	   "url": "init/SomersetLGS2023.csv",
 	   "activeStyle": "Local Authority",
 	   "isOpenInWorkbench": false,
-	   "style": {
+	   "defaultStyle": {
               "stroke": "black",
               "stroke-width": 1,
               "stroke-opacity": 1,
@@ -23,7 +23,7 @@
 	       "name": "Devon GCR",
 	       "url": "init/GCR-Devon.csv",
                "isOpenInWorkbench": false,
-	     "style": {
+	     "defaultStyle": {
               "stroke": "black",
               "stroke-width": 1,
               "stroke-opacity": 1,
@@ -36,7 +36,7 @@
 	       "name": "Dorset GCR",
 	       "url": "init/GCR-Dorset.csv",
                "isOpenInWorkbench": false,
-	     "style": {
+	     "defaultStyle": {
               "stroke": "black",
               "stroke-width": 1,
               "stroke-opacity": 1,
@@ -49,7 +49,7 @@
 	       "name": "Somerset GCR",
 	       "url": "init/GCR-Somerset.csv",
                "isOpenInWorkbench": false,
-	     "style": {
+	     "defaultStyle": {
               "stroke": "black",
               "stroke-width": 1,
               "stroke-opacity": 1,
@@ -63,7 +63,7 @@
          "url":"https://services1.arcgis.com/ESMARspQHYMw9BZ9/ArcGIS/rest/services/Regions_December_2021_EN_BGC_2022/FeatureServer/0",
          "useStyleInformationFromService": false,
          "isOpenInWorkbench": false,
-          "style": {
+          "defaultStyle": {
             "stroke": "black",
             "stroke-width": 1,
             "stroke-opacity": 1,
