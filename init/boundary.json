@@ -6,7 +6,7 @@
      "members": [
        {
 	       "type": "csv",
-	       "Somerset LGS",
+	       "name": "Somerset LGS",
 	       "url": "init/SomersetLGS2023.csv",
 	       "activeStyle": "Local Authority",
        },
