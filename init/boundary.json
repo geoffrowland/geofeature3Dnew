@@ -21,10 +21,9 @@
                  "color": {
                    "binColors": [
                      "rgba(0,0,200,1.00)",
-                     "rgba(200,200,200,1.00)",
                      "rgba(200,0,0,1.00)"
                     ],
-                   "numberOfBins": 3
+                   "numberOfBins": 2
 		 }
             }
        },
