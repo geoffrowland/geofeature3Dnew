@@ -17,9 +17,16 @@
 	       "url": "init/GCR-Devon.csv",
                "isOpenInWorkbench": false,
                "activeStyle": "admin_area",
-	       "defaultStyle": {
-		       "color": "red"
-	       }
+               "defaultStyle": {
+                 "color": {
+                   "binColors": [
+                     "rgba(0,0,200,1.00)",
+                     "rgba(200,200,200,1.00)",
+                     "rgba(200,0,0,1.00)"
+                    ],
+                   "numberOfBins": 3
+		 }
+            }
        },
        {
 	       "type": "csv",
