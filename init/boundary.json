@@ -105,7 +105,7 @@
        {  
          "type": "geojson",
          "name": "Somerset Parishes",
-         "url": "init/parishSomerset1m.geojson",
+         "url": "init/parishSomerset1mMini.geojson",
          "isOpenInWorkbench": false,
 	 "zoomOnAddToWorkbench": true,
          "style": {
