@@ -21,10 +21,9 @@
                  "color": {
 		   "colorColumn": "admin_area", 
                    "binColors": [
-                     "rgba(0,0,200,1.00)",
-                     "rgba(200,0,0,1.00)"
+                     "rgba(0,0,200,1.00)"
                     ],
-                   "numberOfBins": 2
+                   "numberOfBins": 1
 		 }
             }
        },
@@ -34,6 +33,15 @@
 	       "url": "init/GCR-Dorset.csv",
                "isOpenInWorkbench": false,
                "activeStyle": "admin_area",
+	       "defaultStyle": {
+                 "color": {
+		   "colorColumn": "admin_area", 
+                   "binColors": [
+                     "rgba(200,0,0,1.00)"
+                    ],
+                   "numberOfBins": 1
+		 }
+            }
        },
        {
 	       "type": "csv",
@@ -41,6 +49,15 @@
 	       "url": "init/GCR-Somerset.csv",
                "isOpenInWorkbench": false,
 	       "activeStyle": "admin_area",
+	       "defaultStyle": {
+                 "color": {
+		   "colorColumn": "admin_area", 
+                   "binColors": [
+                     "rgba(0,200,0,1.00)"
+                    ],
+                   "numberOfBins": 1
+		 }
+            }
        },
        {
          "type": "esri-featureServer",
