@@ -223,7 +223,7 @@
 	  "type":"geojson",
 	  "name": "BGS 1:625k Faults",
 	  "url":"init/625k_v5_fault_geology_lines.geojson",
-	  "perPropertyStyles": {
+	  "perPropertyStyles": [ {
 	    "properties":{
 	       "FEATURE_D": "Fault at Rockhead"
 	    },
@@ -231,7 +231,7 @@
             "stroke-width": 10,
             "stroke": "red"
 	    }
-          },
+          }],
 	  "featureInfoTemplate": {
              "name": "{{FEATURE_D}}",
 	     "template": "{{FEATURE_D}}<br />{{id}}"
