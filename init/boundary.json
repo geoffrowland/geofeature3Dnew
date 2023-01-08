@@ -80,6 +80,20 @@
        },
        {  
          "type": "geojson",
+         "name": "Somerset Districts",
+         "url": "init/SomersetDistricts1m.geojson",
+         "isOpenInWorkbench": false,
+	 "zoomOnAddToWorkbench": true,
+         "style": {
+            "stroke": "black",
+            "stroke-width": 1,
+            "stroke-opacity": 1,
+            "fill": "blue",
+            "fill-opacity": 0.1
+         }
+       }, 
+       {  
+         "type": "geojson",
          "name": "Somerset Parishes",
          "url": "init/parishSomerset1m.geojson",
          "isOpenInWorkbench": false,
