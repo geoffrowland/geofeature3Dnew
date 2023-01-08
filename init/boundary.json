@@ -9,53 +9,28 @@
 	   "name": "Somerset LGS",
 	   "url": "init/SomersetLGS2023.csv",
 	   "activeStyle": "Local Authority",
-	   "isOpenInWorkbench": false,
-	   "defaultStyle": {
-              "stroke": "black",
-              "stroke-width": 1,
-              "stroke-opacity": 1,
-              "fill": "orange",
-              "fill-opacity": 0.9
-          } 
+	   "isOpenInWorkbench": false
        },
        {
 	       "type": "csv",
 	       "name": "Devon GCR",
 	       "url": "init/GCR-Devon.csv",
                "isOpenInWorkbench": false,
-	     "defaultStyle": {
-              "stroke": "black",
-              "stroke-width": 1,
-              "stroke-opacity": 1,
-              "fill": "green",
-              "fill-opacity": 0.9
-          } 
+               "activeStyle": "admin_area",
        },
        {
 	       "type": "csv",
 	       "name": "Dorset GCR",
 	       "url": "init/GCR-Dorset.csv",
                "isOpenInWorkbench": false,
-	     "defaultStyle": {
-              "stroke": "black",
-              "stroke-width": 1,
-              "stroke-opacity": 1,
-              "fill": "red",
-              "fill-opacity": 0.9
-          }
+               "activeStyle": "admin_area",
        },
        {
 	       "type": "csv",
 	       "name": "Somerset GCR",
 	       "url": "init/GCR-Somerset.csv",
                "isOpenInWorkbench": false,
-	     "defaultStyle": {
-              "stroke": "black",
-              "stroke-width": 1,
-              "stroke-opacity": 1,
-              "fill": "blue",
-              "fill-opacity": 0.9
-          }
+	       "activeStyle": "admin_area",
        },
        {
          "type": "esri-featureServer",
