@@ -9,6 +9,7 @@
 	       "name": "Somerset LGS",
 	       "url": "init/SomersetLGS2023.csv",
 	       "activeStyle": "Local Authority",
+	        "isOpenInWorkbench": false
        },
        {
          "type": "esri-featureServer",
