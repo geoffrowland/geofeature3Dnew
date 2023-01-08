@@ -21,9 +21,10 @@
                  "color": {
 		   "colorColumn": "admin_area", 
                    "binColors": [
-                     "rgba(0,0,200,1.00)"
+                     "rgba(0,0,200,1.00)",
+                     "rgba(0,0,200,1.00)"			   
                     ],
-                   "numberOfBins": 1
+                   "numberOfBins": 2
 		 }
             }
        },
@@ -37,9 +38,11 @@
                  "color": {
 		   "colorColumn": "admin_area", 
                    "binColors": [
-                     "rgba(200,0,0,1.00)"
+                     "rgba(200,0,0,1.00)",
+	             "rgba(200,0,0,1.00)",
+	             "rgba(200,0,0,1.00)"
                     ],
-                   "numberOfBins": 1
+                   "numberOfBins": 3
 		 }
             }
        },
