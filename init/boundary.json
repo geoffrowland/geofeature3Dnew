@@ -19,7 +19,6 @@
                "activeStyle": "admin_area",
                "defaultStyle": {
                  "color": {
-		   "mapType":"constant",
 		   "colorColumn": "admin_area", 
                    "binColors": [
                      "rgba(0,0,200,1.00)",
