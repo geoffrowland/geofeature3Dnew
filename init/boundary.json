@@ -81,7 +81,7 @@
        {  
          "type": "geojson",
          "name": "Somerset Districts",
-         "url": "init/SomersetDistricts1m.geojson",
+         "url": "init/SomersetDistricts1mMini.geojson",
          "isOpenInWorkbench": false,
 	 "zoomOnAddToWorkbench": true,
          "style": {
