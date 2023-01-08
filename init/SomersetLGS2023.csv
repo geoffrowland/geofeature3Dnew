@@ -1,0 +1,215 @@
+"ID","Name","LGG No","Grid Ref","X","Y","Lat","Lon","Local Authority","Parish","Public Access","Access","Period","Rock Group","Geological Highlights","Condition"
+1,"Gortnell Common Landslip","ST11/571","ST168178",316800,117800,50.953603,-3.185873,"Taunton Deane B C","West Buckland","FALSE","Conditional","Quaternary","Greensand","LANDSLIP","Good"
+2,"Lipe Hill Holloway","ST12/545","ST18652136",318650,121360,50.985873,-3.1603382,"Taunton Deane B C","Pitminster","TRUE",,"Permian/Triassic","North Curry Sandstone","N CURRY SANDSTONE","Good declining"
+3,"Staple Hill Backscar","ST21/522","ST22781640",322780,116400,50.941849,-3.1004571,"Taunton Deane B C","Otterford","TRUE","Uncertain","Tertiary","Bagshot?","BACKSCAR WITH LARGE TERTIARY COBBLES","Poor declining"
+4,"Staple Fitzpaine Sarsens","ST21/523","ST26451845",326450,118450,50.960761,-3.0486458,"Taunton Deane B C","Staple Fitzpaine","TRUE","Full","Tertiary","Bagshot? Plateau deposits","SARSENS","Good"
+5,"Overton Sandpit","ST22/527","ST26752925",326750,129250,51.057899,-3.0465585,"Taunton Deane B C","West Monkton","TRUE","Uncertain","Permian/Triassic","Otter Sandstone","SEDIMENTS",
+6,"Moredon House Cutting","ST32/509","ST32502601",332500,126010,51.029475,-2.9639215,"Taunton Deane B C","North Curry","TRUE","Full","Permian/Triassic","North Curry Sandstone","SEDIMENTS","Good declining"
+7,"Hatch Beauchamp Cutting","ST32/510","ST24282923",324280,129230,51.057398,-3.0817914,"Taunton Deane B C","Hatch Beauchamp","TRUE","Conditional","Jurassic","Blue Lias","SEDIMENTS TECTONICS","Good declining"
+8,"Otterford Quarry","ST21/524","ST224140",322400,114000,50.920221,-3.1053529,"Taunton Deane B C","Otterford","TRUE","Full","Cretaceous","Head/Greensand","SEDIMENTS","Good declining"
+9,"Hestercombe Dykes","ST22/504","ST24282923",324280,129230,51.057398,-3.0817914,"Taunton Deane B C","Kingston St.Mary","TRUE",,"Carboniferous","Hestercombe diorite","IGNEOUS","Good declining"
+10,"Coombe Quarries","ST22/512-513","ST27002920",327000,129200,51.057481,-3.0429819,"Taunton Deane B C","West Monkton","FALSE","Uncertain","Devonian","Morte Slate","SEDIMENTS TECTONICS","Good steady"
+11,"Denbury Quarry","ST12/500","ST14652948",314650,129480,51.058293,-3.2192252,"Taunton Deane B C","Ash Priors","TRUE",,"Permian/Triassic","Bunter Sandstone pebble beds","SEDIMENTS","Good declining"
+12,"Ford Quarry","ST02/503","ST098291",309800,129100,51.054135,-3.2883162,"Taunton Deane B C","Upton","FALSE","Uncertain","Permian/Triassic","Bunter Sandstone pebble beds","SEDIMENTS","Good declining"
+13,"Ridge Hill Quarry","ST02/515","ST090285",309000,128500,51.048615,-3.2995762,"Taunton Deane B C","Wiveliscombe","TRUE","Uncertain","Permian/Triassic","Vexford Breccias","SEDIMENTS","Poor declining"
+14,"Hyden Quarry","ST02/516","ST094278",309400,127800,51.042385,-3.293696,"Taunton Deane B C","Wiveliscombe","TRUE",,"Permian/Triassic","Vexford Breccias","SEDIMENTS",
+15,"Langley Hollow","ST02/519A","ST081291",308100,129100,51.053865,-3.3125645,"Taunton Deane B C","Wiveliscombe","TRUE",,"Permian/Triassic","Wiveliscombe Sandstone","SEDIMENTS","Good steady"
+16,"Billy Lane exposure","ST02/520","ST088288",308800,128800,51.05128,-3.3025043,"Taunton Deane B C","Wiveliscombe","TRUE",,"Permian/Triassic","Wiveliscombe Sandstone","SEDIMENTS","Good steady"
+17,"Oakhamoton Quarry","ST03/542","ST085301",308500,130100,51.062919,-3.3071122,"Taunton Deane B C","Wiveliscombe","TRUE","Conditional","Devonian","Morte Slate",,"Good steady"
+18,"Buckland Wood","ST11/510","ST180174",318000,117400,50.950179,-3.1687025,"Taunton Deane B C","West Buckland","TRUE","Full","Cretaceous","Greensand","HEAD GREENSAND","Good declining"
+19,"Bindon Farm Quarry","ST12/518","ST107240",310700,124000,51.008427,-3.2742205,"Taunton Deane B C","Langton Budville","FALSE","Conditional","Permian/Triassic","Bunter Sandstone pebble beds","SEDIMENTS",
+20,"Holywell Bridge Quarry","ST12/529","ST137273",313700,127300,51.038553,-3.232257,"Taunton Deane B C","Ash Priors","TRUE","Uncertain","Permian/Triassic","Bunter Sst pebble beds & Otter Sst","SEDIMENTS",
+21,"Pooles Kiln Quarry","ST12/536","ST104258",310400,125800,51.024562,-3.2789407,"Taunton Deane B C","Milverton","TRUE","Uncertain","Permian/Triassic","Bunter Sandstone pebble beds","SEDIMENTS",
+22,"Knights Farm Qarry","ST13/570","ST129327",312900,132700,51.086978,-3.2449663,"Taunton Deane B C","Lyd. St.Lawrence","FALSE","Uncertain","Permian/Triassic","Vexford Breccias","SEDIMENTS",
+23,"Brick Barn Quarry","ST13/580","ST196302",319600,130200,51.065482,-3.1487702,"Taunton Deane B C","Cottelstone","FALSE","Uncertain","Permian/Triassic","Otter Sandstone","SEDIMENTS",
+24,"Gadds Bottom Quarry","ST22/506","ST232293",323200,129300,51.057884,-3.0972133,"Taunton Deane B C","Kingston St.Mary","TRUE","Full","Devonian","Morte Slate","TECTONICS SEDIMENTS","Good declining"
+25,"Yarford Quarry","ST22/517","ST203299",320300,129900,51.062882,-3.1387164,"Taunton Deane B C","Kingston St.Mary","FALSE","Uncertain","Permian/Triassic","Otter Sandstone","SEDIMENTS","Good declining"
+26,"Tetton Park Quarry","ST23/527","ST203301",320300,130100,51.064681,-3.1387605,"Taunton Deane B C","Kingston St.Mary","TRUE","Conditional","Devonian","Morte Slate","SEDIMENTS","Good declining"
+27,"Sandy Lane Langley","ST02/519B","ST08002890",308000,128900,51.052051,-3.3139399,"Taunton Deane B C","Wiveliscombe","TRUE",,"Permian/Triassic","Vexford Breccias",,
+28,"Waterrow Quarry","ST02/527","ST05502458",305500,124580,51.012809,-3.3484691,"Taunton Deane B C","Bathealton","FALSE","Full","Carboniferous","Pilton Slates","SEDIMENTS","Good steady"
+29,"Oakhampton Quarry","ST03/542","ST085301",308500,130100,51.062919,-3.3071122,"Taunton Deane B C","Bathealton","Yes","Full","Devonian","Morte Slate","SEDIMENTS","Good declining"
+30,"Clatworthy Reservoir","ST03/558","ST04323140",304320,131400,51.073923,-3.3670888,"Taunton Deane B C","Clatworthy","TRUE","Full","Devonian","Morte Slates landforms","SEDIMENTS TECTONICS","Good declining"
+31,"Oakhampton Viewpoint","ST03/559","ST09003010",309000,130100,51.062998,-3.299979,"Taunton Deane B C","Wiveliscombe","FALSE","Full","Recent","Viewpoint","LANDSCAPE","Good"
+32,"Northway Quarry","ST12/501","ST13632950",313630,129500,51.05832,-3.2337807,"Taunton Deane B C","Ash Priors","FALSE","Uncertain","Permian/Triassic","Bunter Sandstone pebble beds","SEDIMENTS",
+33,"Nynehead Quarry","ST12/543","ST14102290",314100,122900,50.999056,-3.2255097,"Taunton Deane B C","Nynehead","TRUE","Uncertain","Permian/Triassic","Otter Sandstone",,
+34,"Hoccombe Channels","ST12/546","ST11312980",311310,129800,51.060663,-3.2669496,"Taunton Deane B C","Fitzhead","TRUE","Full","Quaternary","alluvium","FLUVIAL FEATURES","Good"
+35,"Norton Fitzwarren Church","ST12/547","ST19722598",319720,125980,51.027559,-3.1461211,"Taunton Deane B C","Norton Fitzwarren","TRUE","FULL","Permian/Triassic","North Curry Sst as building stones","N CURRY SANDSTONE","Good"
+36,"Cushuish Lane Holloway","ST13/607","ST19753031",319750,130310,51.066492,-3.1466544,"Taunton Deane B C","Kingston St.Mary","TRUE","Full","Devonian","Morte Slate - folds","SEDIMENTS NEAR QUANTOCK FAULT","Good"
+37,"Hestercombe Car Park","ST22/526","ST24062920",324060,129200,51.0571,-3.0849236,"Taunton Deane B C","Kingston St.Mary","TRUE","Conditional","Carboniferous","diorite intrusion","HEAD TECTONICS","Poor declining"
+38,"Taunton Town Trail","ST22/529","ST226246",322600,124600,51.015548,-3.1047673,"Taunton Deane B C","Taunton","TRUE",,"Recent","Building stones","COLLECTION OF LOCAL BUILDING STONES","Good"
+39,"Keepers Combe Quarry","ST13/549","ST18253710",318250,137100,51.127323,-3.1695964,"Sedgemoor District","Spaxton","TRUE","Full","Devonian","Volcanic Tuff","IGNEOUS",
+40,"Pepperhill Quarry","ST13/587","ST18983722",318980,137220,51.128506,-3.1591939,"Sedgemoor District","Spaxton","TRUE","Uncertain","Devonian","Folds","TECTONIC","Poor declining"
+41,"King's Cliff Quarry","ST23/524","ST277326",327700,132600,51.088138,-3.0336767,"Sedgemoor District","North Petherton","TRUE","Full","Devonian","Morte Slate","SEDIMENTS","Good declining"
+42,"Broomfield Quarrylands","ST23/547","ST22103237",322100,132370,51.085336,-3.1135682,"Sedgemoor District","Broomfield","TRUE","Full","Devonian","Morte Slate","SEDIMENTS","Good declining"
+43,"North Newton Holloway","ST23/549","ST294309",329400,130900,51.073066,-3.0090755,"Sedgemoor District","North Petherton","TRUE","Full","Permian/Triassic","Otter Sandstone Calcrete","SEDIMENTS","Good steady"
+44,"Adscombe Trackway","ST13/604","ST18023783",318020,137830,51.133853,-3.1730486,"Sedgemoor District","Over Stowey","TRUE","Uncertain","Devonian","Ilfracombe Beds","SEDIMENTS","Poor declining"
+45,"Rams Combe","ST13/605","ST16823763",316820,137630,51.131882,-3.190149,"Sedgemoor District","Over Stowey","TRUE","Uncertain","Devonian","Hangman Sandstone","SEDIMENTS","Poor declining"
+46,"Parsons Lane Quarry","ST13/550","ST19163618",319160,136180,51.119182,-3.1563886,"Sedgemoor District","Spaxton","TRUE","Uncertain","Devonian","Roadwater Limestone","SEDIMENTS","Poor declining"
+47,"Plainsfield Quarry","ST13/603","ST19333698",319330,136980,51.126398,-3.1541395,"Sedgemoor District","Spaxton","FALSE",,"Devonian","Roadwater Limestone","SEDIMENTS",
+48,"Holloway Rocks","ST45/505","ST456575",345600,157500,51.313997,-2.7819124,"Sedgemoor District","Shipham","TRUE",,"Permian/Triassic","Dolomitic Conglomerate","SEDIMENTS TECTONICS",
+49,"GB Cave","ST45/508","ST476562",347600,156200,51.302497,-2.7530279,"Sedgemoor District","Cheddar","FALSE",,"Carboniferous","Karst",,
+50,"Cross Quarry","ST45/510","ST414549",341400,154900,51.290203,-2.8417391,"Sedgemoor District","Compton Bishop","TRUE","Full","Carboniferous","Clifton Down Limestone","SEDIMENTS","Good steady"
+51,"Churchill Farm Holloways","ST23/549","ST294309",329400,130900,51.073066,-3.0090755,"Sedgemoor District","North Petherton","TRUE",,"Permian/Triassic","Otter Sandstone",,
+52,"Cannington Park Quarry","ST24/508","ST251404",325100,140400,51.15793,-3.0724157,"Sedgemoor District","Cannington","FALSE","Conditional","Carboniferous","Carboniferous Limestone","TECTONICS SEDIMENTS BAYTES","Good declining"
+53,"Merridge Quarry","ST23/514","ST20813438",320810,134380,51.10323,-3.1324233,"Sedgemoor District","Broomfield","FALSE","Uncertain","Devonian","Roadwater Limestone","SEDIMENTS","Good declining"
+54,"No Place Quarry","ST23/518","ST21853476",321850,134760,51.106789,-3.1176548,"Sedgemoor District","Broomfield","TRUE","Conditional","Devonian","Holwell Limestone","SEDIMENTS",
+55,"Holwell Cave","ST23/500","ST21053400",321050,134000,51.099847,-3.128913,"Sedgemoor District","Broomfield","FALSE","Conditional","Quaternary","Holwell Cave","CAVE  SYSTEM","Good steady"
+56,"Manor Farm Quarry","ST23/501","ST20833365",320830,133650,51.09667,-3.1319774,"Sedgemoor District","Broomfield","FALSE","Uncertain","Devonian","Roadwater Limestone","SEDIMENTS",
+57,"Quantock Quarry","ST23/502","ST21183360",321180,133600,51.096269,-3.1269693,"Sedgemoor District","Broomfield","TRUE","Uncertain","Devonian","Aisholt Limestone","SEDIMENTS",
+58,"Wayford Woods","ST40/514","ST3906",339000,106000,50.850287,-2.867887,"South Somerset D C","Wayford","TRUE","Full","Cretaceous","Greensand","LANDSLIPS GREENSAND","Good declining"
+59,"Knapps Lane Quarry","ST30/505","ST362098",336200,109800,50.884151,-2.9083203,"South Somerset D C","Chaffcombe","TRUE",,"Cretaceous","Upper Greensand","SEDIMENTS","Good declining"
+60,"Hurcott Road Cutting","ST31/508","ST399161",339900,116100,50.941194,-2.8567691,"South Somerset D C","Seavington St.Mary","TRUE","Full","Jurassic","Beacon Limestone","SEDIMENTS FOSSILS","Good declining"
+61,"Townsend Quarry","ST31/509","ST372148",337200,114800,50.929217,-2.8949685,"South Somerset D C","Whitelackington","FALSE","Conditional","Jurassic","Marlstone Rock Beds","SEDIMENTS","Good steady"
+62,"Manor House Quarry","ST40/504","ST465097",346500,109700,50.8843,-2.7619009,"South Somerset D C","North Perrott","FALSE","Conditional","Jurassic","Ham Hill Stone & Inferior Oolite","HAM HILL STONE OUTLIER","Poor declining"
+63,"Limeworks Quarry","ST40/506","ST459074",345900,107400,50.863563,-2.7700884,"South Somerset D C","Little Sutton","FALSE","Conditional","Jurassic","Inferior Oolite","SEDIMENTS  FOSSILS","Poor steady"
+64,"Lyewater Rock Face","ST40/513","ST436095",343600,109500,50.882225,-2.8030908,"South Somerset D C","Crewkerne","TRUE","Full","Jurassic","Inferior Oolite","SEDIMENTS FOSSILS","Good declining"
+65,"Ham Hill Group","ST41/500","ST482162",348200,116200,50.9429,-2.7386616,"South Somerset D C","Montacute","TRUE","Full","Jurassic","Ham Hill Stone","SEDIMENTS TECTONICS","Good"
+66,"Warren Hill Cutting","ST41/501","ST404103",340400,110300,50.889096,-2.8487041,"South Somerset D C","West Crewkerne","TRUE","Full","Cretaceous","Upper Greensand","SEDIMENTS","Good declining"
+67,"Bayford Cutting","ST75/505","ST72182876",372180,128760,51.057501,-2.3983241,"South Somerset D C","Stoke Trister","TRUE",,"Jurassic","Cornbrash","SEDIMENTS",
+68,"Gilcombe Quarry","ST63/531","ST69273614",369270,136140,51.123712,-2.4404743,"South Somerset D C","Bruton","FALSE","Conditional","Jurassic","Forest Marble","SEDIMENTS AND SEDIMENTARY STRUCTURE","Poor declining"
+69,"Hadspen Quarry","ST63/535","ST65503144",365500,131440,51.081235,-2.4938904,"South Somerset D C","Pitcombe","FALSE","Conditional","Jurassic","Inferior Oolite","TYPICAL 'HADSPEN STONE' ACTIVE QUARRY","Good"
+70,"Pen Selwood Landslip","ST73/507","ST753302",375300,130200,51.070593,-2.3539063,"South Somerset D C","Pen Selwood","TRUE","Conditional","Quaternary","Landslip","ACTIVE LANDSLIP","Poor declining"
+71,"River Brue Bed & Cliff","ST63/539","ST69023503",369020,135030,51.113717,-2.4439507,"South Somerset D C","Bruton","TRUE",,"Jurassic","Fullers Earth Rock","SEDIMENTS","Good steady"
+72,"Quarry Covert","ST62/515","ST62052536",362050,125360,51.026347,-2.5425,"South Somerset D C","Compton Paucefoot","FALSE","Conditional","Jurassic","Inferior Oolite","THICK UPPER INFERIOR OOLITE","Good declining"
+73,"Quarry Plantation","ST62/509","ST66582554",366580,125540,51.028247,-2.4779264,"South Somerset D C","Maperton","FALSE","Conditional","Jurassic","Inferior Oolite","SHEARING FAULTING NEAR MERE FAULT","Poor declining"
+74,"Haselbury Mill Face","ST41/523","ST46021115",346020,111150,50.897293,-2.7689384,"South Somerset D C","Haselbury Pluckett","FALSE","Conditional","Jurassic","Inferior Oolite","SEDIMENTS","Poor declining"
+75,"Keeper's Quarry Plantation","ST41/521","ST40431220",340430,112200,50.906183,-2.8485881,"South Somerset D C","Hinton St.George","FALSE","Conditional","Jurassic","Inferior Oolite","SEDIMENTS","Good declining"
+76,"Somerton Lodge Corner","ST42/501","ST497285",349700,128500,51.053629,-2.7190213,"South Somerset D C","Somerton","TRUE","Full","Jurassic","White/Blue Lias","SEDIMENTS","Poor declin/lost"
+77,"Cary Bridge Cutting","ST42/502","ST495293",349500,129300,51.060805,-2.7219864,"South Somerset D C","Somerton","FALSE","No access","Triassic/Jurassic","White/Blue Lias","SEDIMENTS TECTONICS","Poor declin/lost"
+78,"Sutton Railway Cutting","ST42/504","ST453270",345300,127000,51.039739,-2.7815643,"South Somerset D C","Long Sutton","FALSE","Conditional","Jurassic","Blue Lias","LONG CUTTING EXPOSURE SEDIMENTS","Good"
+79,"Birdspit Quarry","ST42/508","ST483261",348300,126100,51.031925,-2.7386504,"South Somerset D C","Somerton","FALSE","Conditional","Jurassic","Blue Lias","SEDIMENTS","Poor declining"
+80,"Gilling Down","ST43/502","ST497322",349700,132200,51.086898,-2.7195372,"South Somerset D C","Compton Dundon","TRUE","Full","Triassic","Mercia Mudstones land forms","Active slumpimg, Gully development, Large Blue conserve","Good steady"
+81,"Dundon Hill","ST43/505","ST484321",348400,132100,51.085883,-2.738082,"South Somerset D C","Compton Dundon","TRUE","Full","Jurassic","Blue Lias","SWT RESERVE","Poor steady"
+82,"Station Quarry","ST52/500","ST530290",353000,129000,51.058405,-2.6720079,"South Somerset D C","Charlton Mackrell","FALSE","Conditional","Jurassic","Blue Lias","CP ROMAN TILES AND TESSERAE","Good declining"
+83,"Tout Quarry","ST52/504","ST536281",353600,128100,51.050362,-2.6633316,"South Somerset D C","Charlton Mackerell","FALSE","Conditional","Jurassic","Blue Lias","SOURCE OF ALGAL BEDDING PLANES",
+84,"Hurcot Quarry","ST52/505","ST507298",350700,129800,51.065405,-2.7049327,"South Somerset D C","Somerton","FALSE","Conditional","Triassic","Westbury Beds","SEDIMENTS",
+85,"Mill Lane Exposure","5T52/511","ST517269",351700,126900,51.039415,-2.690275,"South Somerset D C","Kingsdon","TRUE","Full","Triassic","Blue Lias","STRIKE SLIP TECTONICS","Good"
+86,"Lake View Quarry","ST53/501","ST546302",354600,130200,51.069324,-2.6493305,"South Somerset D C","Keinton Mandeville","FALSE","Conditional","Jurassic","Blue Lias","SEDIMENTS JOINTS","Good"
+87,"Coombe Quarry","ST53/502","ST55023132",355020,131320,51.079428,-2.6434763,"South Somerset D C","Keinton Mandeville","FALSE","Conditional","Jurassic","Blue Lias","SEDIMENTS","Good declining"
+88,"Sutton's Quarry","ST53/503","ST54663154",354660,131540,51.081378,-2.6486427,"South Somerset D C","Keinton Mandeville","FALSE","Conditional","Jurassic","Blue Lias","SEDIMENTS","Poor declining"
+89,"King's Hill Quarry","ST53/504","ST545309",354500,130900,51.075611,-2.6508459,"South Somerset D C","Keinton Mandeville","FALSE","Conditional","Jurassic","Blue Lias","GOOD BLUE LIAS EXPOSURE","Good declining"
+90,"Batemoor Quarry","ST41/514","ST488164",348800,116400,50.944752,-2.7301505,"South Somerset D C","Montacute","FALSE",,"Jurassic","Ham Hill Stone","SEDIMENTS FOSSILS",
+91,"Camel Hill","ST52/513","ST59642550",359640,125500,51.027441,-2.5768777,"South Somerset D C","Queen Camel","TRUE","Conditional","Triassic","Langport Beds","WHITE LIAS","Good declining"
+92,"Coker Hill Cutting","ST51/504","ST50361337",350360,113370,50.917645,-2.7075338,"South Somerset D C","East Chinnock","TRUE","Full","Jurassic","Bridport Sandstone","SEDIMENTARY  STRUCTURES","Good"
+93,"Dorchester Road Cutting","ST51/508","ST553142",355300,114200,50.925513,-2.6373659,"South Somerset D C","Yeovil","TRUE","Full","Jurassic","Bridport Sandstone","PLANAR BEDDED SANDS","Good"
+94,"East Chinnock Hollow","ST41/515","ST49901330",349900,113300,50.916975,-2.7140674,"South Somerset D C","East Chinnock","TRUE","Full","Jurassic","Bridport Sandstone","SEDIMENTS FOSSILS","Good steady"
+95,"Montacute Holloway","ST41/519","ST49201632",349200,116320,50.944069,-2.7244463,"South Somerset D C","Montacute","TRUE","Full","Jurassic","Bridport Sandstone","EROSION HOLLOWAY SEDIMENTS","Good steady"
+96,"Windmill Lane Exposure","ST51/506","ST50391736",350390,117360,50.953524,-2.7076515,"South Somerset D C","Montacute","TRUE",,"Jurassic","Marlstone","THIN MARLSTONE","Good declining"
+97,"Preston Stream Section","ST51/510","ST53711673",353710,116730,50.948136,-2.6603091,"South Somerset D C","Yeovil","FALSE","Conditional","Jurassic","Beacon Limestone","STREAM SECTION","Poor declining"
+98,"Sparkford Hill Copse","ST62/630","ST601253",360100,125300,51.025675,-2.5702968,"South Somerset D C","Sparkford","TRUE","Conditional","Jurassic","Blue Lias","WHITE BLUE LIAS EXPOSURES",
+99,"Sutton Bingham Reservoir","ST51/509","ST550110",355000,111000,50.896715,-2.6412383,"South Somerset D C","Closworth","TRUE","Conditional","Jurassic","Forest Marble","SEDIMENTARY STRUCTURES","Good declining"
+100,"Salt Hole Spring","ST41/509","ST48251300",348250,113000,50.914132,-2.7374947,"South Somerset D C","East Chinnock","FALSE",,"Quaternary","hydrological interest","HYDROLOGICAL INTEREST","Poor steady"
+101,"West Chinnock Hill Cutting","ST41/518","ST46241269",346240,112690,50.91116,-2.7660377,"South Somerset D C","West Chinnock","TRUE",,"Jurassic","Ham Hill Stone","SEDIMENTS","Good declining"
+102,"River Axe Flood Plain","ST30/504","ST35570503",335570,105030,50.841193,-2.9164334,"South Somerset D C","Wingham","TRUE",,"Quaternary","fluvial features","FLUVIAL FEATURES","Good steady"
+103,"Corton Ridge & Beacon","ST62/531","ST6322",363000,122000,50.996196,-2.5286109,"South Somerset D C","Corton Denham","TRUE","Full","Quaternary","landforms","DOUBLE SCARP AND DIP","Good"
+104,"Yeovil Town","ST51/507","ST539160",353900,116000,50.941587,-2.657512,"South Somerset D C","Yeovil","TRUE","Full","Jurassic","building stones","BEACON LIMESTONE CONDENSED FACIES","Good"
+105,"West Chinnock Hill","ST41/520","ST460120",346000,112000,50.904934,-2.7693488,"South Somerset D C","West Chinnock","TRUE",,"Quaternary","landforms","LANDFORMS","Good steady"
+106,"Ilminster Old Walls","ST31/510","ST360146",336000,114600,50.927287,-2.9120061,"South Somerset D C","Ilminster","TRUE",,"Jurassic","building stones","MARLSTONE FOSSILS","Good"
+107,"Knole","ST42/510","ST482249",348200,124900,51.021127,-2.7399045,"South Somerset D C","Long Sutton","TRUE","Full","Quaternary","landforms","LANDFORMS TERACETTES","Good"
+108,"Cow Castle","SS73/532","SS795371",279500,137100,51.120475,-3.7231134,"Exmoor National Park","Exmoor","TRUE","Full","Devonian","Landforms, Kentisbury Slate","TECTONIC LANDFORMS","Good"
+109,"Wheal Eliza Mine","SS73/533","SS784381",278400,138100,51.12923,-3.7391604,"Exmoor National Park","Exmoor","TRUE","Full","Devonian","former mine workings","HERITAGE SITE MINING SEDIMENTS","Good declining"
+110,"Birch Cleve Quarry","SS73/534","SS775390",277500,139000,51.137128,-3.7523221,"Exmoor National Park","Exmoor","TRUE","Full","Devonian","Kentisbury Slates","BY NATURE TRAIL SEDIMENTS",
+111,"Cornham Ford Group","SS73/500","SS74673890",274670,138900,51.135616,-3.7927166,"Exmoor National Park","Exmoor","TRUE","Full","Devonian","Morte Slates","SEDIMENTS TECTONIC QUARTZ VEINS","Good declining"
+112,"Roman Lode Gully","SS73/529","SS752382",275200,138200,51.12944,-3.7849027,"Exmoor National Park","Exmoor","TRUE","Full","Quaternary","landforms","SOILS PERIGLACIAL GULLY","Good declining"
+113,"Cornham Ford Mining Group","SS73/536","SS74883829",274880,138290,51.130179,-3.7895047,"Exmoor National Park","Exmoor","TRUE",,"Devonian","minerals",,
+114,"Drybridge Quarry","SS73/509","SS76143851",276140,138510,51.132431,-3.7715826,"Exmoor National Park","Exmoor","TRUE","Full","Devonian","Morte Slate","PEAT SEDIMENTS","Poor steady"
+115,"Pinkery Head Section","SS74/502","SS724408",272400,140800,51.15219,-3.825818,"Exmoor National Park","Exmoor","TRUE","Full","Devonian","Morte Slate","GOOD EXPOSURE OF HEAD","Good declining"
+116,"Shortcombe Rocks","SS74/503","SS725408",272500,140800,51.152212,-3.824389,"Exmoor National Park","Exmoor","TRUE","Full","Devonian","Kentisbury Slates","LANDSFORMS (KNOLLS) SLATES","Good"
+117,"Upper Exe-Warren Gp","SS74/508","SS760417",276000,141700,51.161071,-3.7746821,"Exmoor National Park","Exmoor","TRUE","Conditional","Devonian","Hangman Sandstone","LANDFORMS KNOLLS 1952 FLOOD EVIDENCE Soils","Good steady"
+118,"Ashton Cleave Scree","SS74/514","SS79204865",279200,148650,51.224222,-3.7312824,"Exmoor National Park","Oare","TRUE","Full","Devonian","faces - Hangman Sandstone","Scree Tectonic Shattering Classic LF Periglacial","Good"
+119,"Pinkworthy Pond Exposure","SS74/516","SS72264220",272260,142200,51.164741,-3.8283162,"Exmoor National Park","Exmoor","TRUE","Full","Devonian","Kentisbury Slates","Seds. Slates LF=Terracettes Stream Erosion Soils Tect.","Good"
+120,"Oare Water Channel","SS74/517","SS79334815",279330,148150,51.219755,-3.7292532,"Exmoor National Park","Oare","TRUE","Full","Devonian","Hangman Sandstone","TECTONIC  SEDIMENTS","Good"
+121,"Pinkworthy Valley Soils","SS74/523","SS72144152",272140,141520,51.158603,-3.8297896,"Exmoor National Park","Exmoor","TRUE","Full","Quaternary","Soils (and head)","HEAD SLATES PEAT EDGE OF RAISED BOG SOILS","Good"
+122,"Newland Quarry","SS83/504","SS82503855",282500,138550,51.134132,-3.6807418,"Exmoor National Park","Exmoor","TRUE",,"Devonian","Ilfracombe Beds",,
+123,"Pinns Quarry","SS83/509","SS88573819",288570,138190,51.13211,-3.5939121,"Exmoor National Park","Cutcombe","FALSE","Conditional","Devonian","Roadwater Limestone","VADOSE PIPES  SEDIMENTS","Good declining"
+124,"Pennycombe Gape Knolls","SS83/519","SS841372",284100,137200,51.122324,-3.6574496,"Exmoor National Park","Withypool","FALSE","Conditional","Devonian","Morte Slates landforms","KNOLLS  TECTONICS","Good"
+125,"Upper Willingford Gully","SS83/528","SS81753260",281750,132600,51.080498,-3.6895045,"Exmoor National Park","Withypool","TRUE","Full","Devonian","Upper Willingford Gully","ACTIVE GULLY","Good"
+126,"L Willingford Bridge Quarry","SS83/535","SS818322",281800,132200,51.076913,-3.6886601,"Exmoor National Park","Withypool","TRUE","Conditional","Devonian","Pickwell Down Beds","SEDIMENTIARY STRUCTURES TECTONICS",
+127,"Landacre Bridge","SS83/526","SS8036",280000,136000,51.110693,-3.7156064,"Exmoor National Park","Withypool","TRUE","Full","Devonian","Morte Slates",,"Good"
+128,"Tarr Steps & Quarry","SS83/543-544","SS86733208",286730,132080,51.076829,-3.6182783,"Exmoor National Park","Withypool","TRUE","Full","Devonian","Pickwell Down Beds","SEDS. & SEDIMENTARY STRUCTURES TECTONICS","Good"
+129,"The Punch Bowl","SS83/545","SS880446",288000,144600,51.189615,-3.6040527,"Exmoor National Park","Withypool","TRUE","Conditional","Devonian","Pickwell Down Beds","CONTROVERSIAL GLACIAL CIRQUE??",
+130,"Hope Quarry","SS8953 3628","SS89533628",289530,136280,51.115128,-3.5796117,"Exmoor National Park","Winsford","FALSE","Conditional","Devonian","Brendon Hill Beds","SEDIMENTS TECTONICS",
+131,"Hurlstone Point","SS84/500","SS899492",289900,149200,51.231332,-3.578289,"Exmoor National Park","Selworthy","TRUE","Full","Devonian","Hangman Sandstone","SEDIMENTS MINERAL VEINS TECTONICS",
+132,"Weir Water Reserve","SS84/530","SS826464",282600,146400,51.204709,-3.6818787,"Exmoor National Park","Porlock","TRUE","Full","Quaternary/Devon","landforms","KNOLLS GOYLES TECTONICS ","Good"
+133,"Dunkery Gate","SS84/528","SS89574563",289570,145630,51.199179,-3.5819131,"Exmoor National Park","Cutcombe","TRUE","Full","Quaternary/Devon","Manley Beds","SEDIMENTS GOYLE HEAD SOIL PROFILES FLUVIAL","Good declining"
+134,"Bossington Beach","SS84/529","SS870476",287000,147600,51.216383,-3.6193018,"Exmoor National Park","Porlock","TRUE","Full","Quaternary","beach","Subm. Forest, Shingle Beach Fluv. Nat. Retreat Salt Marsh","Good"
+135,"Culbone Coast Cliffs","SS84/531","SS840486",284000,148600,51.224769,-3.6625601,"Exmoor National Park","Porlock","TRUE","Full","Devonian","Hangman Sandstone Group","TRENTISOE FORMATION SEDIMENTS TECTONICS","Good declining"
+136,"Porlock Weir","SS84/532","SS850480",285000,148000,51.219579,-3.6480533,"Exmoor National Park","Porlock","TRUE","Full","Quaternary","Head & beach","Head.. Relict Slopes Salt Marsh. Shingle Beach","Good"
+137,"Stoke Bridge Golyes","SS84/540","SS87394337",287390,143370,51.178439,-3.6123919,"Exmoor National Park","Luccombe","TRUE","Conditional","Quaternary","landforms","SPLENDID GOYLES IN HEAD","Good"
+138,"Yellowstone Cliff","SS84/548","SS81804914",281800,149140,51.229171,-3.6942288,"Exmoor National Park","Oare","TRUE","Full","Devonian","Hangman Sandstone","SEDIMENTS TECTONICS","Good"
+139,"Barlynch Quarry","SS92/500","SS93052922",293050,129220,51.052335,-3.5272507,"Exmoor National Park","Dulverton","FALSE","Conditional","Devonian","Pickwell Down Beds","SUPERB SEDIMENTS TECTONICS","Good declining"
+140,"Marsh Bridge River Channel","SS92/515","SS90392899",290390,128990,51.049766,-3.5651167,"Exmoor National Park","Dulverton","TRUE","Full","Devonian","Pickwell Down Beds","SEDIMENTS QUARTZ VEINING","Good steady"
+141,"Perry Road New Cutting","SS92/527","SS92802585",292800,125850,51.021996,-3.5298179,"Exmoor National Park","Exton","TRUE","Full","Carb./Devonian","Pilton Beds","FOSSILS FENESTELLA SEDIMENTS","Good declining"
+142,"Allencroft Quarry West","SS93/507","SS95693922",295690,139220,51.142712,-3.4924915,"Exmoor National Park","Timberscombe","FALSE","Conditional","Devonian","Roadwater Limestone","SEDIMENTS","Good declining"
+143,"Luckwell Bridge Quarry","SS93/548","SS90953854",290950,138540,51.135715,-3.5600174,"Exmoor National Park","Cutcombe","TRUE","Conditional","Devonian","Roadwater Limestone","FOSSILS SEDIMENTS","Good declining"
+144,"Kingsbridge New Mill Quarry","SS93/549","SS98703795",298700,137950,51.131836,-3.4491209,"Exmoor National Park","Luxborough","FALSE","Conditional","Devonian","Avill Group","SEDIMENTS",
+145,"Bridgetown Cutting","SS93/562","SS92343292",292340,132920,51.085461,-3.5384792,"Exmoor National Park","Exton","TRUE","Full","Devonian","Pickwell Down Beds","SEDIMENTS","Good declining"
+146,"Wheddon Cross Car Park","SS93/572","SS92503882",292500,138820,51.138525,-3.5379557,"Exmoor National Park","Winsford","TRUE","Full","Devonian","Cutcombe Slates","SEDIMENTS QUARTZ LENSES TECTONICS",
+147,"Edbrook Road Cutting","SS93/582","SS91993403",291990,134030,51.095373,-3.5438066,"Exmoor National Park","Winsford","TRUE","Full","Devonian","Pickwell Down Beds","SEDIMENTS QUARTZ VEINING TECTONICS","Poor declining"
+148,"Cottage Quarry","SS93/588","SS91603627",291600,136270,51.115434,-3.5500473,"Exmoor National Park","Winsford","FALSE","Uncertain","Devonian","Brendon Hill Beds","TECTONICS",
+149,"Stowey Farm Quarry","SS93/585","SS95693922",295690,139220,51.142712,-3.4924915,"Exmoor National Park","Timberscombe","FALSE","Conditional","Devonian","Roadwater Limestone","SEDIMENTS SEDIMENTARY STRUCTURES FOSSILS",
+150,"Combeshead Quarry","SS94/508","SS926476",292600,147600,51.217465,-3.5391535,"Exmoor National Park","Minehead","TRUE","Conditional","Devonian","Hangman Sandstone","SEDIMENTS, BARYTES, TECTONICS, SCREE FORM","Poor declining"
+151,"Culver Cliffs","SS94/509","SS95944787",295940,147870,51.220511,-3.4914269,"Exmoor National Park","Minehead","TRUE","Full","Devonian","Hangman Sandstone","CLIFFS SEDS. & SED STRUCTURES TECTONICS","Good"
+152,"Conygar Tower Quarry","SS94/517","SS99204410",299200,144100,51.187208,-3.4437027,"Exmoor National Park","Minehead","FALSE","No access","Devonian","Hangman Sandstone","HUGE FACE CLEAR SEDIMENTS","Good declining"
+153,"Gillhams Quarry","SS94/530","SS92054442",292050,144420,51.188777,-3.5460679,"Exmoor National Park","Wootton Courtney","FALSE","Conditional","Permian/Triassic","Otter Sandstone","FAULT CALCITE VEINS BRECCIAS","Good declining"
+154,"Greenaleigh Point","SS94/542/3","SS95214815",295210,148150,51.222894,-3.501958,"Exmoor National Park","Minehead Without","TRUE","Full","Devonian","Hangman Sandstone","Seds. Sed. Structs Tect. Arc Shingle Ridge Hd Palslope NT","Good"
+155,"Oaktrow Road Quarries","SS94/545","SS93904002",293900,140020,51.149573,-3.518306,"Exmoor National Park","Cutcombe","FALSE","Uncertain","Devonian","Oaktrow Sandstone","TECTONIC SEDIMENTS FOSSILS",
+156,"Luccombe Boulder Bed","SS94/552","SS91194501",291190,145010,51.193917,-3.5585479,"Exmoor National Park","Wootton Courtney","TRUE","Full","Permian/Triassic","Otter Sandstone","FANTASTIC BOULDER BED","Good declining"
+157,"Huntscott Garage Quarry","SS94/554","SS92464419",292460,144190,51.186787,-3.5401344,"Exmoor National Park","Wootton Courtney","FALSE","Conditional","Permian/Triassic",,"CALCITE VEINING SEDIMENTS CALC BRECCIAS",
+158,"Shepton Mallet Cutting","ST64/554","ST618431",361800,143100,51.185842,-2.5479482,"Mendip","Shepton Mallet","TRUE","Uncertain","Jurassic","Limestones, Blue Lias & Clays","SEDIMENTS",
+159,"Beard Hill Quarry","ST64/555","ST628407",362800,140700,51.164329,-2.5333917,"Mendip","Pilton","FALSE","Conditional","Jurassic","Blue Lias","SEDIMENTS","Good declining"
+160,"Town Lane Quarry","ST64/558","ST624435",362400,143500,51.189479,-2.5394058,"Mendip","Shepton Mallet","FALSE","Uncertain","Jurassic","Blue Lias","SEDIMENTS",
+161,"Doulting Quarry","ST64/590","ST649435",364900,143500,51.189638,-2.5036344,"Mendip","Doulting","FALSE","Conditional","Jurassic","Doulting Stone","SEDIMENTS",
+162,"Abbey Quarry","ST64/591","ST653437",365300,143700,51.191461,-2.4979303,"Mendip","Doulting","FALSE","Full","Jurassic","Doulting Stone",,
+163,"Whitehole Quarry","ST64/594","ST681499",368100,149900,51.247373,-2.4584181,"Mendip","Downhead","FALSE","Uncertain","Carboniferous","Carboniferous Limestone","HOTWELLS GROUP SEDIMENTS",
+164,"Barnclose Quarry","ST64/595","ST693477",369300,147700,51.227657,-2.4410368,"Mendip","Downhead","FALSE","Uncertain","Carboniferous","Clifton Down Limestone","SEDIMENTS","Poor declining"
+165,"Maesbury Cutting","ST64/504","ST606476",360600,147600,51.226222,-2.5656126,"Mendip","Binegar","FALSE","Uncertain","Carboniferous","Lower Limestone Shale","CLIFTON DOWN LIMESTONE",
+166,"Minster Stone Quarry","ST64/513","ST660432",366000,143200,51.187007,-2.4878664,"Mendip","Cranmore","FALSE","Conditional","Jurassic","Doulting Stone","INFERIOR OOLITE LIMESTONES",
+167,"Sunny Hill Quarry","ST64/616","ST659459",365900,145900,51.211279,-2.4895546,"Mendip","Stoke St Michael","FALSE","Uncertain","Silurian","Volcanics","IGNEOUS",
+168,"Hector Wood Quarry","ST64/618","ST672480",367200,148000,51.230238,-2.4711374,"Mendip","Stoke St Michael","FALSE","Uncertain","Carboniferous","Quartzitic stone","QUARTZITIC SANDSTONE GROUP SEDIMENTS",
+169,"Chilcompton Railway Cutt","ST65/503","ST652521",365200,152100,51.266984,-2.5001798,"Mendip","Chilcompton","TRUE","Conditional","Permian/Triassic","Westbury Beds","TECTONICS SEDIMENTS","Good declining"
+170,"Chilcompton Old Down Cutt","ST65/505","ST631512",363100,151200,51.258759,-2.5301851,"Mendip","Chilcompton","FALSE","Conditional","Perm/Trias/Jur","Rhaetian & Lower Jurassic","SEDIMENTS","Poor declining"
+171,"Emborough Dam","ST65/507","ST615510",361500,151000,51.256855,-2.5530914,"Mendip","Emborough","TRUE",,"Carboniferous","Lower Coal Series","SEDIMENTS",
+172,"Tedbury Camp Quarry","ST74/507","ST746489",374600,148900,51.238709,-2.3652228,"Mendip","Elm","TRUE","Full","Carb/Jurassic","Inferior Oolite over Carb Lst","UNCONFORMITY TECTONICS SEDIMENTS","Good"
+173,"Shute Shelve Tunnel","ST45/537","ST422560",342200,156000,51.300175,-2.8304465,"Mendip","Winscombe","TRUE",,"Carboniferous","Black Rock Limestone","SEDIMENTS","Good declining"
+174,"Rowberrow Swallets","ST45/538","ST456580",345600,158000,51.318493,-2.7819889,"Mendip","Shipham","TRUE",,"Quaternary","Swallets","SWALLETS",
+175,"Rowberrow Cavern","ST45/539","ST45965802",345960,158020,51.318707,-2.7768267,"Mendip","Shipham","FALSE",,"Quaternary","cavern","CAVE  SYSTEM",
+176,"Wearyall Hill","ST43/521","ST489381",348900,138100,51.139876,-2.731796,"Mendip","Glastonbury","TRUE","Full","Quaternary","shallow slides","ROLLOVERS SLIDES","Good"
+177,"Hazel Corner","ST55/509","ST528562",352800,156200,51.302953,-2.6784433,"Mendip","Hunt-Blewit","FALSE","Full","Carboniferous","Burrington Oolite","SEDIMENTS FAULT VERTICAL CALCITE",
+178,"Leigh Barton Quarry","ST03/534","ST022356",302200,135600,51.111321,-3.3984783,"Mendip","Treborough","FALSE","No access","Devonian","Sticklepath Slate","SEDIMENTS TECTONICS","Poor declining"
+179,"Golsoncott Quarry",,"ST028390",302800,139000,51.141987,-3.3908278,"Mendip","Old Cleeve","FALSE","Conditional","Devonian","Leighland Slates & Roadwater Lst","SEDIMENTS","Poor declining"
+180,"Treborough Woods","ST03/557","ST013368",301300,136800,51.121953,-3.4116597,"Mendip","Treborough","FALSE",,"Devonian","Leighland Beds",,
+181,"Draycott Sleights","ST45/521","ST485515",348500,151500,51.260322,-2.7394401,"Mendip","Rodney Stoke","TRUE","Full","Carboniferous","Burrington Oolite","SEDIMENTS CAVES","Good declining"
+182,"Stump Cross Railway Cutt","ST54/500","ST593431",359300,143100,51.185669,-2.5837164,"Mendip","Croscombe","FALSE","Uncertain","Permian/Triassic","Dolomitic Conglom/Black Rock Lst","SEDIMENTS UNCONFORMITY",
+183,"Croscombe Road Cutting","ST54/502","ST595443",359500,144300,51.196473,-2.5809907,"Mendip","Croscombe","TRUE","Uncertain","Permian/Triassic","Dolomitic Conglomerate","SEDIMENTS",
+184,"Maesbury Quarry","ST54/521","ST596475",359600,147500,51.225253,-2.5799211,"Mendip","St.Cuthbert Out","FALSE","Uncertain","Carboniferous","Black Rock Limestone","MINERALISATION FAULT FISSURES",
+185,"Tor Woods","ST54/523","ST555458",355500,145800,51.209662,-2.6384189,"Mendip","Wells","FALSE","Uncertain","Permian/Triassic","Dolomitic Conglomerate","Dolomitic Conglomerates on Carboniferous Limestone",
+186,"Pen Hill Quarry","ST54/528","ST568487",356800,148700,51.235837,-2.6201605,"Mendip","St.Cuthbert Out","TRUE",,"Devonian","Old Red Sandstone","SEDIMENTS",
+187,"Milton Lane","ST54/531","ST549473",354900,147300,51.223102,-2.6471968,"Mendip","Wells","TRUE","Full","Perm/Trias/Jur","Keuper Marl - Lower Lias","WESTBURY AND COTHAM BEDS",
+188,"Tumulous Quarry","ST54/544","ST552493",355200,149300,51.241108,-2.6431519,"Mendip","Chewton Mendip","FALSE",,"Carboniferous","Black Rock Limestone","SEDIMENTS",
+189,"Wells Green Swallet","ST54/539","ST550447",355000,144700,51.199732,-2.6454379,"Mendip","Chewton Mendip","FALSE","Uncertain","Jurassic","Blue Lias","SWALLETT IN BLUE LIAS",
+190,"Bishop's Lot","ST54/546","ST550495",355000,149500,51.24289,-2.646042,"Mendip","Chewton Mendip","TRUE","Uncertain","Carboniferous","Black Rock Limestone","LARGE DOLINE",
+191,"Wookey Station","ST54/554","ST531464",353100,146400,51.214864,-2.6728522,"Mendip","Wells","TRUE",,"Quarternary","gravel","DEVENSIAN GRAVEL","Good declining"
+192,"Stoberry Park Quarry","ST54/555","ST556468",355600,146800,51.218661,-2.6371116,"Mendip","Wells","FALSE","Uncertain","Carboniferous","Clifton Down Limestone","SEDIMENTS","Poor declining"
+193,"Beacon Hill Wood","ST64/505","ST637458",363700,145800,51.210244,-2.5210381,"Mendip","Shepton Mallet","TRUE","Full","Devonian","Portishead Beds","SEDIMENTS","Good declining"
+194,"Deer Leap","ST54/566","ST519496",351900,149600,51.243536,-2.6904619,"Mendip","Wells","TRUE","Full","Carboniferous","Millstone Grit","SEDIMENTS",
+195,"Wilmott's Quarry","ST64/534","ST657445",365700,144500,51.198679,-2.4922834,"Mendip","Cranmore","FALSE","Uncertain","Carboniferous","Black Rock Limestone","FISSURES FOSSILS",
+196,"Waterlip Quarry East","ST64/535","ST661446",366100,144600,51.199602,-2.4865682,"Mendip","Cranmore","FALSE","No access","Carboniferous","Black Rock Limestone","TECTONICS FOSSILS","Poor declining"
+197,"Stones Hill Farm Quarry","ST64/537","ST632495",363200,149500,51.24348,-2.5285767,"Mendip","Binegar","FALSE","Uncertain","Carb./Perm/Trias","Quartzitic St. & Dolomitic Conglom.","NEPTUNIAN DYKE",
+198,"Holwell Car Park Quarry","ST75/557","ST729452",372900,145200,51.205361,-2.3892928,"Mendip","Nunney","FALSE","Conditional","Permian/Triassic","Fissure Fillings","MOORE'S FISSURES","Good declining"
+199,"Carslake Bridge Cutting","ST13/506","ST112367",311200,136700,51.122676,-3.2702176,"W Somerset","Stogumber","FALSE","Conditional","Devonian","Vexford Breccias","SEDIMENTS","Good declining"
+200,"Triscombe Quarry","ST13/522","ST157359",315700,135900,51.116165,-3.2057467,"W Somerset","Crowcombe","FALSE","Conditional","Devonian","Hangman Sandstone","VOLCANICS TECTONICS SEDS. NEEDS RESEARCH","Good declining"
+201,"Bicknoller Quarry","ST13/538","ST115399",311500,139900,51.15149,-3.2667193,"W Somerset","Bicknoller","TRUE","Full","Carboniferous","Hangman Sst Triscombe Beds","SEDIMENTS AND SEDIMENTARY STRUCTURES","Good steady"
+202,"Kents Hill Quarry","SS92/505","SS920252",292000,125200,51.016003,-3.541026,"W Somerset","Exford","TRUE","Conditional","Carboniferous","Bampton Limestone","RADIOLARIANS SEDIMENTS TECTONICS","Good declining"
+203,"Bowdens Quarry","SS92/506","SS920248",292000,124800,51.012407,-3.5409068,"W Somerset","Exford","TRUE","Conditional","Carboniferous","Bampton Limestone","CONODONTS GRADED TUFF",
+204,"Hulverton Hill Quarry","SS92/507","SS927249",292700,124900,51.013437,-3.5309618,"W Somerset","Exford","FALSE","Conditional","Devonian","Pickwell Down Beds","RADIOLARIANS SEDIMENTS LANDFORM",
+205,"Bridge End Quarry","SS92/518","SS993289",299300,128900,51.05059,-3.4380227,"W Somerset","Skilgate","TRUE","Conditional","Devonian","PickwellL Down Beds","TECTONICS SEDIMENTS",
+206,"Hollow Street Cutting","SS94/504","SS967464",296700,146400,51.207436,-3.4801244,"W Somerset","Minehead","FALSE","Full","Permian/Triassic","Bunter Sand & Pebble Beds","SEDIMENTS TECTONICS",
+207,"Woolston Quarry","ST04/517","ST094401",309400,140100,51.152959,-3.2967866,"W Somerset","Sampford Brett","TRUE",,"Devonian","Bunter Sandstone and Pebble Beds","SEDIMENTS","Good declining"
+208,"Halsway Quarry","ST13/532","ST133380",313300,138000,51.134685,-3.240532,"W Somerset","Crowcombe","TRUE",,"Devonian","Trentishoe Grits",,
+209,"Bicknoller Combe Quarry","ST13/538","ST115399",311500,139900,51.15149,-3.2667193,"W Somerset","Bicknoller","FALSE",,"Devonian","Little Hangman Sandstone","SEDIMENTS",
+210,"W Quantocks Head Quarries","ST14/501","ST113416",311300,141600,51.166742,-3.2699977,"W Somerset","W Quantockhead","TRUE",,"Devonian","Tuff over Hangman Sandstone","SEDIMENTS","Good declining"
+211,"Holford Glen","ST14/542","ST155412",315500,141200,51.163783,-3.2098485,"W Somerset","Holford","TRUE",,"Devonian","Hangman Sst Triscombe Beds","SEDIMENTS","Good declining"
+212,"Holford Combe Quarry","ST14/545","ST152405",315200,140500,51.157445,-3.2139727,"W Somerset","Holford","FALSE",,"Devonian","Tuff over Hangman Sandstone","SEDIMENT","Good declining"
+213,"Willoughby Cleeve Quarry","ST14/546","ST150408",315000,140800,51.160113,-3.2169028,"W Somerset","Holford","FALSE",,"Devonian","Hangman Sandstone","SEDIMENTS","Good declining"
+214,"Godney Moor Raised-Mire","ST44/512","ST472448",347200,144800,51.199962,-2.7570794,"Mendip DC","Godney","YES","Conditional","Recent","Peat","Relict Raised Mire-Palaeo Record 1600 Years","Good"
