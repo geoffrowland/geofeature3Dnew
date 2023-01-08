@@ -5,6 +5,11 @@
      "name": "Boundaries",
      "members": [
        {
+	       "type": "csv",
+	       "Somerset LGS",
+	       "url": "init/SomersetLGS2023.csv"
+       },
+       {
          "type": "esri-featureServer",
          "name": "Regions",
          "url":"https://services1.arcgis.com/ESMARspQHYMw9BZ9/ArcGIS/rest/services/Regions_December_2021_EN_BGC_2022/FeatureServer/0",
