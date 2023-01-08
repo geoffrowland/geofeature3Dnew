@@ -17,6 +17,9 @@
 	       "url": "init/GCR-Devon.csv",
                "isOpenInWorkbench": false,
                "activeStyle": "admin_area",
+	       "tableStyle": {
+		       "colorMap": "red-red"
+	       }
        },
        {
 	       "type": "csv",
