@@ -90,6 +90,10 @@
             "stroke-opacity": 1,
             "fill": "blue",
             "fill-opacity": 0.1
+         },
+	 "featureInfoTemplate": {
+             "name": "{{LAD22NM}}",
+             "template": "{{LAD22NM}}"
          }
        }, 
        {  
