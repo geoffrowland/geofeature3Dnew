@@ -12,6 +12,24 @@
 	        "isOpenInWorkbench": false
        },
        {
+	       "type": "csv",
+	       "name": "Devon GCR",
+	       "url": "init/GCR-Devon.csv",
+               "isOpenInWorkbench": false
+       },
+       {
+	       "type": "csv",
+	       "name": "Dorset GCR",
+	       "url": "init/GCR-Dorset.csv",
+               "isOpenInWorkbench": false
+       },
+       {
+	       "type": "csv",
+	       "name": "Somerset GCR",
+	       "url": "init/GCR-Somerset.csv",
+               "isOpenInWorkbench": false
+       },
+       {
          "type": "esri-featureServer",
          "name": "Regions",
          "url":"https://services1.arcgis.com/ESMARspQHYMw9BZ9/ArcGIS/rest/services/Regions_December_2021_EN_BGC_2022/FeatureServer/0",
