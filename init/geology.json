@@ -190,7 +190,7 @@
       "getFeatureInfoFormat": {"type": "xml", "format": "application/vnd.ogc.gml"},
       "featureInfoTemplate": {
           "name": "{{#LEX}}{{LEX_D}}{{/LEX}}",
-          "template": "{{#LEX}}{{RCS_D}}<br><br>{{MAX_TIME_D}} - {{MIN_TIME_D}}<br>{{MAX_TIME_Y}} - {{MIN_TIME_Y}} years ago<br><br>{{AGE_ONEGL}}<br><br>{{PREV_NAME}}<br><br>More information from the <a href='https://webapps.bgs.ac.uk/lexicon/lexicon.cfm?pub={{LEX}}'>BGS Lexicon</a>  &copy; NERC 2023{{/LEX}}",
+          "template": "{{#LEX}}{{RCS_D}}<br><br>{{MAX_TIME_Y}} - {{MIN_TIME_Y}} years ago<br>{{#MAX_AGE}}{{MAX_AGE}} - {{MIN_AGE}}{{/MAX_AGE}}<br>{{#MAX_EPOCH}}{{MAX_EPOCH}} - {{MIN_EPOCH}}{{/MAX_EPOCH}}<br>{{#MAX_PERIOD}}{{MAX_PERIOD}} - {{MIN_PERIOD}}{{/MAX_PERIOD}}<br>{{#MAX_ERA}}{{MAX_ERA}} - {{MIN_ERA}}{{/MAX_ERA}}<br>{{#MAX_EON}}{{MAX_EON}} - {{MIN_EON}}{{/MAX_EON}}<br><br>{{#PREV_NAME}}{{PREV_NAME}}{{/PREV_NAME}}<br><br>More information from the <a href='https://webapps.bgs.ac.uk/lexicon/lexicon.cfm?pub={{LEX}}'>BGS Lexicon</a>  &copy; NERC 2023{{/LEX}}",
 	  "formats":{
 	     "MAX_TIME_Y": {
 	        "type": "number",
