@@ -7,7 +7,7 @@
     {
      "type": "group",
      "name": "BGS 1:50 000 Geology",
-     "description": "Generalised digital geological map data based on BGS’s New Series 1:50 000 and 1:63 360-scale (one-inch to one-mile) maps with updated nomenclature, including a few 1:100 000-scale maps of Orkney and the Hebrides.",
+     "description": "Generalised digital geological map data based on the BGS New Series 1:50 000 and 1:63 360-scale (one-inch to one-mile) maps with updated nomenclature, including a few 1:100 000-scale maps of Orkney and the Hebrides.",
      "members": [
     {
       "type": "wms",
@@ -118,7 +118,7 @@
       "getFeatureInfoFormat": {"type": "xml", "format": "application/vnd.ogc.gml"},
       "featureInfoTemplate": {
           "name": "{{#LEX}}{{LEX_D}}{{/LEX}}",
-          "template": "{{#LEX}}{{RCS_D}}<br><br>{{MAX_TIME_D}} - {{MAX_TIME_D}}<br>{{MAX_TIME_Y}} - {{MIN_TIME_Y}} years ago<br><br>{{AGE_ONEGL}}<br><br>{{PREV_NAME}}<br><br>More information from the <a href='https://webapps.bgs.ac.uk/lexicon/lexicon.cfm?pub={{LEX}}'>BGS Lexicon</a>  &copy; NERC 2023{{/LEX}}",
+          "template": "{{#LEX}}{{RCS_D}}<br><br>{{MAX_TIME_D}} - {{MIN_TIME_D}}<br>{{MAX_TIME_Y}} - {{MIN_TIME_Y}} years ago<br><br>{{AGE_ONEGL}}<br><br>{{PREV_NAME}}<br><br>More information from the <a href='https://webapps.bgs.ac.uk/lexicon/lexicon.cfm?pub={{LEX}}'>BGS Lexicon</a>  &copy; NERC 2023{{/LEX}}",
 	  "formats":{
 	     "MAX_TIME_Y": {
 	        "type": "number",
@@ -152,6 +152,19 @@
       "hideLayerAfterMinScaleDenominator": true,
       "allowFeaturePicking": true,
       "getFeatureInfoFormat": {"type": "xml", "format": "application/vnd.ogc.gml"},
+      "name": "{{#LEX}}{{LEX_D}}{{/LEX}}",
+          "template": "{{#LEX}}<br><br>{{ROCK_D}}<br><br>{{RCS_D}}<br><br>{{MAX_TIME_D}} - {{MIN_TIME_D}}<br>{{MAX_ERA} - {{MIN_ERA}}<br>{{MAX_TIME_Y}} - {{MIN_TIME_Y}} years ago<br><br>{{PREV_NAME}}<br><br>More information from the <a href='https://webapps.bgs.ac.uk/lexicon/lexicon.cfm?pub={{LEX}}'>BGS Lexicon</a>  &copy; NERC 2023{{/LEX}}",
+	  "formats":{
+	     "MAX_TIME_Y": {
+	        "type": "number",
+		"useGrouping": true       
+	      },
+	      "MIN_TIME_Y": {
+		 "type": "number",
+		 "useGrouping": true       
+	       }	 		       
+	    }
+       },
       "hideLegendInWorkbench": false,
       "isOpenInWorkbench": true,
       "opacity": 0.5,
