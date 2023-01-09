@@ -130,7 +130,7 @@
 	       }	 		       
 	    }
        },
-      "hideLegendInWorkbench": false,
+      "hideLegendInWorkbench": true,
       "isOpenInWorkbench": true,
       "opacity": 0.5,
       "legends": [
@@ -166,7 +166,7 @@
 	       }	 		       
 	    }
        },
-      "hideLegendInWorkbench": false,
+      "hideLegendInWorkbench": true,
       "isOpenInWorkbench": true,
       "opacity": 0.5,
       "legends": [
@@ -202,8 +202,8 @@
 	       }	 		       
 	    }
        },
-      "hideLegendInWorkbench": false,
-      "isOpenInWorkbench": false,
+      "hideLegendInWorkbench": true,
+      "isOpenInWorkbench": true,
       "opacity": 0.5,
       "legends": [
       {
@@ -238,7 +238,7 @@
 	       }	 		       
 	    }
        },
-      "hideLegendInWorkbench": false,
+      "hideLegendInWorkbench": true,
       "isOpenInWorkbench": true,
       "opacity": 0.5,
       "legends": [
@@ -274,7 +274,7 @@
 	       }	 		       
 	    }
        },
-      "hideLegendInWorkbench": false,
+      "hideLegendInWorkbench": true,
       "isOpenInWorkbench": true,
       "opacity": 0.5,
       "legends": [
