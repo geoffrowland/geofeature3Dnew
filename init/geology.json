@@ -273,7 +273,11 @@
 	 }     
       ]
     },
-
+    {
+	"type": "wfs-group",
+	"name": "625k OneGeology",
+	"url": "https://ogc.bgs.ac.uk/digmap625k_gsml_insp_gs/wfs"  
+    },
     {
      "type": "group",
      "name": "DORset Integrated Seabed survey (DORIS)",
