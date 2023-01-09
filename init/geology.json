@@ -23,8 +23,8 @@
       "getFeatureInfoFormat": {"type": "xml", "format": "text/xml"},
       "featureInfoTemplate": {
           "name": "{{LEX_RCS_D}}.",
-	  "template": "Description: {{TYPE_D}}, {{BROAD_D}}<br><br>{{MAX_TIME_D}} - {{MIN_TIME_D}}.<br>{{MAX_PERIOD}} - {{MIN_PERIOD}.<br><br>Setting: {{SETTING_D}} {{#terria.partialByName}}{{SETTINGPLUS_D}}{{/terria.partialByName}}.<br><br>Environment: {{ENVIRONMENT_D}}<br><br><a href='https://webapps.bgs.ac.uk/lexicon/lexicon.cfm?pub={{LEX}}'>Further information</a> from the British Geological Survey &copy; NERC 2023",
-          "partials": {"Null": false}
+	  "partials": {"Null": ""},
+	  "template": "Description: {{TYPE_D}}, {{BROAD_D}}<br><br>{{MAX_TIME_D}} - {{MIN_TIME_D}}.<br>{{MAX_PERIOD}} - {{MIN_PERIOD}.<br><br>Setting: {{SETTING_D}} {{#terria.partialByName}}{{SETTINGPLUS_D}}{{/terria.partialByName}}.<br><br>Environment: {{ENVIRONMENT_D}}<br><br><a href='https://webapps.bgs.ac.uk/lexicon/lexicon.cfm?pub={{LEX}}'>Further information</a>  from the British Geological Survey &copy; NERC 2023",
        }
     },
     {
