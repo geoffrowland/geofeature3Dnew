@@ -118,7 +118,7 @@
       "getFeatureInfoFormat": {"type": "xml", "format": "application/vnd.ogc.gml"},
       "featureInfoTemplate": {
           "name": "{{#LEX}}{{LEX_D}}{{/LEX}}",
-          "template": "{{#LEX}}{{RCS_D}}<br><br>{{MAX_TIME_Y}} - {{MIN_TIME_Y}} years ago<br>{{#MAX_AGE}}{{MAX_AGE}} - {{MIN_AGE}}{{/MAX_AGE}}{{#MAX_EPOCH}}<br>{{MAX_EPOCH}} - {{MIN_EPOCH}}{{/MAX_EPOCH}}{{#MAX_PERIOD}}<br>{{MAX_PERIOD}} - {{MIN_PERIOD}}{{/MAX_PERIOD}}{{#MAX_ERA}}<br>{{MAX_ERA}} - {{MIN_ERA}}{{/MAX_ERA}}{{#MAX_EON}}<br>{{MAX_EON}} - {{MIN_EON}}{{/MAX_EON}}{{#PREV_NAME}}<br><br>{{PREV_NAME}}{{/PREV_NAME}}<br><br>More information from the <a href='https://webapps.bgs.ac.uk/lexicon/lexicon.cfm?pub={{LEX}}'>BGS Lexicon</a>  &copy; NERC 2023{{/LEX}}",
+          "template": "{{#LEX}}{{RCS_D}}<br><br>{{MAX_TIME_Y}} - {{MIN_TIME_Y}} years ago{{#MAX_AGE}}<br>{{MAX_AGE}} - {{MIN_AGE}}{{/MAX_AGE}}{{#MAX_EPOCH}}<br>{{MAX_EPOCH}} - {{MIN_EPOCH}}{{/MAX_EPOCH}}{{#MAX_PERIOD}}<br>{{MAX_PERIOD}} - {{MIN_PERIOD}}{{/MAX_PERIOD}}{{#MAX_ERA}}<br>{{MAX_ERA}} - {{MIN_ERA}}{{/MAX_ERA}}{{#MAX_EON}}<br>{{MAX_EON}} - {{MIN_EON}}{{/MAX_EON}}{{#PREV_NAME}}<br><br>{{PREV_NAME}}{{/PREV_NAME}}<br><br>More information from the <a href='https://webapps.bgs.ac.uk/lexicon/lexicon.cfm?pub={{LEX}}'>BGS Lexicon</a>  &copy; NERC 2023{{/LEX}}",
 	  "formats":{
 	     "MAX_TIME_Y": {
 	        "type": "number",
@@ -154,7 +154,7 @@
       "getFeatureInfoFormat": {"type": "xml", "format": "application/vnd.ogc.gml"},
       "featureInfoTemplate": {
           "name": "{{#LEX}}{{LEX_D}}{{/LEX}}",
-          "template": "{{#LEX}}{{RCS_D}}<br><br>{{MAX_TIME_Y}} - {{MIN_TIME_Y}} years ago<br>{{#MAX_AGE}}{{MAX_AGE}} - {{MIN_AGE}}{{/MAX_AGE}}{{#MAX_EPOCH}}<br>{{MAX_EPOCH}} - {{MIN_EPOCH}}{{/MAX_EPOCH}}{{#MAX_PERIOD}}<br>{{MAX_PERIOD}} - {{MIN_PERIOD}}{{/MAX_PERIOD}}{{#MAX_ERA}}<br>{{MAX_ERA}} - {{MIN_ERA}}{{/MAX_ERA}}{{#MAX_EON}}<br>{{MAX_EON}} - {{MIN_EON}}{{/MAX_EON}}{{#PREV_NAME}}<br><br>{{PREV_NAME}}{{/PREV_NAME}}<br><br>More information from the <a href='https://webapps.bgs.ac.uk/lexicon/lexicon.cfm?pub={{LEX}}'>BGS Lexicon</a>  &copy; NERC 2023{{/LEX}}",
+          "template": "{{#LEX}}{{RCS_D}}<br><br>{{MAX_TIME_Y}} - {{MIN_TIME_Y}} years ago{{#MAX_AGE}}<br>{{MAX_AGE}} - {{MIN_AGE}}{{/MAX_AGE}}{{#MAX_EPOCH}}<br>{{MAX_EPOCH}} - {{MIN_EPOCH}}{{/MAX_EPOCH}}{{#MAX_PERIOD}}<br>{{MAX_PERIOD}} - {{MIN_PERIOD}}{{/MAX_PERIOD}}{{#MAX_ERA}}<br>{{MAX_ERA}} - {{MIN_ERA}}{{/MAX_ERA}}{{#MAX_EON}}<br>{{MAX_EON}} - {{MIN_EON}}{{/MAX_EON}}{{#PREV_NAME}}<br><br>{{PREV_NAME}}{{/PREV_NAME}}<br><br>More information from the <a href='https://webapps.bgs.ac.uk/lexicon/lexicon.cfm?pub={{LEX}}'>BGS Lexicon</a>  &copy; NERC 2023{{/LEX}}",
 	  "formats":{
 	     "MAX_TIME_Y": {
 	        "type": "number",
@@ -190,7 +190,7 @@
       "getFeatureInfoFormat": {"type": "xml", "format": "application/vnd.ogc.gml"},
       "featureInfoTemplate": {
           "name": "{{#LEX}}{{LEX_D}}{{/LEX}}",
-          "template": "{{#LEX}}{{RCS_D}}<br><br>{{MAX_TIME_Y}} - {{MIN_TIME_Y}} years ago<br>{{#MAX_AGE}}{{MAX_AGE}} - {{MIN_AGE}}{{/MAX_AGE}}{{#MAX_EPOCH}}<br>{{MAX_EPOCH}} - {{MIN_EPOCH}}{{/MAX_EPOCH}}{{#MAX_PERIOD}}<br>{{MAX_PERIOD}} - {{MIN_PERIOD}}{{/MAX_PERIOD}}{{#MAX_ERA}}<br>{{MAX_ERA}} - {{MIN_ERA}}{{/MAX_ERA}}{{#MAX_EON}}<br>{{MAX_EON}} - {{MIN_EON}}{{/MAX_EON}}{{#PREV_NAME}}<br><br>{{PREV_NAME}}{{/PREV_NAME}}<br><br>More information from the <a href='https://webapps.bgs.ac.uk/lexicon/lexicon.cfm?pub={{LEX}}'>BGS Lexicon</a>  &copy; NERC 2023{{/LEX}}",
+          "template": "{{#LEX}}{{RCS_D}}<br><br>{{MAX_TIME_Y}} - {{MIN_TIME_Y}} years ago{{#MAX_AGE}}<br>{{MAX_AGE}} - {{MIN_AGE}}{{/MAX_AGE}}{{#MAX_EPOCH}}<br>{{MAX_EPOCH}} - {{MIN_EPOCH}}{{/MAX_EPOCH}}{{#MAX_PERIOD}}<br>{{MAX_PERIOD}} - {{MIN_PERIOD}}{{/MAX_PERIOD}}{{#MAX_ERA}}<br>{{MAX_ERA}} - {{MIN_ERA}}{{/MAX_ERA}}{{#MAX_EON}}<br>{{MAX_EON}} - {{MIN_EON}}{{/MAX_EON}}{{#PREV_NAME}}<br><br>{{PREV_NAME}}{{/PREV_NAME}}<br><br>More information from the <a href='https://webapps.bgs.ac.uk/lexicon/lexicon.cfm?pub={{LEX}}'>BGS Lexicon</a>  &copy; NERC 2023{{/LEX}}",
 	  "formats":{
 	     "MAX_TIME_Y": {
 	        "type": "number",
@@ -226,7 +226,7 @@
       "getFeatureInfoFormat": {"type": "xml", "format": "application/vnd.ogc.gml"},
       "featureInfoTemplate": {
           "name": "{{#LEX}}{{LEX_D}}{{/LEX}}",
-          "template": "{{#LEX}}{{RCS_D}}<br><br>{{MAX_TIME_Y}} - {{MIN_TIME_Y}} years ago<br>{{#MAX_AGE}}{{MAX_AGE}} - {{MIN_AGE}}{{/MAX_AGE}}{{#MAX_EPOCH}}<br>{{MAX_EPOCH}} - {{MIN_EPOCH}}{{/MAX_EPOCH}}{{#MAX_PERIOD}}<br>{{MAX_PERIOD}} - {{MIN_PERIOD}}{{/MAX_PERIOD}}{{#MAX_ERA}}<br>{{MAX_ERA}} - {{MIN_ERA}}{{/MAX_ERA}}{{#MAX_EON}}<br>{{MAX_EON}} - {{MIN_EON}}{{/MAX_EON}}{{#PREV_NAME}}<br><br>{{PREV_NAME}}{{/PREV_NAME}}<br><br>More information from the <a href='https://webapps.bgs.ac.uk/lexicon/lexicon.cfm?pub={{LEX}}'>BGS Lexicon</a>  &copy; NERC 2023{{/LEX}}",
+          "template": "{{#LEX}}{{RCS_D}}<br><br>{{MAX_TIME_Y}} - {{MIN_TIME_Y}} years ago{{#MAX_AGE}}<br>{{MAX_AGE}} - {{MIN_AGE}}{{/MAX_AGE}}{{#MAX_EPOCH}}<br>{{MAX_EPOCH}} - {{MIN_EPOCH}}{{/MAX_EPOCH}}{{#MAX_PERIOD}}<br>{{MAX_PERIOD}} - {{MIN_PERIOD}}{{/MAX_PERIOD}}{{#MAX_ERA}}<br>{{MAX_ERA}} - {{MIN_ERA}}{{/MAX_ERA}}{{#MAX_EON}}<br>{{MAX_EON}} - {{MIN_EON}}{{/MAX_EON}}{{#PREV_NAME}}<br><br>{{PREV_NAME}}{{/PREV_NAME}}<br><br>More information from the <a href='https://webapps.bgs.ac.uk/lexicon/lexicon.cfm?pub={{LEX}}'>BGS Lexicon</a>  &copy; NERC 2023{{/LEX}}",
 	  "formats":{
 	     "MAX_TIME_Y": {
 	        "type": "number",
@@ -262,7 +262,7 @@
       "getFeatureInfoFormat": {"type": "xml", "format": "application/vnd.ogc.gml"},
       "featureInfoTemplate": {
           "name": "{{#LEX}}{{LEX_D}}{{/LEX}}",
-          "template": "{{#LEX}}{{RCS_D}}<br><br>{{MAX_TIME_Y}} - {{MIN_TIME_Y}} years ago<br>{{#MAX_AGE}}{{MAX_AGE}} - {{MIN_AGE}}{{/MAX_AGE}}{{#MAX_EPOCH}}<br>{{MAX_EPOCH}} - {{MIN_EPOCH}}{{/MAX_EPOCH}}{{#MAX_PERIOD}}<br>{{MAX_PERIOD}} - {{MIN_PERIOD}}{{/MAX_PERIOD}}{{#MAX_ERA}}<br>{{MAX_ERA}} - {{MIN_ERA}}{{/MAX_ERA}}{{#MAX_EON}}<br>{{MAX_EON}} - {{MIN_EON}}{{/MAX_EON}}{{#PREV_NAME}}<br><br>{{PREV_NAME}}{{/PREV_NAME}}<br><br>More information from the <a href='https://webapps.bgs.ac.uk/lexicon/lexicon.cfm?pub={{LEX}}'>BGS Lexicon</a>  &copy; NERC 2023{{/LEX}}",
+          "template": "{{#LEX}}{{RCS_D}}<br><br>{{MAX_TIME_Y}} - {{MIN_TIME_Y}} years ago{{#MAX_AGE}}<br>{{MAX_AGE}} - {{MIN_AGE}}{{/MAX_AGE}}{{#MAX_EPOCH}}<br>{{MAX_EPOCH}} - {{MIN_EPOCH}}{{/MAX_EPOCH}}{{#MAX_PERIOD}}<br>{{MAX_PERIOD}} - {{MIN_PERIOD}}{{/MAX_PERIOD}}{{#MAX_ERA}}<br>{{MAX_ERA}} - {{MIN_ERA}}{{/MAX_ERA}}{{#MAX_EON}}<br>{{MAX_EON}} - {{MIN_EON}}{{/MAX_EON}}{{#PREV_NAME}}<br><br>{{PREV_NAME}}{{/PREV_NAME}}<br><br>More information from the <a href='https://webapps.bgs.ac.uk/lexicon/lexicon.cfm?pub={{LEX}}'>BGS Lexicon</a>  &copy; NERC 2023{{/LEX}}",
 	  "formats":{
 	     "MAX_TIME_Y": {
 	        "type": "number",
