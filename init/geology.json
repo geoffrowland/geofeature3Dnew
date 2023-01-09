@@ -103,7 +103,7 @@
     {
      "type": "group",
      "name": "BGS 1:625 000 Geology",
-     "description": "Generalised digital geological map data based on BGS’s published poster maps of the UK (north and south). Bedrock-related themes were created by generalisation of 1:50 000 data to make the 2007 fifth edition bedrock geology map. Superficial gelogy-related themes were digitised from the 1977 first edition Quaternary map (north and south).",
+     "description": "Generalised digital geological map data based on the BGS published poster maps of the UK (north and south). Bedrock-related themes were created by generalisation of 1:50 000 data to make the 2007 fifth edition bedrock geology map. Superficial gelogy-related themes were digitised from the 1977 first edition Quaternary map (north and south).",
      "members": [
     {
       "type": "wms",
@@ -118,7 +118,7 @@
       "getFeatureInfoFormat": {"type": "xml", "format": "application/vnd.ogc.gml"},
       "featureInfoTemplate": {
           "name": "{{LEX_D}}",
-          "template": "<br><a title='More info' href='https://webapps.bgs.ac.uk/lexicon/lexicon.cfm?pub={{LEX}}'>{{LEX_D}}</a><br><br>{{RCS_D}}<br><br>{{MAX_TIME_D}} {{MAX_TIME_Y}}<br>{{MAX_TIME_D}} {{MIN_TIME_Y}} years before present<br>{{AGE_ONEGL}}<br><br>{{PREV_NAME}}",
+          "template": "<br><a title='More info' href='https://webapps.bgs.ac.uk/lexicon/lexicon.cfm?pub={{LEX}}'>{{LEX_D}}</a><br><br>{{RCS_D}}<br><br>{{MAX_TIME_D}} {{MAX_TIME_Y}}<br>{{MAX_TIME_D}} {{MIN_TIME_Y}}<br>{{AGE_ONEGL}}<br><br>{{PREV_NAME}}",
 	      "formats":{
 	         "MAX_TIME_Y": {
 		   "type": "number",
