@@ -117,8 +117,8 @@
       "allowFeaturePicking": true,
       "getFeatureInfoFormat": {"type": "xml", "format": "application/vnd.ogc.gml"},
       "featureInfoTemplate": {
-          "name": "{{LEX_D}}",
-          "template": "<br><a title='More info' href='https://webapps.bgs.ac.uk/lexicon/lexicon.cfm?pub={{LEX}}'>{{LEX_D}}</a><br><br>{{RCS_D}}<br><br>{{MAX_TIME_D}} {{MAX_TIME_Y}}<br>{{MAX_TIME_D}} {{MIN_TIME_Y}}<br>{{AGE_ONEGL}}<br><br>{{PREV_NAME}}",
+          "name": "<a title='More info on {{LEX_D}}' href='https://webapps.bgs.ac.uk/lexicon/lexicon.cfm?pub={{LEX}}'>{{LEX_D}}</a>",
+          "template": "{{LEX_D}}<br><br>{{RCS_D}}<br><br>{{MAX_TIME_D}} {{MAX_TIME_Y}}<br>{{MAX_TIME_D}} {{MIN_TIME_Y}}<br>{{AGE_ONEGL}}<br><br>{{PREV_NAME}}",
 	      "formats":{
 	         "MAX_TIME_Y": {
 		   "type": "number",
