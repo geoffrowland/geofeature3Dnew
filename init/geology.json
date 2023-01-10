@@ -155,6 +155,8 @@
       "featureInfoTemplate": {
           "name": "{{#LEX}}{{LEX_D}}{{/LEX}}",
           "template": "{{#LEX}}{{RCS_D}}<br><br>{{MAX_TIME_Y}} - {{MIN_TIME_Y}} years ago<br>{{#MAX_AGE}}<br>Age: {{MAX_AGE}} - {{MIN_AGE}}{{/MAX_AGE}}{{#MAX_EPOCH}}<br>Epoch: {{MAX_EPOCH}} - {{MIN_EPOCH}}{{/MAX_EPOCH}}{{#MAX_PERIOD}}<br>Period: {{MAX_PERIOD}} - {{MIN_PERIOD}}{{/MAX_PERIOD}}{{#MAX_ERA}}<br>Era: {{MAX_ERA}} - {{MIN_ERA}}{{/MAX_ERA}}{{#MAX_EON}}<br>Eon: {{MAX_EON}} - {{MIN_EON}}{{/MAX_EON}}{{#PREV_NAME}}<br><br>Previous name(s): {{PREV_NAME}}{{/PREV_NAME}}<br><br>More information from the <a href='https://webapps.bgs.ac.uk/lexicon/lexicon.cfm?pub={{LEX}}'>BGS Lexicon</a>  &copy; NERC 2023{{/LEX}}",
+	  "formats":{
+	     "MAX_TIME_Y": {    
 	        "type": "number",
 		"useGrouping": true       
 	      },
