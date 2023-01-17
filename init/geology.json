@@ -20,8 +20,18 @@
       "hideLegendInWorkbench": true,
       "isOpenInWorkbench": false,
       "info": [
-   
-	      
+	        {
+		"name":"Abstract",
+		"content": "GBR BGS 1:50000 scale bedrock geology layer"
+                },
+		{
+		"name":"Terms of Use",
+		"content": "<a target='_blank' href='https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/'>Open Government Licence</a>"
+                },
+	        {
+		"name": "Acknowledgement",
+		"content": "Contains British Geological Survey materials © UKRI 2023"
+                },     
       ],     
       "allowFeaturePicking": true,
       "getFeatureInfoFormat": {"type": "xml", "format": "text/xml"},
@@ -41,6 +51,20 @@
       "opacity": 0.5,
       "hideLegendInWorkbench": true,
       "isOpenInWorkbench": false,
+      "info": [
+	        {
+		"name":"Abstract",
+		"content": "GBR BGS 1:50000 scale superficial deposits layer"
+                },
+		{
+		"name":"Terms of Use",
+		"content": "<a target='_blank' href='https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/'>Open Government Licence</a>"
+                },
+	        {
+		"name": "Acknowledgement",
+		"content": "Contains British Geological Survey materials © UKRI 2023"
+                },     
+      ], 	    
       "allowFeaturePicking": true,
       "getFeatureInfoFormat": {"type": "xml", "format": "text/xml"},    
       "featureInfoTemplate": {
