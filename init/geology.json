@@ -19,6 +19,10 @@
       "opacity": 0.5,
       "hideLegendInWorkbench": true,
       "isOpenInWorkbench": false,
+      "info": [
+   
+	      
+      ],     
       "allowFeaturePicking": true,
       "getFeatureInfoFormat": {"type": "xml", "format": "text/xml"},
       "featureInfoTemplate": {
