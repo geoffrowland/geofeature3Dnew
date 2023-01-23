@@ -4,7 +4,7 @@
      "type": "group",
      "name": "Maps",
      "members": [
-    {
+        {
           "url": "https://tile.openstreetmap.org",
           "subdomains": ["a","b","c"],
           "type": "open-street-map",
@@ -19,15 +19,15 @@
 			  "treat403AsError": false,
 			  "treat404AsError": false,
 			  "ignoreUnknownTileErrors": true
-		  },
-		  "info": [
-            {
-              "name": "Licence",
-              "content": "[Open Data Commons Open Database License (ODbL)](https://opendatacommons.org/licenses/odbl/)"
-            }
-          ]
-        },
-        {
+	   },
+	   "info": [
+               {
+                   "name": "Licence",
+                   "content": "[Open Data Commons Open Database License (ODbL)](https://opendatacommons.org/licenses/odbl/)"
+               }
+            ]
+          },
+          {
           "url": "https://mapseries-tilesets.s3.amazonaws.com/25_inch/devon2nd/{z}/{x}/{y}.png",
           "type": "url-template-imagery",
           "dataCustodian": "NLS",
