@@ -9,7 +9,9 @@
           "subdomains": ["a","b","c"],
           "type": "open-street-map",
           "fileExtension": "png",
-          "dataCustodian": "OSM",
+          "dataCustodian": "OpenStreetMap Foundation (OSMF)",
+	  "attribution": "© OpenStreetMap",
+	  "description": "OpenStreetMap is a free, open geographic database updated and maintained by a community of volunteers via open collaboration",
           "name": "Open Street Map",
           "opacity": 0.5,
           "isOpenInWorkbench": false,
@@ -21,7 +23,7 @@
 		  "info": [
             {
               "name": "Licence",
-              "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
+              "content": "[Open Data Commons Open Database License (ODbL)](https://opendatacommons.org/licenses/odbl/)"
             }
           ]
         },
