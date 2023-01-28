@@ -4,6 +4,38 @@
      "type": "group",
      "name": "Maps",
      "members": [
+     {
+     "type": "group",
+     "name": "OS 1st Edition ~1880",
+     "members": [
+	  {
+          "url": "https://mapseries-tilesets.s3.amazonaws.com/25_inch/somerset1/{z}/{x}/{y}.png",
+          "type": "url-template-imagery",
+          "dataCustodian": "NLS",
+          "name": "Somerset OS 1886",
+          "opacity": 0.5,
+	  "maximumLevel": 18,	
+          "rectangle": {
+			  "west": -3.83818409,
+			  "south": 50.82119720,
+			  "east": -2.21205693,
+			  "north": 51.51807409
+		  },
+          "isOpenInWorkbench": false,
+          "tileErrorHandlingOptions": {
+			  "treat403AsError": false,
+			  "treat404AsError": false,
+			  "ignoreUnknownTileErrors": true
+		  },
+	   "info": [
+             {
+              "name": "Licence",
+              "content": "NLS"
+            }
+          ]
+        }	     
+        ]
+	),
         {
           "url": "https://tile.openstreetmap.org",
           "subdomains": ["a","b","c"],
@@ -105,32 +137,7 @@
             }
           ]
         },
-        {
-          "url": "https://mapseries-tilesets.s3.amazonaws.com/25_inch/somerset1/{z}/{x}/{y}.png",
-          "type": "url-template-imagery",
-          "dataCustodian": "NLS",
-          "name": "Somerset OS 1886",
-          "opacity": 0.5,
-	  "maximumLevel": 18,	
-          "rectangle": {
-			  "west": -3.83818409,
-			  "south": 50.82119720,
-			  "east": -2.21205693,
-			  "north": 51.51807409
-		  },
-          "isOpenInWorkbench": false,
-          "tileErrorHandlingOptions": {
-			  "treat403AsError": false,
-			  "treat404AsError": false,
-			  "ignoreUnknownTileErrors": true
-		  },
-	   "info": [
-             {
-              "name": "Licence",
-              "content": "NLS"
-            }
-          ]
-        },
+
 	{
           "url": "https://mapseries-tilesets.s3.amazonaws.com/os/britain10knatgrid/{z}/{x}/{y}.png",
           "type": "url-template-imagery",
@@ -157,7 +164,7 @@
             }
           ]
         },
-     {
+        {
           "name": "OS Leisure",
           "type": "bing-maps",
           "key": "AohFvM_FD-p0478UuVC3ErCaoLzkJH_ftz_gGnSB9iUW_15xRgnZEf4cVkptGa7G",
