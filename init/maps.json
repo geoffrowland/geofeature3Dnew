@@ -35,7 +35,7 @@
           ]
         }	     
         ]
-	),
+        },
         {
           "url": "https://tile.openstreetmap.org",
           "subdomains": ["a","b","c"],
