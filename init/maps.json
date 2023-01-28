@@ -155,39 +155,7 @@
 	  "maximumLevel": 19,
           "opacity": 0.5
     },      
-      {
-          "url": "https://tile.openstreetmap.org",
-          "subdomains": ["a","b","c"],
-          "type": "open-street-map",
-          "fileExtension": "png",
-          "dataCustodian": "OpenStreetMap Foundation (OSMF)",
-	  "attribution": "© OpenStreetMap",
-	  "description": "OpenStreetMap is a free, open geographic database updated and maintained by a community of volunteers via open collaboration",
-          "name": "Open Street Map",
-          "opacity": 0.5,
-          "isOpenInWorkbench": false,
-          "tileErrorHandlingOptions": {
-			  "treat403AsError": false,
-			  "treat404AsError": false,
-			  "ignoreUnknownTileErrors": true
-	   },
-	   "info": [
-               {
-                   "name": "Licence",
-                   "content": "[Open Data Commons Open Database License (ODbL)](https://opendatacommons.org/licenses/odbl/)"
-               }
-            ]
-        },
 
-    {
-          "name": "Roads Bing Maps",
-          "type": "bing-maps",
-          "key": "AohFvM_FD-p0478UuVC3ErCaoLzkJH_ftz_gGnSB9iUW_15xRgnZEf4cVkptGa7G",
-          "mapStyle": "RoadOnDemand",
-          "description": "Bing Maps Ordnance Survey, maps for outdoors",
-	  "maximumLevel": 19,
-          "opacity": 0.5
-    },
     {
           "name": "OS Outdoor",
           "type": "url-template-imagery",
@@ -232,7 +200,39 @@
 	  },
 	  "maximumLevel": 20,
           "allowFeaturePicking": false
-    }	
+    },
+	     {
+          "url": "https://tile.openstreetmap.org",
+          "subdomains": ["a","b","c"],
+          "type": "open-street-map",
+          "fileExtension": "png",
+          "dataCustodian": "OpenStreetMap Foundation (OSMF)",
+	  "attribution": "© OpenStreetMap",
+	  "description": "OpenStreetMap is a free, open geographic database updated and maintained by a community of volunteers via open collaboration",
+          "name": "Open Street Map",
+          "opacity": 0.5,
+          "isOpenInWorkbench": false,
+          "tileErrorHandlingOptions": {
+			  "treat403AsError": false,
+			  "treat404AsError": false,
+			  "ignoreUnknownTileErrors": true
+	   },
+	   "info": [
+               {
+                   "name": "Licence",
+                   "content": "[Open Data Commons Open Database License (ODbL)](https://opendatacommons.org/licenses/odbl/)"
+               }
+            ]
+        },
+        {
+          "name": "Roads Bing Maps",
+          "type": "bing-maps",
+          "key": "AohFvM_FD-p0478UuVC3ErCaoLzkJH_ftz_gGnSB9iUW_15xRgnZEf4cVkptGa7G",
+          "mapStyle": "RoadOnDemand",
+          "description": "Bing Maps Ordnance Survey, maps for outdoors",
+	  "maximumLevel": 19,
+          "opacity": 0.5
+    }
    ]
   }
  ]
