@@ -36,30 +36,11 @@
         }	     
         ]
         },
-        {
-          "url": "https://tile.openstreetmap.org",
-          "subdomains": ["a","b","c"],
-          "type": "open-street-map",
-          "fileExtension": "png",
-          "dataCustodian": "OpenStreetMap Foundation (OSMF)",
-	  "attribution": "© OpenStreetMap",
-	  "description": "OpenStreetMap is a free, open geographic database updated and maintained by a community of volunteers via open collaboration",
-          "name": "Open Street Map",
-          "opacity": 0.5,
-          "isOpenInWorkbench": false,
-          "tileErrorHandlingOptions": {
-			  "treat403AsError": false,
-			  "treat404AsError": false,
-			  "ignoreUnknownTileErrors": true
-	   },
-	   "info": [
-               {
-                   "name": "Licence",
-                   "content": "[Open Data Commons Open Database License (ODbL)](https://opendatacommons.org/licenses/odbl/)"
-               }
-            ]
-          },
-          {
+	{
+        "type": "group",
+        "name": "OS 2nd Edition ~1900",
+        "members": [
+	          {
           "url": "https://mapseries-tilesets.s3.amazonaws.com/25_inch/devon2nd/{z}/{x}/{y}.png",
           "type": "url-template-imagery",
           "dataCustodian": "NLS",
@@ -136,8 +117,9 @@
               "content": "NLS"
             }
           ]
-        },
-
+        }	
+       ]
+      },
 	{
           "url": "https://mapseries-tilesets.s3.amazonaws.com/os/britain10knatgrid/{z}/{x}/{y}.png",
           "type": "url-template-imagery",
@@ -173,6 +155,30 @@
 	  "maximumLevel": 19,
           "opacity": 0.5
     },      
+      {
+          "url": "https://tile.openstreetmap.org",
+          "subdomains": ["a","b","c"],
+          "type": "open-street-map",
+          "fileExtension": "png",
+          "dataCustodian": "OpenStreetMap Foundation (OSMF)",
+	  "attribution": "© OpenStreetMap",
+	  "description": "OpenStreetMap is a free, open geographic database updated and maintained by a community of volunteers via open collaboration",
+          "name": "Open Street Map",
+          "opacity": 0.5,
+          "isOpenInWorkbench": false,
+          "tileErrorHandlingOptions": {
+			  "treat403AsError": false,
+			  "treat404AsError": false,
+			  "ignoreUnknownTileErrors": true
+	   },
+	   "info": [
+               {
+                   "name": "Licence",
+                   "content": "[Open Data Commons Open Database License (ODbL)](https://opendatacommons.org/licenses/odbl/)"
+               }
+            ]
+        },
+
     {
           "name": "Roads Bing Maps",
           "type": "bing-maps",
