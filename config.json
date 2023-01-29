@@ -3,12 +3,11 @@
   "initializationUrls": [
       "home",
       "geology",
+      "geoindex",
       "hillshade",
       "maps",
       "imagery",
       "basemaps",
-      "geoindex",
-      "osdrawings",
       "naturalengland",
       "boundary"
   ],
