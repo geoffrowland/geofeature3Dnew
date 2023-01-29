@@ -4,13 +4,517 @@
      "type": "group",
      "name": "Maps",
      "members": [
-     {
+        {
      "type": "group",
-     "name": "OS Drawings ~1880",
+     "name": "OS Drawings",
+     "description": "The original large-scale drawings made for the famous one-inch-to-the-mile maps present a detailed picture of England and Wales between the 1780s and 1840.",
+     "dataCustodian":"The British Library",
+     "isOpen": true,
      "members": [
-	     
+	     {
+	"type": "group",
+         "name": "Dorset",
+     "dataCustodian":"<a href='http://www.bl.uk/onlinegallery/onlineex/ordsurvdraw/'>The British Library</a>",
+     "isOpen": true,
+     "members": [     
+	{
+	 "type": "url-template-imagery",
+         "name": "Axmouth 1806",
+         "url": "https://maps.georeferencer.com/georeferences/208d30c7-844c-526b-ba35-3a19588cdf34/2020-04-03T11:51:56.228120Z/map/{z}/{x}/{y}.png?key=ocVvnTCmpvlUMRSjUJG1",
+         "rectangle": {
+		"west": -3.118205,
+		"south": 50.670146,
+		"east": -2.905233,
+		"north": 50.783829
+	 },
+	 "zoomOnAddToWorkbench": true,
+	 "isOpenInWorkbench": false,
+         "clipToRectangle": true,
+	 "tileErrorHandlingOptions": {
+	        "treat403AsError": false,
+	        "treat404AsError": false,
+	        "ignoreUnknownTileErrors": true
+          }
+       },
+       {
+         "type": "url-template-imagery",
+         "name": "Ilminster South 1806",
+         "url": "https://maps.georeferencer.com/georeferences/22eb66b1-f051-50fe-b12e-06f872c25b81/2020-04-03T11:10:41.394594Z/map/{z}/{x}/{y}.png?key=ocVvnTCmpvlUMRSjUJG1",
+         "rectangle": {
+		"west": -2.977248,
+		"south": 50.718525,
+		"east": -2.862401,
+		"north": 50.951585
+	 },
+	 "zoomOnAddToWorkbench": true,
+	 "isOpenInWorkbench": false,
+         "clipToRectangle": true,
+	 "tileErrorHandlingOptions": {
+			     "treat403AsError": false,
+			     "treat404AsError": false,
+			     "ignoreUnknownTileErrors": true
+         }
+       },
+       {
+         "type": "url-template-imagery",
+         "name": "Ilminster North 1806",
+         "url": "https://maps.georeferencer.com/georeferences/962ebfe6-e0f7-5b2c-bbbe-e4c61019a357/2020-04-05T11:51:06.467401Z/map/{z}/{x}/{y}.png?key=ocVvnTCmpvlUMRSjUJG1",
+         "rectangle": {
+		"west": -2.978767,
+		"south": 50.951668,
+		"east": -2.849879,
+		"north": 51.199442
+	 },
+	 "zoomOnAddToWorkbench": true,
+	 "isOpenInWorkbench": false,      
+         "clipToRectangle": true,
+	 "tileErrorHandlingOptions": {
+			     "treat403AsError": false,
+			     "treat404AsError": false,
+			     "ignoreUnknownTileErrors": true
+         }
+       },
+       {
+         "type": "url-template-imagery",
+         "name": "Bridport 1806",
+         "url": "https://maps.georeferencer.com/georeferences/c1ac8664-dee9-527d-a6b4-9824c490acf2/2020-03-31T12:13:19.952011Z/map/{z}/{x}/{y}.png?key=ocVvnTCmpvlUMRSjUJG1",
+         "rectangle": {
+		"west": -2.946217,
+		"south": 50.465037,
+		"east": -2.391831,
+		"north": 50.839515
+	 },
+	 "zoomOnAddToWorkbench": true,
+	 "isOpenInWorkbench": false,
+         "clipToRectangle": true,
+	 "tileErrorHandlingOptions": {
+			     "treat403AsError": false,
+			     "treat404AsError": false,
+			     "ignoreUnknownTileErrors": true
+         }
+       },
+       {
+         "type": "url-template-imagery",
+         "name": "Weymouth 1805",
+         "url": "https://maps.georeferencer.com/georeferences/7b59077f-bd21-500a-a8bb-6d594573d7a5/2020-07-07T09:43:25.211338Z/map/{z}/{x}/{y}.png?key=gMEmp7wGJTRoTdtU7Ljj",
+         "rectangle": {
+		"west": -2.545495,
+		"south": 50.501615,
+		"east": -2.033689,
+		"north": 50.737951
+	 },
+	 "zoomOnAddToWorkbench": true,
+	 "isOpenInWorkbench": false,
+	 "clipToRectangle": true,    
+	 "tileErrorHandlingOptions": {
+			     "treat403AsError": false,
+			     "treat404AsError": false,
+			     "ignoreUnknownTileErrors": true
+         }
+       },
+       {
+         "type": "url-template-imagery",
+         "name": "Poole 1805",
+         "url": "https://maps.georeferencer.com/georeferences/2a003122-d8e0-5c9a-9135-ba3a0c4de08b/2020-03-24T13:44:13.120898Z/map/{z}/{x}/{y}.png?key=ocVvnTCmpvlUMRSjUJG1",
+         "rectangle": {
+		"west": -2.205352,
+		"south": 50.559483,
+		"east": -1.67568,
+		"north": 50.856253
+	 },
+	 "zoomOnAddToWorkbench": true,
+	 "isOpenInWorkbench": false,
+	 "clipToRectangle": true,    
+	 "tileErrorHandlingOptions": {
+			     "treat403AsError": false,
+			     "treat404AsError": false,
+			     "ignoreUnknownTileErrors": true
+         }
+       },
+       {
+         "type": "url-template-imagery",
+         "name": "Christchurch 1797",
+         "url": "https://maps.georeferencer.com/georeferences/2f0850a6-4a7f-5c76-bfcc-dd5a6d9a830e/2020-03-24T11:46:53.859586Z/map/{z}/{x}/{y}.png?key=ocVvnTCmpvlUMRSjUJG1",
+         "rectangle": {
+		"west": -1.830087,
+		"south": 50.699154,
+		"east": -1.510446,
+		"north": 50.875532
+	 },
+	 "zoomOnAddToWorkbench": true,
+	 "isOpenInWorkbench": false,
+	 "clipToRectangle": true,    
+	 "tileErrorHandlingOptions": {
+			     "treat403AsError": false,
+			     "treat404AsError": false,
+			     "ignoreUnknownTileErrors": true
+         }
+       },
+       {
+         "type": "url-template-imagery",
+         "name": "Axminster 1806",
+         "url": "https://maps.georeferencer.com/georeferences/2e0efb6a-c265-5b68-9760-79c73682d293/2020-04-03T12:25:41.500877Z/map/{z}/{x}/{y}.png?key=ocVvnTCmpvlUMRSjUJG1",
+         "rectangle": {
+		"west": -3.120531,
+		"south": 50.777302,
+		"east": -2.919498,
+		"north": 50.881457
+	 },
+	 "zoomOnAddToWorkbench": true,
+	 "isOpenInWorkbench": false,
+	 "clipToRectangle": true,    
+	 "tileErrorHandlingOptions": {
+			     "treat403AsError": false,
+			     "treat404AsError": false,
+			     "ignoreUnknownTileErrors": true
+         }
+       },
+       {
+         "type": "url-template-imagery",
+         "name": "Beaminster 1806",
+         "url": "https://maps.georeferencer.com/georeferences/5ea792e9-f4b4-5a06-aaf0-527f90e4cb52/2020-04-02T09:58:58.720750Z/map/{z}/{x}/{y}.png?key=ocVvnTCmpvlUMRSjUJG1",
+         "rectangle": {
+		"west": -2.94734,
+		"south": 50.701163,
+		"east": -2.45261,
+		"north": 50.9245611
+	 },
+	 "zoomOnAddToWorkbench": true,
+	 "isOpenInWorkbench": false,
+	 "clipToRectangle": true,    
+	 "tileErrorHandlingOptions": {
+			     "treat403AsError": false,
+			     "treat404AsError": false,
+			     "ignoreUnknownTileErrors": true
+         }
+       },
+       {
+         "type": "url-template-imagery",
+         "name": "Dorchester 1805",
+         "url": "https://maps.georeferencer.com/georeferences/cb3c28e4-31bc-51d7-8f57-fda0517a0ec7/2020-03-27T13:17:28.779313Z/map/{z}/{x}/{y}.png?key=ocVvnTCmpvlUMRSjUJG1",
+         "rectangle": {
+		"west": -2.557628,
+		"south": 50.653256,
+		"east": -2.097199,
+		"north": 50.851813
+	 },
+	 "zoomOnAddToWorkbench": true,
+	 "isOpenInWorkbench": false,
+	 "clipToRectangle": true,    
+	 "tileErrorHandlingOptions": {
+			     "treat403AsError": false,
+			     "treat404AsError": false,
+			     "ignoreUnknownTileErrors": true
+         }
+       },
+       {
+         "type": "url-template-imagery",
+         "name": "Taunton 1802",
+         "url": "https://maps.georeferencer.com/georeferences/0ce6cb48-70ef-5eda-ac6a-31284e4c2ac9/2020-04-05T10:56:12.611225Z/map/{z}/{x}/{y}.png?key=ocVvnTCmpvlUMRSjUJG1",
+         "rectangle": {
+		"west": -3.092331,
+		"south": 50.86014,
+		"east": -2.896376,
+		"north": 51.060751
+	 },
+	 "zoomOnAddToWorkbench": true,
+	 "isOpenInWorkbench": false,
+	 "clipToRectangle": true,    
+	 "tileErrorHandlingOptions": {
+			     "treat403AsError": false,
+			     "treat404AsError": false,
+			     "ignoreUnknownTileErrors": true
+         }
+       },
+       {
+         "type": "url-template-imagery",
+         "name": "South Petherton 1807",
+         "url": "https://maps.georeferencer.com/georeferences/3397eff3-62a4-5e58-be1e-9344e35b721f/2020-04-03T11:34:17.981564Z/map/{z}/{x}/{y}.png?key=ocVvnTCmpvlUMRSjUJG1",
+         "rectangle": {
+		"west": -2.95408,
+		"south": 50.829421,
+		"east": -2.585679,
+		"north": 51.066021
+	 },
+	 "zoomOnAddToWorkbench": true,
+	 "isOpenInWorkbench": false,
+	 "clipToRectangle": true,    
+	 "tileErrorHandlingOptions": {
+			     "treat403AsError": false,
+			     "treat404AsError": false,
+			     "ignoreUnknownTileErrors": true
+         }
+       },
+       {
+         "type": "url-template-imagery",
+         "name": "Sherborne 1808",
+         "url": "https://maps.georeferencer.com/georeferences/52a2647d-e1fc-509e-8e38-fcb799c7e47d/2020-02-05T11:24:10.249311Z/map/{z}/{x}/{y}.png?key=ocVvnTCmpvlUMRSjUJG1",
+         "rectangle": {
+		"west": -2.71665,
+		"south": 50.797492,
+		"east": -2.2548,
+		"north": 51.015391
+	 },
+	 "zoomOnAddToWorkbench": true,
+	 "isOpenInWorkbench": false,
+	 "clipToRectangle": true,    
+	 "tileErrorHandlingOptions": {
+			     "treat403AsError": false,
+			     "treat404AsError": false,
+			     "ignoreUnknownTileErrors": true
+         }
+       },
+       {
+         "type": "url-template-imagery",
+         "name": "Wincanton 1808",
+         "url": "https://maps.georeferencer.com/georeferences/c5fcd4a7-d490-59ff-be66-6d1837b0b58c/2020-04-02T10:34:21.655900Z/map/{z}/{x}/{y}.png?key=ocVvnTCmpvlUMRSjUJG1",
+         "rectangle": {
+		"west": -2.737046,
+		"south": 50.904125,
+		"east": -2.285263,
+		"north": 51.140575
+	 },
+	 "zoomOnAddToWorkbench": true,
+	 "isOpenInWorkbench": false,
+	 "clipToRectangle": true,    
+	 "tileErrorHandlingOptions": {
+			     "treat403AsError": false,
+			     "treat404AsError": false,
+			     "ignoreUnknownTileErrors": true
+         }
+       },
+       {
+         "type": "url-template-imagery",
+         "name": "Shaftesbury 1808",
+         "url": "https://maps.georeferencer.com/georeferences/fd5ff00a-5bb6-5b0c-901b-cfff152c85f0/2020-03-29T10:28:24.332771Z/map/{z}/{x}/{y}.png?key=ocVvnTCmpvlUMRSjUJG1",
+         "rectangle": {
+		"west": -2.452439,
+		"south": 50.782771,
+		"east": -2.026341,
+		"north": 51.153003
+	 },
+	 "zoomOnAddToWorkbench": true,
+	 "isOpenInWorkbench": false,
+	 "clipToRectangle": true,    
+	 "tileErrorHandlingOptions": {
+			     "treat403AsError": false,
+			     "treat404AsError": false,
+			     "ignoreUnknownTileErrors": true
+         }
+       },
+       {
+         "type": "url-template-imagery",
+         "name": "Berwick St.John 1807",
+         "url": "https://maps.georeferencer.com/georeferences/546ea236-a1cd-5daf-bb96-006cf9bd061d/2020-03-24T16:21:39.769297Z/map/{z}/{x}/{y}.png?key=ocVvnTCmpvlUMRSjUJG1",
+         "rectangle": {
+		"west": -2.233905,
+		"south": 50.910725,
+		"east": -1.729264,
+		"north": 51.162706
+	 },
+	 "zoomOnAddToWorkbench": true,
+	 "isOpenInWorkbench": false,
+	 "clipToRectangle": true,    
+	 "tileErrorHandlingOptions": {
+			     "treat403AsError": false,
+			     "treat404AsError": false,
+			     "ignoreUnknownTileErrors": true
+         }
+       },
+       {
+	 "type": "url-template-imagery",
+         "name": "Cranborne 1807",
+         "url": "https://maps.georeferencer.com/georeferences/2ec423b4-ee2e-5f7a-a169-b89ca85d95ed/2020-03-24T14:45:52.412832Z/map/{z}/{x}/{y}.png?key=ocVvnTCmpvlUMRSjUJG1",
+         "rectangle": {
+		"west": -2.240297,
+		"south": 50.722435,
+		"east": -1.635109,
+		"north": 51.072102
+	 },
+	 "zoomOnAddToWorkbench": true,
+	 "isOpenInWorkbench": false,
+	 "clipToRectangle": true,    
+	 "tileErrorHandlingOptions": {
+			     "treat403AsError": false,
+			     "treat404AsError": false,
+			     "ignoreUnknownTileErrors": true
+         }
+       },
+	            {
+	 "type": "url-template-imagery",
+         "name": "Bridgwater 1802",
+         "url": "https://maps.georeferencer.com/georeferences/74be67d4-cd3f-51b7-ac3f-acad7fa1638b/2020-04-05T12:28:18.878579Z/map/{z}/{x}/{y}.png?key=ocVvnTCmpvlUMRSjUJG1",
+         "rectangle": {
+		"west": -3.12225,
+		"south": 51.038398,
+		"east": -2.869981,
+		"north": 51.298465
+	 },
+	 "zoomOnAddToWorkbench": true,
+	 "isOpenInWorkbench": false,
+	 "clipToRectangle": true,    
+	 "tileErrorHandlingOptions": {
+			     "treat403AsError": false,
+			     "treat404AsError": false,
+			     "ignoreUnknownTileErrors": true
+         }
+       },
+       {
+	 "type": "url-template-imagery",
+         "name": "Lydeard St. Laurence",
+         "url": "https://maps.georeferencer.com/georeferences/6ac74d28-6a7b-5687-ac68-a6fca314f393/2020-04-07T10:39:39.676325Z/map/{z}/{x}/{y}.png?key=ocVvnTCmpvlUMRSjUJG1",
+         "rectangle": {
+		"west": -3.295618,
+		"south": 51.012425,
+		"east": -3.061205,
+		"north": 51.232023
+	 },
+	 "zoomOnAddToWorkbench": true,
+	 "isOpenInWorkbench": false,
+	 "clipToRectangle": true,    
+	 "tileErrorHandlingOptions": {
+			     "treat403AsError": false,
+			     "treat404AsError": false,
+			     "ignoreUnknownTileErrors": true
+         }
+       },
+       {
+	 "type": "url-template-imagery",
+         "name": "Bridgwater 1802",
+         "url": "https://maps.georeferencer.com/georeferences/74be67d4-cd3f-51b7-ac3f-acad7fa1638b/2020-04-05T12:28:18.878579Z/map/{z}/{x}/{y}.png?key=ocVvnTCmpvlUMRSjUJG1",
+         "rectangle": {
+		"west": -3.12225,
+		"south": 51.038398,
+		"east": -2.869981,
+		"north": 51.298465
+	 },
+	 "zoomOnAddToWorkbench": true,
+	 "isOpenInWorkbench": false,
+	 "clipToRectangle": true,    
+	 "tileErrorHandlingOptions": {
+			     "treat403AsError": false,
+			     "treat404AsError": false,
+			     "ignoreUnknownTileErrors": true
+         }
+       },
+       {
+	 "type": "url-template-imagery",
+         "name": "Glastonbury 1811",
+         "url": "https://maps.georeferencer.com/georeferences/b6030d7b-4c18-5c6f-a701-ff15b42d7c16/2020-04-02T11:15:31.924527Z/map/{z}/{x}/{y}.png?key=ocVvnTCmpvlUMRSjUJG1",
+         "rectangle": {
+		"west": -2.923051,
+		"south": 51.026358,
+		"east": -2.440228,
+		"north": 51.247733
+	 },
+	 "zoomOnAddToWorkbench": true,
+	 "isOpenInWorkbench": false,
+	 "clipToRectangle": true,    
+	 "tileErrorHandlingOptions": {
+			     "treat403AsError": false,
+			     "treat404AsError": false,
+			     "ignoreUnknownTileErrors": true
+         }
+       },
+       {
+	 "type": "url-template-imagery",
+         "name": "Frome 1808",
+         "url": "https://maps.georeferencer.com/georeferences/be862842-4fac-5791-84e4-b1a2b910d184/2022-02-08T13:24:30.104665Z/map/{z}/{x}/{y}.png?key=ocVvnTCmpvlUMRSjUJG1",
+         "rectangle": {
+		"west": -2.627954,
+		"south": 51.08861,
+		"east": -2.220117,
+		"north": 51.480224
+	 },
+	 "zoomOnAddToWorkbench": true,
+	 "isOpenInWorkbench": false,
+	 "clipToRectangle": true,    
+	 "tileErrorHandlingOptions": {
+			     "treat403AsError": false,
+			     "treat404AsError": false,
+			     "ignoreUnknownTileErrors": true
+         }
+       },
+       {
+	 "type": "url-template-imagery",
+         "name": "Wick St. Lawrence 1809",
+         "url": "https://maps.georeferencer.com/georeferences/ca8cf2fa-2186-5301-980a-f64262fd71be/2020-04-06T11:00:26.881311Z/map/{z}/{x}/{y}.png?key=ocVvnTCmpvlUMRSjUJG1",
+         "rectangle": {
+		"west": -3.129445,
+		"south": 51.185978,
+		"east": -2.844518,
+		"north": 51.432243
+	 },
+	 "zoomOnAddToWorkbench": true,
+	 "isOpenInWorkbench": false,
+	 "clipToRectangle": true,    
+	 "tileErrorHandlingOptions": {
+			     "treat403AsError": false,
+			     "treat404AsError": false,
+			     "ignoreUnknownTileErrors": true
+         }
+       },
+       {
+	 "type": "url-template-imagery",
+         "name": "Axbridge 1811",
+         "url": "https://maps.georeferencer.com/georeferences/dac449ac-6b5e-5e61-a7a3-ebd248d5cae3/2020-04-02T11:48:42.667183Z/map/{z}/{x}/{y}.png?key=ocVvnTCmpvlUMRSjUJG1",
+         "rectangle": {
+		"west": -2.904017,
+		"south": 51.20159,
+		"east": -2.51854,
+		"north": 51.381762
+	 },
+	 "zoomOnAddToWorkbench": true,
+	 "isOpenInWorkbench": false,
+	 "clipToRectangle": true,    
+	 "tileErrorHandlingOptions": {
+			     "treat403AsError": false,
+			     "treat404AsError": false,
+			     "ignoreUnknownTileErrors": true
+         }
+       },
+       {
+	 "type": "url-template-imagery",
+         "name": "Bedminster 1810",
+         "url": "https://maps.georeferencer.com/georeferences/4c9d573a-895e-5994-b8a9-9139ac06fc01/2020-04-02T12:18:42.586984Z/map/{z}/{x}/{y}.png?key=ocVvnTCmpvlUMRSjUJG1",
+         "rectangle": {
+		"west": -2.941267,
+		"south": 51.313845,
+		"east": -2.513283,
+		"north": 51.526925
+	 },
+	 "zoomOnAddToWorkbench": true,
+	 "isOpenInWorkbench": false,
+	 "clipToRectangle": true,    
+	 "tileErrorHandlingOptions": {
+			     "treat403AsError": false,
+			     "treat404AsError": false,
+			     "ignoreUnknownTileErrors": true
+         }
+       },
+       {
+	 "type": "url-template-imagery",
+         "name": "Bath 1 1815",
+         "url": "https://maps.georeferencer.com/georeferences/db98179d-e3f6-50a2-985c-218d9ad26dec/2020-03-31T11:08:32.111933Z/map/{z}/{x}/{y}.png?key=ocVvnTCmpvlUMRSjUJG1",
+         "rectangle": {
+		"west": -2.623459,
+		"south": 51.338645,
+		"east": -2.262878,
+		"north": 51.508577
+	 },
+	 "zoomOnAddToWorkbench": true,
+	 "isOpenInWorkbench": false,
+	 "clipToRectangle": true,    
+	 "tileErrorHandlingOptions": {
+			     "treat403AsError": false,
+			     "treat404AsError": false,
+			     "ignoreUnknownTileErrors": true
+         }
+       }    
      ]
-     },
+    }
+     ]
+    },
      {
      "type": "group",
      "name": "OS 1st Edition ~1880",
