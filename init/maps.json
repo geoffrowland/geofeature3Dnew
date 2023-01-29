@@ -11,12 +11,6 @@
      "dataCustodian":"The British Library",
      "isOpen": true,
      "members": [
-	     {
-	"type": "group",
-         "name": "Dorset",
-     "dataCustodian":"<a href='http://www.bl.uk/onlinegallery/onlineex/ordsurvdraw/'>The British Library</a>",
-     "isOpen": true,
-     "members": [     
 	{
 	 "type": "url-template-imagery",
          "name": "Axmouth 1806",
@@ -512,9 +506,7 @@
          }
        }    
      ]
-    }
-     ]
-    },
+     },
      {
      "type": "group",
      "name": "OS 1st Edition ~1880",
