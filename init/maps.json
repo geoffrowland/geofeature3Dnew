@@ -510,6 +510,16 @@
      {
      "type": "group",
      "name": "OS 1st Edition ~1880",
+     "description":"OS 25 inch to the mile (1:2,500) 1873-1888 (SW England)",
+     "dataCustodian": "National Library of Scotland",
+     "info": [
+         {
+             "name": "Licence",
+             "content": "CC-BY-NC"
+         },
+	     "name": "Attribution",
+	     "content":  "Historic map layer courtesy of <a href='https://www.bl.uk'>The British Library</a>. <a href='https://maps.nls.uk/os/25inch-england-and-wales/index.html' target='_blank">25 inch, 1841-1952 home page</a>"
+     ],
      "members": [
 	  {
           "url": "https://mapseries-tilesets.s3.amazonaws.com/25_inch/somerset1/{z}/{x}/{y}.png",
@@ -530,13 +540,7 @@
 			  "treat404AsError": false,
 			  "ignoreUnknownTileErrors": true
 		  },
-	   "info": [
-             {
-              "name": "Licence",
-              "content": "NLS"
-            }
-          ]
-        }	     
+	        }	     
         ]
         },
 	{
