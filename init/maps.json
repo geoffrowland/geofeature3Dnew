@@ -519,10 +519,30 @@
          },
 	 {
 	     "name": "Attribution",
-	     "content":  "Historic map layer courtesy of <a href='https://www.bl.uk'>The British Library</a>. <a href='https://maps.nls.uk/os/25inch-england-and-wales/index.html' target='_blank'>25 inch, 1841-1952 home page</a>"
+	     "content":  "Historic map layer courtesy of <a href='https://www.bl.uk'>The British Library</a>. <a href='https://maps.nls.uk/os/25inch-england-and-wales/index.html' target='_blank'>NLS 25 inch, 1841-1952</a>"
 	 }
      ],
      "members": [
+	  {
+          "url": "https://mapseries-tilesets.s3.amazonaws.com/25_inch/devon/{z}/{x}/{y}.png",
+          "type": "url-template-imagery",
+          "dataCustodian": "NLS",
+          "name": "Devon OS 1873-88",
+          "opacity": 0.5,
+	  "maximumLevel": 18,	
+          "rectangle": {
+	      "west": -4.68558235,
+	      "south": 50.19599182,
+	      "east": -2.92350215,
+	      "north": 51.25526523
+	  },
+          "isOpenInWorkbench": false,
+          "tileErrorHandlingOptions": {
+	      "treat403AsError": false,
+	      "treat404AsError": false,
+	      "ignoreUnknownTileErrors": true
+	     }
+	  },
 	  {
           "url": "https://mapseries-tilesets.s3.amazonaws.com/25_inch/somerset1/{z}/{x}/{y}.png",
           "type": "url-template-imagery",
@@ -531,19 +551,19 @@
           "opacity": 0.5,
 	  "maximumLevel": 18,	
           "rectangle": {
-			  "west": -3.83818409,
-			  "south": 50.82119720,
-			  "east": -2.21205693,
-			  "north": 51.51807409
-		  },
+	      "west": -3.83818409,
+	      "south": 50.82119720,
+	      "east": -2.21205693,
+	      "north": 51.51807409
+	  },
           "isOpenInWorkbench": false,
           "tileErrorHandlingOptions": {
-			  "treat403AsError": false,
-			  "treat404AsError": false,
-			  "ignoreUnknownTileErrors": true
-		  },
-	        }	     
-            ]
+	      "treat403AsError": false,
+	      "treat404AsError": false,
+	      "ignoreUnknownTileErrors": true
+		  }
+	       }	     
+           ]
         },
 	{
         "type": "group",
