@@ -34,6 +34,8 @@
 	       "url": "init/GCR-Dorset.csv",
                "isOpenInWorkbench": false,
                "activeStyle": "admin_area",
+	       "description": "",
+	       "attribution": "",
 	       "defaultStyle": {
                  "color": {
 		   "colorColumn": "admin_area", 
