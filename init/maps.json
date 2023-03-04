@@ -565,6 +565,69 @@
 	     }
 	  },
 	  {
+	  "url": "https://geoffrowland.github.io/OS-First-Dorset-2/{z}/{x}/{reverseY}.png",
+          "type": "url-template-imagery",
+	  "description": "Educational Use only. Not for Commercial, Planning or Navigational Use",
+          "dataCustodian": "EDINA Digimap and NLS",
+          "name": "Dorset-1 OS 1860-88",
+          "opacity": 1.0,
+	  "maximumLevel": 18,	
+          "rectangle": {
+	      "west": -2.988281,
+	      "south": 50.669484,
+	      "east": -2.812500,
+	      "north": 50.976588
+	  },
+          "isOpenInWorkbench": false,
+          "tileErrorHandlingOptions": {
+	      "treat403AsError": false,
+	      "treat404AsError": false,
+	      "ignoreUnknownTileErrors": true
+	     }
+	  },
+	  {
+	  "url": "https://geoffrowland.github.io/OS-First-Dorset-3/{z}/{x}/{reverseY}.png",
+          "type": "url-template-imagery",
+	  "description": "Educational Use only. Not for Commercial, Planning or Navigational Use",
+          "dataCustodian": "EDINA Digimap and NLS",
+          "name": "Dorset-1 OS 1860-88",
+          "opacity": 1.0,
+	  "maximumLevel": 18,	
+          "rectangle": {
+	      "west": -2.812500,
+	      "south": 50.617232,
+	      "east": -2.636719,
+	      "north": 51.023258
+	  },
+          "isOpenInWorkbench": false,
+          "tileErrorHandlingOptions": {
+	      "treat403AsError": false,
+	      "treat404AsError": false,
+	      "ignoreUnknownTileErrors": true
+	     }
+	  },	  
+	  {
+	  "url": "https://geoffrowland.github.io/OS-First-Dorset-4/{z}/{x}/{reverseY}.png",
+          "type": "url-template-imagery",
+	  "description": "Educational Use only. Not for Commercial, Planning or Navigational Use",
+          "dataCustodian": "EDINA Digimap and NLS",
+          "name": "Dorset-1 OS 1860-88",
+          "opacity": 1.0,
+	  "maximumLevel": 18,	
+          "rectangle": {
+	      "west": -2.636719,
+	      "south": 50.501199,
+	      "east": -2.460938,
+	      "north": 51.113869
+	  },
+          "isOpenInWorkbench": false,
+          "tileErrorHandlingOptions": {
+	      "treat403AsError": false,
+	      "treat404AsError": false,
+	      "ignoreUnknownTileErrors": true
+	     }
+	  },
+	  {
           "url": "https://mapseries-tilesets.s3.amazonaws.com/25_inch/somerset1/{z}/{x}/{y}.png",
           "type": "url-template-imagery",
           "dataCustodian": "NLS",
