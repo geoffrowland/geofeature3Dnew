@@ -544,6 +544,13 @@
 	     }
 	  },
 	  {
+          "type": "group",
+          "name": "Dorset-1 OS 1860-88",
+          "description": "Educational Use only. Not for Commercial, Planning or Navigational Use",
+          "dataCustodian":"EDINA Digimap and NLS",
+          "isOpen": false,
+          "members": [   
+	  {
 	  "url": "https://geoffrowland.github.io/OS-First-Dorset-1/{z}/{x}/{reverseY}.png",
           "type": "url-template-imagery",
 	  "description": "Educational Use only. Not for Commercial, Planning or Navigational Use",
@@ -731,6 +738,8 @@
 	      "treat404AsError": false,
 	      "ignoreUnknownTileErrors": true
 	     }
+	  }
+	  ]	  
 	  },
 	  {
           "url": "https://mapseries-tilesets.s3.amazonaws.com/25_inch/somerset1/{z}/{x}/{y}.png",
