@@ -569,7 +569,7 @@
           "type": "url-template-imagery",
 	  "description": "Educational Use only. Not for Commercial, Planning or Navigational Use",
           "dataCustodian": "EDINA Digimap and NLS",
-          "name": "Dorset-1 OS 1860-88",
+          "name": "Dorset-2 OS 1860-88",
           "opacity": 1.0,
 	  "maximumLevel": 18,	
           "rectangle": {
@@ -590,7 +590,7 @@
           "type": "url-template-imagery",
 	  "description": "Educational Use only. Not for Commercial, Planning or Navigational Use",
           "dataCustodian": "EDINA Digimap and NLS",
-          "name": "Dorset-1 OS 1860-88",
+          "name": "Dorset-3 OS 1860-88",
           "opacity": 1.0,
 	  "maximumLevel": 18,	
           "rectangle": {
@@ -611,7 +611,7 @@
           "type": "url-template-imagery",
 	  "description": "Educational Use only. Not for Commercial, Planning or Navigational Use",
           "dataCustodian": "EDINA Digimap and NLS",
-          "name": "Dorset-1 OS 1860-88",
+          "name": "Dorset-4 OS 1860-88",
           "opacity": 1.0,
 	  "maximumLevel": 18,	
           "rectangle": {
@@ -619,6 +619,90 @@
 	      "south": 50.501199,
 	      "east": -2.460938,
 	      "north": 51.113869
+	  },
+          "isOpenInWorkbench": false,
+          "tileErrorHandlingOptions": {
+	      "treat403AsError": false,
+	      "treat404AsError": false,
+	      "ignoreUnknownTileErrors": true
+	     }
+	  },
+	  {
+	  "url": "https://geoffrowland.github.io/OS-First-Dorset-5/{z}/{x}/{reverseY}.png",
+          "type": "url-template-imagery",
+	  "description": "Educational Use only. Not for Commercial, Planning or Navigational Use",
+          "dataCustodian": "EDINA Digimap and NLS",
+          "name": "Dorset-5 OS 1860-88",
+          "opacity": 1.0,
+	  "maximumLevel": 18,	
+          "rectangle": {
+	      "west": -2.460938,
+	      "south": 50.501199,
+	      "east": -2.285156,
+	      "north": 51.117731
+	  },
+          "isOpenInWorkbench": false,
+          "tileErrorHandlingOptions": {
+	      "treat403AsError": false,
+	      "treat404AsError": false,
+	      "ignoreUnknownTileErrors": true
+	     }
+	  },
+	  {
+	  "url": "https://geoffrowland.github.io/OS-First-Dorset-6/{z}/{x}/{reverseY}.png",
+          "type": "url-template-imagery",
+	  "description": "Educational Use only. Not for Commercial, Planning or Navigational Use",
+          "dataCustodian": "EDINA Digimap and NLS",
+          "name": "Dorset-6 OS 1860-88",
+          "opacity": 1.0,
+	  "maximumLevel": 18,	
+          "rectangle": {
+	      "west": -2.285156,
+	      "south": 50.574516,
+	      "east": -2.109735,
+	      "north": 51.114731
+	  },
+          "isOpenInWorkbench": false,
+          "tileErrorHandlingOptions": {
+	      "treat403AsError": false,
+	      "treat404AsError": false,
+	      "ignoreUnknownTileErrors": true
+	     }
+	  },
+	  {
+	  "url": "https://geoffrowland.github.io/OS-First-Dorset-7/{z}/{x}/{reverseY}.png",
+          "type": "url-template-imagery",
+	  "description": "Educational Use only. Not for Commercial, Planning or Navigational Use",
+          "dataCustodian": "EDINA Digimap and NLS",
+          "name": "Dorset-7 OS 1860-88",
+          "opacity": 1.0,
+	  "maximumLevel": 18,	
+          "rectangle": {
+	      "west": -2.109375,
+	      "south": 50.574516,
+	      "east": -1.933594,
+	      "north": 51.114731
+	  },
+          "isOpenInWorkbench": false,
+          "tileErrorHandlingOptions": {
+	      "treat403AsError": false,
+	      "treat404AsError": false,
+	      "ignoreUnknownTileErrors": true
+	     }
+	  },
+	  {
+	  "url": "https://geoffrowland.github.io/OS-First-Dorset-8/{z}/{x}/{reverseY}.png",
+          "type": "url-template-imagery",
+	  "description": "Educational Use only. Not for Commercial, Planning or Navigational Use",
+          "dataCustodian": "EDINA Digimap and NLS",
+          "name": "Dorset-8 OS 1860-88",
+          "opacity": 1.0,
+	  "maximumLevel": 18,	
+          "rectangle": {
+	      "west": -1.933594,
+	      "south": 50.583237,
+	      "east": -1.757613,
+	      "north": 51.114731
 	  },
           "isOpenInWorkbench": false,
           "tileErrorHandlingOptions": {
