@@ -712,6 +712,27 @@
 	     }
 	  },
 	  {
+	  "url": "https://geoffrowland.github.io/OS-First-Dorset-9/{z}/{x}/{reverseY}.png",
+          "type": "url-template-imagery",
+	  "description": "Educational Use only. Not for Commercial, Planning or Navigational Use",
+          "dataCustodian": "EDINA Digimap and NLS",
+          "name": "Dorset-9 OS 1860-88",
+          "opacity": 1.0,
+	  "maximumLevel": 18,	
+          "rectangle": {
+	      "west": -1.757813,
+	      "south": 50.699937,
+	      "east": -1.715240,
+	      "north": 51.114731
+	  },
+          "isOpenInWorkbench": false,
+          "tileErrorHandlingOptions": {
+	      "treat403AsError": false,
+	      "treat404AsError": false,
+	      "ignoreUnknownTileErrors": true
+	     }
+	  },
+	  {
           "url": "https://mapseries-tilesets.s3.amazonaws.com/25_inch/somerset1/{z}/{x}/{y}.png",
           "type": "url-template-imagery",
           "dataCustodian": "NLS",
