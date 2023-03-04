@@ -545,7 +545,7 @@
 	  },
 	  "url": "https://github.com/geoffrowland/OS-First-Dorset-1/{z}/{x}/{y}.png",
           "type": "url-template-imagery",
-	  "description": "Educational Use only. Not for Commercial, Planning or Navigational Use"
+	  "description": "Educational Use only. Not for Commercial, Planning or Navigational Use",
           "dataCustodian": "EDINA Digimap and NLS",
           "name": "Dorset-1 OS 1860-88",
           "opacity": 1.0,
