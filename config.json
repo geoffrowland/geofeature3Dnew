@@ -72,7 +72,11 @@
     "proj4ServiceBaseUrl": null,
     // Or this
     //"feedbackUrl": "feedback",
-
+    "feedbackUrl": null,
+    "serverConfigUrl": "empty.json",
+    "proxyableDomainsUrl": null,
+    "conversionServiceBaseUrl": null, 
+    
     // Default mobile viewer mode when loading the map for the first time on mobile platforms.
     // Options are: "3DTerrain", "3DSmooth", "2D"
     "mobileDefaultViewerMode": "2d",
