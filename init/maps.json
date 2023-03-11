@@ -876,7 +876,7 @@
         {
           "name": "OS 1:50 000 and 1:25 000 (Bing)",
           "type": "bing-maps",
-	  "dataCusodian": "Microsoft Bing",
+	  "dataCustodian": "Microsoft Bing",
           "key": "AohFvM_FD-p0478UuVC3ErCaoLzkJH_ftz_gGnSB9iUW_15xRgnZEf4cVkptGa7G",
           "mapStyle": "ORDNANCESURVEY",
           "description": "The map displays Ordnance Survey imagery. Bing Maps provides the 1:25,000 OS Explorer Map and 1:50,000 OS Landranger maps.",
