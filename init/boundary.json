@@ -73,17 +73,20 @@
 	 "attribution": "Contains OS data © Crown copyright and database right 2022",
 	 "dataCustodian": "Office for National Statistics licensed under the Open Government Licence v.3.0.",  
          "isOpenInWorkbench": false,
+	 "filterByPropertes": "South West"'
 	 "hideLegendInWorkbench": true,
 	 "opacity": 0.2,
-	 "disableOpacityControl": false,
-	 "style": {
+	 "disableOpacityControl": true,
+         "defaultStyle": {
             "stroke": "black",
             "stroke-width": 1,
-            "stroke-opacity": 1
+            "stroke-opacity": 1,
+            "fill": "green",
+            "fill-opacity": 0.1
          },
 	 "featureInfoTemplate": {
-             "name": "Region -{{RGN21NM}}",
-	     "template": "{{RGN21NM}}"
+             "name": "Region - {{RGN22NM}}",
+	     "template": "{{RGN22NM}}"
          }
        },
        {
@@ -104,8 +107,8 @@
             "fill-opacity": 0.1
          },
          "featureInfoTemplate": {
-		        "name": "{{CTYUA21NM}}",
-		        "template": "{{CTYUA21NM}}"
+		        "name": "County - {{CTYUA22NM}}",
+		        "template": "{{CTYUA22NM}}"
          }
        },
        {  
