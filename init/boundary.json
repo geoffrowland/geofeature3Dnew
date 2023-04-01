@@ -74,7 +74,7 @@
 	 "dataCustodian": "Office for National Statistics licensed under the Open Government Licence v.3.0.",  
          "isOpenInWorkbench": false,
 	 "hideLegendInWorkbench": true,
-	 "legend": false,
+	 "opacity": 0.2,
 	 "disableOpacityControl": false,
 	 "style": {
             "stroke": "black",
