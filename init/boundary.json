@@ -227,14 +227,8 @@
             "name": "Somerset Parishes - {{#NAME}}{{NAME}}{{/NAME}}{{^NAME}}{{FILE_NAME}}{{/NAME}}",
             "template": "{{#NAME}}{{NAME}}{{/NAME}}<br>{{FILE_NAME}}<br>{{DESCRIPTIO}}"
          }
-       }
-      ]
      },
      {
-     "type": "group",
-     "name": "Counties",
-     "members": [
-         {
              "type": "geojson",
              "name": "Cornwall",
              "url": "data/cornwall.geojson",
