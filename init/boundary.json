@@ -77,7 +77,7 @@
 	 "hideLegendInWorkbench": true,
 	 "opacity": 0.2,
 	 "disableOpacityControl": true,
-         "defaultStyle": {
+         "style": {
             "stroke": "black",
             "stroke-width": 1,
             "stroke-opacity": 1,
