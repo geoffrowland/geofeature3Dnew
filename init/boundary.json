@@ -99,7 +99,7 @@
        {  
          "type": "geojson",
          "name": "Cornwall Parishes",
-         "url": "init/parishCornwall1m.geojson",
+         "url": "data/parishCornwall1m.geojson",
 	 "description": "Description...",
 	 "attribution": "Attribution...",
 	 "dataCustodian": "Custodian...",  
@@ -120,7 +120,7 @@
        {  
          "type": "geojson",
          "name": "Devon Parishes",
-         "url": "init/parishDevon1mMini.geojson",
+         "url": "data/parishDevon1mMini.geojson",
          "description": "Description...",
 	 "attribution": "Attribution...",
 	 "dataCustodian": "Custodian...",     
@@ -141,7 +141,7 @@
        {  
          "type": "geojson",
          "name": "Dorset Parishes",
-         "url": "init/parishDorset1m.geojson",
+         "url": "data/parishDorset1m.geojson",
 	 "description": "Description...",
 	 "attribution": "Attribution...",
 	 "dataCustodian": "Custodian...",  
@@ -162,7 +162,7 @@
        {  
          "type": "geojson",
          "name": "Somerset Districts",
-         "url": "init/SomersetDistricts1mMini.geojson",
+         "url": "data/SomersetDistricts1mMini.geojson",
 	 "description": "Description...",
 	 "attribution": "Attribution...",
 	 "dataCustodian": "Custodian...",  
@@ -183,7 +183,7 @@
        {  
          "type": "geojson",
          "name": "Somerset Parishes",
-         "url": "init/parishSomerset1mMini.geojson",
+         "url": "data/parishSomerset1mMini.geojson",
 	 "description": "Description...",
 	 "attribution": "Attribution...",
 	 "dataCustodian": "Custodian...",  
