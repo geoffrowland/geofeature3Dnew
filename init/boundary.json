@@ -17,6 +17,10 @@
                  }
 	     ]
 	 },
+         {     
+	     "type": "group",
+             "name": "Geo Conservation Review Sites",
+             "members": [
          {
 	     "type": "csv",
 	     "name": "Devon GCR",
@@ -69,6 +73,8 @@
                    "numberOfBins": 1
 		 }
             }
+       ]
+       }
        },
        {
          "type": "esri-featureServer",
