@@ -69,6 +69,9 @@
          "name": "Regions",
          "url":"https://services1.arcgis.com/ESMARspQHYMw9BZ9/ArcGIS/rest/services/Regions_December_2021_EN_BGC_2022/FeatureServer/0",
          "useStyleInformationFromService": false,
+	 "description": "Regions of England",
+	 "attribution": "Contains OS data © Crown copyright and database right 2022",
+	 "dataCustodian": "Office for National Statistics licensed under the Open Government Licence v.3.0.",  
          "isOpenInWorkbench": false,
           "style": {
             "stroke": "black",
