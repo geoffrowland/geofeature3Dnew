@@ -67,9 +67,9 @@
        {
          "type": "esri-featureServer",
          "name": "Regions",
-         "url":"https://services1.arcgis.com/ESMARspQHYMw9BZ9/ArcGIS/rest/services/Regions_December_2021_EN_BGC_2022/FeatureServer/0",
+         "url": "https://services1.arcgis.com/ESMARspQHYMw9BZ9/ArcGIS/rest/services/Regions_December_2022_EN_BFC/FeatureServer/0",
          "useStyleInformationFromService": false,
-	 "description": "Regions of England",
+	 "description": "Regions of England as at December 2022l. Full resolution clipped to the coastline (Mean High Water mark",
 	 "attribution": "Contains OS data © Crown copyright and database right 2022",
 	 "dataCustodian": "Office for National Statistics licensed under the Open Government Licence v.3.0.",  
          "isOpenInWorkbench": false,
@@ -89,7 +89,7 @@
        {
          "type": "esri-featureServer",
          "name": "Counties and Unitary Authorities",
-         "url":"https://services1.arcgis.com/ESMARspQHYMw9BZ9/ArcGIS/rest/services/Counties_and_Unitary_Authorities_December_2021_UK_BGC_2022/FeatureServer/0",
+         "url":"https://services1.arcgis.com/ESMARspQHYMw9BZ9/ArcGIS/rest/services/Counties_and_Unitary_Authorities_December_2022_UK_BGC_2022/FeatureServer/0",
          "useStyleInformationFromService": false,
          "description": "Boundaries for Counties and Unitary Authorities",
 	 "attribution": "Contains OS data © Crown copyright and database right 2022",
