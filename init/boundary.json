@@ -73,6 +73,7 @@
 	 "attribution": "Contains OS data © Crown copyright and database right 2022",
 	 "dataCustodian": "Office for National Statistics licensed under the Open Government Licence v.3.0.",  
          "isOpenInWorkbench": false,
+	 "hideLegendInWorkbench",       
           "style": {
             "stroke": "black",
             "stroke-width": 1,
@@ -90,6 +91,7 @@
 	 "attribution": "Contains OS data © Crown copyright and database right 2022",
 	 "dataCustodian": "Office for National Statistics licensed under the Open Government Licence v.3.0.",  
 	 "isOpenInWorkbench": false,
+	 "hideLegendInWorkbench",   
          "style": {
             "stroke": "black",
             "stroke-width": 1,
