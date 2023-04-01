@@ -114,8 +114,8 @@
             "fill-opacity": 0.1
          },
          "featureInfoTemplate": {
-            "name": "Devon Parishes - {{NAME}}",
-            "template": "{{NAME}}<br>{{FILE_NAME}}<br>{{DESCRIPTIO}}"
+            "name": "Devon Parishes - {{#NAME}}{{NAME}}{{/NAME}}{{^NAME}}{{FILE_NAME}}{{/NAME}}",
+            "template": "{{#NAME}}{{NAME}}{{/NAME}}<br>{{FILE_NAME}}<br>{{DESCRIPTIO}}"
          }
        },
        {  
@@ -136,8 +136,8 @@
             "fill-opacity": 0.1
          },
          "featureInfoTemplate": {
-            "name": "Cornwall Parishes - {{NAME}}",
-            "template": "{{NAME}}<br>{{FILE_NAME}}<br>{{DESCRIPTIO}}"
+            "name": "Cornwall Parishes - {{#NAME}}{{NAME}}{{/NAME}}{{^NAME}}{{FILE_NAME}}{{/NAME}}",
+            "template": "{{#NAME}}{{NAME}}{{/NAME}}<br>{{FILE_NAME}}<br>{{DESCRIPTIO}}"
          }
        },
        {  
@@ -158,8 +158,8 @@
             "fill-opacity": 0.1
          },
          "featureInfoTemplate": {
-            "name": "Dorset Parishes - {{NAME}}",
-            "template": "{{NAME}}<br>{{FILE_NAME}}<br>{{DESCRIPTIO}}"
+            "name": "Dorset Parishes - {{#NAME}}{{NAME}}{{/NAME}}{{^NAME}}{{FILE_NAME}}{{/NAME}}",
+            "template": "{{#NAME}}{{NAME}}{{/NAME}}<br>{{FILE_NAME}}<br>{{DESCRIPTIO}}"
          }
        },
        {  
@@ -202,8 +202,8 @@
             "fill-opacity": 0.1
          },
          "featureInfoTemplate": {
-            "name": "Somerset Parishes - {{NAME}}",
-            "template": "{{NAME}}<br>{{FILE_NAME}}<br>{{DESCRIPTIO}}"
+            "name": "Somerset Parishes - {{#NAME}}{{NAME}}{{/NAME}}{{^NAME}}{{FILE_NAME}}{{/NAME}}",
+            "template": "{{#NAME}}{{NAME}}{{/NAME}}<br>{{FILE_NAME}}<br>{{DESCRIPTIO}}"
          }
        }
       ]
