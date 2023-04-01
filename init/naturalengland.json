@@ -34,7 +34,7 @@
          "type": "geojson",
          "name": "South West Coast Path",
          "description":"Data showing the route of the South West Coast Path through Somerset, Devon, Cornwall and Dorset.",
-         "url": "init/swcprouteslippy.geojson",
+         "url": "data/swcprouteslippy.geojson",
          "style": {
             "stroke-width": 10,
             "stroke": "black"
