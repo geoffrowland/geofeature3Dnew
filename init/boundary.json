@@ -69,6 +69,12 @@
          "name": "Regions",
          "url": "https://services1.arcgis.com/ESMARspQHYMw9BZ9/ArcGIS/rest/services/Regions_December_2022_EN_BGC/FeatureServer/0",
          "useStyleInformationFromService": true,
+	 "info": [
+	    {
+		   "name": "Attribution 1",
+		   "content": "Contains OS data © Crown copyright and database right 2022"
+	    }
+	 ],
 	 "description": "Regions of England as at December 2022. Generalised (20m) clipped to the coastline (Mean High Water mark",
 	 "attribution": "Contains OS data © Crown copyright and database right 2022",
 	 "dataCustodian": "Office for National Statistics licensed under the Open Government Licence v.3.0.",  
