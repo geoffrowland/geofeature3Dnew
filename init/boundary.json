@@ -138,8 +138,8 @@
             "fill-opacity": 0.1
          },
          "featureInfoTemplate": {
-            "name": "{{NAME}}",
-            "template": "{{DESCRIPTIO}}"
+            "name": "Dorset Parishes - {{NAME}}",
+            "template": "{{NAME}}<br>{{FILE_NAME}}<br>{{DESCRIPTIO}}"
          }
        },
        {  
