@@ -98,28 +98,6 @@
        },
        {  
          "type": "geojson",
-         "name": "Devon Parishes",
-         "url": "init/parishDevon1mMini.geojson",
-         "description": "Description...",
-	 "attribution": "Attribution...",
-	 "dataCustodian": "Custodian...",     
-         "isOpenInWorkbench": false,
-	 "zoomOnAddToWorkbench": true,
-	 "disableOpacityControl": false,
-         "style": {
-            "stroke": "black",
-            "stroke-width": 1,
-            "stroke-opacity": 1,
-            "fill": "red",
-            "fill-opacity": 0.1
-         },
-         "featureInfoTemplate": {
-            "name": "Devon Parishes - {{#NAME}}{{NAME}}{{/NAME}}{{^NAME}}{{FILE_NAME}}{{/NAME}}",
-            "template": "{{#NAME}}{{NAME}}{{/NAME}}<br>{{FILE_NAME}}<br>{{DESCRIPTIO}}"
-         }
-       },
-       {  
-         "type": "geojson",
          "name": "Cornwall Parishes",
          "url": "init/parishCornwall1m.geojson",
 	 "description": "Description...",
@@ -127,7 +105,6 @@
 	 "dataCustodian": "Custodian...",  
          "isOpenInWorkbench": false,
 	 "zoomOnAddToWorkbench": true,
-	 "disableOpacityControl": false,
          "style": {
             "stroke": "black",
             "stroke-width": 1,
@@ -142,6 +119,27 @@
        },
        {  
          "type": "geojson",
+         "name": "Devon Parishes",
+         "url": "init/parishDevon1mMini.geojson",
+         "description": "Description...",
+	 "attribution": "Attribution...",
+	 "dataCustodian": "Custodian...",     
+         "isOpenInWorkbench": false,
+	 "zoomOnAddToWorkbench": true,
+         "style": {
+            "stroke": "black",
+            "stroke-width": 1,
+            "stroke-opacity": 1,
+            "fill": "red",
+            "fill-opacity": 0.1
+         },
+         "featureInfoTemplate": {
+            "name": "Devon Parishes - {{#NAME}}{{NAME}}{{/NAME}}{{^NAME}}{{FILE_NAME}}{{/NAME}}",
+            "template": "{{#NAME}}{{NAME}}{{/NAME}}<br>{{FILE_NAME}}<br>{{DESCRIPTIO}}"
+         }
+       },
+       {  
+         "type": "geojson",
          "name": "Dorset Parishes",
          "url": "init/parishDorset1m.geojson",
 	 "description": "Description...",
@@ -149,7 +147,6 @@
 	 "dataCustodian": "Custodian...",  
          "isOpenInWorkbench": false,
 	 "zoomOnAddToWorkbench": true,
-	 "disableOpacityControl": false,
          "style": {
             "stroke": "black",
             "stroke-width": 1,
@@ -171,7 +168,6 @@
 	 "dataCustodian": "Custodian...",  
          "isOpenInWorkbench": false,
 	 "zoomOnAddToWorkbench": true,
-	 "disableOpacityControl": false,
          "style": {
             "stroke": "black",
             "stroke-width": 1,
@@ -193,7 +189,6 @@
 	 "dataCustodian": "Custodian...",  
          "isOpenInWorkbench": false,
 	 "zoomOnAddToWorkbench": true,
-	 "disableOpacityControl": false,
          "style": {
             "stroke": "black",
             "stroke-width": 1,
@@ -220,7 +215,6 @@
 	     "attribution": "Attribution...",
 	     "dataCustodian": "Custodian...",  
              "zoomOnAddToWorkbench": true,
-	     "disableOpacityControl": false,
              "style": {
                  "stroke": "black",
                  "stroke-width": 2,
@@ -240,7 +234,6 @@
 	     "attribution": "Attribution...",
 	     "dataCustodian": "Custodian...",  
              "zoomOnAddToWorkbench": true,
-	     "disableOpacityControl": false,
              "style": {
                  "stroke": "black",
                  "stroke-width": 2,
@@ -260,7 +253,6 @@
 	     "attribution": "Attribution...",
 	     "dataCustodian": "Custodian...",  
              "zoomOnAddToWorkbench": true,
-	     "disableOpacityControl": false,
              "style": {
                  "stroke": "black",
                  "stroke-width": 2,
@@ -280,7 +272,6 @@
 	     "attribution": "Attribution...",
 	     "dataCustodian": "Custodian...",  
              "zoomOnAddToWorkbench": true,
-	     "disableOpacityControl": false,
              "style": {
                  "stroke": "black",
                  "stroke-width": 2,
