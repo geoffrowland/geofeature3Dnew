@@ -108,6 +108,10 @@
             "stroke-opacity": 1,
             "fill": "red",
             "fill-opacity": 0.1
+         },
+         "featureInfoTemplate": {
+            "name": "Devon Parishes - {{NAME}}",
+            "template": "{{NAME}}<br>{{FILE_NAME}}<br>{{DESCRIPTIO}}"
          }
        },
        {  
@@ -122,6 +126,10 @@
             "stroke-opacity": 1,
              "fill": "yellow",
             "fill-opacity": 0.1
+         },
+         "featureInfoTemplate": {
+            "name": "Cornwall Parishes - {{NAME}}",
+            "template": "{{NAME}}<br>{{FILE_NAME}}<br>{{DESCRIPTIO}}"
          }
        },
        {  
@@ -172,6 +180,10 @@
             "stroke-opacity": 1,
             "fill": "blue",
             "fill-opacity": 0.1
+         },
+         "featureInfoTemplate": {
+            "name": "Somerset Parishes - {{NAME}}",
+            "template": "{{NAME}}<br>{{FILE_NAME}}<br>{{DESCRIPTIO}}"
          }
        }
       ]
