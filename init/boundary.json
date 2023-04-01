@@ -74,7 +74,13 @@
 	 "dataCustodian": "Office for National Statistics licensed under the Open Government Licence v.3.0.",  
          "isOpenInWorkbench": false,
 	 "hideLegendInWorkbench": true,
-	 "disableOpacityControl": false,	     
+	 "legend": false,
+	 "disableOpacityControl": false,
+	 "style": {
+            "stroke": "black",
+            "stroke-width": 1,
+            "stroke-opacity": 1
+         },
 	 "featureInfoTemplate": {
              "name": "Region -{{RGN21NM}}",
 	     "template": "{{RGN21NM}}"
