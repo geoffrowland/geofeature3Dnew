@@ -169,8 +169,10 @@
             "fill": "blue",
             "fill-opacity": 0.1
          }
-       },
-	    {
+       }
+      ]
+     },
+     {
      "type": "group",
      "name": "Counties",
      "members": [
@@ -184,7 +186,7 @@
                  "stroke-width": 2,
                  "fill": "red",
                  "fill-opacity": 0.2
-	     ),
+	     },
              "featureInfoTemplate": {
                  "name": "Cornwall",
                  "template": "{{CTYNME}}"
