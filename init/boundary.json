@@ -4,13 +4,19 @@
      "type": "group",
      "name": "Boundaries",
      "members": [
-         {
-	     "type": "csv",
-	     "name": "Somerset LGS",
-	     "url": "data/SomersetLGS2023.csv",
-	     "activeStyle": "Local Authority",
-	     "isOpenInWorkbench": false
-         },
+         {     
+	     "type": "group",
+             "name": "Local Geological Sites",
+             "members": [
+                 {
+	             "type": "csv",
+	             "name": "Somerset LGS",
+	             "url": "data/SomersetLGS2023.csv",
+	             "activeStyle": "Local Authority",
+	             "isOpenInWorkbench": false
+                 }
+	     ]
+	 },
          {
 	     "type": "csv",
 	     "name": "Devon GCR",
