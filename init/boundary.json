@@ -4,39 +4,39 @@
      "type": "group",
      "name": "Boundaries",
      "members": [
-       {
-	   "type": "csv",
-	   "name": "Somerset LGS",
-	   "url": "data/SomersetLGS2023.csv",
-	   "activeStyle": "Local Authority",
-	   "isOpenInWorkbench": false
-       },
-       {
-	       "type": "csv",
-	       "name": "Devon GCR",
-	       "url": "data/GCR-Devon.csv",
-               "isOpenInWorkbench": false,
-               "activeStyle": "admin_area",
-               "defaultStyle": {
+         {
+	     "type": "csv",
+	     "name": "Somerset LGS",
+	     "url": "data/SomersetLGS2023.csv",
+	     "activeStyle": "Local Authority",
+	     "isOpenInWorkbench": false
+         },
+         {
+	     "type": "csv",
+	     "name": "Devon GCR",
+	     "url": "data/GCR-Devon.csv",
+             "isOpenInWorkbench": false,
+             "activeStyle": "admin_area",
+             "defaultStyle": {
                  "color": {
-		   "colorColumn": "admin_area", 
-                   "binColors": [
-                     "rgba(0,0,200,1.00)",
-                     "rgba(0,0,200,1.00)"			   
-                    ],
-                   "numberOfBins": 2
+		     "colorColumn": "admin_area", 
+                     "binColors": [
+                         "rgba(0,0,200,1.00)",
+                         "rgba(0,0,200,1.00)"			   
+                     ],
+                     "numberOfBins": 2
 		 }
-            }
-       },
-       {
-	       "type": "csv",
-	       "name": "Dorset GCR",
-	       "url": "data/GCR-Dorset.csv",
-               "isOpenInWorkbench": false,
-               "activeStyle": "admin_area",
-	       "description": "",
-	       "attribution": "",
-	       "defaultStyle": {
+             }
+         },
+         {
+	      "type": "csv",
+	      "name": "Dorset GCR",
+	      "url": "data/GCR-Dorset.csv",
+              "isOpenInWorkbench": false,
+              "activeStyle": "admin_area",
+	      "description": "",
+	      "attribution": "",
+	      "defaultStyle": {
                  "color": {
 		   "colorColumn": "admin_area", 
                    "binColors": [
