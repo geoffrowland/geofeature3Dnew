@@ -169,73 +169,75 @@
             "fill": "blue",
             "fill-opacity": 0.1
          }
-       }, 
-       {
-         "type": "geojson",
-         "name": "Cornwall",
-         "url": "init/cornwall.geojson",
-         "zoomOnAddToWorkbench": true,
-         "style": {
-           "stroke": "black",
-           "stroke-width": 2,
-           "fill": "red",
-           "fill-opacity": 0.2
-         }
-       }
-      ]
-    },
-    {
+       },
+	    {
      "type": "group",
      "name": "Counties",
      "members": [
-       {
-         "type": "geojson",
-         "name": "Devon",
-         "url": "init/devon.geojson",
-         "zoomOnAddToWorkbench": true,
-         "style": {
-           "stroke": "black",
-           "stroke-width": 2,
-           "fill": "green",
-           "fill-opacity": 0.2
+         {
+             "type": "geojson",
+             "name": "Cornwall",
+             "url": "init/cornwall.geojson",
+             "zoomOnAddToWorkbench": true,
+             "style": {
+                 "stroke": "black",
+                 "stroke-width": 2,
+                 "fill": "red",
+                 "fill-opacity": 0.2
+	     ),
+             "featureInfoTemplate": {
+                 "name": "Cornwall",
+                 "template": "{{CTYNME}}"
+             }	     
+         },
+         {
+             "type": "geojson",
+             "name": "Devon",
+             "url": "init/devon.geojson",
+             "zoomOnAddToWorkbench": true,
+             "style": {
+                 "stroke": "black",
+                 "stroke-width": 2,
+                 "fill": "green",
+                 "fill-opacity": 0.2
+             },
+	     "featureInfoTemplate": {
+                 "name": "Devon",
+                 "template": "{{CTYNME}}"
+             }		 
+         },
+         {
+             "type": "geojson",
+             "name": "Dorset",
+             "url": "init/dorset.geojson",
+             "zoomOnAddToWorkbench": true,
+             "style": {
+                 "stroke": "black",
+                 "stroke-width": 2,
+                 "fill": "yellow",
+                 "fill-opacity": 0.2
+             },
+             "featureInfoTemplate": {
+                 "name": "Dorset",
+                 "template": "{{CTYNME}}"
+             }			 
+         },
+         {
+             "type": "geojson",
+             "name": "Somerset",
+             "url": "init/somerset.geojson",
+             "zoomOnAddToWorkbench": true,
+             "style": {
+                 "stroke": "black",
+                 "stroke-width": 2,
+                 "fill": "blue",
+                 "fill-opacity": 0.2
+             },
+             "featureInfoTemplate": {
+                 "name": "Somerset",
+                 "template": "{{CTYNME}}"
+             }	
          }
-       }
-      ]
-    },
-    {
-     "type": "group",
-     "name": "Counties",
-     "members": [
-       {
-         "type": "geojson",
-         "name": "Dorset",
-         "url": "init/dorset.geojson",
-         "zoomOnAddToWorkbench": true,
-         "style": {
-           "stroke": "black",
-           "stroke-width": 2,
-           "fill": "yellow",
-           "fill-opacity": 0.2
-         }
-       }
-      ]
-    },
-        {
-     "type": "group",
-     "name": "Counties",
-     "members": [
-       {
-         "type": "geojson",
-         "name": "Somerset",
-         "url": "init/somerset.geojson",
-         "zoomOnAddToWorkbench": true,
-         "style": {
-           "stroke": "black",
-           "stroke-width": 2,
-           "fill": "blue",
-           "fill-opacity": 0.2
-         }
-       }
       ]
     }
   ]
