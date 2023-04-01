@@ -7,14 +7,14 @@
        {
 	   "type": "csv",
 	   "name": "Somerset LGS",
-	   "url": "init/SomersetLGS2023.csv",
+	   "url": "data/SomersetLGS2023.csv",
 	   "activeStyle": "Local Authority",
 	   "isOpenInWorkbench": false
        },
        {
 	       "type": "csv",
 	       "name": "Devon GCR",
-	       "url": "init/GCR-Devon.csv",
+	       "url": "data/GCR-Devon.csv",
                "isOpenInWorkbench": false,
                "activeStyle": "admin_area",
                "defaultStyle": {
@@ -31,7 +31,7 @@
        {
 	       "type": "csv",
 	       "name": "Dorset GCR",
-	       "url": "init/GCR-Dorset.csv",
+	       "url": "data/GCR-Dorset.csv",
                "isOpenInWorkbench": false,
                "activeStyle": "admin_area",
 	       "description": "",
@@ -51,7 +51,7 @@
        {
 	       "type": "csv",
 	       "name": "Somerset GCR",
-	       "url": "init/GCR-Somerset.csv",
+	       "url": "data/GCR-Somerset.csv",
                "isOpenInWorkbench": false,
 	       "activeStyle": "admin_area",
 	       "defaultStyle": {
@@ -215,7 +215,7 @@
          {
              "type": "geojson",
              "name": "Cornwall",
-             "url": "init/cornwall.geojson",
+             "url": "data/cornwall.geojson",
              "description": "Description...",
 	     "attribution": "Attribution...",
 	     "dataCustodian": "Custodian...",  
@@ -235,7 +235,7 @@
          {
              "type": "geojson",
              "name": "Devon",
-             "url": "init/devon.geojson",
+             "url": "data/devon.geojson",
 	     "description": "Description...",
 	     "attribution": "Attribution...",
 	     "dataCustodian": "Custodian...",  
@@ -255,7 +255,7 @@
          {
              "type": "geojson",
              "name": "Dorset",
-             "url": "init/dorset.geojson",
+             "url": "data/dorset.geojson",
 	     "description": "Description...",
 	     "attribution": "Attribution...",
 	     "dataCustodian": "Custodian...",  
@@ -275,7 +275,7 @@
          {
              "type": "geojson",
              "name": "Somerset",
-             "url": "init/somerset.geojson",
+             "url": "data/somerset.geojson",
 	     "description": "Description...",
 	     "attribution": "Attribution...",
 	     "dataCustodian": "Custodian...",  
