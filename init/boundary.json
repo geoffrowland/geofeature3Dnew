@@ -66,15 +66,15 @@
 	       "activeStyle": "admin_area",
 	       "defaultStyle": {
                  "color": {
-		   "colorColumn": "admin_area", 
-                   "binColors": [
-                     "rgba(0,200,0,1.00)"
-                    ],
-                   "numberOfBins": 1
-		 }
-            }
+		     "colorColumn": "admin_area", 
+                     "binColors": [
+                         "rgba(0,200,0,1.00)"
+                     ],
+                     "numberOfBins": 1
+		  }
+              }
+          }    
        ]
-       }
        },
        {
          "type": "esri-featureServer",
