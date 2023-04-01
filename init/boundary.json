@@ -67,9 +67,9 @@
        {
          "type": "esri-featureServer",
          "name": "Regions",
-         "url": "https://services1.arcgis.com/ESMARspQHYMw9BZ9/ArcGIS/rest/services/Regions_December_2022_EN_BFC/FeatureServer/0",
+         "url": "https://services1.arcgis.com/ESMARspQHYMw9BZ9/ArcGIS/rest/services/Regions_December_2022_EN_BGC/FeatureServer/0",
          "useStyleInformationFromService": true,
-	 "description": "Regions of England as at December 2022l. Full resolution clipped to the coastline (Mean High Water mark",
+	 "description": "Regions of England as at December 2022. Generalised (20m) clipped to the coastline (Mean High Water mark",
 	 "attribution": "Contains OS data © Crown copyright and database right 2022",
 	 "dataCustodian": "Office for National Statistics licensed under the Open Government Licence v.3.0.",  
          "isOpenInWorkbench": false,
@@ -82,7 +82,7 @@
             "stroke-width": 1,
             "stroke-opacity": 1,
             "fill": "green",
-            "fill-opacity": 0.1
+            "fill-opacity": 0.2
          },
 	 "featureInfoTemplate": {
              "name": "Region - {{RGN22NM}}",
@@ -92,9 +92,9 @@
        {
          "type": "esri-featureServer",
          "name": "Counties and Unitary Authorities",
-         "url":"https://services1.arcgis.com/ESMARspQHYMw9BZ9/arcgis/rest/services/Counties_and_Unitary_Authorities_December_2022_UK_BFC/FeatureServer/0",
+         "url":"https://services1.arcgis.com/ESMARspQHYMw9BZ9/arcgis/rest/services/Counties_and_Unitary_Authorities_December_2022_UK_BGC/FeatureServer/0",
          "useStyleInformationFromService": false,
-         "description": "Boundaries for Counties and Unitary Authorities",
+         "description": "Boundaries for Counties and Unitary Authorities as at December 2022. Generalised (20m) clipped to the coastline (Mean High Water mark",
 	 "attribution": "Contains OS data © Crown copyright and database right 2022",
 	 "dataCustodian": "Office for National Statistics licensed under the Open Government Licence v.3.0.",  
 	 "isOpenInWorkbench": false,
@@ -104,7 +104,7 @@
             "stroke-width": 1,
             "stroke-opacity": 1,
             "fill": "green",
-            "fill-opacity": 0.1
+            "fill-opacity": 0.2
          },
          "featureInfoTemplate": {
 		        "name": "County - {{CTYUA22NM}}",
