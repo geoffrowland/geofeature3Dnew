@@ -73,7 +73,8 @@
 	 "attribution": "Contains OS data © Crown copyright and database right 2022",
 	 "dataCustodian": "Office for National Statistics licensed under the Open Government Licence v.3.0.",  
          "isOpenInWorkbench": false,
-	 "hideLegendInWorkbench": true,       
+	 "hideLegendInWorkbench": true,
+	 "disableOpacityControl": false,	     
 	 "featureInfoTemplate": {
              "name": "Region -{{RGN21NM}}",
 	     "template": "{{RGN21NM}}"
