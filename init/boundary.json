@@ -80,6 +80,10 @@
             "stroke-opacity": 1,
             "fill": "green",
             "fill-opacity": 0.1
+         },
+	 "featureInfoTemplate": {
+             "name": "Region -{{RGN21NM}}",
+	     "template": "{{RGN21NM}}"
          }
        },
        {
