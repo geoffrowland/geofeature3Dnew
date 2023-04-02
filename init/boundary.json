@@ -135,6 +135,10 @@
 		        "template": "{{CTYUA22NM}}"
          }
        },
+       {
+       "type": "group",
+       "name": "Parishes",
+       "members": [	     
        {  
          "type": "geojson",
          "name": "Cornwall Parishes",
@@ -200,6 +204,29 @@
        },
        {  
          "type": "geojson",
+         "name": "Somerset Parishes",
+         "url": "data/parishSomerset1mMini.geojson",
+	 "description": "Parish boundaries in Somerset",
+	 "attribution": "Contains OS data © Crown copyright and database right 2022",
+	 "dataCustodian": "Office for National Statistics licensed under the Open Government Licence v.3.0.",  
+         "isOpenInWorkbench": false,
+	 "zoomOnAddToWorkbench": true,
+         "style": {
+            "stroke": "black",
+            "stroke-width": 1,
+            "stroke-opacity": 1,
+            "fill": "blue",
+            "fill-opacity": 0.1
+         },
+         "featureInfoTemplate": {
+            "name": "Somerset Parishes - {{#NAME}}{{NAME}}{{/NAME}}{{^NAME}}{{FILE_NAME}}{{/NAME}}",
+            "template": "{{#NAME}}{{NAME}}{{/NAME}}<br>{{FILE_NAME}}<br>{{DESCRIPTIO}}"
+         }
+       }
+      ]
+     },
+       {  
+         "type": "geojson",
          "name": "Somerset Districts",
          "url": "data/SomersetDistricts1mMini.geojson",
 	 "description": "Former District boundaries in Somerset",
@@ -219,28 +246,7 @@
              "template": "{{LAD22NM}}"
          }
        }, 
-       {  
-         "type": "geojson",
-         "name": "Somerset Parishes",
-         "url": "data/parishSomerset1mMini.geojson",
-	 "description": "Parish boundaries in Somerset",
-	 "attribution": "Contains OS data © Crown copyright and database right 2022",
-	 "dataCustodian": "Office for National Statistics licensed under the Open Government Licence v.3.0.",  
-         "isOpenInWorkbench": false,
-	 "zoomOnAddToWorkbench": true,
-         "style": {
-            "stroke": "black",
-            "stroke-width": 1,
-            "stroke-opacity": 1,
-            "fill": "blue",
-            "fill-opacity": 0.1
-         },
-         "featureInfoTemplate": {
-            "name": "Somerset Parishes - {{#NAME}}{{NAME}}{{/NAME}}{{^NAME}}{{FILE_NAME}}{{/NAME}}",
-            "template": "{{#NAME}}{{NAME}}{{/NAME}}<br>{{FILE_NAME}}<br>{{DESCRIPTIO}}"
-         }
-     },
-     {     
+       {     
          "type": "group",
          "name": "Counties",
          "members": [     
