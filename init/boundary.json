@@ -204,7 +204,7 @@
        },
        {
 	       "name": "Vector Dorset Parishes",
-               "trpe": "mvt",
+               "type": "mvt",
 	       "url": "https://geoffrowland.github.io/vectorDorsetParish/{z}/{x}/{y}.pbf",
        },
        {  
