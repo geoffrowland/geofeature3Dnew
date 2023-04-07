@@ -206,6 +206,7 @@
 	       "name": "Vector Dorset Parishes",
                "type": "mvt",
 	       "url": "https://geoffrowland.github.io/vectorDorsetParish/{z}/{x}/{y}.pbf",
+	       "layer": "DorsetParish"
        },
        {  
          "type": "geojson",
