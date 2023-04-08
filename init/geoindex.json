@@ -6,6 +6,15 @@
      "description":"GeoIndex datasets have been made available as Open Geospatial Consortium (OGC) web map services (WMS). View in compatible software or in portal-style websites that use a map-based interface to connect to WMS.",
      "members": [
          {
+           "type": "esri-mapServer",
+           "name": "Quarries and Pits only",
+           "url": "https://map.bgs.ac.uk/arcgis/services/GeoIndex_Onshore/minerals_wms/MapServer",
+           "layers": "5",
+           "description": "Geological Materials. All rights reserved.",
+           "dataCustodian": "Contains British Geological Survey materials © UKRI 2022",
+           "allowFeaturePicking": true
+         },
+         {
            "type": "wms-group",
            "name": "Minerals",
            "url": "https://map.bgs.ac.uk/arcgis/services/GeoIndex_Onshore/minerals_wms/MapServer/WmsServer",
