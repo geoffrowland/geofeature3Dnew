@@ -6,7 +6,7 @@
      "description":"GeoIndex datasets have been made available as Open Geospatial Consortium (OGC) web map services (WMS). View in compatible software or in portal-style websites that use a map-based interface to connect to WMS.",
      "members": [
          {
-           "type": "esri-maoServer",
+           "type": "esri-mapServer",
            "name": "Mines and Quarres",
            "url": "https://map.bgs.ac.uk/arcgis/rest/services/GeoIndex_Onshore/minerals_wms/MapServer/5",
            "layers": "5",
