@@ -14,8 +14,7 @@
            "sortMembersBy": "name",
            "itemProperties": {
               "getFeatureInfoFormat": {"type": "xml", "format": "text/xml"},
-              "styles": "default",
-              "crs": "crs:84"
+              "styles": "default"
            }
          },
          {
