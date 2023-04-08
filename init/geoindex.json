@@ -15,7 +15,7 @@
            "itemProperties": {
               "getFeatureInfoFormat": {"type": "xml", "format": "text/xml"},
               "styles": "default",
-              "crs": "EPSG:4326"
+              "crs": "epsg:4326"
            }
          },
          {
