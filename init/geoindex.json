@@ -6,7 +6,7 @@
      "description":"GeoIndex datasets have been made available as Open Geospatial Consortium (OGC) web map services (WMS). View in compatible software or in portal-style websites that use a map-based interface to connect to WMS.",
      "members": [
          {
-           "type": "esri-group",
+           "type": "wms-group",
            "name": "Minerals",
            "url": "https://map.bgs.ac.uk/arcgis/services/GeoIndex_Onshore/minerals_wms/MapServer/WmsServer",
            "description": "Geological Materials. All rights reserved.",
@@ -14,9 +14,7 @@
            "sortMembersBy": "name",
            "itemProperties": {
               "getFeatureInfoFormat": {"type": "xml", "format": "text/xml"},
-              "styles": "default",
-              "opacity": 1.0,
-              "srs": "EPSG:4326"
+              "styles": "default"
            }
          },
          {
@@ -24,6 +22,7 @@
            "name": "Boreholes",
            "url": "https://map.bgs.ac.uk/arcgis/services/GeoIndex_Onshore/boreholes/MapServer/WmsServer",
            "description":"Geological Materials Copyright NERC. All rights reserved.",
+           "dataCustodian": "Contains British Geological Survey materials © UKRI 2022",
            "sortMembersBy": "name",
            "itemProperties": {
               "getFeatureInfoFormat": {"type": "xml", "format": "text/xml"},
@@ -35,6 +34,7 @@
            "name": "Collections",
            "url": "https://map.bgs.ac.uk/arcgis/services/GeoIndex_Onshore/collections/MapServer/WmsServer",
            "description":"Geological Materials Copyright NERC. All rights reserved.",
+           "dataCustodian": "Contains British Geological Survey materials © UKRI 2022",
            "sortMembersBy": "name",
            "itemProperties": {
               "getFeatureInfoFormat": {"type": "xml", "format": "text/xml"},
