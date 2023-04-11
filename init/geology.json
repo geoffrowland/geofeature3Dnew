@@ -137,7 +137,6 @@
      "members": [
     {
       "type": "wms",
-      "isThredds": true,
       "name": "BGS 1:625k Bedrock Lithostratigraphy",
       "url": "https://dorsetgeologistsassociation.org/bgs/cgi-bin/BGS_Bedrock_and_Superficial_Geology/ows",
       "layers": "GBR_BGS_625k_BLS",
@@ -160,8 +159,8 @@
 	       }	 		       
 	    }
        },
-      "hideLegendInWorkbench": true,
-      "isOpenInWorkbench": true,
+      "hideLegendInWorkbench": false,
+      "isOpenInWorkbench": false,
       "opacity": 0.5,
       "legends": [
       {
@@ -173,7 +172,6 @@
     },
     {
       "type": "wms",
-      "isThredds": true,
       "name": "BGS 1:625k Surface Lithostratigraphy",
       "url": "https://dorsetgeologistsassociation.org/bgs/cgi-bin/BGS_Bedrock_and_Superficial_Geology/ows",
       "layers": "GBR_BGS_625k_SLS",
@@ -196,8 +194,8 @@
 	       }	 		       
 	    }
        },
-      "hideLegendInWorkbench": true,
-      "isOpenInWorkbench": true,
+      "hideLegendInWorkbench": false,
+      "isOpenInWorkbench": false,
       "opacity": 0.5,
       "legends": [
       {
@@ -209,7 +207,6 @@
     },
    {
       "type": "wms",
-      "isThredds": true,
       "name": "BGS 1:625k Bedrock Lithology",
       "url": "https://dorsetgeologistsassociation.org/bgs/cgi-bin/BGS_Bedrock_and_Superficial_Geology/ows",
       "layers": "GBR_BGS_625k_BLT",
@@ -232,8 +229,8 @@
 	       }	 		       
 	    }
        },
-      "hideLegendInWorkbench": true,
-      "isOpenInWorkbench": true,
+      "hideLegendInWorkbench": false,
+      "isOpenInWorkbench": false,
       "opacity": 0.5,
       "legends": [
       {
@@ -245,7 +242,6 @@
     },
     {
       "type": "wms",
-      "isThredds": true,
       "name": "BGS 1:625k Surface Lithology",
       "url": "https://dorsetgeologistsassociation.org/bgs/cgi-bin/BGS_Bedrock_and_Superficial_Geology/ows",
       "layers": "GBR_BGS_625k_SLT",
@@ -268,8 +264,8 @@
 	       }	 		       
 	    }
        },
-      "hideLegendInWorkbench": true,
-      "isOpenInWorkbench": true,
+      "hideLegendInWorkbench": false,
+      "isOpenInWorkbench": false,
       "opacity": 0.5,
       "legends": [
       {
@@ -281,7 +277,6 @@
     },
     {
       "type": "wms",
-      "isThredds": true,  
       "name": "BGS 1:625k Bedrock Age",
       "url": "https://dorsetgeologistsassociation.org/bgs/cgi-bin/BGS_Bedrock_and_Superficial_Geology/ows",
       "layers": "GBR_BGS_625k_BA",
@@ -304,8 +299,8 @@
 	       }	 		       
 	    }
        },
-      "hideLegendInWorkbench": true,
-      "isOpenInWorkbench": true,
+      "hideLegendInWorkbench": false,
+      "isOpenInWorkbench": false,
       "opacity": 0.5,
       "legends": [
       {
