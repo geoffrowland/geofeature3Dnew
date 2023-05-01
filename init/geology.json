@@ -55,7 +55,7 @@
          "style": {
             "stroke": "black",
             "stroke-width": 1,
-            "stroke-opacity": 0.1,
+            "stroke-opacity": 0.2,
             "fill": "orange",
             "fill-opacity": 0.3
          },
