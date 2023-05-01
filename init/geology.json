@@ -60,7 +60,7 @@
             "fill-opacity": 0.5
          },
          "featureInfoTemplate": {
-            "name": "{{LEX_RCS_D}}",<br>
+            "name": "{{LEX_RCS_D}}",
             "template": "{{LEX_RCS_D}}<br>{{FM_EQ_D}}<br>{{GP_EQ_D}}<br>{{MAX_TIME_Y}} to {{MIN_TIME _Y}}"<br>{{MAX_AGE}}<br>{{MAX_PERIOD}}<br>{{MAX_ERA}}<br>{{MAX_EON}}"
          }
        },
