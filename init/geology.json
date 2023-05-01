@@ -57,11 +57,11 @@
             "stroke-width": 1,
             "stroke-opacity": 0.5,
             "fill": "orange",
-            "fill-opacity": 0.5
+            "fill-opacity": 0.3
          },
          "featureInfoTemplate": {
             "name": "{{LEX_RCS_D}}",
-            "template": "{{LEX_RCS_D}}<br>{{FM_EQ_D}}<br>{{GP_EQ_D}}<br>{{MAX_TIME_Y}} to {{MIN_TIME _Y}}<br>{{MAX_AGE}}<br>{{MAX_PERIOD}}<br>{{MAX_ERA}}<br>{{MAX_EON}}"
+            "template": "{{RCS_ORIGIN}} {{BGSTYPE}}<br><br>{{FM_EQ_D}}<br>{{GP_EQ_D}}<br>{{MAX_TIME_Y}} to {{MIN_TIME_Y}}<br>{{MAX_AGE}}<br>{{MAX_PERIOD}}<br>{{MAX_ERA}}<br>{{MAX_EON}}"
          }
        },
     {
