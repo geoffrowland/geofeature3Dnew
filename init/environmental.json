@@ -2,7 +2,7 @@
   "catalog": [
     {
      "type": "group",
-     "name": "Natural England",
+     "name": "Environmental",
      "members": [
        {
          "type": "esri-featureServer",
