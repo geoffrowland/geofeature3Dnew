@@ -13,6 +13,7 @@
 	     "name": "Devon GCR",
 	     "url": "data/GCR-Devon.csv",
              "isOpenInWorkbench": false,
+	     "disableDateTimeSelector": true,
              "defaultStyle": {
                  "color": {
 		     "colorColumn": "admin_area", 
