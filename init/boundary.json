@@ -14,7 +14,7 @@
 	     "url": "data/GCR-Devon.csv",
              "isOpenInWorkbench": false,
 	     "disableDateTimeSelector": true,
-	     "showDisableTimeOption": false,
+	     "showDisableTimeOption": true,
              "defaultStyle": {
                  "color": {
 		     "colorColumn": "admin_area", 
@@ -34,7 +34,7 @@
  	      "description": "",
 	      "attribution": "",
 	      "disableDateTimeSelector": true,
-	      "showDisableTimeOption": false,
+	      "showDisableTimeOption": true,
 	      "defaultStyle": {
                  "color": {
 		   "colorColumn": "admin_area", 
@@ -53,7 +53,7 @@
 	       "url": "data/GCR-Somerset.csv",
                "isOpenInWorkbench": false,
 	       "disableDateTimeSelector": true,
-	       "showDisableTimeOption": false,
+	       "showDisableTimeOption": true,
 	       "defaultStyle": {
                  "color": {
 		     "colorColumn": "admin_area", 
