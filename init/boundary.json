@@ -6,20 +6,7 @@
      "members": [
          {     
 	     "type": "group",
-             "name": "Local Geological Sites",
-             "members": [
-                 {
-	             "type": "csv",
-	             "name": "Somerset LGS",
-	             "url": "data/SomersetLGS2023.csv",
-	             "activeStyle": "Local Authority",
-	             "isOpenInWorkbench": false
-                 }
-	     ]
-	 },
-         {     
-	     "type": "group",
-             "name": "Geo Conservation Review Sites",
+             "name": "Geo Conservation Review (GCR) Sites",
              "members": [
          {
 	     "type": "csv",
