@@ -13,7 +13,6 @@
 	     "name": "Devon GCR",
 	     "url": "data/GCR-Devon.csv",
              "isOpenInWorkbench": false,
-             "activeStyle": "admin_area",
              "defaultStyle": {
                  "color": {
 		     "colorColumn": "admin_area", 
@@ -30,8 +29,7 @@
 	      "name": "Dorset GCR",
 	      "url": "data/GCR-Dorset.csv",
               "isOpenInWorkbench": false,
-              "activeStyle": "admin_area",
-	      "description": "",
+ 	      "description": "",
 	      "attribution": "",
 	      "defaultStyle": {
                  "color": {
@@ -50,7 +48,6 @@
 	       "name": "Somerset GCR",
 	       "url": "data/GCR-Somerset.csv",
                "isOpenInWorkbench": false,
-	       "activeStyle": "admin_area",
 	       "defaultStyle": {
                  "color": {
 		     "colorColumn": "admin_area", 
