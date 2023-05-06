@@ -13,13 +13,19 @@
 	     "name": "Devon GCR",
 	     "url": "data/GCR-Devon.csv",
              "isOpenInWorkbench": false,
-	     "idColumns": ["LATITUDE", "LONGITUDE"],
-             "styles": {
-		 "timeColumn": null,
-                 "colorMap": "red"
+             "defaultStyle": {
+	         "time": {
+                    "timeColumn": null
+                 },
+                 "color": {
+                     "binColors": [
+                         "rgba(0,0,200,1.0)"
+                     ],
+                     "numberOfBins": 1
+                 }               
              }
          },
-         {
+         {        
 	      "type": "csv",
 	      "name": "Dorset GCR",
 	      "url": "data/GCR-Dorset.csv",
@@ -29,6 +35,9 @@
 	      "disableDateTimeSelector": true,
 	      "showDisableTimeOption": true,
 	      "defaultStyle": {
+		 "time": {
+                    "timeColumn": null
+                 },
                  "color": {
 		   "colorColumn": "admin_area", 
                    "binColors": [
@@ -48,6 +57,9 @@
 	       "disableDateTimeSelector": true,
 	       "showDisableTimeOption": true,
 	       "defaultStyle": {
+	            "time": {
+                    "timeColumn": null
+                 },
                  "color": {
 		     "colorColumn": "admin_area", 
                      "binColors": [
