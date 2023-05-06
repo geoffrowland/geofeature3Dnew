@@ -13,7 +13,7 @@
 	     "name": "Devon GCR",
 	     "url": "data/GCR-Devon.csv",
              "isOpenInWorkbench": false,
-	     "idColumns": ["lat", "lon"],
+	     "idColumns": ["LATITUDE", "LONGITUDE"],
              "tableStyle": {
 		 "timeColumn": null,
                  "colorMap": "red"
