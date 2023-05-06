@@ -20,7 +20,7 @@
                     "timeColumn": null
                  },
                  "color": {
-		     "colorColumn": "Gcr_Status",
+		     "colorColumn": "GCR_STATUS",
                      "binColors": [
                          "rgba(200,0,0,1.0)"
                      ],
@@ -42,6 +42,7 @@
                     "timeColumn": null
                  },
                  "color": {
+		   "colorColumn": "GCR_STATUS",	 
                    "binColors": [
 	             "rgba(0,0,200,1.00)"
                     ],
@@ -61,6 +62,7 @@
                     "timeColumn": null
                  },
                  "color": {
+		     "colorColumn": "GCR_STATUS",
                      "binColors": [
                          "rgba(0,200,0,1.00)"
                      ],
