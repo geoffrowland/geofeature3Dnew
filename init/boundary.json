@@ -13,17 +13,10 @@
 	     "name": "Devon GCR",
 	     "url": "data/GCR-Devon.csv",
              "isOpenInWorkbench": false,
-	     "disableDateTimeSelector": true,
-	     "showDisableTimeOption": true,
-             "defaultStyle": {
-                 "color": {
-		     "colorColumn": "admin_area", 
-                     "binColors": [
-                         "rgba(0,0,200,1.00)",
-                         "rgba(0,0,200,1.00)"			   
-                     ],
-                     "numberOfBins": 2
-		 }
+	     "idColumns": ["lat", "lon"],
+             "tableStyle": {
+		 "timeColumn": null,
+                 "colorMap": "red"
              }
          },
          {
