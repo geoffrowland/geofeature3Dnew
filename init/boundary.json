@@ -13,7 +13,7 @@
 	     "name": "Devon GCR",
 	     "url": "data/GCR-Devon.csv",
              "isOpenInWorkbench": false,
-	     "defaultColumn" {
+	     "defaultColumn": {
 		 "name": "GCR_STATUS",
 		 "title": "GCR Status",
 		 "type": "text"
