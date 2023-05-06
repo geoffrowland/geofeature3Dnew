@@ -14,7 +14,7 @@
 	     "url": "data/GCR-Devon.csv",
              "isOpenInWorkbench": false,
 	     "idColumns": ["LATITUDE", "LONGITUDE"],
-             "tableStyle": {
+             "styles": {
 		 "timeColumn": null,
                  "colorMap": "red"
              }
