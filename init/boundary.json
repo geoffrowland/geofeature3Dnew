@@ -20,6 +20,7 @@
                     "timeColumn": null
                  },
                  "color": {
+		     "colorColumn": "Gcr_Status",
                      "binColors": [
                          "rgba(200,0,0,1.0)"
                      ],
