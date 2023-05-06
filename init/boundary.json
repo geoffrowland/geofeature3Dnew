@@ -16,7 +16,7 @@
 	     "defaultColumn": {
 		 "name": "GCR_STATUS",
 	     },
-	     "activeStyle": "GCR_NUMBER",
+	     "activeStyle": "GCR_STATUS",
              "defaultStyle": {
 		 "latitudeColumn": "LATITUDE",
 		 "longitudeColumn": "LONGITUDE",
