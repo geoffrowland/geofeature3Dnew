@@ -15,8 +15,6 @@
              "isOpenInWorkbench": false,
 	     "defaultColumn": {
 		 "name": "GCR_STATUS",
-		 "title": "GCR Status",
-		 "type": "text"
 	     },
              "defaultStyle": {
 		 "latitudeColumn": "LATITUDE",
