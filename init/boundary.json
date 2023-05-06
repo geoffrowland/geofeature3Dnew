@@ -13,6 +13,11 @@
 	     "name": "Devon GCR",
 	     "url": "data/GCR-Devon.csv",
              "isOpenInWorkbench": false,
+	     "defaultColumn" {
+		 "name": "GCR_STATUS",
+		 "title": "GCR Status",
+		 "type": "text"
+	     },
              "defaultStyle": {
 		 "latitudeColumn": "LATITUDE",
 		 "longitudeColumn": "LONGITUDE",
@@ -22,9 +27,11 @@
                  "color": {
 		     "colorColumn": "GCR_STATUS",
                      "binColors": [
-                         "rgba(200,0,0,1.0)"
+                         "rgba(0,0,200,1.0)",
+                         "rgba(200,200,200,1.00)",
+                         "rgba(200,0,0,1.00)"
                      ],
-                     "numberOfBins": 1
+                   "numberOfBins": 3
                  }               
              }
          },
