@@ -24,7 +24,18 @@
                     "timeColumn": null
                  },
                  "color": {
-		     "colorColumn": "GCR_STATUS"
+		     "colorColumn": "GCR_STATUS",
+		     "enumColors": [
+			 {
+		             "value": "Notified",
+			     "color": "rgba(0,0,200,1.0)"
+			 },
+			 {
+		             "value": "Confirmed",
+			     "color": "rgba(200,0,0,1.00)"
+			 }
+			     
+		     ]
                  }               
              }
          },
