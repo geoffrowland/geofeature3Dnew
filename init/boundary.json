@@ -53,6 +53,7 @@
               "isOpenInWorkbench": false,
  	      "description": "",
 	      "attribution": "",
+	      "activeStyle": "GCR_STATUS",
 	      "defaultStyle": {
 		 "latitudeColumn": "LATITUDE",
 		 "longitudeColumn": "LONGITUDE",
@@ -87,6 +88,7 @@
 	       "name": "Somerset GCR",
 	       "url": "data/GCR-Somerset.csv",
                "isOpenInWorkbench": false,
+	       "activeStyle": "GCR_STATUS",
 	       "defaultStyle": {
 		    "latitudeColumn": "LATITUDE",
 		    "longitudeColumn": "LONGITUDE",
