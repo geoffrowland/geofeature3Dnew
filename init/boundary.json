@@ -61,6 +61,24 @@
                  },
                  "color": {
 		   "colorColumn": "GCR_STATUS"
+		       "enumColors": [
+			 {
+		             "value": "Proposed",
+			     "color": "rgba(0,200,0,1.0)"
+			 },
+			 {
+		             "value": "Notified",
+			     "color": "rgba(0,0,200,1.0)"
+			 },
+			 {
+		             "value": "Confirmed",
+			     "color": "rgba(200,0,0,1.00)"
+			 },
+			 {
+		             "value": "Deleted",
+			     "color": "rgba(0,0,0,1.00)"
+			 }    
+		     ]
 		 }
             }
        },
@@ -77,6 +95,24 @@
                  },
                  "color": {
 		     "colorColumn": "GCR_STATUS"
+		       "enumColors": [
+			 {
+		             "value": "Proposed",
+			     "color": "rgba(0,200,0,1.0)"
+			 },
+			 {
+		             "value": "Notified",
+			     "color": "rgba(0,0,200,1.0)"
+			 },
+			 {
+		             "value": "Confirmed",
+			     "color": "rgba(200,0,0,1.00)"
+			 },
+			 {
+		             "value": "Deleted",
+			     "color": "rgba(0,0,0,1.00)"
+			 }    
+		     ]
 		  }
               }
           }    
