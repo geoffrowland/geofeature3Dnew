@@ -67,7 +67,7 @@
              },
 	     "featureInfoTemplate": {
                  "name": "Devon GCR sites - {{GCR_NAME}}",
-	         "template": "{{GCR_NAME}}<br><br>{{GCR_STATEMENT}}<br><br>{{NAME}}<br><br>{{BLOCK_NAME}}{{#SYSTEM}}<br><br>{{SYSTEM}}{{/SYSTEM}}<br><br>{{SSSI_NAME}}"
+	         "template": "{{GCR_NAME}}<br><br>{{GCR_STATEMENT}}<br><br>{{NAME}}<br><br>{{BLOCK_NAME}}{{#SYSTEM}}<br><br>{{SYSTEM}}{{/SYSTEM}}<br><br>{{GCR_STATUS}}<br><br>{{SSSI_NAME}}"
              }
          },
          {        
@@ -124,7 +124,11 @@
 			 }    
 		     ]
 		 }
-            }
+            },
+	     "featureInfoTemplate": {
+                 "name": "Dorset GCR sites - {{GCR_NAME}}",
+	         "template": "{{GCR_NAME}}<br><br>{{GCR_STATEMENT}}<br><br>{{NAME}}<br><br>{{BLOCK_NAME}}{{#SYSTEM}}<br><br>{{SYSTEM}}{{/SYSTEM}}<br><br>{{GCR_STATUS}}<br><br>{{SSSI_NAME}}"
+             }
        },
        {
 	       "type": "csv",
@@ -179,7 +183,11 @@
 			 }    
 		     ]
 		  }
-              }
+              },
+	     "featureInfoTemplate": {
+                 "name": "Somerset GCR sites - {{GCR_NAME}}",
+	         "template": "{{GCR_NAME}}<br><br>{{GCR_STATEMENT}}<br><br>{{NAME}}<br><br>{{BLOCK_NAME}}{{#SYSTEM}}<br><br>{{SYSTEM}}{{/SYSTEM}}<br><br>{{GCR_STATUS}}<br><br>{{SSSI_NAME}}"
+             }
           }    
        ]
        },
