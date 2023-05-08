@@ -22,6 +22,18 @@
 	         {
 		     "id": "admin_area",
 	             "hidden": true
+		 },
+	         {
+		     "id": "gcr_number",
+	             "hidden": true
+		 },
+	         {
+		     "id": "SYSTEM",
+	             "hidden": true
+		 },
+	         {
+		     "id": "ESCC",
+	             "hidden": true
 		 }
 	     ],
 	     "activeStyle": "GCR_STATUS",
