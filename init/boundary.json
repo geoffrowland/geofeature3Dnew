@@ -66,7 +66,7 @@
                  }    
              },
 	     "featureInfoTemplate": {
-                 "name": "Devon GCR - {{GCR_NAME}}",
+                 "name": "Devon GCR sites - {{GCR_NAME}}",
 	         "template": "{{GCR_NAME}}<br><br>{{GCR_STATEMENT}}<br><br>{{NAME}}<br><br>{{BLOCK_NAME}}<br><br>{{SYSTEM}}<br><br>{{SSSI_NAME}}"
              }
          },
