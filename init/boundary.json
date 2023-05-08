@@ -54,7 +54,8 @@
 	      "url": "data/GCR-Dorset.csv",
               "isOpenInWorkbench": false,
  	      "description": "",
-	      "attribution": "",
+	      "attribution": "Joint Nature Conservation Committee (JNCC)",
+	      "zoomOnAddToWorkbench": true,
 	      "activeStyle": "GCR_STATUS",
 	      "defaultStyle": {
 		 "latitudeColumn": "LATITUDE",
@@ -90,6 +91,8 @@
 	       "name": "Somerset GCR",
 	       "url": "data/GCR-Somerset.csv",
                "isOpenInWorkbench": false,
+	       "attribution": "Joint Nature Conservation Committee (JNCC)",
+	       "zoomOnAddToWorkbench": true,
 	       "activeStyle": "GCR_STATUS",
 	       "defaultStyle": {
 		    "latitudeColumn": "LATITUDE",
