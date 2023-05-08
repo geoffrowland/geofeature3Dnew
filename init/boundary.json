@@ -13,6 +13,8 @@
 	     "name": "Devon GCR",
 	     "url": "data/GCR-Devon.csv",
              "isOpenInWorkbench": false,
+	     "attribution": "Joint Nature Conservation Committee (JNCC)",
+	     "zoomOnAddToWorkbench": true,
 	     "defaultColumn": {
 		 "name": "GCR_STATUS",
 	     },
