@@ -20,7 +20,7 @@
 	     },
 	     "styles": [
 	         {
-		     "id": "Admin_Area",
+		     "id": "admin_area",
 	             "hidden": true
 		 }
 	     ],
