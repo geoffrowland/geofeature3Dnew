@@ -63,11 +63,11 @@
 			     "color": "rgba(0,0,0,1.00)"
 			 }    
 		     ]
-                 },
-		 "featureInfoTemplate": {
-                     "name": "Devon GCR - {{GCR_NAME}}",
-	             "template": "{{GCR_STATEMENT}}<br><br>{{NAME}}<br><br>{{BLOCK_NAME}}<br><br>{{SYSTEM}}<br><br>{{SSSI_NAME}}"
                  }    
+             },
+	     "featureInfoTemplate": {
+                 "name": "Devon GCR - {{GCR_NAME}}",
+	         "template": "{{GCR_STATEMENT}}<br><br>{{NAME}}<br><br>{{BLOCK_NAME}}<br><br>{{SYSTEM}}<br><br>{{SSSI_NAME}}"
              }
          },
          {        
