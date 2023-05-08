@@ -18,6 +18,12 @@
 	     "defaultColumn": {
 		 "name": "GCR_STATUS",
 	     },
+	     "styles": [
+	         {
+		     "id": "Admin_Area",
+	             "hidden": true
+		 }
+	     ],
 	     "activeStyle": "GCR_STATUS",
              "defaultStyle": {
 		 "latitudeColumn": "LATITUDE",
