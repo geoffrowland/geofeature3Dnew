@@ -75,6 +75,24 @@
 	      "attribution": "Joint Nature Conservation Committee (JNCC)",
 	      "zoomOnAddToWorkbench": true,
 	      "activeStyle": "GCR_STATUS",
+	      "styles": [
+	         {
+		     "id": "admin_area",
+	             "hidden": true
+		 },
+	         {
+		     "id": "gcr_number",
+	             "hidden": true
+		 },
+	         {
+		     "id": "SYSTEM",
+	             "hidden": true
+		 },
+	         {
+		     "id": "ESCC",
+	             "hidden": true
+		 }
+	      ],
 	      "defaultStyle": {
 		 "latitudeColumn": "LATITUDE",
 		 "longitudeColumn": "LONGITUDE",
@@ -112,6 +130,24 @@
 	       "attribution": "Joint Nature Conservation Committee (JNCC)",
 	       "zoomOnAddToWorkbench": true,
 	       "activeStyle": "GCR_STATUS",
+	       "styles": [
+	         {
+		     "id": "admin_area",
+	             "hidden": true
+		 },
+	         {
+		     "id": "gcr_number",
+	             "hidden": true
+		 },
+	         {
+		     "id": "SYSTEM",
+	             "hidden": true
+		 },
+	         {
+		     "id": "ESCC",
+	             "hidden": true
+		 }
+	       ],
 	       "defaultStyle": {
 		    "latitudeColumn": "LATITUDE",
 		    "longitudeColumn": "LONGITUDE",
