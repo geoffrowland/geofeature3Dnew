@@ -67,7 +67,7 @@
              },
 	     "featureInfoTemplate": {
                  "name": "Devon GCR sites - {{GCR_NAME}}",
-	         "template": "Name: {{GCR_NAME}}<br><br>Description: {{GCR_STATEMENT}}<br><br>{{#BLOCK_NAME}}<br><br>Block: {{BLOCK_NAME}}{{/BLOCK_NAME}}{{#SYSTEM}}<br><br>System: {{SYSTEM}}{{/SYSTEM}}<br><br>Status: {{GCR_STATUS}}<br><br>SSSI: {{SSSI_NAME}}<br><br>Category: {{ESCC}}<br><br>Designation: {{GCR_DATE}}<br>Review: {{REVIEW_DATE}}"
+	         "template": "{{GCR_NAME}}<br><br>{{GCR_STATEMENT}}{{#BLOCK_NAME}}<br><br>Block: {{BLOCK_NAME}}{{/BLOCK_NAME}}{{#SYSTEM}}<br>System: {{SYSTEM}}{{/SYSTEM}}<br>Category: {{ESCC}}<br><br>Status: {{GCR_STATUS}}<br><br>SSSI: {{SSSI_NAME}}<br><br>Designation: {{GCR_DATE}}<br>Review: {{REVIEW_DATE}}"
              }
          },
          {        
