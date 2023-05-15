@@ -67,7 +67,7 @@
              },
 	     "featureInfoTemplate": {
                  "name": "Devon GCR sites - {{GCR_NAME}}",
-	         "template": "{{GCR_NAME}}<br><br>{{GCR_STATEMENT}}{{#BLOCK_NAME}}<br><br>Block: {{BLOCK_NAME}}{{/BLOCK_NAME}}{{#SYSTEM}}<br>System: {{SYSTEM}}{{/SYSTEM}}<br>Category: {{ESCC}}<br><br>Status: {{GCR_STATUS}}<br>Designation: {{GCR_DATE}}<br>Review: {{REVIEW_DATE}}<br><br>SSSI: {{SSSI_NAME}}"
+	         "template": "{{GCR_NAME}}<br><br>{{GCR_STATEMENT}}{{#BLOCK_NAME}}<br><br>Block: {{BLOCK_NAME}}{{/BLOCK_NAME}}{{#SYSTEM}}<br>System: {{SYSTEM}}{{/SYSTEM}}{{#ESCC}}<br>Category: {{ESCC}{{/ESCC}}<br><br>Status: {{GCR_STATUS}}<br>Designation: {{GCR_DATE}}<br>Review: {{REVIEW_DATE}}<br><br>SSSI: {{SSSI_NAME}}"
              }
          },
          {        
@@ -127,7 +127,7 @@
             },
 	     "featureInfoTemplate": {
                  "name": "Dorset GCR sites - {{GCR_NAME}}",
-	         "template": "{{GCR_NAME}}<br><br>{{GCR_STATEMENT}}{{#BLOCK_NAME}}<br><br>Block: {{BLOCK_NAME}}{{/BLOCK_NAME}}{{#SYSTEM}}<br>System: {{SYSTEM}}{{/SYSTEM}}<br>Category: {{ESCC}}<br><br>Status: {{GCR_STATUS}}<br>Designation: {{GCR_DATE}}<br>Review: {{REVIEW_DATE}}<br><br>SSSI: {{SSSI_NAME}}"
+	         "template": "{{GCR_NAME}}<br><br>{{GCR_STATEMENT}}{{#BLOCK_NAME}}<br><br>Block: {{BLOCK_NAME}}{{/BLOCK_NAME}}{{#SYSTEM}}<br>System: {{SYSTEM}}{{/SYSTEM}}{{#ESCC}}<br>Category: {{ESCC}{{/ESCC}}<br><br>Status: {{GCR_STATUS}}<br>Designation: {{GCR_DATE}}<br>Review: {{REVIEW_DATE}}<br><br>SSSI: {{SSSI_NAME}}"
              }
        },
        {
@@ -186,7 +186,7 @@
               },
 	     "featureInfoTemplate": {
                  "name": "Somerset GCR sites - {{GCR_NAME}}",
-	         "template": "{{GCR_NAME}}<br><br>{{GCR_STATEMENT}}{{#BLOCK_NAME}}<br><br>Block: {{BLOCK_NAME}}{{/BLOCK_NAME}}{{#SYSTEM}}<br>System: {{SYSTEM}}{{/SYSTEM}}<br>Category: {{ESCC}}<br><br>Status: {{GCR_STATUS}}<br>Designation: {{GCR_DATE}}<br>Review: {{REVIEW_DATE}}<br><br>SSSI: {{SSSI_NAME}}"
+	         "template": "{{GCR_NAME}}<br><br>{{GCR_STATEMENT}}{{#BLOCK_NAME}}<br><br>Block: {{BLOCK_NAME}}{{/BLOCK_NAME}}{{#SYSTEM}}<br>System: {{SYSTEM}}{{/SYSTEM}}{{#ESCC}}<br>Category: {{ESCC}{{/ESCC}}<br><br>Status: {{GCR_STATUS}}<br>Designation: {{GCR_DATE}}<br>Review: {{REVIEW_DATE}}<br><br>SSSI: {{SSSI_NAME}}"
              }
           }    
        ]
