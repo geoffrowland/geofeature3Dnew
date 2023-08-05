@@ -4,9 +4,9 @@
      "type": "group",
      "name": "Terrain",
      "members": [
-	{
+	 {
 	     "type": "esri-mapServer",
-             "name": "LIDAR_Composite_DTM_1m_2022",
+             "name": "TSR LIDAR_Composite DTM 1m 2022",
 	     "description": "This is the 2022 1m DTM LIDAR Composite Tinted Shaded Relief model produced by the Environment Agency. The Tinted Shaded Relief (TSR) is a color 3D representation of the terrain, created by merging the images from the Elevation-coded and Hillshade methods.",
              "url": "https://environment.data.gov.uk/image/rest/services/SURVEY/LIDARCompositeDTM1m2022/MapServer/",
 	     "layers": "3",
