@@ -15,7 +15,7 @@
            "allowFeaturePicking": true
          },
          {
-           "type": "esri-mapServer-group",
+           "type": "wms-group",
            "name": "Minerals",
            "url": "https://map.bgs.ac.uk/arcgis/services/GeoIndex_Onshore/minerals_wms/MapServer/WmsServer",
            "description": "Geological Materials. All rights reserved.",
