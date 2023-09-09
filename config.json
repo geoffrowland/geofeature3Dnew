@@ -61,7 +61,8 @@
 
     // See comments in lib/Views/global.scss for further information about customising colors, logos, fonts etc.
     "brandBarElements": [
-      "<img src=\"images/geofeature_long_white.png\" height=\"52\" title=\"Version: 1.0\" />",
+   // "<img src=\"images/geofeature_long_white.png\" height=\"52\" title=\"Version: 1.0\" />",
+      "<img src=\"images/geofeature_text_white.png\" height=\"52\" title=\"Version: 1.0\" />",
       "",
       ""
     ],
