@@ -53,9 +53,9 @@
          "isOpenInWorkbench": false,
 	 "zoomOnAddToWorkbench": true,
          "style": {
-            "stroke": "black",
+            "stroke": "orange",
             "stroke-width": 1,
-            "stroke-opacity": 0.2,
+            "stroke-opacity": 0.3,
             "fill": "orange",
             "fill-opacity": 0.3
          },
