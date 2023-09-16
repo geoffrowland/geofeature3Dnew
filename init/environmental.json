@@ -12,7 +12,11 @@
          "opacity": 0.5,
          "disableOpacityControl": false,
          "hideLegendInWorkbench": true,
-         "isOpenInWorkbench": false
+         "isOpenInWorkbench": false,
+         "featureInfoTemplate": {
+		         "name": "{{NAME}}",
+		         "template": "{{NAME}}<br><br>{{MEASURE}}<br><br>{{STATUS}}<br><br>{{HOTLINK}}"
+          }
        },
        {
          "type": "esri-featureServer",
