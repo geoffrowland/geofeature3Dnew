@@ -13,8 +13,7 @@
          "disableOpacityControl": false,
          "hideLegendInWorkbench": true,
          "isOpenInWorkbench": false,
-	 "tableStyle": {
-             "columns": {
+	 "tableColumn": {
 		"ESRI": {
 		    "type": "hidden"
 	        },
@@ -24,7 +23,6 @@
 		"MEASURE": {
 		    "type": "hidden"
 	        }
-	     }
 	 },
          "featureInfoTemplate": {
 		         "name": "{{NAME}} NATIONAL PARK",
