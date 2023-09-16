@@ -13,7 +13,7 @@
          "disableOpacityControl": false,
          "hideLegendInWorkbench": true,
          "isOpenInWorkbench": false,
-	 "tableColumn": {
+	 "columns": {
 		"ESRI": {
 		    "type": "hidden"
 	        },
