@@ -16,13 +16,13 @@
 	 "tableStyle": {
              "columns": {
 		"ESRI": {
-		    "type": "hidden
+		    "type": "hidden"
 	        },
 		"CODE": {
-		    "type": "hidden
+		    "type": "hidden"
 	        },
 		"MEASURE": {
-		    "type": "hidden
+		    "type": "hidden"
 	        }
 	     }
 	 },
