@@ -19,20 +19,29 @@
          "name": "World Heritage Sites",
          "url": "https://services-eu1.arcgis.com/ZOdPfBS3aqqDYPUQ/arcgis/rest/services/National_Heritage_List_for_England_NHLE/FeatureServer/7",
          "description": "World Heritage Sites are part of the World Heritage Convention, established in 1972 by UNESCO (United Nations Educational, Scientific and Cultural Organisation). They are landscapes, cities, monuments or buildings of exceptional natural or cultural value. The World Heritage List includes the Great Wall of China, the Pyramids, the Great Barrier Reef and the City of Venice. Sites in England include Stonehenge and Avebury, Canterbury Cathedral, the Tower of London, Hadrian’s Wall and the whole of the City of Bath. Please note: this dataset represents Historic England’s interpretation of the UNESCO World Heritage Site boundaries for sites wholly in or crossing into England.",
-         "opacity": 0.5
+         "opacity": 0.5,
+         "disableOpacityControl": false,
+         "hideLegendInWorkbench": true,
+         "isOpenInWorkbench": false
        },
        {
          "type": "esri-featureServer",
          "name": "Areas of Outstanding Natural Beauty - England",
          "url": "https://services.arcgis.com/JJzESW51TqeY9uat/ArcGIS/rest/services/Areas_of_Outstanding_Natural_Beauty_England/FeatureServer/0",
          "description":"AONBs are designated areas where protection is afforded to protect and manage the areas for visitors and local residents. Under the Countryside and Rights of Way Act 2000, Natural England has the power to designate areas of outstanding natural beauty (AONBs) in England that are outside national parks and that are considered to have such natural beauty it is desirable they are conserved and enhanced; issue a variation order to change an existing AONB boundary. It also holds a duty to give advice on developments taking place in an AONB; take into account the conservation and enhancement of AONBs in its work",
-         "opacity": 0.5
+         "opacity": 0.5,
+         "disableOpacityControl": false,
+         "hideLegendInWorkbench": true,
+         "isOpenInWorkbench": false
        },
        {
          "type": "esri-featureServer",
          "name": "Heritage Coast",
          "url": "https://services.arcgis.com/JJzESW51TqeY9uat/ArcGIS/rest/services/Heritage_Coasts_England/FeatureServer/0",
-         "opacity": 0.5
+         "opacity": 0.5,
+         "disableOpacityControl": false,
+         "hideLegendInWorkbench": true,
+         "isOpenInWorkbench": false
        },
        {
          "type": "geojson",
@@ -55,46 +64,67 @@
          "type": "esri-featureServer",
          "name": "Coast Path Coastal Margins",
          "url": "https://services.arcgis.com/JJzESW51TqeY9uat/ArcGIS/rest/services/England_Coast_Path_Coastal_Margin/FeatureServer/0",
-         "opacity": 0.5
+         "opacity": 0.5,
+         "disableOpacityControl": false,
+         "hideLegendInWorkbench": true,
+         "isOpenInWorkbench": false
        },
        {
          "type": "esri-featureServer",
          "name": "National Nature Reserves",
          "url": "https://services.arcgis.com/JJzESW51TqeY9uat/ArcGIS/rest/services/National_Nature_Reserves_England/FeatureServer/0",
-         "opacity": 0.5
+         "opacity": 0.5,
+         "disableOpacityControl": false,
+         "hideLegendInWorkbench": true,
+         "isOpenInWorkbench": false
        },
        {
          "type": "esri-featureServer",
          "name": "Sites of Special Scientific Interest",
          "url": "https://services.arcgis.com/JJzESW51TqeY9uat/ArcGIS/rest/services/SSSI_England/FeatureServer/0",
-         "opacity": 0.5
+         "opacity": 0.5,
+         "disableOpacityControl": false,
+         "hideLegendInWorkbench": true,
+         "isOpenInWorkbench": false
        },
        {
          "type": "esri-featureServer",
          "name": "Country Parks",
          "url": "https://services.arcgis.com/JJzESW51TqeY9uat/arcgis/rest/services/Country_Parks_England/FeatureServer/0",
          "description":"Country Parks are public green spaces often at the edge of urban areas which provide places to enjoy the outdoors and experience nature in an informal semi-rural park setting.",
-         "opacity": 0.5
+         "opacity": 0.5,
+         "disableOpacityControl": false,
+         "hideLegendInWorkbench": true,
+         "isOpenInWorkbench": false
        },
        {
          "type": "esri-featureServer",
          "name": "National Trust - Always Open",
          "url": "https://services-eu1.arcgis.com/NPIbx47lsIiu2pqz/arcgis/rest/services/National_Trust_Open_Data_Land_Always_Open/FeatureServer/0",
          "description":"Areas of National Trust land, captured at ~ 1:50,000 to which the public has access on foot only – either by right (in the case of designated ‘Access Land’ under the Countryside (Rights of Way) Act 2000 (CRoW)) or by permission from National Trust..",
-         "opacity": 0.5
+         "opacity": 0.5,
+         "disableOpacityControl": false,
+         "hideLegendInWorkbench": true,
+         "isOpenInWorkbench": false
        },
        {
          "type": "esri-featureServer",
          "name": "National Trust - Limited Access",
          "url": "https://services-eu1.arcgis.com/NPIbx47lsIiu2pqz/arcgis/rest/services/National_Trust_Open_Data_Land_Limited_Access/FeatureServer/0",
          "description":"National Trust Limited Access Land is land owned by National Trust where the public can access at certain times, or after paying an admission charge, or where access is limited to footpaths. Observe local signage for access restrictions.",
-         "opacity": 0.5
+         "opacity": 0.5,
+         "disableOpacityControl": false,
+         "hideLegendInWorkbench": true,
+         "isOpenInWorkbench": false
        },
        {
          "type": "esri-featureServer",
          "name": "Local Nature Reserves",
          "url": "https://services.arcgis.com/JJzESW51TqeY9uat/ArcGIS/rest/services/Local_Nature_Reserves_England/FeatureServer/0",
-         "opacity": 0.5
+         "opacity": 0.5,
+         "disableOpacityControl": false,
+         "hideLegendInWorkbench": true,
+         "isOpenInWorkbench": false
        }
       ]
     }
