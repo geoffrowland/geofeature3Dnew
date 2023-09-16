@@ -16,12 +16,19 @@
 	 "columns": [
 		    {
 		    "name": "ESRI",
+		    "title" "Default",
 		    "type": "hidden"
 	            },{
 		    "name": "CODE",
 		    "type": "hidden"
 	            },{
 		    "name": "MEASURE",
+		    "type": "hidden"
+	            },{
+		    "name": "Shape__Area",
+		    "type": "hidden"
+	            },{
+		    "name": "Shape__Length",
 		    "type": "hidden"
 	        }
 	 ],
