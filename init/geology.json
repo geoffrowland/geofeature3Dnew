@@ -52,8 +52,8 @@
 	 "dataCustodian": "Contains British Geological Survey materials © UKRI 2023",  
          "isOpenInWorkbench": false,
 	 "zoomOnAddToWorkbench": true,
-	  "disableOpacityControl": false,
-         "style": {
+	 "disableOpacityControl": false,
+         "styles": {
             "fill": "orange"
          },
 	 "opacity": 0.3,
