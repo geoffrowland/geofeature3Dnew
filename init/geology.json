@@ -53,9 +53,6 @@
          "isOpenInWorkbench": false,
 	 "zoomOnAddToWorkbench": true,
 	 "disableOpacityControl": false,
-         "styles": {
-            "fill": "orange"
-         },
 	 "opacity": 0.3,
          "featureInfoTemplate": {
             "name": "{{LEX_RCS_D}}",
