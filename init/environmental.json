@@ -13,7 +13,8 @@
          "disableOpacityControl": false,
          "hideLegendInWorkbench": true,
          "isOpenInWorkbench": false,
-	 "columns": [{
+	 "columns": [
+		    {
 		    "name": "ESRI",
 		    "type": "hidden"
 	            },{
@@ -23,7 +24,7 @@
 		    "name": "MEASURE",
 		    "type": "hidden"
 	        }
-	 }],
+	 ],
          "featureInfoTemplate": {
 		         "name": "{{NAME}} NATIONAL PARK",
 		         "template": "{{NAME}}<br>Area: {{MEASURE}} km<sup>2</sup><br>Status: {{STATUS}}<br>More: {{HOTLINK}}"
