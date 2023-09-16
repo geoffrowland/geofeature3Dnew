@@ -9,6 +9,10 @@
          "name": "National Parks",
          "url": "https://services.arcgis.com/JJzESW51TqeY9uat/ArcGIS/rest/services/National_Parks_England/FeatureServer/0",
          "useStyleInformationFromService": false,
+         "style": {
+            "stroke-width": 5,
+            "stroke": "black"
+          },
          "opacity": 0.5,
          "disableOpacityControl": false,
          "hideLegendInWorkbench": true
