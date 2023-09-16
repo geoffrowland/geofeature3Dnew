@@ -14,13 +14,13 @@
          "hideLegendInWorkbench": true,
          "isOpenInWorkbench": false,
 	 "columns": [{
-		"ESRI": {
+		    "name": "ESRI",
 		    "type": "hidden"
-	        },
-		"CODE": {
+	            },
+		    "name": "CODE",
 		    "type": "hidden"
-	        },
-		"MEASURE": {
+	            },
+		    "name": "MEASURE",
 		    "type": "hidden"
 	        }
 	 }],
