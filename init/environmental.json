@@ -15,10 +15,9 @@
          "isOpenInWorkbench": false,
 	 "columns": [
 		    {
-		    "name": "ESRI",
-		    "title" "Default",
-		    "type": "hidden"
-	            },{
+		    "name": "OBJECTID",
+		    "title": "Default",
+		    },{
 		    "name": "CODE",
 		    "type": "hidden"
 	            },{
