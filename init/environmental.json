@@ -16,10 +16,10 @@
 	 "columns": [{
 		    "name": "ESRI",
 		    "type": "hidden"
-	            },
+	            },{
 		    "name": "CODE",
 		    "type": "hidden"
-	            },
+	            },{
 		    "name": "MEASURE",
 		    "type": "hidden"
 	        }
