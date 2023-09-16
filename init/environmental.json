@@ -14,8 +14,8 @@
          "hideLegendInWorkbench": true,
          "isOpenInWorkbench": false,
          "featureInfoTemplate": {
-		         "name": "{{NAME}}",
-		         "template": "{{NAME}}<br><br>{{MEASURE}}<br><br>{{STATUS}}<br><br>{{HOTLINK}}"
+		         "name": "{{NAME}} NATIONAL PARK",
+		         "template": "{{NAME}}<br>Area: {{MEASURE}} km<sup>2</sup><br>Status: {{STATUS}}<br>More: {{HOTLINK}}"
           }
        },
        {
