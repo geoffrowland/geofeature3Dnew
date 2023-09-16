@@ -11,7 +11,7 @@
          "useStyleInformationFromService": false,
          "opacity": 0.5,
          "disableOpacityControl": false,
-         "hideLegendInWorkbench": true,
+         "hideLegendInWorkbench": false,
          "isOpenInWorkbench": false,
 	 "columns": [
 		    {
