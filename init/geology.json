@@ -68,10 +68,10 @@
 		    "name": "VERSION",
 		    "type": "hidden"
 	            },{
-		    "name": "NOM__SCALE",
+		    "name": "NOM_SCALE",
 		    "type": "hidden"
 		    },{
-		    "name": "NOM__BGS_YR",
+		    "name": "NOM_BGS_YR",
 		    "type": "hidden"
 	        }
      	 ],
