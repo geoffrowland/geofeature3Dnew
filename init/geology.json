@@ -52,18 +52,11 @@
 	 "dataCustodian": "Contains British Geological Survey materials © UKRI 2023",  
          "isOpenInWorkbench": false,
 	 "zoomOnAddToWorkbench": true,
-	     "style": {
-             "fill": "#ff00ff",
-	     "fill-opacity": 0.2,
-	     "stroke": "#ff00ff",
-             "stroke-opacity": 0.2
-	 },
 	 "opacity": 0.2,
          "disableOpacityControl": false,    
  	 "columns":[
 		    {
-		    "name": "LEX_WEB",
-		    "type": "hidden",
+		    "name": "LEX_D"
 		    },{
 		    "name": "MAX_EPOCH",
 		    "type": "hidden"
