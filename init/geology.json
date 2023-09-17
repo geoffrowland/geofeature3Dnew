@@ -55,7 +55,9 @@
 	 "disableOpacityControl": true,
 	 "style": {
              "fill": "#ff00ff",
-	     "stroke": "#ff00ff"
+	     "fill-opacity": 0.3,
+	     "stroke": "#ff00ff",
+             "stroke-opacity": 0.3
 	 },
 	 "opacity": 0.3,	    
  	 "columns":[
