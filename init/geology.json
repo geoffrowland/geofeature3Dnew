@@ -56,9 +56,8 @@
 	 "opacity": 0.3,
          "forceCesiumPrimitives": true,
 	 "style": {
-		"fill": "red",
-		"opacity": 0.3
-         },
+		"fill": "red"
+	 },
 	 "columns":[
 		    {
 		    "name": "LEX_WEB",
