@@ -54,6 +54,13 @@
 	 "zoomOnAddToWorkbench": true,
 	 "disableOpacityControl": false,
 	 "opacity": 0.3,
+         "forceCesiumPrimitives": true,
+	 "style": [
+		 {
+			 "fill": "red",
+			 "opacity": 0.3
+                 }
+	 ].
 	 "columns":[
 		    {
 		    "name": "LEX_WEB",
