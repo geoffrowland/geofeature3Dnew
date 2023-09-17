@@ -25,7 +25,8 @@
 		    "type": "hidden"
 	            },{
 		    "name": "Shape__Area",
-		    "type": "hidden"
+		    "type": "hidden",
+		    "unit": "square km"
 	            },{
 		    "name": "Shape__Length",
 		    "type": "hidden"
