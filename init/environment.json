@@ -54,7 +54,7 @@
          "description":"AONBs are designated areas where protection is afforded to protect and manage the areas for visitors and local residents. Under the Countryside and Rights of Way Act 2000, Natural England has the power to designate areas of outstanding natural beauty (AONBs) in England that are outside national parks and that are considered to have such natural beauty it is desirable they are conserved and enhanced; issue a variation order to change an existing AONB boundary. It also holds a duty to give advice on developments taking place in an AONB; take into account the conservation and enhancement of AONBs in its work",
          "opacity": 0.5,
          "disableOpacityControl": false,
-         "hideLegendInWorkbench": fakse,
+         "hideLegendInWorkbench": false,
          "isOpenInWorkbench": false,
 	 "columns": [
 		    {
