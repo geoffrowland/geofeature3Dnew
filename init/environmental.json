@@ -15,7 +15,8 @@
          "isOpenInWorkbench": false,
 	 "columns": [
 		    {
-		    "name": "NAME",
+		    "name": "OBJECTID",
+		    "type": "hidden"    
 		    },{
 		    "name": "CODE",
 		    "type": "hidden"
