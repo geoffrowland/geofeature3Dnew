@@ -2,7 +2,7 @@
   "catalog": [
     {
      "type": "group",
-     "name": "Environmental",
+     "name": "Environment",
      "members": [
        {
          "type": "esri-featureServer",
