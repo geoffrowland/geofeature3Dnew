@@ -54,6 +54,8 @@
 	 "zoomOnAddToWorkbench": true,
 	 "disableOpacityControl": false,
 	 "opacity": 0.3,
+	 "columns":[
+     	 ],
          "featureInfoTemplate": {
             "name": "{{LEX_RCS_D}}",
             "template": "{{RCS_ORIGIN}} {{BGSTYPE}}, {{RCS_D}}<br><br><a href='{{LEX_WEB}}'>{{LEX_D}}</a><br>{{FM_EQ_D}}<br>{{GP_EQ_D}}<br><br>Time: {{MAX_TIME_Y}} to {{MIN_TIME_Y}} years ago<br>Age: {{MAX_AGE}}<br>Period: {{MAX_PERIOD}}<br>Era: {{MAX_ERA}}<br>Eon: {{MAX_EON}}",
