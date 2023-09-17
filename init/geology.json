@@ -58,6 +58,9 @@
 		    {
 		    "name": "LEX_D"
 		    },{
+		    "name": "LEX_WEB",
+		    "type": "hidden"
+	            },{
 		    "name": "MAX_EPOCH",
 		    "type": "hidden"
 	            },{
