@@ -55,6 +55,25 @@
 	 "disableOpacityControl": false,
 	 "opacity": 0.3,
 	 "columns":[
+		    {
+		    "name": "LEX_WEB",
+		    "type": "hidden",
+		    },{
+		    "name": "MAX_EPOCH",
+		    "type": "hidden"
+	            },{
+		    "name": "BGSREF",
+		    "type": "hidden"
+	            },{
+		    "name": "VERSION",
+		    "type": "hidden"
+	            },{
+		    "name": "NOM__SCALE",
+		    "type": "hidden"
+		    },{
+		    "name": "NOM__BGS_YR",
+		    "type": "hidden"
+	        }
      	 ],
          "featureInfoTemplate": {
             "name": "{{LEX_RCS_D}}",
