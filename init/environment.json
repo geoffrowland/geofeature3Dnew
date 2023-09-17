@@ -59,7 +59,7 @@
          "isOpenInWorkbench": false,
 	 "columns": [
 		    {
-		    "name": "ESRI",
+		    "name": "OBJECTID",
 		    "type": "hidden"    
 		    },{
 		    "name": "CODE",
