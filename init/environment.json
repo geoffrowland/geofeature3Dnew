@@ -144,7 +144,9 @@
          "hideLegendInWorkbench": true,
          "isOpenInWorkbench": false,
 	 "info": [
-         {"summary": "More than 400 Country Parks exist. They are public green spaces often at the edge of urban areas which provide places to enjoy the outdoors and experience nature in an informal semi-rural park setting. Country Parks normally have some facilities such as a car park, toilets, perhaps a cafe or kiosk, paths and trails, and visitor information."
+         {
+	 "name": "Abstract",
+	 "content": "More than 400 Country Parks exist. They are public green spaces often at the edge of urban areas which provide places to enjoy the outdoors and experience nature in an informal semi-rural park setting. Country Parks normally have some facilities such as a car park, toilets, perhaps a cafe or kiosk, paths and trails, and visitor information."
 	 }
 	 ]		 
        },
