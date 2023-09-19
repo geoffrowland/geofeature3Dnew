@@ -9,10 +9,8 @@
          "name": "National Parks",
          "url": "https://services.arcgis.com/JJzESW51TqeY9uat/ArcGIS/rest/services/National_Parks_England/FeatureServer/0",
          "useStyleInformationFromService": true,
-         "opacity": 0.5,
          "disableOpacityControl": false,
          "hideLegendInWorkbench": false,
-         "isOpenInWorkbench": false,
 	 "columns": [
 		    {
 		    "name": "OBJECTID",
@@ -32,6 +30,19 @@
 		    "type": "hidden"
 	        }
 	 ],
+	 "isOpenInWorkbench":true,
+         "opacity":0.5,
+         "styles":[{
+             "id":"NAME",
+             "color":{
+                  "mapType":"enum",
+                  "nullColor":"rgba(239,19,14,0.93)",
+                  "binColors":[],"enumColors":[],
+                  "colorPalette":"Set1"
+               },
+               "hidden":false
+          }],
+         "activeStyle":"NAME",
          "featureInfoTemplate": {
 		         "name": "{{NAME}} NATIONAL PARK",
 		         "template": "{{NAME}}<br>Area: {{MEASURE}} km<sup>2</sup><br>Status: {{STATUS}}<br>More: {{HOTLINK}}"
