@@ -14,7 +14,10 @@
 	 "columns": [
 		    {
 		    "name": "OBJECTID",
-		    "type": "hidden"    
+		    "type": "hidden"  
+		    },{
+		    "name": "ESRI",
+		    "type": "hidden"
 		    },{
 		    "name": "CODE",
 		    "type": "hidden"
@@ -36,7 +39,6 @@
              "id":"NAME",
              "color":{
                   "mapType":"enum",
-                  "nullColor":"rgba(239,19,14,0.93)",
                   "binColors":[],"enumColors":[],
                   "colorPalette":"Set1"
                },
