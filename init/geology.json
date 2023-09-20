@@ -76,7 +76,21 @@
 		    "name": "NOM_BGS_YR",
 		    "type": "hidden"
 	        }
-     	 ],
+     	 ],	 
+         "styles":[
+             {
+                "id":"LEX_D",
+                "color":{
+                    "mapType":"enum",
+                    "enumColors":[{
+                        "value":"HAM HILL LIMESTONE MEMBER",
+                        "color":"rgba(91,2,16,1)"
+                        }],
+                    "colorPalette":"HighContrast"
+                 },
+             "hidden":false
+         }],
+         "activeStyle":"LEX_D",
          "featureInfoTemplate": {
             "name": "{{LEX_RCS_D}}",
             "template": "{{RCS_ORIGIN}} {{BGSTYPE}}, {{RCS_D}}<br><br><a href='{{LEX_WEB}}'>{{LEX_D}}</a><br>{{FM_EQ_D}}<br>{{GP_EQ_D}}<br><br>Time: {{MAX_TIME_Y}} to {{MIN_TIME_Y}} years ago<br>Age: {{MAX_AGE}}<br>Period: {{MAX_PERIOD}}<br>Era: {{MAX_ERA}}<br>Eon: {{MAX_EON}}",
