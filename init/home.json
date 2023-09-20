@@ -5,8 +5,8 @@
 	"east": 6,
 	"north": 61,
 	"lookAt": {
-            "targetLongitude": -2.735,
-            "targetLatitude": 50.9255,
+            "targetLongitude": -2.7350,
+            "targetLatitude": 50.9355,
             "targetHeight": 0,
             "heading": 0,
             "pitch": 45,
