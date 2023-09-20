@@ -51,7 +51,7 @@
 	 "attribution": "Contains British Geological Survey materials © UKRI 2023",
 	 "dataCustodian": "Contains British Geological Survey materials © UKRI 2023",  
          "isOpenInWorkbench": false,
-	 "zoomOnAddToWorkbench": true,
+	 "zoomOnAddToWorkbench": false,
 	 "opacity": 0.2,
          "disableOpacityControl": false,    
  	 "columns":[
