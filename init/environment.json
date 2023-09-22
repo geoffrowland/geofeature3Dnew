@@ -39,7 +39,7 @@
              "id":"NAME",
              "color":{
                   "mapType": "enum",
-	          "binColors":[],"enumColors":[],
+	          "binColors":[],"enumColors":[]
                   //"colorPalette":"Set1"
                },
                "hidden":false
