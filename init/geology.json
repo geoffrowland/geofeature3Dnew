@@ -56,7 +56,8 @@
          "disableOpacityControl": false,    
  	 "columns":[
 		    {
-		    "name": "LEX_D"
+		    "name": "LEX_D",
+		    "type": "hidden"
 		    },{
 		    "name": "LEX_WEB",
 		    "type": "hidden"
@@ -86,7 +87,6 @@
                         "value":"HAM HILL LIMESTONE MEMBER",
                         "color":"rgba(91,2,16,1)"
                         }],
-                    "colorPalette":"HighContrast"
                  },
              "hidden":false
          }],
