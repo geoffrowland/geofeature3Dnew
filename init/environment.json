@@ -38,9 +38,10 @@
          "styles":[{
              "id":"NAME",
              "color":{
-                  "mapType":"enum",
-                  "binColors":[],"enumColors":[],
-                  "colorPalette":"Set1"
+                  "mapType": "enum",
+		  "colorBins": 16
+                  //"binColors":[],"enumColors":[],
+                  //"colorPalette":"Set1"
                },
                "hidden":false
           }],
