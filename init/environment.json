@@ -35,12 +35,20 @@
 	 ],
 	 "isOpenInWorkbench":true,
          "opacity":0.5,
-         "styles":[{
+	 "styles":[{
              "id":"NAME",
-             "color":{
-                  "mapType": "enum",
-	          "binColors":[],"enumColors":[]
-                  //"colorPalette":"Set1"
+	     "color":{ 
+                    "mapType": "enum",
+                    "enumColors": [
+			{
+                        "value": "EXMOOR",
+                        "color": "rgba(91,2,16,1)"
+                        },
+			{
+                        "value": "DARTMOOR",
+                        "color": "rgba(2,91,16,1)"
+                        }
+		    ],
                },
                "hidden":false
           }],
