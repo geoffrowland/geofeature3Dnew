@@ -57,6 +57,7 @@
  	 "columns":[
 		    {
 		    "name": "LEX_D",
+		    "title": "Geology",
 		    "type": "hidden"
 		    },{
 		    "name": "LEX_WEB",
