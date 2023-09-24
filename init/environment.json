@@ -41,14 +41,46 @@
                     "mapType": "enum",
                     "enumColors": [
 			{
-                        "value": "EXMOOR",
-                        "color": "rgba(91,2,16,1)"
+                        "value": "DARTMOOR",
+                        "color": "rgba(45,34,163,1)"
                         },
 			{
-                        "value": "DARTMOOR",
-                        "color": "rgba(2,91,16,1)"
-                        }
-		    ],
+                        "value": "EXMOOR",
+                        "color": "rgba(153,134,57,1)"
+                        },
+			{
+                        "value": "LAKE DISTRICT",
+                        "color": "rgba(181,51,70,1)"
+                        },
+			{
+                        "value": "NEW FOREST",
+                        "color": "rgba(74,199,52,1)"
+                        },
+			{
+                        "value": "NORTH YORK MOORS",
+                        "color": "rgba(179,86,39,1)"
+                        },
+			{
+                        "value": "NORTHUMBERLAND",
+                        "color": "rgba(201,44,175,1)"
+                        },
+			{
+                        "value": "PEAK DISTRICT",
+                        "color": "rgba(52,158,107,1)"
+                        },
+			{
+                        "value": "SOUTH DOWNS",
+                        "color": "rgba(41,99,186,1)"
+                        },
+			{
+                        "value": "THE BROADS",
+                        "color": "rgba(168,201,56,1)"
+                        },
+			{
+                        "value": "YORKSHIRE DALES",
+                        "color": "rgba(43,141,173,1)"
+                        }			    
+		    ]
                },
                "hidden":false
           }],
