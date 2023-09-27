@@ -141,7 +141,7 @@
 		    "type": "hidden"
 	        }
 	 ],
-       "isOpenInWorkbench":true,
+        "isOpenInWorkbench":true,
         "styles":[
         {
             "id":"NAME",
