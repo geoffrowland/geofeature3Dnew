@@ -100,7 +100,19 @@
 	 "opacity": 0.5,
          "disableOpacityControl": false,
          "hideLegendInWorkbench": true,
-         "isOpenInWorkbench": false
+       	 "isOpenInWorkbench":true,
+	 "styles":[
+		 {
+			 "id":"Name",
+			 "color":{
+				 "mapType":"enum",
+				 "enumColors":[],
+				 "colorPalette":"HighContrast"
+			 },"hidden":false
+		 }
+	 ],
+	"activeStyle":"Name",
+	"showDisableStyleOption":false
        },
        {
          "type": "esri-featureServer",
@@ -132,40 +144,40 @@
        "isOpenInWorkbench":true,
         "styles":[
         {
-"id":"NAME",
-"color":{
-"mapType":"enum",
-"enumColors":[
-{"value":"East Devon","color":"rgba(211,41,41,1)"},
-{"value":"Isles Of Scilly","color":"#FFB300"},
-{"value":"Mendip Hills","color":"#803E75"},{"value":"Cotswolds","color":"#FF6800"},
-{"value":"High Weald","color":"#A6BDD7"},
-{"value":"Chichester Harbour","color":"#C10020"},
-{"value":"Northumberland Coast","color":"#CEA262"},
-{"value":"Dedham Vale","color":"#817066"},
-{"value":"Cannock Chase","color":"#007D34"},
-{"value":"Lincolnshire Wolds","color":"#F6768E"},
-{"value":"Blackdown Hills","color":"#00538A"},
-{"value":"Isle Of Wight","color":"#FF7A5C"},
-{"value":"Solway Coast","color":"#53377A"},
-{"value":"Kent Downs","color":"#FF8E00"},{"value":"Nidderdale","color":"#B32851"},
-{"value":"North Devon","color":"#F4C800"},
-{"value":"North Pennines","color":"#7F180D"},
-{"value":"South Devon","color":"#93AA00"},
-{"value":"Quantock Hills","color":"#593315"},
-{"value":"Howardian Hills","color":"#F13A13"},
-{"value":"Cranborne Chase & West Wiltshire Downs","color":"#232C16"},{"value":"Malvern Hills","color":"rgba(231,19,19,1)"},
-{"value":"Norfolk Coast","color":"rgba(171,174,64,1)"},
-{"value":"Wye Valley","color":"rgba(13,235,102,1)"},
-{"value":"Arnside & Silverdale","color":"rgba(127,85,226,1)"},
-{"value":"Surrey Hills","color":"rgba(11,211,46,1)"},
-{"value":"Tamar Valley","color":"rgba(233,10,233,1)"},{"value":"Dorset","color":"rgba(25,130,235,1)"},
-{"value":"Shropshire Hills","color":"rgba(242,134,27,1)"},{"value":"Cornwall","color":"rgba(123,36,209,1)"},
-{"value":"Forest Of Bowland","color":"rgba(32,138,32,1)"},
-{"value":"Suffolk Coast & Heaths","color":"rgba(223,142,61,1)"},{"value":"Chilterns","color":"rgba(231,126,20,1)"},
-{"value":"North Wessex Downs","color":"rgba(131,227,34,1)"}
-],
-"colorPalette":"HighContrast"
+            "id":"NAME",
+            "color":{
+                "mapType":"enum",
+                "enumColors":[
+                    {"value":"East Devon","color":"rgba(211,41,41,1)"},
+                    {"value":"Isles Of Scilly","color":"#FFB300"},
+                    {"value":"Mendip Hills","color":"#803E75"},{"value":"Cotswolds","color":"#FF6800"},
+                    {"value":"High Weald","color":"#A6BDD7"},
+                    {"value":"Chichester Harbour","color":"#C10020"},
+                    {"value":"Northumberland Coast","color":"#CEA262"},
+                    {"value":"Dedham Vale","color":"#817066"},
+                    {"value":"Cannock Chase","color":"#007D34"},
+                    {"value":"Lincolnshire Wolds","color":"#F6768E"},
+                    {"value":"Blackdown Hills","color":"#00538A"},
+                    {"value":"Isle Of Wight","color":"#FF7A5C"},
+                    {"value":"Solway Coast","color":"#53377A"},
+                    {"value":"Kent Downs","color":"#FF8E00"},{"value":"Nidderdale","color":"#B32851"},
+                    {"value":"North Devon","color":"#F4C800"},
+                    {"value":"North Pennines","color":"#7F180D"},
+                    {"value":"South Devon","color":"#93AA00"},
+                    {"value":"Quantock Hills","color":"#593315"},
+                    {"value":"Howardian Hills","color":"#F13A13"},
+                    {"value":"Cranborne Chase & West Wiltshire Downs","color":"#232C16"},{"value":"Malvern Hills","color":"rgba(231,19,19,1)"},
+                    {"value":"Norfolk Coast","color":"rgba(171,174,64,1)"},
+                    {"value":"Wye Valley","color":"rgba(13,235,102,1)"},
+                    {"value":"Arnside & Silverdale","color":"rgba(127,85,226,1)"},
+                    {"value":"Surrey Hills","color":"rgba(11,211,46,1)"},
+                    {"value":"Tamar Valley","color":"rgba(233,10,233,1)"},{"value":"Dorset","color":"rgba(25,130,235,1)"},
+                    {"value":"Shropshire Hills","color":"rgba(242,134,27,1)"},{"value":"Cornwall","color":"rgba(123,36,209,1)"},
+                    {"value":"Forest Of Bowland","color":"rgba(32,138,32,1)"},
+                    {"value":"Suffolk Coast & Heaths","color":"rgba(223,142,61,1)"},{"value":"Chilterns","color":"rgba(231,126,20,1)"},
+                    {"value":"North Wessex Downs","color":"rgba(131,227,34,1)"}
+            ],
+    "colorPalette":"HighContrast"
 },
 "hidden":false
 }
