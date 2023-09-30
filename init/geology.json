@@ -421,7 +421,8 @@
                  "name": "GBR BGS 1:625k Bedrock INSPIRE Age",
                  "url": "http://ogc.bgs.ac.uk/digmap625k_gsml_insp_gs/wfs",
 		 "typeNames": "gsmlp:GBR_BGS_625k_BA_INSP",
-		 "maxFeatures": 10000		 
+		 "maxFeatures": 100000,
+		 "opacity": 0.5
 	 }
       ]
     },
