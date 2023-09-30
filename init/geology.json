@@ -415,7 +415,14 @@
 	       }
            },
 	   "description":"The Dykes data defines small, narrow areas (shown as polygons) of a specific type of bedrock geology, igneous rocks which have been intruded into the landscape. The dykes are presented as an optional, separate theme in order to provide additional clarity of the Bedrock theme. The bedrock and dykes datasets are designed to be used together."
-	 }     
+	 },
+	 {
+		 "type": "wfs",
+                 "name": "GBR BGS 1:625k Bedrock INSPIRE Age",
+                 "url": "http://ogc.bgs.ac.uk/digmap625k_gsml_insp_gs/wfs",
+		 "typeNames": "gsmlp:GBR_BGS_625k_BA_INSP",
+		 "maxFeatures!: 10000		 
+	 }
       ]
     },
     {
