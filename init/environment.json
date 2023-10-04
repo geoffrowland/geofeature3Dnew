@@ -8,7 +8,7 @@
          "type": "esri-featureServer",
          "name": "National Parks",
          "url": "https://services.arcgis.com/JJzESW51TqeY9uat/ArcGIS/rest/services/National_Parks_England/FeatureServer/0",
-         "useStyleInformationFromService": true,
+         "useStyleInformationFromService": false,
          "disableOpacityControl": false,
          "hideLegendInWorkbench": false,
 	 "columns": [
@@ -96,7 +96,7 @@
          "name": "World Heritage Sites",
          "url": "https://services-eu1.arcgis.com/ZOdPfBS3aqqDYPUQ/arcgis/rest/services/National_Heritage_List_for_England_NHLE/FeatureServer/7",
          "description": "World Heritage Sites are part of the World Heritage Convention, established in 1972 by UNESCO (United Nations Educational, Scientific and Cultural Organisation). They are landscapes, cities, monuments or buildings of exceptional natural or cultural value. The World Heritage List includes the Great Wall of China, the Pyramids, the Great Barrier Reef and the City of Venice. Sites in England include Stonehenge and Avebury, Canterbury Cathedral, the Tower of London, Hadrian’s Wall and the whole of the City of Bath. Please note: this dataset represents Historic England’s interpretation of the UNESCO World Heritage Site boundaries for sites wholly in or crossing into England.",
-         "useStyleInformationFromService": true,
+         "useStyleInformationFromService": false,
 	 "opacity": 0.5,
          "disableOpacityControl": false,
          "hideLegendInWorkbench": true,
@@ -119,7 +119,8 @@
          "name": "Areas of Outstanding Natural Beauty - England",
          "url": "https://services.arcgis.com/JJzESW51TqeY9uat/ArcGIS/rest/services/Areas_of_Outstanding_Natural_Beauty_England/FeatureServer/0",
          "description":"AONBs are designated areas where protection is afforded to protect and manage the areas for visitors and local residents. Under the Countryside and Rights of Way Act 2000, Natural England has the power to designate areas of outstanding natural beauty (AONBs) in England that are outside national parks and that are considered to have such natural beauty it is desirable they are conserved and enhanced; issue a variation order to change an existing AONB boundary. It also holds a duty to give advice on developments taking place in an AONB; take into account the conservation and enhancement of AONBs in its work",
-         "opacity": 0.5,
+         "useStyleInformationFromService": false,
+	 "opacity": 0.5,
          "disableOpacityControl": false,
          "hideLegendInWorkbench": false,
   	 "columns": [
