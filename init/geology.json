@@ -38,9 +38,9 @@
       "allowFeaturePicking": true,
       "getFeatureInfoFormat": {"type": "xml", "format": "text/xml"},
       "featureInfoTemplate": {
-          "name": "{{LEX_RCS_D}}.",
+          "name": "1:50,000 Bedrock: {{LEX_RCS_D}}.",
 	  "partials": {"Null": ""},
-	  "template": "Description: {{TYPE_D}}, {{BROAD_D}}<br><br>{{MAX_TIME_D}} - {{MIN_TIME_D}}<br>{{MAX_PERIOD}} - {{MIN_PERIOD}}<br><br>Setting: {{SETTING_D}} {{#terria.partialByName}}{{SETTINGPLUS_D}}{{/terria.partialByName}}<br><br>Environment: {{ENVIRONMENT_D}}<br><br>Further information from the <a href='https://webapps.bgs.ac.uk/lexicon/lexicon.cfm?pub={{LEX}}'>BGS Lexicon</a>  &copy; NERC 2023"
+	  "template": "Name: {{LEX_RCS_D}}<br><br>Description: {{TYPE_D}}, {{BROAD_D}}<br><br>{{MAX_TIME_D}} - {{MIN_TIME_D}}<br>{{MAX_PERIOD}} - {{MIN_PERIOD}}<br><br>Setting: {{SETTING_D}} {{#terria.partialByName}}{{SETTINGPLUS_D}}{{/terria.partialByName}}<br><br>Environment: {{ENVIRONMENT_D}}<br><br>Further information from the <a href='https://webapps.bgs.ac.uk/lexicon/lexicon.cfm?pub={{LEX}}'>BGS Lexicon</a>  &copy; NERC 2023"
        }
     },
     {  
@@ -211,8 +211,8 @@
       "allowFeaturePicking": true,
       "getFeatureInfoFormat": {"type": "xml", "format": "application/vnd.ogc.gml"},
       "featureInfoTemplate": {
-          "name": "{{#LEX}}{{LEX_D}}{{/LEX}}",
-          "template": "{{#LEX}}{{RCS_D}}<br><br>{{MAX_TIME_Y}} - {{MIN_TIME_Y}} years ago<br>{{#MAX_AGE}}<br>Age: {{MAX_AGE}} - {{MIN_AGE}}{{/MAX_AGE}}{{#MAX_EPOCH}}<br>Epoch: {{MAX_EPOCH}} - {{MIN_EPOCH}}{{/MAX_EPOCH}}{{#MAX_PERIOD}}<br>Period: {{MAX_PERIOD}} - {{MIN_PERIOD}}{{/MAX_PERIOD}}{{#MAX_ERA}}<br>Era: {{MAX_ERA}} - {{MIN_ERA}}{{/MAX_ERA}}{{#MAX_EON}}<br>Eon: {{MAX_EON}} - {{MIN_EON}}{{/MAX_EON}}{{#PREV_NAME}}<br><br>Previous name(s): {{PREV_NAME}}{{/PREV_NAME}}<br><br>More information from the <a href='https://webapps.bgs.ac.uk/lexicon/lexicon.cfm?pub={{LEX}}'>BGS Lexicon</a>  &copy; NERC 2023{{/LEX}}",
+          "name": "{{#LEX}}1:625,000 Bedrock: {{LEX_D}}{{/LEX}}",
+          "template": "{{#LEX}}{{LEX_D}}<br><br>{{RCS_D}}<br><br>{{MAX_TIME_Y}} - {{MIN_TIME_Y}} years ago<br>{{#MAX_AGE}}<br>Age: {{MAX_AGE}} - {{MIN_AGE}}{{/MAX_AGE}}{{#MAX_EPOCH}}<br>Epoch: {{MAX_EPOCH}} - {{MIN_EPOCH}}{{/MAX_EPOCH}}{{#MAX_PERIOD}}<br>Period: {{MAX_PERIOD}} - {{MIN_PERIOD}}{{/MAX_PERIOD}}{{#MAX_ERA}}<br>Era: {{MAX_ERA}} - {{MIN_ERA}}{{/MAX_ERA}}{{#MAX_EON}}<br>Eon: {{MAX_EON}} - {{MIN_EON}}{{/MAX_EON}}{{#PREV_NAME}}<br><br>Previous name(s): {{PREV_NAME}}{{/PREV_NAME}}<br><br>More information from the <a href='https://webapps.bgs.ac.uk/lexicon/lexicon.cfm?pub={{LEX}}'>BGS Lexicon</a>  &copy; NERC 2023{{/LEX}}",
 	  "formats":{
 	     "MAX_TIME_Y": {
 	        "type": "number",
