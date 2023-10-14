@@ -6,13 +6,13 @@
      "members": [
     {
      "type": "group",
-     "name": "BGS 1:50 000 Geology",
+     "name": "BGS 1:50,000 Geology",
      "description": "Generalised digital geological map data based on the BGS New Series 1:50 000 and 1:63 360-scale (one-inch to one-mile) maps with updated nomenclature, including a few 1:100 000-scale maps of Orkney and the Hebrides.",
      "members": [
      {
       "type": "wms",
       "isEsri": true,
-      "name": "BGS 1:50k Bedock Geology",
+      "name": "BGS 1:50,000 Bedock Geology",
       "attribution": "Contains British Geological Survey materials © UKRI 2023",
       "description": "GBR BGS 1:50000 scale bedrock geology layer",
       "url": "https://map.bgs.ac.uk/arcgis/services/BGS_Detailed_Geology/MapServer/WMSServer",
@@ -38,9 +38,9 @@
       "allowFeaturePicking": true,
       "getFeatureInfoFormat": {"type": "xml", "format": "text/xml"},
       "featureInfoTemplate": {
-          "name": "1:50,000 Bedrock: {{LEX_RCS_D}}.",
+          "name": "1:50,000 Bedrock Geology: {{LEX_RCS_D}}.",
 	  "partials": {"Null": ""},
-	  "template": "Name: {{LEX_RCS_D}}<br><br>Description: {{TYPE_D}}, {{BROAD_D}}<br><br>{{MAX_TIME_D}} - {{MIN_TIME_D}}<br>{{MAX_PERIOD}} - {{MIN_PERIOD}}<br><br>Setting: {{SETTING_D}} {{#terria.partialByName}}{{SETTINGPLUS_D}}{{/terria.partialByName}}<br><br>Environment: {{ENVIRONMENT_D}}<br><br>Further information from the <a href='https://webapps.bgs.ac.uk/lexicon/lexicon.cfm?pub={{LEX}}'>BGS Lexicon</a>  &copy; NERC 2023"
+	  "template": "{{LEX_RCS_D}}<br><br>Description: {{TYPE_D}}, {{BROAD_D}}<br><br>{{MAX_TIME_D}} - {{MIN_TIME_D}}<br>{{MAX_PERIOD}} - {{MIN_PERIOD}}<br><br>Setting: {{SETTING_D}} {{#terria.partialByName}}{{SETTINGPLUS_D}}{{/terria.partialByName}}<br><br>Environment: {{ENVIRONMENT_D}}<br><br>Further information from the <a href='https://webapps.bgs.ac.uk/lexicon/lexicon.cfm?pub={{LEX}}'>BGS Lexicon</a>  &copy; NERC 2023"
        }
     },
     {  
@@ -93,8 +93,8 @@
          }],
          "activeStyle":"LEX_D",
          "featureInfoTemplate": {
-            "name": "{{LEX_RCS_D}}",
-            "template": "{{RCS_ORIGIN}} {{BGSTYPE}}, {{RCS_D}}<br><br><a href='{{LEX_WEB}}'>{{LEX_D}}</a><br>{{FM_EQ_D}}<br>{{GP_EQ_D}}<br><br>Time: {{MAX_TIME_Y}} to {{MIN_TIME_Y}} years ago<br>Age: {{MAX_AGE}}<br>Period: {{MAX_PERIOD}}<br>Era: {{MAX_ERA}}<br>Eon: {{MAX_EON}}",
+            "name": "1:50,000 Bedrock Geology: {{LEX_RCS_D}}",
+            "template": "{{LEX_RCS_D}}<br><br>{{RCS_ORIGIN}} {{BGSTYPE}}, {{RCS_D}}<br><br><a href='{{LEX_WEB}}'>{{LEX_D}}</a><br>{{FM_EQ_D}}<br>{{GP_EQ_D}}<br><br>Time: {{MAX_TIME_Y}} to {{MIN_TIME_Y}} years ago<br>Age: {{MAX_AGE}}<br>Period: {{MAX_PERIOD}}<br>Era: {{MAX_ERA}}<br>Eon: {{MAX_EON}}",
             "formats":{
 	     "MAX_TIME_Y": {
 	        "type": "number",
@@ -110,7 +110,7 @@
     {
       "type": "wms",
       "isEsri": true,
-      "name": "BGS 1:50k Surface Geology",
+      "name": "BGS 1:50,000 Surface Geology",
       "url": "https://map.bgs.ac.uk/arcgis/services/BGS_Detailed_Geology/MapServer/WMSServer",
       "layers": "BGS.50k.Superficial.deposits",
       "styles": "default",
@@ -134,7 +134,7 @@
       "allowFeaturePicking": true,
       "getFeatureInfoFormat": {"type": "xml", "format": "text/xml"},    
       "featureInfoTemplate": {
-		  "name": "{{LEX_RCS_D}}",
+		  "name": "1:50,000 Surface Geology: {{LEX_RCS_D}}",
 		  "template": "{{LEX_RCS_D}}<br>Code: <a href='https://webapps.bgs.ac.uk/lexicon/lexicon.cfm?pub={{LEX}}'>{{LEX}}</a><br><br>{{MAX_TIME_D}} - {{MIN_TIME_D}}<br>{{MAX_PERIOD}} - {{MIN_PERIOD}}<br><br>Description: {{TYPE_D}}, {{BROAD_D}}<br><br>Setting: {{SETTING_D}} {{#terria.partialByName}}{{SETTINGPLUS_D}}{{/terria.partialByName}}<br><br>Environment: {{ENVIRONMENT_D}}",
           "partials": {
               "Null": " "
