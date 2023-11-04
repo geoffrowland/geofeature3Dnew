@@ -596,7 +596,7 @@
     "success": "Copied to clipboard",
     "unsuccessful": "Copy unsuccessful...",
     "shareURL": "Share URL",
-    "shareExplanation": "Anyone with this URL will be able to access this map. If more convenient, use with <a href='https://tinyurl.com'>tinyurl.com</a> or another URL shortening service.",
+    "shareExplanation": "Anyone with this URL will be able to access this map. If more convenient, use with tinyurl.com or another URL shortening service.",
     "copy": "Copy"
   },
   "includeStory": {
